@@ -37,7 +37,7 @@ As the pod first wrote it:
 
 **Who seems to be involved:** Upskillers · mentors · workshop leaders · facilitators
 
-We own what happens in the room. How progress is seen from outside is [Wayfinding](https://github.com/wash-TheUpskillingLabs/c04-wayfinding). We read each other's repos every week.
+We own the parts themselves: the modules, workshops and teams, and what happens inside them. The thresholds between them, and how people find their way, are [Wayfinding](https://github.com/wash-TheUpskillingLabs/c04-wayfinding). We read each other's repos every week.
 
 ## Why we build on OLOS
 

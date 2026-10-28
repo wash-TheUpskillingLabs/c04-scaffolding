@@ -35,7 +35,9 @@ As the pod first wrote it:
 - Structure, framework and syllabus **vs.** free-form "learn by doing" with guides
 - Peer-to-peer support and discovery **vs.** top-down instruction
 
-**Who seems to be involved:** Upskillers · mentors · workshop leaders · facilitators
+**Who seems to be involved:** Upskillers · mentors · workshop leaders · facilitators · organizers · maintainers of ongoing projects
+
+**What the organizers are striving for.** The steering committee has shared what it wants the learning experience to be: aims it hasn't had the time or resources to achieve. They're [Record #15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15), with the research behind them in #3 to #13. Treat them as archaeology to test, not as settled design. See also [#14](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/14): The Labs is mostly seen through the Cycle, with little before or after it.
 
 We own the parts themselves: the modules, workshops and teams, and what happens inside them. The thresholds between them, and how people find their way, are [Wayfinding](https://github.com/wash-TheUpskillingLabs/c04-wayfinding). We read each other's repos every week.
 

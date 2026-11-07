@@ -218,7 +218,7 @@ were, and there was no way to tell in advance. Sessions either covered
 things people already knew or assumed background they didn't have, with no
 clear starting level, no prerequisites, and no pointer to where to catch
 up. Tools the Cycle relied on (GitHub, NotebookLM) were recommended but not
-taught, so the gap fell to whichever participant happened to know them.
+taught. For GitHub, the gap fell to whichever participant happened to know it.
 
 In her words:
 - Not matched to where people were: "it's either something I'm not
@@ -280,8 +280,9 @@ sort into three kinds:
   are still confused"), guidance that reversed ("narrowing down too
   quickly," then one week to narrow), a mandate that shifted ("you have to
   use AI for everything... And then suddenly they switched"), a workshop
-  tied to one vendor's tool, and tools recommended without any guidance
-  (NotebookLM).
+  tied to one vendor's tool, and tools recommended without guidance
+  (NotebookLM: she found the tool itself useful; my read is that the
+  missing guidance was the gap, not the tool).
 - Where she did without structure: her most valuable learning was
   self-directed ("I just decided like, okay, you know what, this is what I
   want to learn"), she did her own research, and she learned from

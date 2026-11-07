@@ -30,6 +30,7 @@ Structure and judgment
   or clearly teach it, most of the time, it's because the idea is not clear
   in your own head. Maybe the lab needs to make it clear in their own head
   what the purpose is."
+  (From my notes taken during the call; the auto-transcript didn't capture this line clearly.)
 
 Purpose and expectations
 - "The lab needs to have a very clear message and that this is what was
@@ -242,6 +243,7 @@ teaching, she said: "Whenever you cannot clearly explain something or
 clearly teach it, most of the time, it's because the idea is not clear in
 your own head. Maybe the lab needs to make it clear in their own head what
 the purpose is."
+(From my notes taken during the call; the auto-transcript didn't capture this line clearly.)
 
 Purpose and frameworks: My read is that she was skeptical of frameworks as
 a substitute for clarity about purpose. She said design thinking makes "an

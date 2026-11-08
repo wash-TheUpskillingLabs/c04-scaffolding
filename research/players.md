@@ -2,7 +2,7 @@
 
 **Last updated:** Nov 8, 2026
 
-**What changed (Nov 8):** Pod decisions: subject-matter experts merged into **Mentors and subject-matter experts**; facilitators merged into **Poderators (facilitators)**; the national organization and OLOS confirmed as context; **future chapter organizations** added as context.
+**What changed (Nov 8):** Added a chart under Upskillers sorting the past participant's quotes into her own goals vs. her read of other people's (pod's sort). Moved "something very specifically AI" from "What they want" to "How they see the problem" (it's a perception, not a goal). Pod decisions: subject-matter experts merged into **Mentors and subject-matter experts**; facilitators merged into **Poderators (facilitators)**; the national organization and OLOS confirmed as context; **future chapter organizations** added as context.
 
 **Nov 7:** First draft. Players come from the README's sensemaking-day list ("Who seems to be involved"), the interview with a past participant ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16), its "What research is still needed" list, and its comments), the maintainer's confusion log ([#17](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/17)), and the steering committee's records ([#3](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/3) to [#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)). Every field is cited or marked **unknown**. Influence ratings are left for the pod to decide. They're marked **pod to decide**.
 
@@ -56,11 +56,32 @@ flowchart TB
 3. **Context or field?** Context.
 4. **What they bring.** Human capital: prior skills and research habits (one participant, [#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). Social capital: peers teaching peers (GitHub, the Cycle process) ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). How much: unknown.
 5. **What they want.** Two people's words so far:
-   - Past participant: "my main aim is to actually find a job and find my purpose. I did not reach this aim." / "What the upskilling lab is promising is something very specifically AI. At least that was my perception." / "these are the tools you can use, and these are the expectations... this week is going to be for this purpose." / (Slack) "a learner might complain about being micromanaged but never structure." ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16) and its comment)
+   - Past participant: "my main aim is to actually find a job and find my purpose. I did not reach this aim." / "these are the tools you can use, and these are the expectations... this week is going to be for this purpose." / (Slack) "a learner might complain about being micromanaged but never structure." ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16) and its comment)
    - Interviewer, as a past participant: "I specifically wanted to learn to vibe code." ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16), "My own experience")
    - She said "not everyone is there to have their own startup." That's her read of other people's goals, so it's hearsay about them.
 6. **What they've tried.** Taught themselves: "I just decided like, okay, you know what, this is what I want to learn." Started the team GitHub repo and explained the process to others: "even though that's not, you know, my job." Posted research into a silent Slack to get others going ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). How it went: she learned AI skills ("more confident using AI") but would not do another Cycle ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
-7. **How they see the problem.** One participant: the problem is unclear purpose, not too much structure. "Maybe the lab needs to make it clear in their own head what the purpose is" ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). She called her own case "an exception."
+7. **How they see the problem.** One participant: the problem is unclear purpose, not too much structure. She saw The Labs as offering AI: "What the upskilling lab is promising is something very specifically AI. At least that was my perception." "Maybe the lab needs to make it clear in their own head what the purpose is" ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). She called her own case "an exception."
+
+**Whose goal is it?** The pod's sort of the past participant's lines ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16) and its comment). O = her own goal. G = her read of other people. B = both. N = not a goal.
+
+| # | Quote | Sort | Note |
+|---|---|---|---|
+| 1 | "my main aim is to actually find a job and find my purpose. I did not reach this aim." | O | |
+| 2 | "not everyone is there to have their own startup." | G | |
+| 3 | "What the upskilling lab is promising is something very specifically AI. At least that was my perception." | N | Her perception of what The Labs offers |
+| 4 | "these skills, I believe people already have." | G | |
+| 5 | "for me, I wanted to do the coding part" | O | |
+| 6 | "I did notice that everyone else was confused." | N | An observation, not a goal |
+| 7 | On experts: "I'm sure a lot of people benefited from that. I didn't... It's just not the way I learn." | B | |
+| 8 | Experts help most for "a very specific question that I cannot find by myself... something that is based on experience" | O | She did take specific questions to a mentor |
+| 9 | "if they are going to start from my level, for somebody else, it's going to be boring." | B | |
+| 10 | (Slack) "a learner might complain about being micromanaged but never structure." | B | From her college teaching. Her goal (some structure) is the pod's read. Reading "judgment" as product sense and analysis is also the pod's read; she said she doesn't know what it means |
+| 11 | "my case is very different than most people" | B | An assumption about herself and others |
+
+Only lines 1, 5 and 8 are clearly her own goals. Everything marked G or B is one person's view of others, so it needs other participants to confirm.
+
+The interviewer's own goal ("I specifically wanted to learn to vibe code") is listed in "What they want" as the interviewer's, not hers.
+
 - **Influence over this problem:** pod to decide.
 - **Connected to:** organizers, mentors and subject-matter experts, poderators, workshop leaders, each other, employers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
 

@@ -1,8 +1,10 @@
 # Players: context and field
 
-**Last updated:** Nov 7, 2026
+**Last updated:** Nov 8, 2026
 
-**What changed:** First draft. Players come from the README's sensemaking-day list ("Who seems to be involved"), the interview with a past participant ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16), its "What research is still needed" list, and its comments), the maintainer's confusion log ([#17](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/17)), and the steering committee's records ([#3](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/3) to [#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)). Every field is cited or marked **unknown**. Influence ratings, and some context-or-field placements, are left for the pod to decide. They're marked **pod to decide**.
+**What changed (Nov 8):** Pod decisions: subject-matter experts merged into **Mentors and subject-matter experts**; facilitators merged into **Poderators (facilitators)**; the national organization and OLOS confirmed as context; **future chapter organizations** added as context.
+
+**Nov 7:** First draft. Players come from the README's sensemaking-day list ("Who seems to be involved"), the interview with a past participant ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16), its "What research is still needed" list, and its comments), the maintainer's confusion log ([#17](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/17)), and the steering committee's records ([#3](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/3) to [#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)). Every field is cited or marked **unknown**. Influence ratings are left for the pod to decide. They're marked **pod to decide**.
 
 **How to read this.** Everything here comes from **one interview** and **one organizer's account**. Most of what we know about each player comes from someone else describing them. Where a player hasn't spoken for themselves yet, the entry says so. That's who to talk to next.
 
@@ -20,21 +22,19 @@ flowchart TB
     subgraph CONTEXT["Context: at The Labs"]
       UP["Upskillers (Cycle participants)"]
       ORG["Organizers / steering committee"]
-      MEN["Mentors (volunteer)"]
-      SME["Subject-matter experts"]
-      POD["Poderators"]
+      MEN["Mentors and subject-matter experts"]
+      POD["Poderators (facilitators)"]
       WS["Workshop leaders"]
-      FAC["Facilitators"]
       PM["Pod maintainers / builders in residence"]
       MAINT["Maintainers of ongoing projects"]
       WAY["Wayfinding pod"]
       NAT["The Labs national org / OLOS project"]
+      CHAP["Future chapter organizations"]
     end
   end
 
   UP ---|"vague advice, guidance reversed (#16)"| ORG
-  UP ---|"'ask the AI' (#16)"| MEN
-  UP ---|"helped some, not her (#16)"| SME
+  UP ---|"'ask the AI'; experts helped some, not her (#16)"| MEN
   UP ---|"'knows what's going on' (#16)"| POD
   UP ---|"level didn't match (#16)"| WS
   UP ---|"peers filled gaps: GitHub, process (#16)"| UP
@@ -42,6 +42,7 @@ flowchart TB
   PM ---|"learned rules verbally (#17)"| ORG
   ORG ---|"shared account (#14)"| WAY
   PM ---|"builds on OLOS (README)"| NAT
+  NAT ---|"next region starts from what we learned (README)"| CHAP
   ORG -.->|"safety net of mentors and peers (#15)"| MEN
   ORG -.->|"maintained projects as home after a Cycle (#14, #15)"| MAINT
   ORG -.->|"prep before a Cycle (#14)"| NEXT
@@ -61,7 +62,7 @@ flowchart TB
 6. **What they've tried.** Taught themselves: "I just decided like, okay, you know what, this is what I want to learn." Started the team GitHub repo and explained the process to others: "even though that's not, you know, my job." Posted research into a silent Slack to get others going ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). How it went: she learned AI skills ("more confident using AI") but would not do another Cycle ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
 7. **How they see the problem.** One participant: the problem is unclear purpose, not too much structure. "Maybe the lab needs to make it clear in their own head what the purpose is" ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). She called her own case "an exception."
 - **Influence over this problem:** pod to decide.
-- **Connected to:** organizers, mentors, subject-matter experts, poderators, workshop leaders, each other, employers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+- **Connected to:** organizers, mentors and subject-matter experts, poderators, workshop leaders, each other, employers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
 
 ### Organizers / steering committee (group)
 1. **Player and type.** The people who design and run Cycles (group).
@@ -74,30 +75,19 @@ flowchart TB
 - **Influence over this problem:** pod to decide.
 - **Connected to:** upskillers, pod maintainers, Wayfinding. Intended: mentors, maintainers of ongoing projects, the next cohort.
 
-### Mentors (volunteer) (person)
-1. **Player and type.** Volunteer mentors in a Cycle (person).
-2. **Who they are, where you meet them.** Volunteers, "taking... out of his own time" (participant's words, [#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). Where they're met: unknown.
+### Mentors and subject-matter experts (person)
+1. **Player and type.** Volunteer mentors and subject-matter experts in a Cycle (person). One player in this model (pod decision, Nov 8).
+2. **Who they are, where you meet them.** Mentors are volunteers, "taking... out of his own time" (participant's words, [#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). Where they're met: unknown.
 3. **Context or field?** Context.
 4. **What they bring.** Human capital (expertise) and time. How much: unknown.
-5. **What they want.** **Unknown.** No mentor has been interviewed.
-6. **What they've tried.** Hearsay from one participant: didn't answer questions on security technology and legal issues, and later said "ask the AI" ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+5. **What they want.** **Unknown.** No mentor or expert has been interviewed.
+6. **What they've tried.** Hearsay from one participant: didn't answer questions on security technology and legal issues, and later said "ask the AI" ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). On experts generally: "I'm sure a lot of people benefited from that. I didn't." She overheard that "some people did find it helpful" (hearsay) ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). She wanted experts for "a very specific question that I cannot find by myself... something that is based on experience" (that's her want, not theirs).
 7. **How they see the problem.** Unknown.
 - **Influence over this problem:** pod to decide.
 - **Connected to:** upskillers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). Intended: the "safety net" ([#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)).
 
-### Subject-matter experts (person)
-1. **Player and type.** Experts brought in during a Cycle (person). *Pod to decide: a separate player from mentors, or the same one? #16 lists them together under research still needed.*
-2. **Who they are, where you meet them.** Unknown.
-3. **Context or field?** Pod to decide. It depends on whether they're part of The Labs or brought in from outside.
-4. **What they bring.** Human capital (expertise). How much: unknown.
-5. **What they want.** **Unknown.**
-6. **What they've tried.** One participant: "I'm sure a lot of people benefited from that. I didn't." She overheard that "some people did find it helpful" (hearsay) ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
-7. **How they see the problem.** Unknown.
-- **Influence over this problem:** pod to decide.
-- **Connected to:** upskillers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
-
-### Poderators (person)
-1. **Player and type.** People who run a pod (person).
+### Poderators (facilitators) (person)
+1. **Player and type.** People who run or facilitate a pod (person). The README's sensemaking list called them facilitators; same player (pod decision, Nov 8).
 2. **Who they are, where you meet them.** Unknown beyond the name.
 3. **Context or field?** Context.
 4. **What they bring.** Unknown.
@@ -117,12 +107,6 @@ flowchart TB
 7. **How they see the problem.** Unknown.
 - **Influence over this problem:** pod to decide.
 - **Connected to:** upskillers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
-
-### Facilitators (person)
-1. **Player and type.** Named on sensemaking day (README). *Pod to decide: is this the same role as poderators?*
-2. to 7. **Unknown.** Only the README names them.
-- **Influence over this problem:** pod to decide.
-- **Connected to:** unknown.
 
 ### Pod maintainers / builders in residence (person)
 1. **Player and type.** C04 builders who lead the pod's research and projects (person). That's us.
@@ -154,11 +138,19 @@ flowchart TB
 ### The Labs national organization / OLOS project (institution)
 1. **Player and type.** Runs the Upskilling App at theupskillinglabs.org and the main OLOS project (institution) (README).
 2. **Who they are, where you meet them.** The dashboard and public homepage ([#17](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/17)). The OLOS repo (README).
-3. **Context or field?** **Pod to decide.** It's The Labs, but national, not Greater Washington.
+3. **Context or field?** Context (pod decision, Nov 8).
 4. **What they bring.** Built capital: the platform (README).
 5. to 7. **Unknown.**
 - **Influence over this problem:** pod to decide.
 - **Connected to:** pod maintainers (README).
+
+### Future chapter organizations (institution)
+1. **Player and type.** Regional Labs that will start from OLOS after Greater Washington (institution).
+2. **Who they are, where you meet them.** Unknown. The README says changes go "back to the main OLOS project as a pull request, so the next region starts from what we learned."
+3. **Context or field?** Context (pod decision, Nov 8).
+4. to 7. **Unknown.** None exist to talk to yet, as far as the research shows.
+- **Influence over this problem:** pod to decide.
+- **Connected to:** the national organization / OLOS (README).
 
 ## Field: around the problem, not in the room
 

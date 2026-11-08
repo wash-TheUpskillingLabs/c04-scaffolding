@@ -2,7 +2,7 @@
 
 **Last updated:** Nov 8, 2026
 
-**What changed (Nov 8, later):** Her "main aim" quote now reads "[was]": the interviewer confirmed she meant why she joined the Cycle. Added players from the maintainer's handoff notes: the small team that runs the Cycle, module maintainers, trainers, app builders, Ambassadors, the Front Door pod, libraries, and four sub-groups (returning participants who teach others, participants who end up leading, participants who can't travel into DC, mentors who move across Cycles). Poderator entry updated with a steering committee member's description, and the facilitator question flagged.
+**What changed (Nov 8, later):** Noted that her "main aim" was why she joined and is still her goal (per the interviewer). Quote kept verbatim. Added players from the maintainer's handoff notes: the small team that runs the Cycle, module maintainers, trainers, app builders, Ambassadors, the Front Door pod, libraries, and four sub-groups (returning participants who teach others, participants who end up leading, participants who can't travel into DC, mentors who move across Cycles). Poderator entry updated with a steering committee member's description, and the facilitator question flagged.
 
 **Nov 8:** Added a chart under Upskillers sorting the past participant's quotes into her own goals vs. her read of other people's (pod's sort). Moved "something very specifically AI" from "What they want" to "How they see the problem" (it's a perception, not a goal). Pod decisions: subject-matter experts merged into **Mentors and subject-matter experts**; facilitators merged into **Poderators (facilitators)**; the national organization and OLOS confirmed as context; **future chapter organizations** added as context.
 
@@ -80,7 +80,7 @@ flowchart TB
 3. **Context or field?** Context.
 4. **What they bring.** Human capital: prior skills and research habits (one participant, [#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). Social capital: peers teaching peers (GitHub, the Cycle process) ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). How much: unknown.
 5. **What they want.** Two people's words so far:
-   - Past participant: "my main aim [was] to actually find a job and find my purpose. I did not reach this aim." / "these are the tools you can use, and these are the expectations... this week is going to be for this purpose." / (Slack) "a learner might complain about being micromanaged but never structure." ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16) and its comment)
+   - Past participant: "my main aim is to actually find a job and find my purpose. I did not reach this aim." / "these are the tools you can use, and these are the expectations... this week is going to be for this purpose." / (Slack) "a learner might complain about being micromanaged but never structure." ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16) and its comment)
    - Interviewer, as a past participant: "I specifically wanted to learn to vibe code." ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16), "My own experience")
    - She said "not everyone is there to have their own startup." That's her read of other people's goals, so it's hearsay about them.
 6. **What they've tried.** Taught themselves: "I just decided like, okay, you know what, this is what I want to learn." Started the team GitHub repo and explained the process to others: "even though that's not, you know, my job." Posted research into a silent Slack to get others going ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). How it went: she learned AI skills ("more confident using AI") but would not do another Cycle ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
@@ -90,7 +90,7 @@ flowchart TB
 
 | # | Quote | Sort | Note |
 |---|---|---|---|
-| 1 | "my main aim [was] to actually find a job and find my purpose. I did not reach this aim." | O | Why she joined the Cycle. "[was]" replaces her "is"; the interviewer confirmed she meant her reason for joining |
+| 1 | "my main aim is to actually find a job and find my purpose. I did not reach this aim." | O | Why she joined the Cycle, and still her goal (per the interviewer) |
 | 2 | "not everyone is there to have their own startup." | G | |
 | 3 | "What the upskilling lab is promising is something very specifically AI. At least that was my perception." | N | Her perception of what The Labs offers |
 | 4 | "these skills, I believe people already have." | G | |

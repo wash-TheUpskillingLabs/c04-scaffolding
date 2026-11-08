@@ -358,8 +358,9 @@ already knew it ("I did not need that, I already knew how to work with
 GitHub"), set up the repo for her team, and at times felt this support
 should also have come from the Lab ("it wasn't my job"; "these workshops are
 important... an introduction to GitHub... and do hands-on to get them
-started"). The interview doesn't show whether GitHub was a stated
-requirement in her Cycles.
+started"). Basis for "expectation": from workshops with organizers, GitHub
+is used at The Labs and organizers want to keep using it. The interview
+itself doesn't show whether GitHub was a stated requirement in her Cycles.
 
 Secondary takeaways, ranked by how clearly she said it. All come from one
 interview, so the rating reflects how clearly she said it, not how widely

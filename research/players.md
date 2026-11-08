@@ -2,7 +2,7 @@
 
 **Last updated:** Nov 8, 2026
 
-**What changed (Nov 8, later):** Noted that her "main aim" was why she joined and is still her goal (per the interviewer). Quote kept verbatim. Added players from the maintainer's handoff notes: the small team that runs the Cycle, module maintainers, trainers, app builders, Ambassadors, the Front Door pod, libraries, and four sub-groups (returning participants who teach others, participants who end up leading, participants who can't travel into DC, mentors who move across Cycles). Poderator entry updated with a steering committee member's description, and the facilitator question flagged.
+**What changed (Nov 8, later):** Noted that her "main aim" was why she joined and is still her goal (per the interviewer). Quote kept verbatim. Added players from the maintainer's handoff notes: the small team that runs the Cycle, module maintainers, trainers, app builders, Ambassadors, the Front Door pod, libraries, and four sub-groups (returning participants who teach others, participants who end up leading, participants who can't travel into DC, mentors who move across Cycles). Poderator entry updated with an organizer's description, and the facilitator question flagged.
 
 **Nov 8:** Added a chart under Upskillers sorting the past participant's quotes into her own goals vs. her read of other people's (pod's sort). Moved "something very specifically AI" from "What they want" to "How they see the problem" (it's a perception, not a goal). Pod decisions: subject-matter experts merged into **Mentors and subject-matter experts**; facilitators merged into **Poderators (facilitators)**; the national organization and OLOS confirmed as context; **future chapter organizations** added as context.
 
@@ -10,7 +10,7 @@
 
 **How to read this.** Everything here comes from **one interview** and **one organizer's account**. Most of what we know about each player comes from someone else describing them. Where a player hasn't spoken for themselves yet, the entry says so. That's who to talk to next.
 
-**(unfiled)** means the source is the maintainer's own notes from Nov 5 to 7 (notes from a Nov 5 coworking session with a steering committee member, dashboard screenshots, the pod's lane notes), not yet filed as an issue. Nobody else in the pod can check it until it's filed.
+**(unfiled)** means the source is the maintainer's own notes from Nov 5 to 7 (notes from a Nov 5 coworking session with an organizer, dashboard screenshots, the pod's lane notes), not yet filed as an issue. Nobody else in the pod can check it until it's filed.
 
 ## Map
 
@@ -132,8 +132,8 @@ The interviewer's own goal ("I specifically wanted to learn to vibe code") is li
 - **Connected to:** upskillers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). Intended: the "safety net" ([#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)).
 
 ### Poderators (facilitators) (person)
-1. **Player and type.** People who guide a pod through the Cycle (person). The README's sensemaking list called them facilitators. The pod treats facilitating as the role a Poderator plays (pod decision, Nov 8). **To confirm with an organizer:** a steering committee member's notes say "Facilitator: a higher-tier role" (unfiled, Nov 5).
-2. **Who they are, where you meet them.** A steering committee member: a Poderator "guides people through the process, schedules meetings, makes sure the cycle happens for the group. Not project management. Not fully fleshed out" (unfiled, Nov 5). The weekly Learning Log on the dashboard goes to a Poderator (unfiled, dashboard screenshots).
+1. **Player and type.** People who guide a pod through the Cycle (person). The README's sensemaking list called them facilitators. The pod treats facilitating as the role a Poderator plays (pod decision, Nov 8). **To confirm with an organizer:** the maintainer's notes from the Nov 5 coworking session say "Facilitator: a higher-tier role" (unfiled, Nov 5).
+2. **Who they are, where you meet them.** An organizer: a Poderator "guides people through the process, schedules meetings, makes sure the cycle happens for the group. Not project management. Not fully fleshed out" (unfiled, Nov 5). The weekly Learning Log on the dashboard goes to a Poderator (unfiled, dashboard screenshots).
 3. **Context or field?** Context.
 4. **What they bring.** Unknown.
 5. **What they want.** **Unknown.** None interviewed.
@@ -199,7 +199,7 @@ The interviewer's own goal ("I specifically wanted to learn to vibe code") is li
 
 ### Small team that runs the Cycle (group)
 1. **Player and type.** The people who run a Cycle day to day (group). The pod lists it separately from the steering committee. How the two differ: unknown.
-2. **Who they are, where you meet them.** A steering committee member: "A small team runs the cycle and needs these tools, plus an activated set of mentors who can step in" (unfiled, Nov 5). Who's on it: unknown.
+2. **Who they are, where you meet them.** An organizer: "A small team runs the cycle and needs these tools, plus an activated set of mentors who can step in" (unfiled, Nov 5). Who's on it: unknown.
 3. **Context or field?** Context.
 4. to 7. **Unknown.** Not interviewed.
 - **Influence over this problem:** pod to decide.
@@ -207,7 +207,7 @@ The interviewer's own goal ("I specifically wanted to learn to vibe code") is li
 
 ### Module maintainers (person)
 1. **Player and type.** People who create and keep up a learning module (person). The pod lists them separately from maintainers of ongoing projects.
-2. **Who they are, where you meet them.** A steering committee member: "A prototype module needs a few maintainers to create and maintain it" (unfiled, Nov 5). The organizers want "an open contribution model with disciplined, high-quality maintainers" ([#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)). Whether anyone holds this role yet: unknown.
+2. **Who they are, where you meet them.** An organizer: "A prototype module needs a few maintainers to create and maintain it" (unfiled, Nov 5). The organizers want "an open contribution model with disciplined, high-quality maintainers" ([#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)). Whether anyone holds this role yet: unknown.
 3. **Context or field?** Context.
 4. to 7. **Unknown.** The quotes above are what organizers want from maintainers, not what maintainers want.
 - **Influence over this problem:** pod to decide.
@@ -215,7 +215,7 @@ The interviewer's own goal ("I specifically wanted to learn to vibe code") is li
 
 ### Trainers (person)
 1. **Player and type.** People who deliver learning modules (person).
-2. **Who they are, where you meet them.** A steering committee member: two kinds of module, "upskilling modules (for learners) and training modules (for trainers who deliver them)" (unfiled, Nov 5). Whether trainers are the same people as workshop leaders: unknown.
+2. **Who they are, where you meet them.** An organizer: two kinds of module, "upskilling modules (for learners) and training modules (for trainers who deliver them)" (unfiled, Nov 5). Whether trainers are the same people as workshop leaders: unknown.
 3. **Context or field?** Context.
 4. to 7. **Unknown.**
 - **Influence over this problem:** pod to decide.

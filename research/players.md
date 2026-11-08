@@ -2,15 +2,19 @@
 
 **Last updated:** Nov 8, 2026
 
-**What changed (Nov 8):** Added a chart under Upskillers sorting the past participant's quotes into her own goals vs. her read of other people's (pod's sort). Moved "something very specifically AI" from "What they want" to "How they see the problem" (it's a perception, not a goal). Pod decisions: subject-matter experts merged into **Mentors and subject-matter experts**; facilitators merged into **Poderators (facilitators)**; the national organization and OLOS confirmed as context; **future chapter organizations** added as context.
+**What changed (Nov 8, later):** Added players from the maintainer's handoff notes: the small team that runs the Cycle, module maintainers, trainers, app builders, Ambassadors, the Front Door pod, libraries, and four sub-groups (returning participants who teach others, participants who end up leading, participants who can't travel into DC, mentors who move across Cycles). Poderator entry updated with a steering committee member's description, and the facilitator question flagged.
+
+**Nov 8:** Added a chart under Upskillers sorting the past participant's quotes into her own goals vs. her read of other people's (pod's sort). Moved "something very specifically AI" from "What they want" to "How they see the problem" (it's a perception, not a goal). Pod decisions: subject-matter experts merged into **Mentors and subject-matter experts**; facilitators merged into **Poderators (facilitators)**; the national organization and OLOS confirmed as context; **future chapter organizations** added as context.
 
 **Nov 7:** First draft. Players come from the README's sensemaking-day list ("Who seems to be involved"), the interview with a past participant ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16), its "What research is still needed" list, and its comments), the maintainer's confusion log ([#17](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/17)), and the steering committee's records ([#3](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/3) to [#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)). Every field is cited or marked **unknown**. Influence ratings are left for the pod to decide. They're marked **pod to decide**.
 
 **How to read this.** Everything here comes from **one interview** and **one organizer's account**. Most of what we know about each player comes from someone else describing them. Where a player hasn't spoken for themselves yet, the entry says so. That's who to talk to next.
 
+**(unfiled)** means the source is the maintainer's own notes from Nov 5 to 7 (a steering committee conversation, dashboard screenshots, the pod's lane notes), not yet filed as an issue. Nobody else in the pod can check it until it's filed.
+
 ## Map
 
-Solid lines: a connection someone described in the research. Dashed lines: a connection the organizers *intend* ([#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)) but nobody has described happening yet. Players with no lines have no evidence of a connection yet.
+Solid lines: a connection someone described in the research. Dashed arrows: a connection someone *intends or proposes* but nobody has described happening yet. Dotted lines without arrows: a sub-group of a larger player. Players with no lines have no evidence of a connection yet.
 
 ```mermaid
 flowchart TB
@@ -18,6 +22,7 @@ flowchart TB
     EMP["Employers and hiring managers"]
     PROG["Other learn-by-doing programs"]
     NEXT["The next cohort (prospective upskillers)"]
+    LIB["Libraries"]
 
     subgraph CONTEXT["Context: at The Labs"]
       UP["Upskillers (Cycle participants)"]
@@ -30,6 +35,16 @@ flowchart TB
       WAY["Wayfinding pod"]
       NAT["The Labs national org / OLOS project"]
       CHAP["Future chapter organizations"]
+      TEAM["Small team that runs the Cycle"]
+      MODM["Module maintainers"]
+      TRN["Trainers"]
+      APP["App builders"]
+      AMB["Ambassadors"]
+      FD["Front Door pod"]
+      RET["Returning participants who teach others"]
+      LEAD["Participants who propose a problem and end up leading"]
+      FAR["Participants who can't travel into DC"]
+      XMEN["Mentors who move across Cycles"]
     end
   end
 
@@ -46,6 +61,15 @@ flowchart TB
   ORG -.->|"safety net of mentors and peers (#15)"| MEN
   ORG -.->|"maintained projects as home after a Cycle (#14, #15)"| MAINT
   ORG -.->|"prep before a Cycle (#14)"| NEXT
+  UP ---|"Learning Log goes to a Poderator (unfiled)"| POD
+  RET ---|"explained the process to others (#16)"| UP
+  TEAM -.->|"needs mentors who can step in (unfiled)"| MEN
+  ORG -.->|"anyone adds to modules; maintainers keep the standard (#15)"| MODM
+  PM -.->|"proposed lane split, not yet sent (unfiled)"| FD
+  RET -.- UP
+  LEAD -.- UP
+  FAR -.- UP
+  XMEN -.- MEN
 ```
 
 ## Context: at The Labs
@@ -108,15 +132,15 @@ The interviewer's own goal ("I specifically wanted to learn to vibe code") is li
 - **Connected to:** upskillers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). Intended: the "safety net" ([#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)).
 
 ### Poderators (facilitators) (person)
-1. **Player and type.** People who run or facilitate a pod (person). The README's sensemaking list called them facilitators; same player (pod decision, Nov 8).
-2. **Who they are, where you meet them.** Unknown beyond the name.
+1. **Player and type.** People who guide a pod through the Cycle (person). The README's sensemaking list called them facilitators. The pod treats facilitating as the role a Poderator plays (pod decision, Nov 8). **To confirm with an organizer:** a steering committee member's notes say "Facilitator: a higher-tier role" (unfiled, Nov 5).
+2. **Who they are, where you meet them.** A steering committee member: a Poderator "guides people through the process, schedules meetings, makes sure the cycle happens for the group. Not project management. Not fully fleshed out" (unfiled, Nov 5). The weekly Learning Log on the dashboard goes to a Poderator (unfiled, dashboard screenshots).
 3. **Context or field?** Context.
 4. **What they bring.** Unknown.
 5. **What they want.** **Unknown.** None interviewed.
 6. **What they've tried.** Unknown.
 7. **How they see the problem.** Unknown. The participant valued "somebody who knows what's going on behind the scenes to be able to clarify to the participants" ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)). That's her view of them, not theirs.
 - **Influence over this problem:** pod to decide.
-- **Connected to:** upskillers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+- **Connected to:** upskillers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16); Learning Log, unfiled).
 
 ### Workshop leaders (person)
 1. **Player and type.** People who teach workshops (person).
@@ -173,6 +197,91 @@ The interviewer's own goal ("I specifically wanted to learn to vibe code") is li
 - **Influence over this problem:** pod to decide.
 - **Connected to:** the national organization / OLOS (README).
 
+### Small team that runs the Cycle (group)
+1. **Player and type.** The people who run a Cycle day to day (group). The pod lists it separately from the steering committee. How the two differ: unknown.
+2. **Who they are, where you meet them.** A steering committee member: "A small team runs the cycle and needs these tools, plus an activated set of mentors who can step in" (unfiled, Nov 5). Who's on it: unknown.
+3. **Context or field?** Context.
+4. to 7. **Unknown.** Not interviewed.
+- **Influence over this problem:** pod to decide.
+- **Connected to:** intended: mentors (unfiled).
+
+### Module maintainers (person)
+1. **Player and type.** People who create and keep up a learning module (person). The pod lists them separately from maintainers of ongoing projects.
+2. **Who they are, where you meet them.** A steering committee member: "A prototype module needs a few maintainers to create and maintain it" (unfiled, Nov 5). The organizers want "an open contribution model with disciplined, high-quality maintainers" ([#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)). Whether anyone holds this role yet: unknown.
+3. **Context or field?** Context.
+4. to 7. **Unknown.** The quotes above are what organizers want from maintainers, not what maintainers want.
+- **Influence over this problem:** pod to decide.
+- **Connected to:** intended by organizers ([#15](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/15)).
+
+### Trainers (person)
+1. **Player and type.** People who deliver learning modules (person).
+2. **Who they are, where you meet them.** A steering committee member: two kinds of module, "upskilling modules (for learners) and training modules (for trainers who deliver them)" (unfiled, Nov 5). Whether trainers are the same people as workshop leaders: unknown.
+3. **Context or field?** Context.
+4. to 7. **Unknown.**
+- **Influence over this problem:** pod to decide.
+- **Connected to:** unknown.
+
+### App builders (person)
+1. **Player and type.** People who build the Upskilling App / OLOS (person).
+2. **Who they are, where you meet them.** Unknown. Named in the maintainer's first list of inner-circle players (unfiled). How they relate to the national organization / OLOS project: unknown.
+3. **Context or field?** Context.
+4. to 7. **Unknown.**
+- **Influence over this problem:** pod to decide.
+- **Connected to:** unknown.
+
+### Ambassadors (person)
+1. **Player and type.** A role in the Upskilling App (person).
+2. **Who they are, where you meet them.** The maintainer saw the role in the app (unfiled). What Ambassadors do: unknown.
+3. **Context or field?** Context.
+4. to 7. **Unknown.**
+- **Influence over this problem:** pod to decide.
+- **Connected to:** unknown.
+
+### Front Door pod (group)
+1. **Player and type.** The third C04 Research Pod (group).
+2. **Who they are, where you meet them.** Their repo (not read yet). As described in the maintainer's notes, their sketch has "modules as atomic Markdown in Git, auditable expert review, an MCP server" (unfiled; secondhand, not from their repo).
+3. **Context or field?** Context.
+4. to 7. **Unknown** from this repo.
+- **Influence over this problem:** pod to decide.
+- **Connected to:** proposed lane split with this pod, not yet sent (unfiled).
+
+### Returning participants who teach others (person)
+1. **Player and type.** A sub-group of upskillers: people back for another Cycle who end up explaining it to newcomers (person).
+2. **Who they are, where you meet them.** One case: "hey, guys, I did this cycle before. This is how it normally goes. And even though that's not, you know, my job to explain things to you." She also started the team's GitHub repo: "it wasn't my job" ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+3. **Context or field?** Context.
+4. **What they bring.** Social and human capital: knowing how a Cycle goes ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+5. **What they want.** One person: "I just felt that the lab should have stepped in, not me" ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+6. **What they've tried.** Explaining the process, starting the repo ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+7. **How they see the problem.** One person: the gaps fall to peers who didn't sign up to fill them ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+- **Influence over this problem:** pod to decide.
+- **Connected to:** other upskillers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+
+### Participants who propose a problem and end up leading (person)
+1. **Player and type.** A sub-group of upskillers (person).
+2. **Who they are, where you meet them.** One case: "now everyone is expecting me to lead" ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+3. **Context or field?** Context.
+4. to 7. **Unknown** beyond that one line. Whether she wanted to lead: unknown.
+- **Influence over this problem:** pod to decide.
+- **Connected to:** other upskillers ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+
+### Participants who can't travel into DC (person)
+1. **Player and type.** A sub-group of upskillers (person).
+2. **Who they are, where you meet them.** One case: about two hours of travel round trip, so she rarely attended in person ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+3. **Context or field?** Context.
+4. **What they bring.** Unknown.
+5. **What they want.** One person: an in-person session "needs to be something like really valuable." More virtual workshops would help (interviewer's summary) ([#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16)).
+6. to 7. **Unknown.**
+- **Influence over this problem:** pod to decide.
+- **Connected to:** upskillers.
+
+### Mentors who move across Cycles (person)
+1. **Player and type.** A sub-group of mentors (person).
+2. **Who they are, where you meet them.** **Weak evidence.** [#16](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/16) describes a mentor in the Health Care Cycle and a mentor "in a later Cycle." It doesn't say whether they were the same person. How the pod knows mentors move across Cycles: to confirm.
+3. **Context or field?** Context.
+4. to 7. **Unknown.**
+- **Influence over this problem:** pod to decide.
+- **Connected to:** mentors.
+
 ## Field: around the problem, not in the room
 
 ### Employers and hiring managers (institution)
@@ -199,11 +308,18 @@ The interviewer's own goal ("I specifically wanted to learn to vibe code") is li
 - **Influence over this problem:** pod to decide.
 - **Connected to:** intended by organizers ([#14](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/14)).
 
+### Libraries (institution)
+1. **Player and type.** Public and other libraries (institution).
+2. **Who they are, where you meet them.** Unknown. The README lists libraries as a typical field player. The maintainer's notes mention Front Door's library work (unfiled, secondhand).
+3. **Context or field?** Field.
+4. to 7. **Unknown.** No evidence yet about libraries and this problem.
+- **Influence over this problem:** pod to decide.
+- **Connected to:** unknown.
+
 ## Named, but no evidence yet
 
 The README lists these as typical field players. Nothing in the research mentions them for this problem yet. They stay off the map until someone finds a reason.
 
-- Libraries
 - Funders
 - Agencies
 - Universities

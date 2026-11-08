@@ -10,7 +10,7 @@
 
 **How to read this.** Everything here comes from **one interview** and **one organizer's account**. Most of what we know about each player comes from someone else describing them. Where a player hasn't spoken for themselves yet, the entry says so. That's who to talk to next.
 
-**(unfiled)** means the source is the maintainer's own notes from Nov 5 to 7 (a steering committee conversation, dashboard screenshots, the pod's lane notes), not yet filed as an issue. Nobody else in the pod can check it until it's filed.
+**(unfiled)** means the source is the maintainer's own notes from Nov 5 to 7 (notes from a Nov 5 coworking session with a steering committee member, dashboard screenshots, the pod's lane notes), not yet filed as an issue. Nobody else in the pod can check it until it's filed.
 
 ## Map
 

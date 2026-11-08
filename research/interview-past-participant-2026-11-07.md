@@ -358,12 +358,9 @@ already knew it ("I did not need that, I already knew how to work with
 GitHub"), set up the repo for her team, and at times felt this support
 should also have come from the Lab ("it wasn't my job"; "these workshops are
 important... an introduction to GitHub... and do hands-on to get them
-started"). Basis for "expectation": from workshops with organizers, GitHub
-is used at The Labs and organizers want to keep using it. In the interview,
-we both took GitHub as the expected tool without saying so; she referred to
-"things like they do with GitHub" with no explanation needed. That shared
-assumption is worth listing in its own right: at The Labs, GitHub is a
-given.
+started").
+Context: GitHub is used at The Labs and organizers want to keep using it
+(from workshops with organizers); in the interview, we both took it as given.
 
 Secondary takeaways, ranked by how clearly she said it. All come from one
 interview, so the rating reflects how clearly she said it, not how widely

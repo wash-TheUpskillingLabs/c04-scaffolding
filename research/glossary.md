@@ -15,7 +15,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - "What to Expect: The Build Cycle" and "What to Expect: From Pod to Hackathon" (Civics & Elections, Google Docs linked from theupskillinglabs.org)
 - Upskilling App dashboard (viewed Nov 5, 2026)
 - theupskillinglabs.org homepage, logged out (viewed Nov 9, 2026)
-- theupskillinglabs.org Build Cycles page and About page (text pasted by a maintainer, Nov 9, 2026)
+- theupskillinglabs.org Build Cycles, About and Get Involved pages (text pasted by a maintainer, Nov 9, 2026)
 - Interview: past participant, Nov 7, 2026 (#16)
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
@@ -134,7 +134,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 ## Roles
 
 ### Participant / Upskiller
-- **As written:** [open]
+- **As written:** "Upskillers," the people Mentors help "go deep on a theme" (Get Involved page). Participant Success volunteers "support Upskillers throughout their journey" (Get Involved page).
 - **In practice:** People join for different reasons: a job, direction, AI skills, a startup (past participant: "not everyone is there to have their own startup").
 - **Plain language:** [open]
 - **Equivalent:** [open]
@@ -170,7 +170,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Equivalent:** [open]
 
 ### Mentor
-- **As written:** "learning AI by doing, supported by peers and mentors" ("What to Expect"). About page: "People who've done the work, around when you're stuck."
+- **As written:** "learning AI by doing, supported by peers and mentors" ("What to Expect"). About page: "People who've done the work, around when you're stuck." Get Involved page: "Mentors help Upskillers go deep on a theme with subject-matter knowledge, and unblock them when they're stuck — from prompt engineering to deploying a first app." "Experienced practitioners who guide pods and participants through real problems — a single workshop or a whole build cycle, shaped by your availability."
 - **In practice:** Volunteers who may move across Cycles. A past participant found "ask the AI" unhelpful and valued mentors for "a very specific question... based on experience."
 - **Plain language:** [open]
 - **Equivalent:** [open]
@@ -190,6 +190,12 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 ### Steering committee / organizers
 - **As written:** "the steering committee may also share direction and constraints along the way" (C04 README).
 - **In practice:** [open]
+- **Plain language:** [open]
+- **Equivalent:** [open]
+
+### Volunteer teams
+- **As written:** "volunteers for the Labs itself help us build the engine that powers all of it." Teams listed under "Where you can plug in": Mentors; **Programs & Events** ("Organize the workshops, panels, and meetups where learning happens and connections are made"); **Communications** ("Branding, storytelling, and PR — the voice and visual identity of everything we do"); **Participant Success** ("Support Upskillers throughout their journey; keep pods engaged and moving"); **Research & Development** ("Build and maintain the tech that powers the Labs, from the website to community infrastructure"); **Governance** ("Provide strategic oversight so the Labs stays true to its mission and built to last"). "However you want to help — mentor, organizer, or builder — it starts with the same account, one door for everyone" (Get Involved page).
+- **In practice:** [open]. Open question: how does Participant Success relate to the Poderator role?
 - **Plain language:** [open]
 - **Equivalent:** [open]
 

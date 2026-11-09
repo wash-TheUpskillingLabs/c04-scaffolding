@@ -18,12 +18,14 @@ now building her own educational software project with AI.
 Nov 7, 2026 (about one hour, by video).
 
 4. What it says
-(Quotes are verbatim from the conversation, lightly trimmed with "...".)
+(Quotes are verbatim from the conversation, lightly trimmed with "...",
+with filler words such as "like" and "you know" removed where they don't
+change the meaning.)
 
 Structure and judgment
 - She first reacted on Slack to the C04 invite line "People handed a
   syllabus never build the judgment the Cycle is for," and disagreed with
-  it. On the call she explained: "this idea that like, oh, if you provide
+  it. On the call she explained: "this idea that, oh, if you provide
   structure, like... a syllabus, then people don't get the judgment, I
   just think it's not true."
 - Drawing on her teaching: "Whenever you cannot clearly explain something
@@ -47,8 +49,8 @@ Purpose and expectations
   features: "That's true... you do make a point here. But... these skills,
   I believe people already have. What the upskilling lab is promising is
   something very specifically AI. At least that was my perception."
-- On the Health Care Cycle's AI emphasis: "they were pushing like, No, you
-  have to use AI for everything... it was like, really, like, grinding on
+- On the Health Care Cycle's AI emphasis: "they were pushing, No, you
+  have to use AI for everything... it was really grinding on
   my nerves... And then suddenly they switched."
 - "It's good to get you started and then after that you just go on your
   own, but what they need to figure out is... who are your audience and
@@ -58,7 +60,7 @@ Purpose and expectations
   heading, it becomes a little bit easier."
 - Her own goal: "my main aim is to actually find a job and find my
   purpose. I did not reach this aim."
-- On joining: "I have no idea what they are doing. But they seem to be like
+- On joining: "I have no idea what they are doing. But they seem to be
   nice people... I'll just stick around and see how it goes... going in
   blindly going with the flow. But I did notice that everyone else was
   confused."
@@ -74,7 +76,7 @@ Timing of structure (pod phase)
   all learning."
 - "This whole time, we've been trying to narrow it down and [they] keep
   telling us you're narrowing it too quickly. And suddenly, you have one
-  week and like, now you need to narrow it... it seems like there's some
+  week and now you need to narrow it... it seems like there's some
   conflicting messages."
 - In the pilot, "two [pods] joined together into one project, and so it
   went the opposite of what they intended."
@@ -105,8 +107,8 @@ Pod vs. team
   have no idea what's going on."
 - When I suggested defining what a pod is versus a team: "maybe it's just
   making it very clear from the very beginning. It does help."
-- Teams formed around people more than projects: "you end up really just,
-  like, choosing the project where you just feel like, okay, I'm
+- Teams formed around people more than projects: "you end up really just
+  choosing the project where you just feel like, okay, I'm
   comfortable working with these people."
 - Proposing a problem felt like being made its leader: "now everyone is
   expecting me to lead."
@@ -117,7 +119,7 @@ Who gives help
   actually posting here, so maybe I should engage here."
 - In the Energy & Climate Cycle, ended up explaining the process to others:
   "hey, guys, I did this cycle before. This is how it normally goes. And
-  even though that's not, you know, my job to explain things to you."
+  even though that's not my job to explain things to you."
 - On a teammate in the recycling pod acting like a founder: "he's acting
   there like he's the CEO and he's coming and he's looking for employees...
   I just felt that the lab should have stepped in, not me. To explain that
@@ -140,13 +142,13 @@ Who gives help
 Workshops and tools
 - Were workshops helpful? "Honestly, not really. But again... I think
   probably for other people it was... it's either something I'm not
-  interested in or I don't need, or something that, like, no, I have no
+  interested in or I don't need, or something that, no, I have no
   idea."
 - An agentic AI workshop assumed knowledge she didn't have ("I keep
-  hearing this term, but I don't know what's like an agent") and was tied
+  hearing this term, but I don't know what's an agent") and was tied
   to one vendor's tool ("I'm not using copilot"). Wanted it "presented more
-  like in levels, like step by step," and said: "For me, it's helpful to
-  say like, okay, well, this is the definition. This is what it does. Okay,
+  in levels, step by step," and said: "For me, it's helpful to
+  say, okay, well, this is the definition. This is what it does. Okay,
   now here's a hands-on thing you do for this new information so that you
   get a feel for what that is. And then, okay, now let's go to the next
   information... this is the way I teach too."
@@ -156,21 +158,21 @@ Workshops and tools
   agreed (my idea, so weaker evidence) and added: "here's where you can get
   this information."
 - GitHub: in the pilot, "many people on the team, they wanted to do coding
-  and stuff. So I just like started the GitHub repo, but everybody was
+  and stuff. So I just started the GitHub repo, but everybody was
   confused about it... I did not know how to explain it to them... it
   wasn't my job." Couldn't help across setups ("if somebody is using
   Windows... I don't know what to tell you"), so "these workshops are
   important... an introduction to GitHub... and do hands-on to get them
   started."
 - The Lab recommended NotebookLM, and it was very useful for research, but
-  it wasn't covered in a workshop or reading material: "they just said
-  like, hey, you know, you need to use that."
+  it wasn't covered in a workshop or reading material: "they just said,
+  hey, you need to use that."
 - Would like "more technical workshops," but "not sure if that is
   appropriate for the upskilling labs because it's assuming people with no
   technical skills." When asked, suggested after the Cycle: "if you want to
   go a little bit further, here are some... extra workshops."
 - Rarely attended in-person sessions: about two hours of travel round trip
-  into DC, so "it needs to be something like really valuable." More virtual
+  into DC, so "it needs to be something really valuable." More virtual
   workshops would help.
 
 What she learned
@@ -185,18 +187,18 @@ What she learned
   separating front end and back end): "I learned a few things here and
   there, even from the non-technical people."
 - Most learning was self-directed: "I learned a lot, it's just because I
-  just decided like, okay, you know what, this is what I want to learn."
+  just decided, okay, you know what, this is what I want to learn."
 - Found peer learning valuable. Besides teammates' technical comments
   (above), others in her cohort showed her that meetings can be
-  transcribed: "I was like, oh, I'm going to write down, like, notes. And
+  transcribed: "I was like, oh, I'm going to write down notes. And
   everybody was laughing at me because I'm like, yeah, that is like this AI
-  transcribing." On connections generally: "it's definitely good, like, to
+  transcribing." On connections generally: "it's definitely good to
   have all these connections."
 - On prototypes vs. real projects: "AI is easy. But as your project gets
   bigger and bigger, it becomes hard."
 - Would not do another Cycle. The pod phase felt slow because she wanted
   to get to the coding. If starting over: "the way the first cycle was done.
-  It wasn't bad... it's okay to have one week of like, just people trying to
+  It wasn't bad... it's okay to have one week of just people trying to
   slowly dip their toes in the water."
 
 5. What it tells us (my read)
@@ -228,18 +230,18 @@ taught. For GitHub, the gap fell to whichever participant happened to know it.
 
 In her words:
 - Not matched to where people were: "it's either something I'm not
-  interested in or I don't need, or something that, like, no, I have no
+  interested in or I don't need, or something that, no, I have no
   idea."
 - Assumed background: "I keep hearing this term, but I don't know what's
-  like an agent."
-- No starting level: she wanted it "presented more like in levels, like
+  an agent."
+- No starting level: she wanted it "presented more in levels,
   step by step... this is the definition. This is what it does... here's a
   hands-on thing," while recognizing that "if they are going to start from
   my level, for somebody else, it's going to be boring."
 - Nowhere to catch up: "here's where you can get this information."
-- Recommended but not taught: on NotebookLM, "they just said like, hey,
-  you know, you need to use that."
-- The gap fell to peers: on GitHub, "I just like started the GitHub repo,
+- Recommended but not taught: on NotebookLM, "they just said, hey,
+  you need to use that."
+- The gap fell to peers: on GitHub, "I just started the GitHub repo,
   but everybody was confused about it... it wasn't my job."
 
 She pushed back on the idea that structure blocks judgment. At the start of
@@ -278,7 +280,7 @@ sort into three kinds:
   and AI tools such as NotebookLM. In other words, a few concrete ways to
   tackle the week's question without prescribing a single path. She also
   asked for regular meetings to discuss next steps, an intro GitHub
-  workshop with hands-on practice, and workshops taught "in levels, like
+  workshop with hands-on practice, and workshops taught "in levels,
   step by step... this is the definition. This is what it does... here's a
   hands-on thing." And she suggested a clearer statement of purpose and
   audience, and encouraging each participant to name their own goals.
@@ -290,7 +292,7 @@ sort into three kinds:
   (NotebookLM: she found the tool itself useful; my read is that the
   missing guidance was the gap, not the tool).
 - Where she did without structure: her most valuable learning was
-  self-directed ("I just decided like, okay, you know what, this is what I
+  self-directed ("I just decided, okay, you know what, this is what I
   want to learn"), she did her own research, and she learned from
   teammates' small comments.
 In my read, the structure she valued tells people what to do and when, and
@@ -303,7 +305,7 @@ It was that the timing of structure didn't match the work.
 - Too slow in the pod phase. Her group wanted to narrow the problem, but
   organizers kept saying they were "narrowing down too quickly" and "making
   assumptions," so they kept circling and duplicated effort.
-- Too fast at the move to projects: "suddenly, you have one week and like,
+- Too fast at the move to projects: "suddenly, you have one week and
   now you need to narrow it... it seems like there's some conflicting
   messages."
 In my read: early on, there wasn't enough clarity on direction; later,
@@ -375,14 +377,14 @@ it holds.
 | Rank | Takeaway | How clearly she said it | Her words |
 |---|---|---|---|
 | 1 | Step-by-step, leveled instruction that starts where people are helps (my inference: rather than putting everyone through the same material) | Clear | "this is the definition. This is what it does. Okay, now here's a hands-on thing you do... And then, okay, now let's go to the next information... let's take it step by step and start from where you are." She saw the trade-off: "if they are going to start from my level, for somebody else, it's going to be boring." |
-| 2 | Timing: told to slow down early, then pushed to decide fast | Clear | "you are narrowing down too quickly"... then "suddenly, you have one week and like, now you need to narrow it" |
+| 2 | Timing: told to slow down early, then pushed to decide fast | Clear | "you are narrowing down too quickly"... then "suddenly, you have one week and now you need to narrow it" |
 | 3 | Mentor help is most useful for concrete, experience-based questions | Clear | "a very specific question that I cannot find by myself... based on experience... I want a very clear answer"; "ask the AI... that's not helpful" |
 | 4 | AI-assisted work needs verification habits | Clear | "how to do the prompts, how to check, how to do tests... I'm not going to look at every single line of code"; "ways to make sure of the quality of what the AI is providing" |
 | 5 | Pod/team confusion hurts coordination and commitment | Clear | "you are too many here... that took people aback"; "people don't put that much effort" |
 | 6 | Expectations and process need to be clearer, though it's improving | Moderate | "this week is going to be for this purpose... more deadlines"; on current materials, "definitely better than previous cycles" |
-| 7 | Workshops should state what people are expected to know, and point to where to get it | Moderate-strong. The need is hers, unprompted (the agentic AI workshop assumed she knew what an agent was; she wanted it "in levels, like step by step"). The form, background content to review beforehand, was my suggestion in response; she agreed and added her own version | "that's a good idea to have... material for somebody to just, like, okay, this is what you are expected to know already... here's where you can get this information or just like, you know, you're an adult, go look it up or just don't come to this workshop." |
+| 7 | Workshops should state what people are expected to know, and point to where to get it | Moderate-strong. The need is hers, unprompted (the agentic AI workshop assumed she knew what an agent was; she wanted it "in levels, step by step"). The form, background content to review beforehand, was my suggestion in response; she agreed and added her own version | "that's a good idea to have... material for somebody to just... okay, this is what you are expected to know already... here's where you can get this information or just... you're an adult, go look it up or just don't come to this workshop." |
 | 8 | Advanced follow-on workshops after the basics | Moderate (unsure it fits the Labs) | "more technical workshops"; "after the build cycle" |
-| 9 | Tool exposure is valuable, but tools were recommended, not taught | Moderate | NotebookLM: "they just said like, hey, you know, you need to use that"; GitHub: "everybody was confused about it" |
+| 9 | Tool exposure is valuable, but tools were recommended, not taught | Moderate | NotebookLM: "they just said, hey, you need to use that"; GitHub: "everybody was confused about it" |
 | 10 | Some self-directed participants may need less direct instruction, and may get more from optional materials and reference resources (my inference) | Moderate (about herself, and she called her case an exception) | She came mainly to see what was going on after a long time out of work, and already had strong research habits: "Just do my own research... It's not something that I needed to learn from the lab." For specific questions she'd first look things up or ask AI, and wanted experts only for "something that is based on experience." She framed herself as unusual: "my case is very different than most people" and "probably my case is an exception." |
 
 My own experience: What she came to learn was different from me. I

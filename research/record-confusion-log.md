@@ -35,10 +35,12 @@ Schedule and timeline
   "Fall 2026" (Oct 13 to Dec 8) as Archived.
 
 Method and terms
-- The Cycle used Dorst's Frame Innovation and sprints, but the method was
-  linked only "for the curious." C04 uses Dorst's terms (archaeology,
-  paradox, context, field, themes, frames) with no translation into
-  recognized practices (see the separate Record on Dorst's vocabulary).
+- The Build Cycle is built on Dorst's frame creation and works in sprints,
+  but participants weren't always told the method's name (it was linked
+  "for the curious"). Its terms (archaeology, paradox, context, field,
+  themes, frames) aren't yet connected to recognized principles and
+  practices, which is an opportunity (see the Record "Connecting Dorst's
+  frame creation to human-centered design and related practices," #20).
 - Design thinking was taught at the hackathon on the Newcomer track only;
   pod members were in a different track.
 - "The judgment the Cycle is for" and "syllabus" (in the C04 invite copy)

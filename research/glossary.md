@@ -17,6 +17,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - Interview: past participant, Nov 7, 2026 (#16)
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
+- Record: Paradox cards from C04 Sensemaking & Pod Formation, Oct 24 (#21)
 
 ---
 
@@ -350,7 +351,7 @@ materials yet, so each is marked as proposed.
   start at the edges and move toward the center as they gain skill
   ("legitimate peripheral participation"). (Lave & Wenger, *Situated
   Learning*, 1991; Wenger, *Communities of Practice*, 1998.)
-- **Connection to The Labs (my read):** The pod could be understood as a
+- **Connection to The Labs (Claude draft, not yet reviewed):** The pod could be understood as a
   larger, cross-functional community of practice, not a team. That
   matches what the pod actually is before projects form, and it might
   ease the surprise a past participant described when pods split into
@@ -364,7 +365,7 @@ materials yet, so each is marked as proposed.
   work, rather than having tasks assigned. From the Agile Manifesto's
   principles: "The best architectures, requirements, and designs emerge
   from self-organizing teams" (2001); central to Scrum.
-- **Connection to The Labs (my read):** Project teams already form around
+- **Connection to The Labs (Claude draft, not yet reviewed):** Project teams already form around
   a builder in residence and recruit their own members. Naming this would
   connect the Build Cycle to agile practice and to the Poderator's role as
   "not project managing."
@@ -375,7 +376,7 @@ materials yet, so each is marked as proposed.
   most motivated when three needs are met: autonomy (choosing what you
   do), competence (feeling able to do it well) and relatedness (feeling
   connected to others). (Deci & Ryan.)
-- **Connection to The Labs (my read):** It maps closely onto the pod's
+- **Connection to The Labs (Claude draft, not yet reviewed):** It maps closely onto the pod's
   question. Autonomy is the "learn by doing" side; competence is what
   scaffolding builds; relatedness is the pod and peer support. A past
   participant's most valuable learning was self-directed ("I just decided
@@ -387,7 +388,7 @@ materials yet, so each is marked as proposed.
 - **Definition (proposed):** Modules built to a shared structure and
   vocabulary, so the parts fit together across people, pods and regions,
   and can be reused, combined and improved instead of rebuilt.
-- **Connection to The Labs:** Ties the content model and taxonomy to
+- **Connection to The Labs (Claude draft, not yet reviewed):** Ties the content model and taxonomy to
   Front Door's sketch (modules as Markdown in Git, an MCP server) and to
   the OLOS model: "The region builds and proves. The core keeps and
   carries" (C04 README). The Carpentries is an outside example: lessons

@@ -182,7 +182,7 @@ Her own words earlier in the interview, before the recap, support it:
   I'm connected to too many things, I'm just gonna get overwhelmed."
 
 Note on the GitHub finding in the first interview (#16): "without being
-taught" refers to the pilot. GitHub workshops ran from May 2026.
+taught" refers to Cycle 1 (Health Care). GitHub workshops ran from May 2026.
 
 What surprised me: I didn't realize she came in mid-Cycle. She had wanted
 to join Cycle 2, but thought that because she missed the Summit and kickoff,

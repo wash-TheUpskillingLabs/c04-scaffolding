@@ -3,11 +3,13 @@
 Filed as issue #16 (Nov 7, 2026). Her written Slack comments are in a comment on that issue.
 
 1. What it is
-A conversation with a participant from the pilot Build Cycle (Health Care)
+A conversation with a participant from Build Cycle 1 (Health Care)
 and the Energy & Climate Cycle (on a recycling pod) about the Cycle's
 purpose and structure: how much structure she needed, when it helped or
 got in the way, and who provided it. Also covers guidance from organizers
 and mentors, team formation, workshops, and what she learned.
+(Corrected Nov 9, 2026: her first Cycle was Build Cycle 1, not the pilot,
+which came before it. She took part in Cycles 1 and 2. Per the interviewer.)
 
 2. Where it came from
 A past participant returning to work after a long career break, with a
@@ -78,7 +80,7 @@ Timing of structure (pod phase)
   telling us you're narrowing it too quickly. And suddenly, you have one
   week and now you need to narrow it... it seems like there's some
   conflicting messages."
-- In the pilot, "two [pods] joined together into one project, and so it
+- In Cycle 1, "two [pods] joined together into one project, and so it
   went the opposite of what they intended."
 - What would help: "these are the tools you can use, and these are the
   expectations... this week is going to be for this purpose... more
@@ -114,7 +116,7 @@ Pod vs. team
   expecting me to lead."
 
 Who gives help
-- Pilot Cycle, first week: "Complete silence on Slack." She started
+- Cycle 1, first week: "Complete silence on Slack." She started
   posting her research, and others joined because "oh, here's somebody
   actually posting here, so maybe I should engage here."
 - In the Energy & Climate Cycle, ended up explaining the process to others:
@@ -157,7 +159,7 @@ Workshops and tools
 - When I suggested optional background material before workshops, she
   agreed (my idea, so weaker evidence) and added: "here's where you can get
   this information."
-- GitHub: in the pilot, "many people on the team, they wanted to do coding
+- GitHub: in Cycle 1, "many people on the team, they wanted to do coding
   and stuff. So I just started the GitHub repo, but everybody was
   confused about it... I did not know how to explain it to them... it
   wasn't my job." Couldn't help across setups ("if somebody is using
@@ -366,9 +368,9 @@ Context: GitHub is used at The Labs and organizers want to keep using it
 Note (Nov 9, 2026): The Labs' events calendar (Luma) lists GitHub
 workshops from May 2026: "Introduction to GitHub for Team Projects" (May 16,
 Aug 18) and "GitHub 2.0: The Handoff" (Jun 16, Sep 22), during the Energy &
-Climate and Civics & Elections Cycles. Her GitHub story is from the pilot
-Cycle, so "without being taught" (here and in the finding on materials)
-may describe the pilot rather than later Cycles.
+Climate and Civics & Elections Cycles. Her GitHub story is from Cycle 1
+(Health Care), so "without being taught" (here and in the finding on materials)
+may describe Cycle 1 rather than later Cycles.
 
 Secondary takeaways, ranked by how clearly she said it. All come from one
 interview, so the rating reflects how clearly she said it, not how widely

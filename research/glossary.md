@@ -348,7 +348,7 @@ A crosswalk to recognized principles and practices is in the Record "Connecting 
 
 ### GitHub
 - **As written:** Not defined in the READMEs. The pod's evidence is turned in as GitHub issues, and longer write-ups go in through pull requests (Scaffolding README).
-- **In practice:** Used at The Labs, and organizers want to keep using it (from workshops with organizers). In #16, it was the tool her team was expected to use; she already knew it and filled the gap for others ("it wasn't my job"). The events calendar (Luma) lists GitHub workshops from May 2026 (May 16, Jun 16, Aug 18, Sep 22), so that interview's pilot-Cycle experience may not hold for later Cycles.
+- **In practice:** Used at The Labs, and organizers want to keep using it (from workshops with organizers). In #16, it was the tool her team was expected to use; she already knew it and filled the gap for others ("it wasn't my job"). The events calendar (Luma) lists GitHub workshops from May 2026 (May 16, Jun 16, Aug 18, Sep 22), so that interview's Cycle 1 experience may not hold for later Cycles.
 - **Plain language:** A website where projects are kept in repositories, with every change tracked. People propose changes through pull requests and discuss work in issues.
 - **Equivalent:** [open]
 

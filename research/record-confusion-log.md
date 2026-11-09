@@ -20,9 +20,13 @@ true.
 Contradictions between sources
 - The dashboard shows the generic 12-week timeline with no dates or
   "you are here." C04 runs Oct 24 to Dec 8 (about 6.5 weeks) and was announced
-  at Summit #3 as "an 8 week build cycle."
+  at Summit #3 as "an 8 week build cycle." Context: C04 started earlier, in
+  early October, with a retreat (Oct 3), which may account for the
+  difference (a maintainer's read).
 - The dashboard listed "Internal Cycle" (starts Oct 13) as Upcoming and
-  "Fall 2026" (Oct 13 to Dec 8) as Archived.
+  "Fall 2026" (Oct 13 to Dec 8) as Archived. Context: it appeared that
+  participants were to sign up for the Cycle on the dashboard, but that
+  seems to have been abandoned (a maintainer's observation).
 
 Hard to find
 - In Civics & Elections, the assignments and week-by-week schedule lived in
@@ -38,22 +42,34 @@ Hard to find
   use it; a maintainer's guess). A maintainer's view: for an internal Cycle
   this is fine and carries little weight. For an external Cycle, the same
   split would be far more confusing.
-- Design thinking was taught at the hackathon on the Newcomer track only;
-  pod members were in a different track.
 
 Undefined terms
+- The role of design thinking at The Labs. At the Aug 15 hackathon, design
+  thinking was offered as morning workshops on the Newcomer track,
+  described as catching up for newcomers (Luma:
+  https://luma.com/theupskillinglabs?period=past). Those already signed up
+  for the Build Cycle were on the build track, starting individual
+  prototypes while the workshops ran. Open question: what role does design
+  thinking play at The Labs? Is it treated as an overarching principle,
+  like human-centered design?
 - The Build Cycle is built on Dorst's frame creation and works in sprints,
   but participants weren't always told the method's name (it was linked
   "for the curious"). Its terms (archaeology, paradox, context, field,
   themes, frames) aren't yet connected to recognized principles and
   practices, which is an opportunity (see the Record "Connecting Dorst's
   frame creation to human-centered design and related practices," #20).
-- "The judgment the Cycle is for" and "syllabus" (in the C04 invite copy)
-  weren't clear to a maintainer without explanation. "Syllabus" can mean a
-  schedule of what and when, or step-by-step instructions on how; the
-  invite doesn't say which.
-- "Scaffolding," the pod's own name, isn't defined anywhere in the README.
-  While drafting a finding, the maintainer used the word three different
+- "The judgment the Cycle is for." The Scaffolding pod's page and the C04
+  invite copy say "People handed a syllabus never build the judgment the
+  Cycle is for." A past participant who did two Cycles wrote: "I still
+  don't know what exactly is 'the judgment the Cycle is for'?" (#16). Looking
+  for how The Labs defines judgment, a maintainer found it in "What to
+  Expect: The Build Cycle": "We think the judgement of what problems matter
+  remains uniquely human."
+- "Syllabus," in the same line, can mean a schedule of what and when, or
+  step-by-step instructions on how; the copy doesn't say which.
+- "Scaffolding," the pod's own name, isn't defined anywhere. In the
+  Scaffolding README, the C04 README and the pod's page, it appears only as
+  the pod's name, never as a concept. While drafting a finding, the maintainer used the word three different
   ways in one paragraph:
   1. The education term. In learning research, "scaffolding" (Wood, Bruner
      & Ross, 1976) means temporary support that helps a learner do
@@ -67,19 +83,28 @@ Undefined terms
      1 support is scaffolding. So the list counted the same thing twice.
 
 A label that doesn't match practice
-- "Group days" sound like meetings ("when the whole Cycle meets," C04 README),
-  but they're asynchronous milestones. Learned at an in-person session, Nov 5.
-- "Pod" vs. "team": a maintainer assumed a pod was the same as a team (a
-  former workplace used "pod" to mean a team). A past participant
-  interviewed on Nov 7 (#16) described the same confusion when pods split into
-  smaller project teams.
+- "Group days," as listed in the README ("when the whole Cycle meets"),
+  sound like meetings, but they're asynchronous milestones (learned at an
+  in-person session, Nov 5). It's unclear whether there are other group
+  work days besides the weekly coworking meetings.
+- "Pod" vs. "project team." As a past participant, a maintainer found the
+  two easy to confuse; at a former workplace, pods came together as
+  project teams. A past participant interviewed on Nov 7 (#16) saw the same
+  thing: not everyone understood that pods would be broken down. People
+  started working as if the pod were their team, then "you realize, oh,
+  you are too many here. You definitely are not going to be on the same
+  project. You have to do something different. And that took people
+  aback." And: "you would be like working with some people and then you
+  realize, oh, but I might not end up on the same project with... the
+  group."
 
 5. What it tells us (my read)
 [mine]
 
 6. Is any of this hearsay?
 "Group days are async" was learned verbally; an organizer could confirm.
-Whether C04 was ever meant to run on the dashboard is a guess; an organizer
-could confirm.
+Whether C04 was ever meant to run on the dashboard, and whether dashboard
+sign-up was abandoned, are a maintainer's observations; an organizer could
+confirm.
 The pod-vs-team entry is partly the maintainer's own experience and partly
 from one interview. The rest comes from documents and screenshots.

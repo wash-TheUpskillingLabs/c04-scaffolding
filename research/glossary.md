@@ -423,6 +423,52 @@ terms.
 3. **Recognized principles and practices:** the wider vocabulary
    participants can use at work and with employers. Sorted by kind below.
 
+4. **The Cycle as shown on the dashboard:** the 12-week timeline's month
+   and week labels. See the table below.
+
+### The Cycle as shown on the dashboard
+
+Transcribed from the Upskilling App dashboard's Build Cycle timeline (viewed
+Nov 2026). Names are as shown today. Wayfinding may be exploring how this
+timeline is presented, and the names are open for discussion if findings
+warrant.
+
+The "Events in other sources" column links Labs event names to a week only
+where a source says so, or where the event and the label clearly describe
+the same thing (marked as such). The
+Dorst step and related-practice columns are left `[open]` for the pod to
+fill in.
+
+| Month | Week | Dashboard label | Events in other sources | Dorst step | Related practice |
+|---|---|---|---|---|---|
+| 1. Problem Discovery & Definition | 0 | Kickoff + Summit | | [open] | [open] |
+| 1. Problem Discovery & Definition | 1 | Problem Proposals | | [open] | [open] |
+| 1. Problem Discovery & Definition | 2 | Problem Voting | | [open] | [open] |
+| 1. Problem Discovery & Definition | 3 | Pod Creation | Sensemaking Sprint (Jul 25): pods form there (Luma); matched by what happens, not by name | [open] | [open] |
+| 2. Exploration & Experimentation | 4 | Meet The Pods | Meet the Pods (Aug 11), with a Building Out Loud workshop (Luma) | [open] | [open] |
+| 2. Exploration & Experimentation | 5 | Experiments | | [open] | [open] |
+| 2. Exploration & Experimentation | 6 | Project Pitches | | [open] | [open] |
+| 2. Exploration & Experimentation | 7 | Project Voting | "Form project teams" (week 7, "What to Expect") | [open] | [open] |
+| 3. Prototype Building & Iterating | 8 | Meet The Projects | Meet the Projects (Sep 8), teams of 3 to 7, with a storytelling workshop (Luma) | [open] | [open] |
+| 3. Prototype Building & Iterating | 9 | Mentor Intensive | Whether mentor intensives happened needs confirming with an organizer | [open] | [open] |
+| 3. Prototype Building & Iterating | 10 | Mentor Intensive | (as week 9) | [open] | [open] |
+| 3. Prototype Building & Iterating | 11 | Rehearsal | | [open] | [open] |
+| 3. Prototype Building & Iterating | 12 | Showcase + Summit | "Every cycle ends with a public showcase" ("What to Expect") | [open] | [open] |
+
+**Unplaced:** Summit #3 (Oct 13) announced the Q4 Cycle as "an 8 week
+build cycle" (Luma). It could be week 0 of one Cycle or week 12 of the
+previous one.
+
+**Not on the timeline:** the Hackathon (Aug 15, "Idea to Prototype," Luma),
+the Monday virtual check-ins (Luma), Assignments 1 and 2 ("What to Expect:
+From Pod to Hackathon"), and the weekly Learning Log (dashboard).
+
+**C04 doesn't follow this timeline.** C04 runs Oct 24 to Dec 8 with its
+own milestones (C04 README): sensemaking and pod formation (Oct 24),
+archaeology and frames (Nov 7), proposals and the vote (Nov 14), weekly
+releases, and teach-back (Dec 8). How these line up with the dashboard's
+weeks is `[open]`.
+
 ### Kinds of principle and practice
 The principles and practices people name together are different kinds of
 thing. Sorting them makes the relationships clearer.

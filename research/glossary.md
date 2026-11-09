@@ -14,6 +14,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - C04 README (wash-TheUpskillingLabs/c04) and the Scaffolding README
 - "What to Expect: The Build Cycle" and "What to Expect: From Pod to Hackathon" (Civics & Elections, Google Docs linked from theupskillinglabs.org)
 - Upskilling App dashboard (viewed Nov 5, 2026)
+- theupskillinglabs.org homepage, logged out (viewed Nov 9, 2026)
 - Interview: past participant, Nov 7, 2026 (#16)
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
@@ -221,7 +222,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### "What to Expect" (guides)
 - **As written:** Two Google Docs: the week-by-week Cycle overview and the pod-to-hackathon guide.
-- **In practice:** A participant who finished the Cycle never found them. Another felt they've improved each Cycle.
+- **In practice:** Listed with "Slack Basics" in the homepage's "Learning Library · on-demand" section, which shows only when logged out, below the fold; logged in, the homepage is the dashboard and the guides aren't there (homepage viewed Nov 9). A participant who finished the Cycle never found them. Another felt they've improved each Cycle.
 - **Plain language:** [open]
 - **Equivalent:** [open]
 

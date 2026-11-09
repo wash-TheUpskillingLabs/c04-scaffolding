@@ -32,7 +32,15 @@ Hard to find
 - In Civics & Elections, the assignments and week-by-week schedule lived in
   two Google Docs linked from the public homepage, theupskillinglabs.org, not
   on the dashboard. A participant who finished the Cycle never found them.
-  Later phases were "Exact date TBD."
+  Later phases were "Exact date TBD." Where they are: the homepage's
+  "Learning Library · on-demand" section ("Learn at your own pace") lists
+  three guides: "Slack Basics," "What to Expect in a Build Cycle" ("A
+  quick-start guide to joining the build cycle, including key dates") and
+  "What to Expect: From Pod to Hackathon" ("An overview of the two week
+  sprint from pod formation to the Hackathon on August 15th"). The section
+  shows only when logged out, below the fold. Logged in, the homepage is
+  the dashboard, and the guides aren't there (homepage viewed Nov 9). A
+  maintainer's read: this explains why a participant missed them.
 - C04 deliverables (e.g., "What surprised us," due Nov 2) appear only in the
   pod README table. Not on the dashboard, no notification. The assignment
   itself is defined in one line: "The pod posts one issue titled 'What

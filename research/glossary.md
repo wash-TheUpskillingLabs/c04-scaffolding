@@ -17,6 +17,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - theupskillinglabs.org homepage, logged out (viewed Nov 9, 2026)
 - theupskillinglabs.org Build Cycles, About and Get Involved pages (text pasted by a maintainer, Nov 9, 2026)
 - Interview: past participant, Nov 7, 2026 (#16)
+- Interview: C03 and C04 participant, new to GitHub and AI, Nov 9, 2026 (#23)
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
 - Record: Paradox cards from C04 Sensemaking & Pod Formation, Oct 24 (#21)

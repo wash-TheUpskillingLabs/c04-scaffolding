@@ -122,6 +122,12 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Plain language:** [open]
 - **Equivalent:** [open]
 
+### Open Lab
+- **As written:** "Unlike traditional courses with fixed enrollment and passive instruction, Open Labs are peer-powered and project-based. You don't need a technical background to get started—just a willingness to learn by doing alongside others." "Inside an Open Lab, you'll find weekly workshops and quarterly Build Cycles." The homepage's "Local labs · Find your city" section lists Washington, DC as active, with other cities on a waitlist (homepage, logged out, viewed Nov 9; transcribed from a screenshot, so check the wording).
+- **In practice:** [open]. Not the same as an Open Lab Night (a weeknight kept open for working together).
+- **Plain language:** [open]
+- **Equivalent:** [open]
+
 ---
 
 ## Roles

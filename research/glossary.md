@@ -95,7 +95,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Showcase / Summit / Teach-back
 - **As written:** "Every cycle ends with a public showcase" ("What to Expect"). C04: "Teach-back. We ship" (Dec 8).
-- **In practice:** One Cycle's summit kicks off the next: the summit ends one Cycle (dashboard week 12) and starts the next (week 0), and the new Cycle's theme is announced there (Luma). Summit #3 (Oct 13) ended Build Cycle 3 and announced the Q4 Cycle.
+- **In practice:** One Cycle's summit kicks off the next: the summit ends one Cycle (dashboard week 12) and starts the next (week 0), and the new Cycle's topic is announced there (Luma). Summit #3 (Oct 13) ended Build Cycle 3 and announced the Q4 Cycle.
 - **Plain language:** [open]
 - **Equivalent:** [open]
 
@@ -441,7 +441,7 @@ fill in.
 
 | Month | Week | Dashboard label | Events in other sources | Dorst step | Related practice |
 |---|---|---|---|---|---|
-| 1. Problem Discovery & Definition | 0 | Kickoff + Summit | The previous Cycle's summit kicks off the new Cycle, and the new Cycle's theme is announced (Luma) | [open] | [open] |
+| 1. Problem Discovery & Definition | 0 | Kickoff + Summit | The previous Cycle's summit kicks off the new Cycle, and the new Cycle's topic is announced (Luma) | [open] | [open] |
 | 1. Problem Discovery & Definition | 1 | Problem Proposals | | [open] | [open] |
 | 1. Problem Discovery & Definition | 2 | Problem Voting | | [open] | [open] |
 | 1. Problem Discovery & Definition | 3 | Pod Creation | Luma said pods would form at the Sensemaking Sprint (Jul 25), but in Civics & Elections they didn't (a maintainer who took part) | [open] | [open] |

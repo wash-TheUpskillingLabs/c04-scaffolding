@@ -77,7 +77,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Sensemaking day / Sensemaking Sprint
 - **As written:** Sensemaking Sprint: "you'll collect observations, map stakeholders, surface patterns, and uncover the paradoxes" (Luma, Jul 25). C04: "On sensemaking day (Oct 24) we worked from intuition."
-- **In practice:** A one-day event at the start of the Cycle where pods form and work from hunches. The broader concept: sensemaking is how people make meaning from an ambiguous situation, noticing cues, interpreting them and building a working story of what's going on so they can act (Karl Weick, *Sensemaking in Organizations*, 1995). In design research, it's the core of synthesis, where messy research becomes insight (Jon Kolko). It plays two roles here: a Labs event (Cadence / format) and a mode of thinking that runs through the front end of every process and returns whenever new evidence arrives.
+- **In practice:** A one-day event at the start of the Cycle where people work from hunches. Luma said pods would form at the Civics & Elections Sensemaking Sprint, but they didn't; problem proposals were presented at Meet the Pods in mid-August and then voted on (a maintainer who took part). C04's Oct 24 event was titled "Sensemaking & Pod Formation" (#21). The broader concept: sensemaking is how people make meaning from an ambiguous situation, noticing cues, interpreting them and building a working story of what's going on so they can act (Karl Weick, *Sensemaking in Organizations*, 1995). In design research, it's the core of synthesis, where messy research becomes insight (Jon Kolko). It plays two roles here: a Labs event (Cadence / format) and a mode of thinking that runs through the front end of every process and returns whenever new evidence arrives.
 - **Plain language:** [open]
 - **Equivalent:** A compressed first pass at Dorst's steps 1 to 5 (archaeology, paradox, context, field, themes); the Double Diamond's first diamond, Discover into Define; the d.school's Empathize into Define. Common methods: synthesis, affinity mapping, stakeholder mapping, pattern-finding. Guided by human-centered design: meaning built from real people's experience, not assumptions.
 
@@ -434,8 +434,8 @@ timeline is presented, and the names are open for discussion if findings
 warrant.
 
 The "Events in other sources" column links Labs event names to a week only
-where a source says so, or where the event and the label clearly describe
-the same thing (marked as such). The
+where a source says so. Where a written source and what happened differ,
+both are given. The
 Dorst step and related-practice columns are left `[open]` for the pod to
 fill in.
 
@@ -444,8 +444,8 @@ fill in.
 | 1. Problem Discovery & Definition | 0 | Kickoff + Summit | The previous Cycle's summit kicks off the new Cycle, and the new Cycle's theme is announced (Luma) | [open] | [open] |
 | 1. Problem Discovery & Definition | 1 | Problem Proposals | | [open] | [open] |
 | 1. Problem Discovery & Definition | 2 | Problem Voting | | [open] | [open] |
-| 1. Problem Discovery & Definition | 3 | Pod Creation | Sensemaking Sprint (Jul 25): pods form there (Luma); matched by what happens, not by name | [open] | [open] |
-| 2. Exploration & Experimentation | 4 | Meet The Pods | Meet the Pods (Aug 11), with a Building Out Loud workshop (Luma) | [open] | [open] |
+| 1. Problem Discovery & Definition | 3 | Pod Creation | Luma said pods would form at the Sensemaking Sprint (Jul 25), but in Civics & Elections they didn't (a maintainer who took part) | [open] | [open] |
+| 2. Exploration & Experimentation | 4 | Meet The Pods | Meet the Pods (Aug 11), with a Building Out Loud workshop (Luma). In Civics & Elections, problem proposals were presented here and then voted on (a maintainer who took part), which the dashboard places in weeks 1 and 2 | [open] | [open] |
 | 2. Exploration & Experimentation | 5 | Experiments | | [open] | [open] |
 | 2. Exploration & Experimentation | 6 | Project Pitches | | [open] | [open] |
 | 2. Exploration & Experimentation | 7 | Project Voting | "Form project teams" (week 7, "What to Expect") | [open] | [open] |

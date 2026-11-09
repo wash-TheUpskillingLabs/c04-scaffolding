@@ -105,7 +105,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Pod (Research Pod)
 - **As written:** "small teams called 'pods' form around [problems]" ("What to Expect"). C04: "Each Research Pod has its own repo."
-- **In practice:** Participants treated the pod as the team they'd keep, then found "you are too many here. You definitely are not going to be on the same project" (past participant). A maintainer assumed a pod was a team, from a former workplace that used "pod" that way.
+- **In practice:** Participants treated the pod as the team they'd keep, then found "you are too many here. You definitely are not going to be on the same project" (past participant). Another past participant assumed a pod was a team, from a former workplace that used "pod" that way.
 - **Plain language:** [open]
 - **Equivalent:** [open]
 

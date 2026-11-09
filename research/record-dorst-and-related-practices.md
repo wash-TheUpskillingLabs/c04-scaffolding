@@ -5,7 +5,7 @@ Filed as issue #20.
 1. What it is
 The Build Cycle is built on Kees Dorst's frame creation (archaeology,
 paradox, context, field, themes, frames, futures, transformation,
-integration), a rigorous method for reframing hard problems. It also draws on other methods: work
+integration), a method for reframing hard problems. It also draws on other methods: work
 is organized in sprints, ideas are tested with rapid prototypes, and
 projects ship in weekly releases. The materials teach the steps in Dorst's
 own terms. That creates an opportunity: showing participants how the

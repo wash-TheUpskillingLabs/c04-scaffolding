@@ -27,6 +27,10 @@ Contradictions between sources
   "Fall 2026" (Oct 13 to Dec 8) as Archived. Context: it appeared that
   participants were to sign up for the Cycle on the dashboard, but that
   seems to have been abandoned (a maintainer's observation).
+- Two start dates for C04. The homepage says "From Oct 13 to Dec 8 we're
+  running an internal Build Cycle"; the C04 README says Oct 24 to Dec 8.
+  What turned out to be true: the README starts after pod formation; the
+  homepage dates cover the whole Cycle (a maintainer). Neither says so.
 
 Hard to find
 - In Civics & Elections, the assignments and week-by-week schedule lived in

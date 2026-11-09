@@ -233,7 +233,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Learning Log
 - **As written:** "A few lines on what you're figuring out — that's the check-in" (dashboard).
-- **In practice:** A maintainer's own dashboard showed 8 weeks without a log. At the Oct 3 retreat, many participants reported not filling it out, and said it wasn't as helpful as it could be (heard by a maintainer at the retreat; not recorded in writing, so an organizer could confirm).
+- **In practice:** A maintainer's own dashboard showed 8 weeks without a log. At the Oct 3 retreat, many participants reported not filling it out, and said it wasn't as helpful as it could be (a maintainer attended the retreat and heard these reports firsthand).
 - **Plain language:** [open]
 - **Equivalent:** [open]
 

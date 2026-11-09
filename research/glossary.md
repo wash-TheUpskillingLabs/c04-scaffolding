@@ -21,6 +21,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
 - Record: Paradox cards from C04 Sensemaking & Pod Formation, Oct 24 (#21)
+- Kees Dorst, *Frame Innovation: Create New Thinking by Design* (MIT Press, 2015), chapters 3 and 4
 
 ---
 
@@ -44,6 +45,12 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Plain language:** [open]
 - **Related practices:** [open]
 
+
+### Tension 01: guidance vs. autonomy
+- **As written:** "From the October 3 retreat, tension 01: **guidance vs. autonomy.** It drew more survey responses than any other." As the pod first wrote it: "Structure, framework and syllabus **vs.** free-form 'learn by doing' with guides" and "Peer-to-peer support and discovery **vs.** top-down instruction" (Scaffolding README).
+- **In practice:** See the Oct 24 paradox cards (#21).
+- **Plain language:** [open]
+- **Related practices:** [open]
 ---
 
 ## The Cycle and its milestones
@@ -278,6 +285,40 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ---
 
+## Research workflow
+
+### Player
+- **As written:** "One entry per player (a role or an organization, never a named individual)" in `research/players.md` (Scaffolding README).
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+### Context map / field map
+- **As written:** "Alongside archaeology, the pod maps who is in this problem." Both maps live in `research/players.md`, "with a diagram of the two circles at the top." The context map is "who's in the inner circle" (Scaffolding README). See Context / Field under Method.
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+### Community capitals
+- **As written:** For each player, "What they bring. Which community capitals (natural, cultural, human, social, political, financial, built), and how much" (Scaffolding README).
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+### Quick find / longer write-up
+- **As written:** A quick find is "A new issue, titled `Interview:`, `Case:` or `Record:`." A longer write-up is "A file in `research/`": "Case studies, interview notes (no names), records with numbers" (Scaffolding README).
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+### Start here issue
+- **As written:** "Comment on the pinned **Start here** issue. A maintainer gives you one thing to find out. You don't need to code" (Scaffolding README).
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+---
+
 ## Method (Dorst's frame creation)
 
 A crosswalk to recognized principles and practices is in the Record "Connecting Dorst's frame creation to human-centered design and related practices" (#20, `research/record-dorst-and-related-practices.md`), checked by a maintainer against Dorst & Kokotovich (2015), the Double Diamond and the d.school modes. Use it when filling in the "Related practices" fields below.
@@ -289,37 +330,37 @@ A crosswalk to recognized principles and practices is in the Record "Connecting 
 - **Related practices:** [open]
 
 ### Archaeology
-- **As written:** "Analyzing the history of the problem owner and of the initial problem formulation" (Dorst, quoted in the Scaffolding README).
+- **As written:** "Analyzing the history of the problem owner and of the initial problem formulation" (Dorst, quoted in the Scaffolding README). Dorst, *Frame Innovation* (2015), p. 74: "The first step of the frame creation process is to investigate in depth the apparent problem, as well as earlier attempts to solve it." It also calls for "an analysis of the hard, nonnegotiable boundaries ('They will never …')."
 - **In practice:** Not a term used outside Dorst's method.
 - **Plain language:** [open]
 - **Related practices:** [open]
 
 ### Paradox
-- **As written:** "two things that are both true and pull against each other" (C04 README). Civics & Elections formula: the value, the failure, the trap.
+- **As written:** "two things that are both true and pull against each other" (C04 README). Civics & Elections formula: the value, the failure, the trap. Dorst's step, quoted in the Scaffolding README: "Analyzing the problem situation: what makes this hard?" The README adds: "Written as *because* statements... Then **set aside**. Frames come from the themes, not from staring at the paradox." Dorst, *Frame Innovation* (2015): "The lead question is: What makes this problem hard to solve?" (p. 74); "identify the core paradox or deadlock that keeps the problem owner from moving forward... express the paradox as a clash of rationalities in a series of 'because' statements" (p. 76); and "real-world paradoxes that are caused by conflicting values and needs on the problem side, or by the incommensurability of design outcomes on the solution side" (p. 52).
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Related practices:** [open]
 
 ### Context / Field
-- **As written:** Context: "the inner circle: the players at The Labs who affect this problem today." Field: "everyone around the problem who isn't in the room" (Scaffolding README).
+- **As written:** Context: "the inner circle: the players at The Labs who affect this problem today." Field: "everyone around the problem who isn't in the room" (Scaffolding README). Dorst's steps, quoted in the Scaffolding README: "Analyzing the inner circle of stakeholders" and "Exploring the broader societal field." Dorst, *Frame Innovation* (2015), p. 76: context is "an exploration of the practices of the inner circle of key stakeholders who have been involved in the problem situation before, or those who are clearly going to be necessary participants in any possible solution"; for field, "we... begin to radically widen the context, creating an intellectual, cultural, and social space we will here call a 'field' after Bourdieu."
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Related practices:** [open]
 
 ### Themes
-- **As written:** "The deeper motivations that keep showing up across players... Themes are human, not technical" (Scaffolding README).
+- **As written:** "The deeper motivations that keep showing up across players... Themes are human, not technical" (Scaffolding README). Dorst's step, quoted in the Scaffolding README: "Investigating the themes that emerge in the broader field." Dorst, *Frame Innovation* (2015), p. 77: "we identify and seek to understand the deeper factors that underlie the needs, motivation, and experiences of the 'players' in this wider field."
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Related practices:** [open]
 
 ### Frame
-- **As written:** "a new way of seeing the problem that makes the paradox easier to move," written as "If we treat this problem as if it were a problem of [theme], then..." (READMEs).
+- **As written:** "a new way of seeing the problem that makes the paradox easier to move," written as "If we treat this problem as if it were a problem of [theme], then..." (READMEs). Dorst's step, quoted in the Scaffolding README: "Identifying patterns in the themes to create frames." Dorst, *Frame Innovation* (2015): "a frame is the proposal through which, by applying a particular pattern of relationships, we can create a desired outcome" (p. 53); "a frame is an organizational principle or a coherent set of statements that are useful to think with" (p. 63); "If the problem situation is approached as if it is … , then …" (p. 78).
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Related practices:** [open]
 
 ### Futures / Transformation / Integration
-- **As written:** Dorst's steps 7 to 9 (Scaffolding README): prototypes tested with three people; build and release weekly; "In use, someone keeps it, written up, taught back, pull request to OLOS."
+- **As written:** Dorst's steps 7 to 9 (Scaffolding README): prototypes tested with three people; build and release weekly; "In use, someone keeps it, written up, taught back, pull request to OLOS." Dorst's steps, quoted in the Scaffolding README: "Exploring the possible outcomes and value propositions for the various stakeholders"; "Investigate the change in stakeholders' strategies and practices required for implementation"; "Draw lessons from the new approach and identify new opportunities within the network." Dorst, *Frame Innovation* (2015): in Futures, "a proposed frame is applied to the opened, broadened problem situation, it is then reshaped in a process of coevolution" (p. 78); Transformation is "a critical evaluation of what frames and solution directions would be feasible in the short term, or can be established gradually over a longer period of time" (p. 79); Integration is to "make sure that the new frames and the developments they initiate are well integrated into the broader context of the organizations involved" (p. 79).
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Related practices:** [open]
@@ -358,6 +399,18 @@ A crosswalk to recognized principles and practices is in the Record "Connecting 
 - **Plain language:** [open]
 - **Related practices:** [open]
 
+
+### Release
+- **As written:** "Release weekly to real people. Change it from what they do" (Scaffolding README). Releases due Mon Nov 23 ("First release to the preview link, used by at least three real people"), Nov 30 and Dec 7 ("Final release in the region's instance").
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+### Upstream (pull request to OLOS)
+- **As written:** "anything that holds up goes back to the main OLOS project as a pull request, so the next region starts from what we learned" (Scaffolding README). Proposals answer "What goes upstream to OLOS."
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
 ---
 
 ## Mission and values

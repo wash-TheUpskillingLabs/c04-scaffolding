@@ -13,10 +13,12 @@ A C04 participant in another pod who also took part in Cycle 3.
 Nov 9, 2026 (about 1.5 hours over two recordings, by video).
 
 4. What it says
-(Quotes are verbatim from the conversation, lightly trimmed with "...".)
+(Quotes are verbatim from the conversation, lightly trimmed with "...",
+with filler words such as "like" and "you know" removed where they don't
+change the meaning.)
 
 Getting started
-- Joined part-way through Cycle 3, after missing its start: "I had like July
+- Joined part-way through Cycle 3, after missing its start: "I had July
   13th on my calendar... was going to see the projects from Cycle 2 and then
   see the launch of Cycle 3," then had to go out of town. She didn't realize
   she could still join. "I jumped on the tail end of the Cycle 3 projects."
@@ -42,7 +44,7 @@ Tools
   requests: "I don't know what that is or what it does or when I'm supposed
   to use it."
 - The README's Claude links: "those links don't work for me... I have no
-  clue of what the instructions that say, you know, you do the thinking, let
+  clue of what the instructions that say, you do the thinking, let
   Claude do the administrative work... I don't know what that means."
 - "I managed to go through my cycle contributing a little bit without
   having to learn the GitHub or sign up for Claude yet. But I feel like I
@@ -79,12 +81,12 @@ Sense-making and C04 materials
   Saturday is still kind of confusing." "I'm like, what is shipping?"
 
 Structure
-- "Some structure is good... I don't necessarily need like a lot of
+- "Some structure is good... I don't necessarily need a lot of
   structure, but there's also... different demands on people's time."
   "Having the timeline is good."
 - Examples help: "it would be nice to go back and see the presentations
   from the Cycle 2... having that example is good." "If there was an example
-  of like a pitch or frame... whatever's supposed to be due on Saturday,
+  of a pitch or frame... whatever's supposed to be due on Saturday,
   having an example shared would be useful."
 - Liked the issue templates: "there was a frame to post your information
   in," though "I'm not sure I could fit it into the prompting questions."
@@ -113,7 +115,7 @@ Motivation
   I didn't have purpose to use."
 - "If there's a team goal and I could do something to help that succeed,
   that's motivating for me."
-- On AI: "I'm not, like, using AI too frequently, and I worry about data
+- On AI: "I'm not using AI too frequently, and I worry about data
   security kind of stuff... on the fence kind of watching, seeing what's
   useful."
 - Compliment (weak evidence): "most of what you've done is pretty good and
@@ -165,14 +167,14 @@ Her own words earlier in the interview, before the recap, support it:
   if we have well-defined stages, and... they can say, hey, I'm new to the
   labs, I saw this workshop, it seemed interesting, what else can I get
   involved in? Or somebody told me to join this next cycle, and I want to
-  start with... you know, so you have to have enough of, like, somehow when
+  start with... so you have to have enough of... somehow when
   the person enters, they have to have some prompts." Her examples: someone
   who came in through a single workshop and wants more, and someone told to
   join the next Cycle who doesn't know where to begin.
 - Orientation: it "might have... directed me better to... what the labs
   thinks is the best orientation materials a little quicker."
 - Examples and templates: "knowing how to find the past examples would be
-  useful"; "if you had, like, a template, like, what's your problem
+  useful"; "if you had a template, what's your problem
   statement? Who's your target audience? Why?"
 - Clear tasks: "a clear task, and having a deadline"; "some structure is
   good."

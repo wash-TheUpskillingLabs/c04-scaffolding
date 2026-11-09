@@ -1,6 +1,6 @@
 # Glossary: the words The Labs uses
 
-A shared vocabulary for Build Cycles, built from evidence. Each entry records how a term is **written** in Labs materials, how it's **actually used** (including where people read it differently), a **plain-language** version, and any **equivalent in recognized principles and practices** (design thinking, human-centered design, continuous product development, rapid prototyping, lean startup, agile).
+A shared vocabulary for Build Cycles, built from evidence. Each entry records how a term is **written** in Labs materials, how it's **actually used** (including where people read it differently), a **plain-language** version, and its **related practices** among recognized principles and practices (design thinking, human-centered design, continuous product development, rapid prototyping, lean startup, agile), using the same terms as the crosswalk in #20.
 
 This is research, not a decision. It describes the vocabulary as it is today so the pods can agree on what it should be. The content model (metadata for each piece of learning) is a separate prototype.
 
@@ -32,7 +32,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **As written:** Workshops are "meant to support where you are at in the cycle" ("What to Expect"). The pod's working scope (not Labs material): "matching structure to where someone is, across modules, workshops and the Cycle."
 - **In practice:** The first interview (#16) suggests at least three meanings: **skill level** (a workshop that assumed she knew what an agent was); **what they came for** (direction and a way back to work, a startup idea already in hand, or a specific skill); and **stage of the Cycle** (pod vs. project; structure that came "too slow, then too fast").
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### From whom
 - **As written:** Part of the pod's question (Scaffolding README). Not otherwise defined.
@@ -42,7 +42,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
   - Materials made available for self-directed learning (partial evidence: she wanted hands-on GitHub help; the background-material idea came from the interviewer).
   - Open: organizers and Poderators also appear in #16. Do they belong here?
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ---
 
@@ -52,55 +52,55 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **As written:** "six weeks in which a group of neighbors picks a hard problem, researches it properly, and builds something real in response" (C04 README). "A twelve-week program" / "a 3 month journey" ("What to Expect: The Build Cycle"). Summit #3 announced the Q4 Cycle as "an 8 week build cycle." Build Cycles page: "Build something real, with a team." "Month one: dig into a real problem with your pod. Month two: decide what to build at the Hackathon. Month three: build it, test it, and show it." "What it takes: Six in-person events, a five-minute check-in each week, and the rest on your own time with your team." "What you walk away with: Something real you helped build, proof of it on your profile, and people who've seen what you can do." About page: "Three months, a real problem, a small team that ships."
 - **In practice:** Length differs by source (6, 8, 12 or 13 weeks). The dashboard shows a generic 12-week timeline. Cycles are numbered: Civics & Elections was Build Cycle 3, and C04 is Build Cycle 4. Build Cycles 3 and 4 overlapped (a maintainer).
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Internal Cycle (C04)
 - **As written:** "This Cycle, for the first time, the problem is The Labs itself" (C04 README). Build Cycles page: "From Oct 13 to Dec 8 we're running an internal Build Cycle to strengthen the Labs' foundation, so we can help even more people in 2027. Taken part in the Labs before? You're invited. Join it on Slack." "The first public Build Cycle of 2027 kicks off January 12."
 - **In practice:** The dashboard listed "Internal Cycle" as Upcoming and "Fall 2026" (same dates) as Archived.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Group day
 - **As written:** "On group days, when the whole Cycle meets, work is due when the day starts" (C04 README).
 - **In practice:** Group days are asynchronous milestones, not meetings (learned at an in-person session, Nov 5).
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Open Lab Night
 - **As written:** "the Cycle votes on which weeknight(s) we keep open for working together" (C04 README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Sprint
 - **As written:** Used in event names ("Sensemaking Sprint," "Pod Sprint" track at the hackathon). Not defined in the C04 README.
 - **In practice:** A maintainer didn't realize the Cycle was organized in sprints until after it ended. Two past participants (a maintainer, and the participant interviewed Nov 7, #16) said it would have helped to outline each sprint's goals, the type of work to expect, the deliverables due and by when, and tools and methods one might use. Her words: "these are the tools you can use, and these are the expectations... this week is going to be for this purpose... more deadlines." (She spoke of weeks, not sprints; "methods" is the maintainer's read of her "tools.")
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Sensemaking day / Sensemaking Sprint
 - **As written:** Sensemaking Sprint: "you'll collect observations, map stakeholders, surface patterns, and uncover the paradoxes" (Luma, Jul 25). C04: "On sensemaking day (Oct 24) we worked from intuition."
 - **In practice:** An event at the start of the Cycle where people work from hunches. Luma lists the Civics & Elections Sensemaking Sprint on Jul 25; it may have run about two weeks, covering weeks 1 and 2 (a maintainer's recollection, unconfirmed). In Civics & Elections, the Sensemaking Sprint included an initial round of voting in weeks 1 and 2. Luma said pods would form there, but they didn't: problem statement proposals were presented at Meet the Pods in mid-August, three pod proposals were voted on, and only one ("Effort vs Impact") got enough votes, so there was a single pod (a maintainer who took part). C04's Oct 24 event was titled "Sensemaking & Pod Formation" (#21). The broader concept: sensemaking is how people make meaning from an ambiguous situation, noticing cues, interpreting them and building a working story of what's going on so they can act (Karl Weick, *Sensemaking in Organizations*, 1995). In design research, it's the core of synthesis, where messy research becomes insight (Jon Kolko). It plays two roles here: a Labs event (Cadence / format) and a mode of thinking that runs through the front end of every process and returns whenever new evidence arrives.
 - **Plain language:** [open]
-- **Equivalent:** A compressed first pass at Dorst's steps 1 to 5 (archaeology, paradox, context, field, themes); the Double Diamond's first diamond, Discover into Define; the d.school's Empathize into Define. Common methods: synthesis, affinity mapping, stakeholder mapping, pattern-finding. Guided by human-centered design: meaning built from real people's experience, not assumptions.
+- **Related practices:** A compressed first pass at Dorst's steps 1 to 5 (archaeology, paradox, context, field, themes); the Double Diamond's first diamond, Discover into Define; the d.school's Empathize into Define. Common methods: synthesis, affinity mapping, stakeholder mapping, pattern-finding. Guided by human-centered design: meaning built from real people's experience, not assumptions.
 
 ### Hackathon
 - **As written:** "Idea to Prototype" (Luma, Aug 15), with a Newcomer track and a Pod Sprint track. Build Cycles page: "Month two: decide what to build at the Hackathon."
 - **In practice:** Not shown on the dashboard timeline. Design thinking was taught on the Newcomer track only.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Meet the Pods / Meet the Projects
 - **As written:** [open: quote Luma pages]
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Showcase / Summit / Teach-back
 - **As written:** "Every cycle ends with a public showcase" ("What to Expect"). C04: "Teach-back. We ship" (Dec 8).
 - **In practice:** One Cycle's summit kicks off the next: the summit ends one Cycle (dashboard week 12) and starts the next (week 0), and the new Cycle's topic is announced there (Luma). Summit #3 (Oct 13) ended Build Cycle 3 and announced the Q4 Cycle.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ---
 
@@ -110,25 +110,25 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **As written:** "small teams called 'pods' form around [problems]" ("What to Expect"). C04: "Each Research Pod has its own repo." About page: "A handful of people who dig into a problem together."
 - **In practice:** Participants treated the pod as the team they'd keep, then found "you are too many here. You definitely are not going to be on the same project" (past participant). Another past participant assumed a pod was a team, from a former workplace that used "pod" that way.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Team / project team
 - **As written:** "Form project teams" (week 7, "What to Expect"). C04: "Approved projects get a team."
 - **In practice:** The split from pod into project teams surprised people (past participant).
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Project
 - **As written:** "A project is a change to how The Labs works that a real person uses, built on the region's OLOS and sent to the main project as a pull request" (Scaffolding README). Build Cycles page: "Everything a team builds here is an open-source community project. When the cycle's over, you're free to do whatever you want with it — and so is everyone else."
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Open Lab
 - **As written:** "Unlike traditional courses with fixed enrollment and passive instruction, Open Labs are peer-powered and project-based. You don't need a technical background to get started—just a willingness to learn by doing alongside others." "Inside an Open Lab, you'll find weekly workshops and quarterly Build Cycles." The homepage's "Local labs · Find your city" section lists Washington, DC as active, with other cities on a waitlist (homepage, logged out, viewed Nov 9; transcribed from a screenshot, so check the wording).
 - **In practice:** [open]. Not the same as an Open Lab Night (a weeknight kept open for working together).
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ---
 
@@ -138,73 +138,73 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **As written:** "Upskillers," the people Mentors help "go deep on a theme" (Get Involved page). Participant Success volunteers "support Upskillers throughout their journey" (Get Involved page).
 - **In practice:** People join for different reasons: a job, direction, AI skills, a startup (past participant: "not everyone is there to have their own startup").
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Contributor
 - **As written:** "give what time they have: an interview, a case study, a record, a review. No coding needed" (C04 README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Builder in Residence (BiR)
 - **As written:** "commit 4 to 6 hours a week through Dec 8. After Nov 14, each leads one project and recruits a team. Every builder in residence is a maintainer of their pod" (C04 README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Maintainer
 - **As written:** "run a pod's repo, recruit, and keep the research moving" (C04 README). Also used for module maintainers (steering committee notes).
 - **In practice:** Two meanings: pod maintainer and module maintainer.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Poderator
 - **As written:** On the dashboard, the Learning Log goes to "your Poderator." Not defined in the READMEs.
 - **In practice:** A steering committee member described it as guiding people through the process and scheduling, "not project managing," and "not fully fleshed out." A past participant: "always good to have somebody who knows what's going on behind the scenes."
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Facilitator
 - **As written:** Listed among those involved (Scaffolding README). Described by a steering committee member as "a higher-tier role."
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Mentor
 - **As written:** "learning AI by doing, supported by peers and mentors" ("What to Expect"). About page: "People who've done the work, around when you're stuck." Get Involved page: "Mentors help Upskillers go deep on a theme with subject-matter knowledge, and unblock them when they're stuck — from prompt engineering to deploying a first app." "Experienced practitioners who guide pods and participants through real problems — a single workshop or a whole build cycle, shaped by your availability."
 - **In practice:** Volunteers who may move across Cycles. A past participant found "ask the AI" unhelpful and valued mentors for "a very specific question... based on experience."
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Subject-matter expert (SME)
 - **As written:** [open]
 - **In practice:** A steering committee member described SMEs available "1:1, 1:few, 1:cohort/public." How an SME differs from a mentor isn't written down.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Workshop leader
 - **As written:** Listed among those involved (Scaffolding README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Steering committee / organizers
 - **As written:** "the steering committee may also share direction and constraints along the way" (C04 README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Volunteer teams
 - **As written:** "volunteers for the Labs itself help us build the engine that powers all of it." Teams listed under "Where you can plug in": Mentors; **Programs & Events** ("Organize the workshops, panels, and meetups where learning happens and connections are made"); **Communications** ("Branding, storytelling, and PR — the voice and visual identity of everything we do"); **Participant Success** ("Support Upskillers throughout their journey; keep pods engaged and moving"); **Research & Development** ("Build and maintain the tech that powers the Labs, from the website to community infrastructure"); **Governance** ("Provide strategic oversight so the Labs stays true to its mission and built to last"). "However you want to help — mentor, organizer, or builder — it starts with the same account, one door for everyone" (Get Involved page).
 - **In practice:** [open]. Open question: how does Participant Success relate to the Poderator role?
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Ambassador
 - **As written:** "Ambassadors bring them in with a real conversation, their own story, and one dated next step" (dashboard).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ---
 
@@ -214,121 +214,121 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **As written:** Not defined in the READMEs. A steering committee member: "modular content," "cards to play, but optional." Two kinds: upskilling modules (for learners) and training modules (for those who deliver them).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Workshop
 - **As written:** "Every week, there's two workshops (one in-person, one virtual) meant to support where you are at in the cycle" ("What to Expect"). Steering committee: workshops have outputs. About page: "Hands-on sessions led by practitioners, open to everyone."
 - **In practice:** A past participant found workshops either unneeded or over her head, with no stated starting level.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Training
 - **As written:** Steering committee: training doesn't necessarily have an output.
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Assignment
 - **As written:** Assignment 1 (Problem Frame) and Assignment 2 (Frame Hypothesis), with due dates ("What to Expect: From Pod to Hackathon").
 - **In practice:** Listed in a Google Doc linked from the public homepage, not on the dashboard. A past participant: assignments were "not exactly" clear, "but... we figured it out."
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### "What to Expect" (guides)
 - **As written:** Two Google Docs: the week-by-week Cycle overview and the pod-to-hackathon guide.
 - **In practice:** Listed with "Slack Basics" in the homepage's "Learning Library · on-demand" section, which shows only when logged out, below the fold; logged in, the homepage is the dashboard and the guides aren't there (homepage viewed Nov 9). A participant who finished the Cycle never found them. Another felt they've improved each Cycle.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Learning Library
 - **As written:** "Learning Library · on-demand. Learn at your own pace," with three guides: "Slack Basics," "What to Expect in a Build Cycle" and "What to Expect: From Pod to Hackathon" (homepage, logged out). "You'll get the workshops, the Library, and a dashboard" (Build Cycles page).
 - **In practice:** Shows on the homepage only when logged out, below the fold; logged in, the homepage is the dashboard (homepage viewed Nov 9).
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Syllabus
 - **As written:** "People handed a syllabus never build the judgment the Cycle is for" (C04 invite copy). Pod's first framing: "Structure, framework and syllabus vs. free-form 'learn by doing.'"
 - **In practice:** Can mean a schedule of what and when, or step-by-step instructions on how; the invite doesn't say which. A past participant disagreed that structure blocks judgment.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Learning Log
 - **As written:** "A few lines on what you're figuring out — that's the check-in" (dashboard). Build Cycles page: "a five-minute check-in each week."
 - **In practice:** A maintainer's own dashboard showed 8 weeks without a log. At the Oct 3 retreat, many participants reported not filling it out, and said it wasn't as helpful as it could be (a maintainer attended the retreat and heard these reports firsthand).
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Rapid prototype
 - **As written:** "A clickable page, a fake form, a mock dashboard. Made in an hour with Claude, thrown away without regret... These are probes, not solutions" (Scaffolding README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Proposal
 - **As written:** "One issue titled Proposal: and the project name," with seven questions (Scaffolding README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Evidence: interview, case study, record
 - **As written:** Interview: "A conversation with one person who has lived this problem." Case study: "One organization or program, anywhere, that tried to solve something like this." Record: "Something that already exists: a document, a dataset, a past decision, a survey count" (Scaffolding README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ---
 
 ## Method (Dorst's frame creation)
 
-A crosswalk to recognized principles and practices is in the Record "Connecting Dorst's frame creation to human-centered design and related practices" (#20, `research/record-dorst-and-related-practices.md`), checked by a maintainer against Dorst & Kokotovich (2015), the Double Diamond and the d.school modes. Use it when filling in the "Equivalent" fields below.
+A crosswalk to recognized principles and practices is in the Record "Connecting Dorst's frame creation to human-centered design and related practices" (#20, `research/record-dorst-and-related-practices.md`), checked by a maintainer against Dorst & Kokotovich (2015), the Double Diamond and the d.school modes. Use it when filling in the "Related practices" fields below.
 
 ### Frame creation
 - **As written:** "Hard problems stay hard because everyone looks at them the same way... find the paradox... look for a frame" (C04 README).
 - **In practice:** Linked "for the curious" in Civics & Elections; participants weren't always told the method's name.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Archaeology
 - **As written:** "Analyzing the history of the problem owner and of the initial problem formulation" (Dorst, quoted in the Scaffolding README).
 - **In practice:** Not a term used outside Dorst's method.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Paradox
 - **As written:** "two things that are both true and pull against each other" (C04 README). Civics & Elections formula: the value, the failure, the trap.
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Context / Field
 - **As written:** Context: "the inner circle: the players at The Labs who affect this problem today." Field: "everyone around the problem who isn't in the room" (Scaffolding README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Themes
 - **As written:** "The deeper motivations that keep showing up across players... Themes are human, not technical" (Scaffolding README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Frame
 - **As written:** "a new way of seeing the problem that makes the paradox easier to move," written as "If we treat this problem as if it were a problem of [theme], then..." (READMEs).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Futures / Transformation / Integration
 - **As written:** Dorst's steps 7 to 9 (Scaffolding README): prototypes tested with three people; build and release weekly; "In use, someone keeps it, written up, taught back, pull request to OLOS."
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Scaffolding
 - **As written:** The pod's name. Not defined in the README.
 - **In practice:** In learning research (Wood, Bruner & Ross, 1976), temporary support that helps a learner do what they can't yet do alone, removed as they improve. A maintainer used the word three different ways in one draft paragraph (see the confusion log). A past participant's version: "start from where you are."
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ---
 
@@ -338,25 +338,25 @@ A crosswalk to recognized principles and practices is in the Record "Connecting 
 - **As written:** "The Labs' open-source platform: the software a lab runs on" (Scaffolding README). Also called "the Open Labs Operating System" ("What to Expect").
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Upskilling App / dashboard
 - **As written:** "The Upskilling App at theupskillinglabs.org is the national organization's copy of [OLOS]" (C04 README). Build Cycles page: "An account is free and takes a minute. You'll get the workshops, the Library, and a dashboard."
 - **In practice:** C04 deliverables don't appear on it; C04 runs from GitHub READMEs.
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### GitHub
 - **As written:** Not defined in the READMEs. The pod's evidence is turned in as GitHub issues, and longer write-ups go in through pull requests (Scaffolding README).
 - **In practice:** Used at The Labs, and organizers want to keep using it (from workshops with organizers). In #16, it was the tool her team was expected to use; she already knew it and filled the gap for others ("it wasn't my job"). The events calendar (Luma) lists GitHub workshops from May 2026 (May 16, Jun 16, Aug 18, Sep 22), so that interview's Cycle 1 experience may not hold for later Cycles.
 - **Plain language:** A website where projects are kept in repositories, with every change tracked. People propose changes through pull requests and discuss work in issues.
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Region / regional association
 - **As written:** "The Upskilling Labs of Greater Washington is becoming its own regional association" (C04 README).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ---
 
@@ -368,25 +368,25 @@ From the About page (pasted Nov 9).
 - **As written:** "We don't think the answer is more information. We think it's learning that becomes capability." "Principles, not programs: People are more capable than they realize. Capability grows through practice. Confidence is earned through experience. Better questions matter more than faster answers. Communities become stronger when more people can contribute meaningfully. Learning never really ends." "You leave more capable than you arrived."
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Judgment
 - **As written:** "What work rewards now is different: curiosity, judgment, collaboration, and the ability to adapt" (About page). "We think the judgement of what problems matter remains uniquely human" ("What to Expect: The Build Cycle"). "People handed a syllabus never build the judgment the Cycle is for" (C04 invite copy and the pod's page).
 - **In practice:** A past participant who did two Cycles: "I still don't know what exactly is 'the judgment the Cycle is for'?" (#16; see the confusion log, #17).
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### AI
 - **As written:** "A tool we use everywhere. Never the destination" (About page).
 - **In practice:** A past participant: "What the upskilling lab is promising is something very specifically AI. At least that was my perception" (#16).
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ### Community
 - **As written:** "Library-hosted, in person, in the open." "The Upskilling Labs is a community built around a simple idea: learning sticks when you use it... Born at DC Public Library in fall 2025, run in the open ever since" (About page).
 - **In practice:** [open]
 - **Plain language:** [open]
-- **Equivalent:** [open]
+- **Related practices:** [open]
 
 ---
 
@@ -487,24 +487,24 @@ warrant.
 The "Events in other sources" column links Labs event names to a week only
 where a source says so. Where a written source and what happened differ,
 both are given. The
-Dorst step and related-practice columns are left `[open]` for the pod to
-fill in.
+Dorst step and related-practice columns (named as in the crosswalk, #20)
+are left `[open]` for the pod to fill in.
 
-| Month | Week | Dashboard label | Events in other sources | Dorst step | Related practice |
-|---|---|---|---|---|---|
-| 1. Problem Discovery & Definition | 0 | Kickoff + Summit | The previous Cycle's summit kicks off the new Cycle, and the new Cycle's topic is announced (Luma) | [open] | [open] |
-| 1. Problem Discovery & Definition | 1 | Problem Proposals | In Civics & Elections, an initial round of voting in weeks 1 and 2 was part of the Sensemaking Sprint (a maintainer who took part) | [open] | [open] |
-| 1. Problem Discovery & Definition | 2 | Problem Voting | (as week 1) | [open] | [open] |
-| 1. Problem Discovery & Definition | 3 | Pod Creation | Luma said pods would form at the Sensemaking Sprint (Jul 25), but in Civics & Elections they didn't. Three pod proposals were later voted on (exact timing not recalled); only one, "Effort vs Impact," got enough votes, so the Cycle had a single pod (a maintainer who took part) | [open] | [open] |
-| 2. Exploration & Experimentation | 4 | Meet The Pods | Meet the Pods (Aug 11), with a Building Out Loud workshop (Luma). In Civics & Elections, problem statement proposals were presented here (a maintainer who took part); the dashboard places proposals in week 1 | [open] | [open] |
-| 2. Exploration & Experimentation | 5 | Experiments | | [open] | [open] |
-| 2. Exploration & Experimentation | 6 | Project Pitches | | [open] | [open] |
-| 2. Exploration & Experimentation | 7 | Project Voting | "Form project teams" (week 7, "What to Expect") | [open] | [open] |
-| 3. Prototype Building & Iterating | 8 | Meet The Projects | Meet the Projects (Sep 8), teams of 3 to 7, with a storytelling workshop (Luma) | [open] | [open] |
-| 3. Prototype Building & Iterating | 9 | Mentor Intensive | Whether mentor intensives happened needs confirming with an organizer | [open] | [open] |
-| 3. Prototype Building & Iterating | 10 | Mentor Intensive | (as week 9) | [open] | [open] |
-| 3. Prototype Building & Iterating | 11 | Rehearsal | | [open] | [open] |
-| 3. Prototype Building & Iterating | 12 | Showcase + Summit | "Every cycle ends with a public showcase" ("What to Expect"). Summit #3 (Oct 13) was Build Cycle 3's (Civics & Elections); it announced the Q4 Cycle as "an 8 week build cycle" (Luma) | [open] | [open] |
+| Month | Week | Dashboard label | Events in other sources | Dorst step | Double Diamond | d.school modes | Common methods and tools | Complementary practices |
+|---|---|---|---|---|---|---|---|---|
+| 1. Problem Discovery & Definition | 0 | Kickoff + Summit | The previous Cycle's summit kicks off the new Cycle, and the new Cycle's topic is announced (Luma) | [open] | [open] | [open] | [open] | [open] |
+| 1. Problem Discovery & Definition | 1 | Problem Proposals | In Civics & Elections, an initial round of voting in weeks 1 and 2 was part of the Sensemaking Sprint (a maintainer who took part) | [open] | [open] | [open] | [open] | [open] |
+| 1. Problem Discovery & Definition | 2 | Problem Voting | (as week 1) | [open] | [open] | [open] | [open] | [open] |
+| 1. Problem Discovery & Definition | 3 | Pod Creation | Luma said pods would form at the Sensemaking Sprint (Jul 25), but in Civics & Elections they didn't. Three pod proposals were later voted on (exact timing not recalled); only one, "Effort vs Impact," got enough votes, so the Cycle had a single pod (a maintainer who took part) | [open] | [open] | [open] | [open] | [open] |
+| 2. Exploration & Experimentation | 4 | Meet The Pods | Meet the Pods (Aug 11), with a Building Out Loud workshop (Luma). In Civics & Elections, problem statement proposals were presented here (a maintainer who took part); the dashboard places proposals in week 1 | [open] | [open] | [open] | [open] | [open] |
+| 2. Exploration & Experimentation | 5 | Experiments | | [open] | [open] | [open] | [open] | [open] |
+| 2. Exploration & Experimentation | 6 | Project Pitches | | [open] | [open] | [open] | [open] | [open] |
+| 2. Exploration & Experimentation | 7 | Project Voting | "Form project teams" (week 7, "What to Expect") | [open] | [open] | [open] | [open] | [open] |
+| 3. Prototype Building & Iterating | 8 | Meet The Projects | Meet the Projects (Sep 8), teams of 3 to 7, with a storytelling workshop (Luma) | [open] | [open] | [open] | [open] | [open] |
+| 3. Prototype Building & Iterating | 9 | Mentor Intensive | Whether mentor intensives happened needs confirming with an organizer | [open] | [open] | [open] | [open] | [open] |
+| 3. Prototype Building & Iterating | 10 | Mentor Intensive | (as week 9) | [open] | [open] | [open] | [open] | [open] |
+| 3. Prototype Building & Iterating | 11 | Rehearsal | | [open] | [open] | [open] | [open] | [open] |
+| 3. Prototype Building & Iterating | 12 | Showcase + Summit | "Every cycle ends with a public showcase" ("What to Expect"). Summit #3 (Oct 13) was Build Cycle 3's (Civics & Elections); it announced the Q4 Cycle as "an 8 week build cycle" (Luma) | [open] | [open] | [open] | [open] | [open] |
 
 **Not on the timeline:** the Hackathon (Aug 15, "Idea to Prototype," Luma),
 the Monday virtual check-ins (Luma), Assignments 1 and 2 ("What to Expect:

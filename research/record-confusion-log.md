@@ -14,8 +14,17 @@ A pod maintainer who was also a Civics & Elections participant.
 Started Nov 6, 2026. Ongoing.
 
 4. What it says
+Grouped by kind. Each entry: what it said, where, and what turned out to be
+true.
 
-Where things live
+Contradictions between sources
+- The dashboard shows the generic 12-week timeline with no dates or
+  "you are here." C04 runs Oct 24 to Dec 8 (about 6.5 weeks) and was announced
+  at Summit #3 as "an 8 week build cycle."
+- The dashboard listed "Internal Cycle" (starts Oct 13) as Upcoming and
+  "Fall 2026" (Oct 13 to Dec 8) as Archived.
+
+Hard to find
 - In Civics & Elections, the assignments and week-by-week schedule lived in
   two Google Docs linked from the public homepage, theupskillinglabs.org, not
   on the dashboard. A participant who finished the Cycle never found them.
@@ -29,33 +38,20 @@ Where things live
   use it; a maintainer's guess). A maintainer's view: for an internal Cycle
   this is fine and carries little weight. For an external Cycle, the same
   split would be far more confusing.
+- Design thinking was taught at the hackathon on the Newcomer track only;
+  pod members were in a different track.
 
-Schedule and timeline
-- "Group days" sound like meetings ("when the whole Cycle meets," C04 README),
-  but they're asynchronous milestones. Learned at an in-person session, Nov 5.
-- The dashboard shows the generic 12-week timeline with no dates or
-  "you are here." C04 runs Oct 24 to Dec 8 (about 6.5 weeks) and was announced
-  at Summit #3 as "an 8 week build cycle."
-- The dashboard listed "Internal Cycle" (starts Oct 13) as Upcoming and
-  "Fall 2026" (Oct 13 to Dec 8) as Archived.
-
-Method and terms
+Undefined terms
 - The Build Cycle is built on Dorst's frame creation and works in sprints,
   but participants weren't always told the method's name (it was linked
   "for the curious"). Its terms (archaeology, paradox, context, field,
   themes, frames) aren't yet connected to recognized principles and
   practices, which is an opportunity (see the Record "Connecting Dorst's
   frame creation to human-centered design and related practices," #20).
-- Design thinking was taught at the hackathon on the Newcomer track only;
-  pod members were in a different track.
 - "The judgment the Cycle is for" and "syllabus" (in the C04 invite copy)
   weren't clear to a maintainer without explanation. "Syllabus" can mean a
   schedule of what and when, or step-by-step instructions on how; the
   invite doesn't say which.
-- "Pod" vs. "team": a maintainer assumed a pod was the same as a team (a
-  former workplace used "pod" to mean a team). A past participant
-  interviewed on Nov 7 (#16) described the same confusion when pods split into
-  smaller project teams.
 - "Scaffolding," the pod's own name, isn't defined anywhere in the README.
   While drafting a finding, the maintainer used the word three different
   ways in one paragraph:
@@ -69,6 +65,14 @@ Method and terms
   3. One item in a list. "The scaffolding, terminology, and support feel
      misaligned" treated it as separate from support, even though in sense
      1 support is scaffolding. So the list counted the same thing twice.
+
+A label that doesn't match practice
+- "Group days" sound like meetings ("when the whole Cycle meets," C04 README),
+  but they're asynchronous milestones. Learned at an in-person session, Nov 5.
+- "Pod" vs. "team": a maintainer assumed a pod was the same as a team (a
+  former workplace used "pod" to mean a team). A past participant
+  interviewed on Nov 7 (#16) described the same confusion when pods split into
+  smaller project teams.
 
 5. What it tells us (my read)
 [mine]

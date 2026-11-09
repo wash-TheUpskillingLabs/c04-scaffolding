@@ -361,6 +361,12 @@ important... an introduction to GitHub... and do hands-on to get them
 started").
 Context: GitHub is used at The Labs and organizers want to keep using it
 (from workshops with organizers); in the interview, we both took it as given.
+Note (Nov 9, 2026): The Labs' events calendar (Luma) lists GitHub
+workshops from May 2026: "Introduction to GitHub for Team Projects" (May 16,
+Aug 18) and "GitHub 2.0: The Handoff" (Jun 16, Sep 22), during the Energy &
+Climate and Civics & Elections Cycles. Her GitHub story is from the pilot
+Cycle, so "without being taught" (here and in the finding on materials)
+may describe the pilot rather than later Cycles.
 
 Secondary takeaways, ranked by how clearly she said it. All come from one
 interview, so the rating reflects how clearly she said it, not how widely

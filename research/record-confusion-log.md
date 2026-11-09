@@ -24,6 +24,13 @@ Where things live
   pod README table. Not on the dashboard, no notification. The assignment
   itself is defined in one line: "The pod posts one issue titled 'What
   surprised us': three things."
+- C04 doesn't seem to use the dashboard at all. It runs from the GitHub
+  READMEs, and the dashboard shows only the generic 12-week timeline. Yet
+  the dashboard lists "Internal Cycle" as Upcoming, which suggests there may
+  once have been a plan to run C04 there (a maintainer's guess). The
+  Scaffolding README says Greater Washington "is setting up its own copy"
+  of OLOS for this Cycle, and that prototypes move there "once the region's
+  OLOS instance is up."
 
 Schedule and timeline
 - "Group days" sound like meetings ("when the whole Cycle meets," C04 README),
@@ -70,5 +77,7 @@ Method and terms
 
 6. Is any of this hearsay?
 "Group days are async" was learned verbally; an organizer could confirm.
+Whether C04 was ever meant to run on the dashboard is a guess; an organizer
+could confirm.
 The pod-vs-team entry is partly the maintainer's own experience and partly
 from one interview. The rest comes from documents and screenshots.

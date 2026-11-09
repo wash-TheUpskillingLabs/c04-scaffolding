@@ -71,7 +71,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Sprint
 - **As written:** Used in event names ("Sensemaking Sprint," "Pod Sprint" track at the hackathon). Not defined in the C04 README.
-- **In practice:** A maintainer didn't realize the Cycle was organized in sprints until after it ended.
+- **In practice:** A maintainer didn't realize the Cycle was organized in sprints until after it ended. Two past participants (a maintainer, and the participant interviewed Nov 7, #16) said it would have helped to outline each sprint's goals, the type of work to expect, the deliverables due and by when, and tools and methods one might use. Her words: "these are the tools you can use, and these are the expectations... this week is going to be for this purpose... more deadlines." (She spoke of weeks, not sprints; "methods" is the maintainer's read of her "tools.")
 - **Plain language:** [open]
 - **Equivalent:** [open]
 

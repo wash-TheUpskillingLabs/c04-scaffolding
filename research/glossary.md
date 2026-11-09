@@ -15,6 +15,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - "What to Expect: The Build Cycle" and "What to Expect: From Pod to Hackathon" (Civics & Elections, Google Docs linked from theupskillinglabs.org)
 - Upskilling App dashboard (viewed Nov 5, 2026)
 - theupskillinglabs.org homepage, logged out (viewed Nov 9, 2026)
+- theupskillinglabs.org Build Cycles page and About page (text pasted by a maintainer, Nov 9, 2026)
 - Interview: past participant, Nov 7, 2026 (#16)
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
@@ -47,13 +48,13 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 ## The Cycle and its milestones
 
 ### Build Cycle
-- **As written:** "six weeks in which a group of neighbors picks a hard problem, researches it properly, and builds something real in response" (C04 README). "A twelve-week program" / "a 3 month journey" ("What to Expect: The Build Cycle"). Summit #3 announced the Q4 Cycle as "an 8 week build cycle."
+- **As written:** "six weeks in which a group of neighbors picks a hard problem, researches it properly, and builds something real in response" (C04 README). "A twelve-week program" / "a 3 month journey" ("What to Expect: The Build Cycle"). Summit #3 announced the Q4 Cycle as "an 8 week build cycle." Build Cycles page: "Build something real, with a team." "Month one: dig into a real problem with your pod. Month two: decide what to build at the Hackathon. Month three: build it, test it, and show it." "What it takes: Six in-person events, a five-minute check-in each week, and the rest on your own time with your team." "What you walk away with: Something real you helped build, proof of it on your profile, and people who've seen what you can do." About page: "Three months, a real problem, a small team that ships."
 - **In practice:** Length differs by source (6, 8, 12 or 13 weeks). The dashboard shows a generic 12-week timeline. Cycles are numbered: Civics & Elections was Build Cycle 3, and C04 is Build Cycle 4. Build Cycles 3 and 4 overlapped (a maintainer).
 - **Plain language:** [open]
 - **Equivalent:** [open]
 
 ### Internal Cycle (C04)
-- **As written:** "This Cycle, for the first time, the problem is The Labs itself" (C04 README).
+- **As written:** "This Cycle, for the first time, the problem is The Labs itself" (C04 README). Build Cycles page: "From Oct 13 to Dec 8 we're running an internal Build Cycle to strengthen the Labs' foundation, so we can help even more people in 2027. Taken part in the Labs before? You're invited. Join it on Slack." "The first public Build Cycle of 2027 kicks off January 12."
 - **In practice:** The dashboard listed "Internal Cycle" as Upcoming and "Fall 2026" (same dates) as Archived.
 - **Plain language:** [open]
 - **Equivalent:** [open]
@@ -83,7 +84,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Equivalent:** A compressed first pass at Dorst's steps 1 to 5 (archaeology, paradox, context, field, themes); the Double Diamond's first diamond, Discover into Define; the d.school's Empathize into Define. Common methods: synthesis, affinity mapping, stakeholder mapping, pattern-finding. Guided by human-centered design: meaning built from real people's experience, not assumptions.
 
 ### Hackathon
-- **As written:** "Idea to Prototype" (Luma, Aug 15), with a Newcomer track and a Pod Sprint track.
+- **As written:** "Idea to Prototype" (Luma, Aug 15), with a Newcomer track and a Pod Sprint track. Build Cycles page: "Month two: decide what to build at the Hackathon."
 - **In practice:** Not shown on the dashboard timeline. Design thinking was taught on the Newcomer track only.
 - **Plain language:** [open]
 - **Equivalent:** [open]
@@ -105,7 +106,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 ## Groups
 
 ### Pod (Research Pod)
-- **As written:** "small teams called 'pods' form around [problems]" ("What to Expect"). C04: "Each Research Pod has its own repo."
+- **As written:** "small teams called 'pods' form around [problems]" ("What to Expect"). C04: "Each Research Pod has its own repo." About page: "A handful of people who dig into a problem together."
 - **In practice:** Participants treated the pod as the team they'd keep, then found "you are too many here. You definitely are not going to be on the same project" (past participant). Another past participant assumed a pod was a team, from a former workplace that used "pod" that way.
 - **Plain language:** [open]
 - **Equivalent:** [open]
@@ -117,7 +118,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Equivalent:** [open]
 
 ### Project
-- **As written:** "A project is a change to how The Labs works that a real person uses, built on the region's OLOS and sent to the main project as a pull request" (Scaffolding README).
+- **As written:** "A project is a change to how The Labs works that a real person uses, built on the region's OLOS and sent to the main project as a pull request" (Scaffolding README). Build Cycles page: "Everything a team builds here is an open-source community project. When the cycle's over, you're free to do whatever you want with it — and so is everyone else."
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Equivalent:** [open]
@@ -169,7 +170,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Equivalent:** [open]
 
 ### Mentor
-- **As written:** "learning AI by doing, supported by peers and mentors" ("What to Expect").
+- **As written:** "learning AI by doing, supported by peers and mentors" ("What to Expect"). About page: "People who've done the work, around when you're stuck."
 - **In practice:** Volunteers who may move across Cycles. A past participant found "ask the AI" unhelpful and valued mentors for "a very specific question... based on experience."
 - **Plain language:** [open]
 - **Equivalent:** [open]
@@ -209,7 +210,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Equivalent:** [open]
 
 ### Workshop
-- **As written:** "Every week, there's two workshops (one in-person, one virtual) meant to support where you are at in the cycle" ("What to Expect"). Steering committee: workshops have outputs.
+- **As written:** "Every week, there's two workshops (one in-person, one virtual) meant to support where you are at in the cycle" ("What to Expect"). Steering committee: workshops have outputs. About page: "Hands-on sessions led by practitioners, open to everyone."
 - **In practice:** A past participant found workshops either unneeded or over her head, with no stated starting level.
 - **Plain language:** [open]
 - **Equivalent:** [open]
@@ -232,6 +233,12 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Plain language:** [open]
 - **Equivalent:** [open]
 
+### Learning Library
+- **As written:** "Learning Library · on-demand. Learn at your own pace," with three guides: "Slack Basics," "What to Expect in a Build Cycle" and "What to Expect: From Pod to Hackathon" (homepage, logged out). "You'll get the workshops, the Library, and a dashboard" (Build Cycles page).
+- **In practice:** Shows on the homepage only when logged out, below the fold; logged in, the homepage is the dashboard (homepage viewed Nov 9).
+- **Plain language:** [open]
+- **Equivalent:** [open]
+
 ### Syllabus
 - **As written:** "People handed a syllabus never build the judgment the Cycle is for" (C04 invite copy). Pod's first framing: "Structure, framework and syllabus vs. free-form 'learn by doing.'"
 - **In practice:** Can mean a schedule of what and when, or step-by-step instructions on how; the invite doesn't say which. A past participant disagreed that structure blocks judgment.
@@ -239,7 +246,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Equivalent:** [open]
 
 ### Learning Log
-- **As written:** "A few lines on what you're figuring out — that's the check-in" (dashboard).
+- **As written:** "A few lines on what you're figuring out — that's the check-in" (dashboard). Build Cycles page: "a five-minute check-in each week."
 - **In practice:** A maintainer's own dashboard showed 8 weeks without a log. At the Oct 3 retreat, many participants reported not filling it out, and said it wasn't as helpful as it could be (a maintainer attended the retreat and heard these reports firsthand).
 - **Plain language:** [open]
 - **Equivalent:** [open]
@@ -327,7 +334,7 @@ A crosswalk to recognized principles and practices is in the Record "Connecting 
 - **Equivalent:** [open]
 
 ### Upskilling App / dashboard
-- **As written:** "The Upskilling App at theupskillinglabs.org is the national organization's copy of [OLOS]" (C04 README).
+- **As written:** "The Upskilling App at theupskillinglabs.org is the national organization's copy of [OLOS]" (C04 README). Build Cycles page: "An account is free and takes a minute. You'll get the workshops, the Library, and a dashboard."
 - **In practice:** C04 deliverables don't appear on it; C04 runs from GitHub READMEs.
 - **Plain language:** [open]
 - **Equivalent:** [open]
@@ -340,6 +347,36 @@ A crosswalk to recognized principles and practices is in the Record "Connecting 
 
 ### Region / regional association
 - **As written:** "The Upskilling Labs of Greater Washington is becoming its own regional association" (C04 README).
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Equivalent:** [open]
+
+---
+
+## Mission and values
+
+From the About page (pasted Nov 9).
+
+### Capability
+- **As written:** "We don't think the answer is more information. We think it's learning that becomes capability." "Principles, not programs: People are more capable than they realize. Capability grows through practice. Confidence is earned through experience. Better questions matter more than faster answers. Communities become stronger when more people can contribute meaningfully. Learning never really ends." "You leave more capable than you arrived."
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Equivalent:** [open]
+
+### Judgment
+- **As written:** "What work rewards now is different: curiosity, judgment, collaboration, and the ability to adapt" (About page). "We think the judgement of what problems matter remains uniquely human" ("What to Expect: The Build Cycle"). "People handed a syllabus never build the judgment the Cycle is for" (C04 invite copy and the pod's page).
+- **In practice:** A past participant who did two Cycles: "I still don't know what exactly is 'the judgment the Cycle is for'?" (#16; see the confusion log, #17).
+- **Plain language:** [open]
+- **Equivalent:** [open]
+
+### AI
+- **As written:** "A tool we use everywhere. Never the destination" (About page).
+- **In practice:** A past participant: "What the upskilling lab is promising is something very specifically AI. At least that was my perception" (#16).
+- **Plain language:** [open]
+- **Equivalent:** [open]
+
+### Community
+- **As written:** "Library-hosted, in person, in the open." "The Upskilling Labs is a community built around a simple idea: learning sticks when you use it... Born at DC Public Library in fall 2025, run in the open ever since" (About page).
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Equivalent:** [open]

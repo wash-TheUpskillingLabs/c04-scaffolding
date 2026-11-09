@@ -186,6 +186,12 @@ What she learned
   there, even from the non-technical people."
 - Most learning was self-directed: "I learned a lot, it's just because I
   just decided like, okay, you know what, this is what I want to learn."
+- Found peer learning valuable. Besides teammates' technical comments
+  (above), others in her cohort showed her that meetings can be
+  transcribed: "I was like, oh, I'm going to write down, like, notes. And
+  everybody was laughing at me because I'm like, yeah, that is like this AI
+  transcribing." On connections generally: "it's definitely good, like, to
+  have all these connections."
 - On prototypes vs. real projects: "AI is easy. But as your project gets
   bigger and bigger, it becomes hard."
 - Would not do another Cycle. The pod phase felt slow because she wanted
@@ -345,6 +351,16 @@ recommended NotebookLM, and she found it very useful for research, but it
 wasn't covered in any workshop or reading material. The workshop that
 missed for her did so for two reasons: it assumed background she didn't
 have, and it was tied to one vendor's tool.
+
+Finding on tools (my read): GitHub worked as an expectation without being
+taught, so participants who already knew it filled the gap for others. She
+already knew it ("I did not need that, I already knew how to work with
+GitHub"), set up the repo for her team, and at times felt this support
+should also have come from the Lab ("it wasn't my job"; "these workshops are
+important... an introduction to GitHub... and do hands-on to get them
+started").
+Context: GitHub is used at The Labs and organizers want to keep using it
+(from workshops with organizers); in the interview, we both took it as given.
 
 Secondary takeaways, ranked by how clearly she said it. All come from one
 interview, so the rating reflects how clearly she said it, not how widely

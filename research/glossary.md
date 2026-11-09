@@ -47,7 +47,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Build Cycle
 - **As written:** "six weeks in which a group of neighbors picks a hard problem, researches it properly, and builds something real in response" (C04 README). "A twelve-week program" / "a 3 month journey" ("What to Expect: The Build Cycle"). Summit #3 announced the Q4 Cycle as "an 8 week build cycle."
-- **In practice:** Length differs by source (6, 8, 12 or 13 weeks). The dashboard shows a generic 12-week timeline.
+- **In practice:** Length differs by source (6, 8, 12 or 13 weeks). The dashboard shows a generic 12-week timeline. Cycles are numbered: Civics & Elections was Build Cycle 3, and C04 is Build Cycle 4. Build Cycles 3 and 4 overlapped (a maintainer).
 - **Plain language:** [open]
 - **Equivalent:** [open]
 
@@ -453,11 +453,7 @@ fill in.
 | 3. Prototype Building & Iterating | 9 | Mentor Intensive | Whether mentor intensives happened needs confirming with an organizer | [open] | [open] |
 | 3. Prototype Building & Iterating | 10 | Mentor Intensive | (as week 9) | [open] | [open] |
 | 3. Prototype Building & Iterating | 11 | Rehearsal | | [open] | [open] |
-| 3. Prototype Building & Iterating | 12 | Showcase + Summit | "Every cycle ends with a public showcase" ("What to Expect") | [open] | [open] |
-
-**Unplaced:** Summit #3 (Oct 13) announced the Q4 Cycle as "an 8 week
-build cycle" (Luma). It could be week 0 of one Cycle or week 12 of the
-previous one.
+| 3. Prototype Building & Iterating | 12 | Showcase + Summit | "Every cycle ends with a public showcase" ("What to Expect"). Summit #3 (Oct 13) was Build Cycle 3's (Civics & Elections); it announced the Q4 Cycle as "an 8 week build cycle" (Luma) | [open] | [open] |
 
 **Not on the timeline:** the Hackathon (Aug 15, "Idea to Prototype," Luma),
 the Monday virtual check-ins (Luma), Assignments 1 and 2 ("What to Expect:

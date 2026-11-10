@@ -26,11 +26,11 @@ Caveat: these are recollections written three to four months later, after the po
 
 4. What it says
 
-#Warm-up: which Cycle, and what the pod worked on
+Warm-up: which Cycle, and what the pod worked on
 
 Civics & Elections (C03), in the Effort vs. Impact pod. My paradox for Assignment 2 was "input without answer": public comment exists to make local decisions legitimate, but with no visible reply it does the opposite. At the Hackathon I built a prototype (HearBack) with Claude Code and Vercel. It became a project with a small team after Meet the Projects. [confirm]
 
-#Q1. Start of the Cycle: how did I figure out what I was supposed to be doing?
+Q1. Start of the Cycle: how did I figure out what I was supposed to be doing?
 
 Quotes:
 - "We went through them very very fast. And I think I guessed based on context." (about the sensemaking tool's explanations at the Jul 25 Sprint, Nov 6)
@@ -50,7 +50,7 @@ What this suggests (my read, to test): the guide was in the place I was looking,
 - Who did I ask?
 - What did I assume the Cycle was for, in week one? Write the assumption I had then, not the one I have now.
 
-#Q2. A week when I wasn't sure what to work on
+Q2. A week when I wasn't sure what to work on
 
 Quotes:
 - "What was due when" / "where are we? A loose syllabus of expected deliverables." (Nov 5)
@@ -71,7 +71,7 @@ The Learning Log:
 - My own dashboard showed 8 weeks without a log (viewed Nov 5, 2026).
 - At the Oct 3 retreat, many participants reported not filling out the Learning Log, and said it wasn't as helpful as it could be (heard firsthand).
 
-#Q3. A time I needed to learn something I didn't know: how I got unstuck
+Q3. A time I needed to learn something I didn't know: how I got unstuck
 
 Quote:
 - "An overview of migrating from an individual prototype to a team-based prototype using recommended toolsets would have been extremely helpful (e.g., Github orgs/teams, free-tier versions of Supabase or similar that allow team collaborators, etc.)" (Nov 5)
@@ -102,7 +102,7 @@ What it cost:
 
 My read (to test): help worked when it was sitting next to me, in person, on a set day. Once the Hackathon was over, I didn't go looking for it. The mentor and the Poderator were both there, and I didn't think to ask.
 
-#Q4. A workshop or session I went to: what I walked away with
+Q4. A workshop or session I went to: what I walked away with
 
 Quote:
 - "Some of the concepts were covered in optional workshops that are optional, but are complementary to the build cycle. At the Hackathon, we also had a track for workshops, but it was for newcomers." (Nov 5)
@@ -122,7 +122,7 @@ My read (to test): I skipped the workshops for two reasons, time and framing. Th
 - Did I go to any other workshop? If not, say so.
 - If the Meet the feedback counts as a "session": how well did it match where I was, and what did I do right after?
 
-#Q5. When did things feel clear? What made them clear? (Test for the opposite. Don't skip.)
+Q5. When did things feel clear? What made them clear? (Test for the opposite. Don't skip.)
 
 From my account (Q3):
 - **Hackathon setup with a mentor next to me.** "Extremely helpful." I got through setup and built a working prototype that day. [fill in: what made it clear? My guess: help was right there when I hit the problem.]
@@ -138,7 +138,7 @@ Candidates from the records. Only keep the ones that were really clear at the ti
 - Who or what made it clear? What was different about that moment?
 - Was there any point where I wanted less structure, or where structure got in the way?
 
-#Q6. When the pod turned into project teams: what happened?
+Q6. When the pod turned into project teams: what happened?
 
 Notes and records:
 - Confusion log (Nov 6, my entry): I assumed a pod was the same as a team, because a former workplace used "pod" to mean a team.
@@ -151,7 +151,7 @@ Notes and records:
 - What did I assume the pod was, and when did I find out otherwise?
 - What did we do when two people had built two versions? We recreated it from the GitHub files (Q3). "The teammate decided to use her account. She had time to start it and proceeded." It stayed in her individual account.
 
-#Q7. Motivation: why did I join, and why does that matter?
+Q7. Motivation: why did I join, and why does that matter?
 
 Note:
 - In #16 I wrote that I came for a specific skill: "I specifically wanted to learn to vibe code."
@@ -171,7 +171,7 @@ The why chain so far: learn to build with AI → be able to "build for learning,
 Note: "asked of product management now" is my read of the job market, not something this file shows. Job postings could check it (see #20).
 
 
-#Q8. If a hiring manager asked what I learned at The Labs, what would I say?
+Q8. If a hiring manager asked what I learned at The Labs, what would I say?
 
 Quote:
 - "I have gotten hands on 'build to learn' experience via The Upskilling Labs." (my notes, Sep 22)
@@ -195,7 +195,7 @@ What the words show (listen-for from the guide):
 - When did I write the C03 description: during the Cycle, or after C04 started? If after, the C04 translation work may have shaped it.
 - Has anyone asked about it in an interview? What did I say out loud, and what follow-up did I get?
 
-#Close
+Close
 
 - Who else should I talk to? [fill in by role: whoever ran the GitHub workshops, to find out what they covered and who came; the people at the Summit #3 table (pod members and our Poderator), to confirm what was said; a HearBack teammate newer to tech; someone who was on the Hackathon's Newcomer track; someone who left the Cycle early]
 - Follow-up: not applicable (self-report).

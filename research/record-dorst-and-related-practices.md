@@ -97,6 +97,19 @@ of Dorst & Kokotovich's own one-line definitions.
 ---
 Crosswalk: Dorst's steps and related practices (rough guide, not equivalents)
 
+How these frameworks differ (my read). Dorst's frame creation spends
+significant time on the problem before moving to solutions. Expert
+designers "spend an awful lot of time... looking at their problem... once
+they've got a new frame, the solutions follow very quickly" (Kees Dorst,
+interviewed in the Design Theory and Methodology podcast, TU Delft, episode
+1, "Reflective Practice"). He argues that interest in "design thinking"
+"mostly focuses on the designer's abilities in generating solutions, rather
+than on the key ability of expert designers to create new approaches to
+problem situations ('framing')" (Frame Innovation, ch. 1). So this
+crosswalk is a rough guide. IDEO's phases and the Double Diamond have no
+named stage for much of Dorst's problem-side work, especially Archaeology
+and Themes.
+
 Human-centered design is the principle behind all of these: design around
 the needs and context of the people affected. It has no steps of its own,
 so it doesn't appear as a column, but it runs through Context, Field and
@@ -126,6 +139,7 @@ Sources: Dorst & Kokotovich (2015), IASDR paper on Frame Creation; Design
 Council, "Framework for Innovation" (Double Diamond); Stanford d.school,
 Design Thinking Bootleg; IDEO U, "Design Thinking Resources" (viewed Nov 9,
 2026); UXPin, "Double Diamond Design Process Explained" (the explainer the
-Cycle 3 guide links to); Weick, Sensemaking in Organizations (1995); Kolko,
+Cycle 3 guide links to); Design Theory and Methodology podcast (TU Delft),
+episode 1, "Reflective Practice," interview with Kees Dorst; Weick, Sensemaking in Organizations (1995); Kolko,
 "Abductive Thinking and Sensemaking: The Drivers of Design Synthesis,"
 Design Issues 26(1), 2010.

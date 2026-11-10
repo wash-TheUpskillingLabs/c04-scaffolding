@@ -25,6 +25,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - Record: Paradox cards from C04 Sensemaking & Pod Formation, Oct 24 (#21)
 - Record: How Civics & Elections (Build Cycle 3) actually ran, with the participant emails and guides (#24, `research/c03-civics-elections/`)
 - Kees Dorst, *Frame Innovation: Create New Thinking by Design* (MIT Press, 2015), chapters 3 and 4
+- Stakeholder Profiles reading, C04 Sensemaking (the guide behind the profile form at dev.sensemaking.theupskillinglabs.org/reading; it calls itself "version one... It is not settled"; links checked October 2026; text pasted by a maintainer, Nov 10, 2026)
 
 ---
 
@@ -299,7 +300,19 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Related practices:** [open]
 
 ### Community capitals
-- **As written:** For each player, "What they bring. Which community capitals (natural, cultural, human, social, political, financial, built), and how much" (Scaffolding README).
+- **As written:** For each player, "What they bring. Which community capitals (natural, cultural, human, social, political, financial, built), and how much" (Scaffolding README). The C04 Stakeholder Profiles reading: "Money is one kind of wealth. There are six more, and they feed each other." From Cornelia and Jan Flora: "Natural is land, water, and parks. Cultural is traditions, language, and identity; what decides whether a program feels like it belongs. Human is people's skills, knowledge, and health, the one upskilling works on most directly. Social is who knows whom; most people hear about work from someone they know. Political is having a say in decisions, like which training gets funded. Financial is wages, grants, loans, and who controls them. Built is buildings, transit, and technology. A class is only as reachable as the bus that goes there." The reading notes that the work examples are the Labs' own. For the profile: "Rate all seven."
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+### Spiraling up
+- **As written:** "Build one kind of capital and it tends to pull the others up with it. Neighbors who trust each other share leads on work; skills follow, then better work, then money and voice. It spirals down the same way. Lose an employer and you can lose wages, then people, then the trust the next effort would have needed" (C04 Stakeholder Profiles reading, citing Emery and Flora, 2006). See Community capitals.
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+### Primary and supporting customers (serving, contributing, sustaining)
+- **As written:** From Peter Drucker, "a nonprofit has two kinds of customers." The primary customer is "the person whose life is changed through your work. For The Labs, that's an Upskiller." The supporting customers are "everyone who has to be satisfied for the work to continue. We split them in two: the contributing, who host it, hire from it, refer people to it, or give their time, and the sustaining, who pay for it. Players who work for the same people The Labs does, in their own way, are serving." For the profile: "Tick whether this player is serving, contributing, sustaining, any mix, or none" (C04 Stakeholder Profiles reading). The split into contributing and sustaining is the Labs' own ("We split them in two").
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Related practices:** [open]
@@ -329,7 +342,7 @@ A crosswalk to recognized principles and practices is in the Record "Connecting 
 - **Related practices:** [open]
 
 ### Archaeology
-- **As written:** "Analyzing the history of the problem owner and of the initial problem formulation" (Dorst, quoted in the Scaffolding README). Dorst, *Frame Innovation* (2015), p. 74: "The first step of the frame creation process is to investigate in depth the apparent problem, as well as earlier attempts to solve it." It also calls for "an analysis of the hard, nonnegotiable boundaries ('They will never …')."
+- **As written:** "Analyzing the history of the problem owner and of the initial problem formulation" (Dorst, quoted in the Scaffolding README). Dorst, *Frame Innovation* (2015), p. 74: "The first step of the frame creation process is to investigate in depth the apparent problem, as well as earlier attempts to solve it." It also calls for "an analysis of the hard, nonnegotiable boundaries ('They will never …')." The C04 Stakeholder Profiles reading: "Who tried what? What happened? What did everyone assume?"
 - **In practice:** See #20 and #23.
 - **Plain language:** [open]
 - **Related practices:** [open]
@@ -436,6 +449,12 @@ From the About page (pasted Nov 9).
 
 ### Community
 - **As written:** "Library-hosted, in person, in the open." "The Upskilling Labs is a community built around a simple idea: learning sticks when you use it... Born at DC Public Library in fall 2025, run in the open ever since" (About page).
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+### Community economic development
+- **As written:** "a neighborhood improving its own economy, with the people who live there making the decisions." "The Labs works the same way. Who already works here? What do they already make, fix, and sell? Which employers already hire? Which training already exists? Who already trusts whom?" (C04 Stakeholder Profiles reading, not the About page).
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Related practices:** [open]

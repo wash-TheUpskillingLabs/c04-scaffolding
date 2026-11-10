@@ -1,221 +1,101 @@
-# Interview: past participant (self-report) on finding out what was due, the method's name, and going from a solo prototype to a team
-
-Filed as issue #26. Self-report by a pod maintainer. [fill in] and [confirm] mark items still to answer or check.
+Self-report by a pod maintainer. [fill in] and [check] mark items still to answer or verify. Also in `research/interview-maintainer-self-report.md`.
 
 1. What it is
 
-A self-report from a past participant in the Civics & Elections Build Cycle (C03), answering the pod's past-participant interview guide. It covers how I found out what to do and when, how I got unstuck, the move from my own prototype to a project team, and what I came for. Logged as a self-report because I'm also the pod maintainer, and I wrote the claims it tests.
+My own run through the past-participant interview guide, about the Civics & Elections Build Cycle (C03). It tells the Cycle in order, from the July kickoff to Summit 3. At each point it sets what the records showed at the time next to what I remember now. It's logged as a self-report because I'm also the pod maintainer, and I wrote the claims it tests.
 
 2. Where it came from
 
-A C03 participant with a product-management background in enterprise technology, now a C04 Scaffolding maintainer. Came to The Labs to learn to build with AI coding tools. Product vocabulary (discovery, POC, MVP, agile) was already familiar from work.
-
-How I differ from the first interviewee (#16): one Cycle, not two; still employed during the Cycle, not returning after a long break; came mainly for a specific skill; already fluent in product and agile terms, newer to coding.
-
-How I'm closer to her than #16 says: #16 contrasts my reason for joining ("a specific skill") with hers ("find a job"). That's too clean. During the Cycle I knew I might need to look for new work, and by C04 I was. For both of us, finding work was part of the reason. The difference is timing: it was her main aim going in, while for me it was a possibility that later came true. (#16's "My own experience" paragraph now has this correction.)
-
-How I'm similar: both of us already knew our way around some of the tools, so neither of us is "newer to tech." This file doesn't meet the guide's "ideally unlike the first interviewee" goal on that point.
+A C03 participant in the Effort vs. Impact pod, with a product-management background, now a C04 Scaffolding maintainer. Self-report.
 
 3. When
 
-- Cycle: Jul 25 to Oct 13, 2026 (Sensemaking Sprint to Summit #3).
-- My notes quoted below: Nov 5 to 6, 2026, in pod working notes.
-- This write-up: Nov 9, 2026.
-
-Caveat: these are recollections written three to four months later, after the pod's hypotheses existed.
+- Cycle: Jul 25 to Oct 13, 2026.
+- Records from the time: my AI working sessions, the pod repo, the organizers' emails and guides, the Luma event invitations and event pages, calendar invites, and the event decks. Quotes are from these records.
+- Recollections, not quoted: my pod working notes (Nov 5–6) and my answers to the guide (Nov 9–10). They were written three to four months later, after the pod's claims existed.
 
 4. What it says
 
-Warm-up: which Cycle, and what the pod worked on
+Why I came
 
-Civics & Elections (C03), in the Effort vs. Impact pod. My paradox for Assignment 2 was "input without answer": public comment exists to make local decisions legitimate, but with no visible reply it does the opposite. At the Hackathon I built a prototype (HearBack) with Claude Code and Vercel. It became a project with a small team after Meet the Projects. [confirm]
+I wanted to learn to vibe code. I was already working with AI at work, but hadn't learned how to build for learning, which product management asks for now. I also knew I might need to look for new work, and that was a motivating factor. The records back this up. By Aug 14 I was already telling contacts I was job hunting.
 
-Q1. Start of the Cycle: how did I figure out what I was supposed to be doing?
+The kickoff (Jul 25): the method was in the prompts
 
-Quotes:
-- "We went through them very very fast. And I think I guessed based on context." (about the sensemaking tool's explanations at the Jul 25 Sprint, Nov 6)
-- "I don't think I ever learned what Dorst's model was. Perhaps this link was buried in a Google doc?" (Nov 6)
+At the on-site Sensemaking Sprint, we used the triangulator tool by copying its prompts into an AI assistant. The prompts named the method outright: "grounded in Kees Dorst's Frame Creation methodology," "Which of Dorst's seven types do you have?" What I typed myself was short and practical: "Name the situation," "what's clearer than 'candidate paradoxes'." I didn't understand Dorst at the time, so I relied on the copied prompts. We went through the tool's explanations very fast, and I guessed from context.
 
-Records (confirmed Nov 9):
-- The "What to Expect: From Pod to Hackathon" guide was emailed on Aug 5. It was also posted in the Learning Library linked from the homepage.
-- I worked mostly from the dashboard, signed in. I assumed a participant would see more there than on the public homepage. I don't remember seeing the guide on the dashboard. I now see that there is a link in the lower left of the page, below the fold, to the Learning Library.
-- Dorst is mentioned once, in the Pod to Hackathon guide ([doc](https://docs.google.com/document/d/1pMlYL-VD3jjw_oiurrxtWu81ub-MLWGUa4gWdEp3uqg/edit?usp=sharing)): "For the curious: we're adapting Kees Dorst's Frame Innovation Process (link is now fixed). You don't have to be familiar with it, but if you want to go deep on it – we encourage it."
-- The Build Cycle overview guide, "What to Expect: The Build Cycle" ([doc](https://docs.google.com/document/d/1CfZn9DL5Qf2bUnVr9EALKjB72vyj5EKdPzrrICHUqiY/edit?usp=sharing)), doesn't mention Dorst or the method at all.
-- Update (Nov 9): the Library is on the dashboard too. It's a tab next to Home, and it's under Quick Links on the Home screen, below the fold. The Library tab opens on Luma workshop events; the three self-learning guides are below the fold on that page, and they're the only ones. "I missed it." I'm seeing this today; I can't confirm the layout was the same in August, but the Aug 5 email's "under Learning → Library" suggests it was.
+GitHub came up that day too. An organizer covered it quickly in a GitHub workshop at the kickoff.
 
-What this suggests (my read, to test): the guide was in the place I was looking, but easy to miss. Below the fold, in a tab I didn't open. [confirm: did I expect the dashboard's main view to tell me what was due, so I never thought to look in a library?]
+The first weeks (Jul 27 to Aug 7): a schedule existed, but it arrived in pieces
 
-[fill in]
-- Where did I look first? (Slack, Luma, the dashboard, email, another participant?)
-- Who did I ask?
-- What did I assume the Cycle was for, in week one? Write the assumption I had then, not the one I have now.
+The schedule existed before C03 started. The C02 Meet the Projects deck (Jun 9) showed the Build Cycle as a 13-week model, week by week, from Kickoff to the Showcase and Summit. The Jul 18 welcome email listed six dates, from the Sensemaking Sprint to the Showcase Summit. Even that list shifted: it gave the Sprint at 9 AM, and the Jul 21 resend corrected it to 10:30. Both versions put the Hackathon on Aug 13, but the Luma event was Aug 15. After that, the schedule came in pieces, by email and Luma. Two days after the kickoff, the organizers wrote that 31 of us had registered, that voting on 7 problem situations closed at 9 PM, and that pods needed 12 people by Aug 3. The welcome email and this one recommended the vibe coding (Jul 23), design thinking (Jul 28 or 30) and prompt engineering (Aug 4) workshops as "core skills to start building ahead of the hackathon." I didn't go, because the times didn't work for me.
 
-Q2. A week when I wasn't sure what to work on
+On Aug 4 the plan narrowed: "focus on a single pod: Effort vs. Impact." The next day I was still asking an AI which pod would have "a solvable problem that we could tackle in a pod sprint," and then: "This is the only pod available. How do I make this one more interesting/actionable?"
 
-Quotes:
-- "What was due when" / "where are we? A loose syllabus of expected deliverables." (Nov 5)
-  - Raised earlier, at the Summit #3 table (Oct 13) with my pod and our Poderator, in an impromptu retrospective the Poderator started, while the Cycle was still going and before C04's claims existed. That makes it stronger than the Nov 5 notes alone. [fill in: what I said, what others at the table said, and how the Poderator responded]
-- "We were working in Sprints? (Apparently so!)" (Nov 5)
-- "Part of the issue was that some info was on our dashboard, some was on Luma, some in email, and some in Slack. It's fine to have all of these places, so long as it's also on say the dashboard." (Nov 5)
+The Aug 4 email also pointed to the "What to Expect" guide, "under Learning → Library." I missed it. I worked from the dashboard's main view, and the Library was a separate tab with the guides below the fold. The guide mentions Dorst once, as optional: "You don't have to be familiar with it" ([Pod to Hackathon guide](https://docs.google.com/document/d/1pMlYL-VD3jjw_oiurrxtWu81ub-MLWGUa4gWdEp3uqg/edit?usp=sharing)). By the end I'd lost track of where things lived: some on the dashboard, some on Luma, some in email, some in Slack.
 
-Candidate moments from the records (pick the one I remember best and tell it as a story):
-- **Hackathon morning, Aug 15.** I asked an AI tool to "help me think of a project I could build using vibe code tools," then compared Claude Code with Lovable, Replit and Vercel before starting. Assignment 2 was due the day before. [confirm]
-- **Project submission, Aug 24.** The form said that without a submission by 9:00 PM ET, "you won't be eligible to vote in the next phase." I filled it in with less than an hour to go. [confirm]
+Individual work (Aug 10–14): peers' slides as the template, GitHub as a hurdle
 
-[fill in]
-- How did I find out what was due that week?
-- What would have told me what to do?
-- Did the weekly Learning Log play a part? (I posted to the feed on Aug 15. Did I ever answer "Are you stuck?")
+For my Meet the Pods slide and my individual presentation, I used a classmate's work as the format example. Then I had to get it into the pod repo: "how do I add this to github at upskilling lab here?" I didn't have write access, so it went in as a fork and pull request (#5, Aug 11). It's still open. Four other early pull requests from pod members are still open too. On Aug 14 the organizers wrote: "We know some of you have had trouble adding files to GitHub due to permission issues. Please drop your files into this Google Folder."
 
-The Learning Log:
-- My own dashboard showed 8 weeks without a log (viewed Nov 5, 2026).
-- At the Oct 3 retreat, many participants reported not filling out the Learning Log, and said it wasn't as helpful as it could be (heard firsthand).
+Assignment 2, the Frame Hypothesis, was due that Friday at midnight. The organizers called it optional for the Hackathon. My paradox was "input without answer": public comment exists to make local decisions legitimate, but with no visible reply it does the opposite. The pod repo merged it on Aug 15, the day after it was due.
 
-Q3. A time I needed to learn something I didn't know: how I got unstuck
+The Hackathon (Aug 15): building alone, by design
 
-Quote:
-- "An overview of migrating from an individual prototype to a team-based prototype using recommended toolsets would have been extremely helpful (e.g., Github orgs/teams, free-tier versions of Supabase or similar that allow team collaborators, etc.)" (Nov 5)
+The Hackathon email set it up as solo work: "every participant will build their own unique experiments and prototypes," and that work would "lay the groundwork for forming official project teams at the end of August." That morning I asked an AI to "help me think of a project I could build using vibe code tools." It proposed HearBack and a stack. I compared Claude Code with Replit, Lovable and Vercel, and then: "I'm building with Claude Code."
 
-What happened (Nov 9, my account):
-- Going from my prototype to a team was where we got stuck. I had a working prototype and was unclear how to let a team work on it.
-- We ended up recreating it by referencing the files in GitHub. It still lives in another team member's individual account, not a shared one.
-- At the Summit #3 table (Oct 13), in the Poderator's impromptu retrospective with my pod, we talked about how useful an overview would be: tools that have free tiers and that let you add team members.
+Setup stalled right away, because the tools couldn't write to my project folder in iCloud. A former mentor sat next to me, and that was extremely helpful. We tried a cloud setup first, ran into issues, and went back to local folders. I built the prototype that day, and it went into my folder in the pod repo, one of 26 personal folders.
 
-Records:
-- Mostly AI. I used one AI tool to think through the project and pick a stack, and Claude Code to build. [confirm]
-- After a teammate built a WordPress version, I asked how a WordPress plugin could share one backend with the standalone app. [confirm]
+Pitch and project formation (Aug 23–31): moving dates, then a broken vote
 
-What I tried first (Nov 9, my account):
-- I asked AI tools (Perplexity and Claude) to explain how to do it.
-- I created a Team in Vercel, then found that Vercel doesn't allow team members without a paid account (about $20 a month). "It may not have been necessary."
-- The database was a Neon account deployed through Vercel. I could have added team members there. "I recall it being unclear if it mattered that the Neon was deployed via Vercel or not in order to invite team members."
+The organizers' own messages didn't agree on deadlines. The Aug 23 reminder said the project form closed Aug 24 at 4 PM. The form itself said 9 PM. One email had voting close Aug 26, and the next said Aug 25.
 
-Record (checked Nov 9): Vercel's docs say "Collaborating with other members on projects is available on the Pro and Enterprise plans" ([Vercel](https://vercel.com/docs/accounts)). Pro is $20 a month, and each additional developer seat is another $20 a month ([Vercel pricing](https://vercel.com/pricing)). Hobby, the free plan, is "for personal, non-commercial use." That matches what I ran into. Whether a Neon database set up through Vercel can take its own collaborators is still open.
+On Aug 26 the voting step in OLOS broke. The organizers dropped the 5-vote rule and let us join projects directly, 3 to 5 people each. In that thread I wrote: "It might be easier to have a team, but I'm happy to do whatever!"
 
-Who helped:
-- A mentor sat next to me at the Hackathon, and "this was extremely helpful." With him I got the initial setup done, which took troubleshooting and installing something on my Mac so the tools could read my local files, and I built the prototype.
-- I didn't go back to him with the team question. "I should have asked a Poderator or [the mentor]."
+The team (Sep 1–8): a sub-pod, with no shared space
 
-What it cost:
-- "A little bit of time."
-- It also cost the other team members' chance to keep learning to vibe code, since "only one person had the repo." "We could see it and use it, but I think we might would have had to fork it and recreate it to add on to it. Unclear."
+On Sep 1 the organizers emailed the five of us: "Welcome to Your Project Team – Hear Back!" They suggested a kickoff meeting, goals and research roles, and set up a Slack channel. The email didn't mention a repo. I replied: "Excited to see this bubble into a sub-pod!" Looking back, I may have been confused about pod and team. They said there was only one pod, but I knew there would be several teams of five, so I saw the team as a slice of the pod. I'd also carried "pod" over from a former workplace, where it meant a team.
 
-My read (to test): help worked when it was sitting next to me, in person, on a set day. Once the Hackathon was over, I didn't go looking for it. The mentor and the Poderator were both there, and I didn't think to ask.
+A week later the roles still weren't settled. The day before Meet the Projects I wrote: "we have not decided on who is doing what yet." At Meet the Projects (Sep 8), I wrote down the feedback: "was not clear we're building a website/app," "Make more visual," "Limit to 3 minutes (I went over 5 in run-through)," "Expected an answer for who this is for."
 
-Q4. A workshop or session I went to: what I walked away with
+Working as a team (Sep 14–19): the frame changed, the prototype didn't move
 
-Quote:
-- "Some of the concepts were covered in optional workshops that are optional, but are complementary to the build cycle. At the Hackathon, we also had a track for workshops, but it was for newcomers." (Nov 5)
+The best part of the project came from outside it. A teammate set up a talk with an Advisory Neighborhood Commission chair, who said the hardest cases "are not necessarily that people who comment don't hear back, but rather they don't like the decision despite evidence that it benefits the wide community and public good." That challenged my paradox. In our Sep 17 notes: "Went and talked to people," and "Claude can do a lot / Don't have it do thinking."
 
-Records:
-- At the Hackathon, the Design Thinking and GitHub setup sessions were on the Newcomer track. I was in the Pod Sprint track at the same time. [confirm]
-- Meet the Projects (Sep 8): I presented and got concrete feedback. It wasn't clear we were building a website or app. Reduce the text. Keep it to 3 minutes (my run-through went over 5). Answer "who this is for" on the slide itself. [confirm]
+The prototype stayed in my hands. I wasn't clear how to let a team work on it. I asked AI tools, made a Team in Vercel, and found that Vercel doesn't allow collaborators without a paid plan ([Vercel docs](https://vercel.com/docs/accounts)). The database was Neon, set up through Vercel, and it wasn't clear whether that mattered. I was still learning the basics: "What is a .env file?" (Sep 14). The teammate who had time to start rebuilding it from the GitHub files used her own account. That became the WordPress version, which still lives in her personal GitHub. Then I was asking whether "a wordpress plugin [can] be lightweight and pull in based on Vercel database?" (Sep 19). The pod repo's last push was that same day.
 
-The GitHub workshops (Nov 9, my account):
-- I didn't attend them. "As I recall, I did not have time those evenings."
-- "I also thought that was a separate and optional track."
-- Looking back: "I now see that I should have attended the GitHub workshops." (That's hindsight, written after the team-setup problem in Q3, not how I saw it then.)
+I didn't ask for help, and I should have asked a Poderator or the mentor. The cost was some time, and my teammates' chance to practice building, since only one person had the repo.
 
-My read (to test): I skipped the workshops for two reasons, time and framing. They were in the evenings, and they looked like a separate, optional track for someone else. Nothing told me they covered a problem I was about to hit. I don't know whether they covered team setup (shared repos, adding collaborators, Vercel or Neon access). If they didn't, attending wouldn't have solved Q3 either.
+Help with the handoff did exist, but it came late. On Aug 26, Luma invited us to "From Idea to App: Understanding the Cloud Tools Behind Your Build" on Sep 1, the day teams formed ("Projects are forming and you'll be building soon"). On Aug 28 I registered for "GitHub 2.0: The Handoff — Building Together Without Breaking Things," held Sep 22 at 4 PM. Its page describes exactly my problem: "what happens when your code becomes someone else's starting point?" Partners hand off a build through a branch and a pull request, and "It's the exact workflow your build-cycle team will live in." It came three weeks after teams formed, and after the WordPress version had already started in a personal account. It covered branches and pull requests, not organizations, teams, or hosting and database access. [fill in: did I go to either?]
 
-[fill in]
-- Did I go to any other workshop? If not, say so.
-- If the Meet the feedback counts as a "session": how well did it match where I was, and what did I do right after?
+The one written word on a team space came on Sep 17. A guide linked from the "From Project to Summit" email said: "Choose shared tools for documents, version control, and project tracking so everyone works from the same system." It was one line, with no how. I don't remember a team space in GitHub being mentioned anywhere else, unless it was in a workshop I couldn't make. The companion guide on research and design, linked from the same email, moved from Dorst to design thinking. It links the Double Diamond and IDEO and calls itself "not prescriptive." What I thought we needed was a GitHub organization or team of our own, which would then push to the C03 repository. I don't recall anyone telling us to set one up, and I haven't found that step in any email, guide or Luma page. It's what seemed like it needed to happen so that others could work on the prototype I'd built alone at the Hackathon. So the Cycle took us from solo builds to teams. Apart from the GitHub 2.0 workshop on Sep 22, nothing I received said how to hand a solo build over to a team. I tried to work that step out for myself and didn't get to finish it.
 
-Q5. When did things feel clear? What made them clear? (Test for the opposite. Don't skip.)
+The end (Oct 3–13): from my project to how the Labs keeps people
 
-From my account (Q3):
-- **Hackathon setup with a mentor next to me.** "Extremely helpful." I got through setup and built a working prototype that day. [fill in: what made it clear? My guess: help was right there when I hit the problem.]
+At the Oct 3 retreat, my "how might we" list was about turning graduates into mentors and moderators: "participant → practitioner → contributor → leader." Many of us said we hadn't kept up the Learning Log. My dashboard showed 8 weeks without an entry.
 
-- **The Summit #3 retrospective (Oct 13).** Our Poderator started an impromptu retrospective at the table. It was unplanned, but it was the moment the pod named what had been unclear (what was due when; tools for adding team members). [fill in: did it make anything clearer, or just name what hadn't been? Did anyone call it a "retrospective" at the time, or is that my word now?]
+At Summit 3 (Oct 13), our Poderator started an impromptu retrospective at the table. What was due when came up there, along with the need for an overview of free-tier tools that let you add team members. That was while the Cycle was still running, before C04's claims existed.
 
-Candidates from the records. Only keep the ones that were really clear at the time:
-- **Assignment 2.** The guide's paradox formula (value, failure, trap) gave me a fill-in structure. I submitted it on Aug 15, the day after it was due; the Aug 12 email had made it optional. [confirm]
-- **The project submission form.** Named fields, character limits, a hard deadline, and a stated consequence. [confirm]
-- **Meet the Projects feedback.** Specific and actionable. [confirm]
+What I'd tell a hiring manager
 
-[fill in]
-- Who or what made it clear? What was different about that moment?
-- Was there any point where I wanted less structure, or where structure got in the way?
+My resume line on Aug 12 was "Volunteer pod participant… public-interest AI use cases." Later it became "exploring public-interest AI applications enabled with vibe-coding and human-centered design processes." The skill I named is vibe-coding, not "build for learning," though that's what I came for. There are no Dorst terms. "Human-centered design" is my phrase, close to the design thinking language of the Labs' project-phase guide.
 
-Q6. When the pod turned into project teams: what happened?
+Still to fill in
 
-Notes and records:
-- Confusion log (Nov 6, my entry): I assumed a pod was the same as a team, because a former workplace used "pod" to mean a team.
-- I built my prototype on my own at the Hackathon. Then the project picked up teammates after Meet the Projects. One brought meeting videos to test with. One had a contact on an Advisory Neighborhood Commission. One built a separate WordPress version in their own repo. [confirm]
-- The word "sprint" showed up in the pod's folder names (`sprint-2-problem-and-frame-discovery`, `sprint-3-project-formation`) but was never explained. [confirm]
+- [fill in] What I thought the Cycle was for in week one, as I saw it then.
+- [fill in] One week when I wasn't sure what to work on, told as a story.
+- [fill in] Which workshops I went to: Intro to AI Coding Agents (Aug 25, registered), the cloud tools workshop (Sep 1, invited), and GitHub 2.0: The Handoff (Sep 22, registered).
+- [fill in] What made the Hackathon setup feel clear, and whether structure ever got in the way.
+- [fill in] At Summit 3: what I said, what others said, and how the Poderator responded.
+- [fill in] One moment when I felt I'd built to learn.
+- [fill in] Anything the guide didn't ask that it should have.
 
-[fill in]
-- How did teammates end up on the project? Did I recruit them, did they pick it, or did the pod vote decide it?
-- What surprised me?
-- What did I assume the pod was, and when did I find out otherwise?
-- What did we do when two people had built two versions? We recreated it from the GitHub files (Q3). "The teammate decided to use her account. She had time to start it and proceeded." It stayed in her individual account.
-
-Q7. Motivation: why did I join, and why does that matter?
-
-Note:
-- In #16 I wrote that I came for a specific skill: "I specifically wanted to learn to vibe code."
-- Update (Nov 9): "I did know that it was possible I would need to look for new work when I was in the cycle. Now that I'm in cycle 4, that is true."
-
-Answer (Nov 9, my words, describing how I felt then):
-- On the job hunt: "Yes, this was a motivating factor for me."
-- On the skill: "I was working with AI already at work, but had not learned how to 'build for learning', which is asked of product management now."
-- On why building matters beyond work: "I also see opportunities in building things, not only to earn, but to solve problems."
-- Since the Cycle, I've built a plug-in, and a workflow designed to help a family member's medical claims and paperwork.
-
-The why chain so far: learn to build with AI → be able to "build for learning," which product roles now ask for → be ready for a possible job search, and solve real problems by building.
-
-[fill in] One more why, if it changes the answer: why does solving problems by building matter to me, beyond the job?
-- How close did the Cycle get me to "build for learning"? Name one moment where I felt I'd done it.
-
-Note: "asked of product management now" is my read of the job market, not something this file shows. Job postings could check it (see #20).
-
-
-Q8. If a hiring manager asked what I learned at The Labs, what would I say?
-
-Quote:
-- "I have gotten hands on 'build to learn' experience via The Upskilling Labs." (my notes, Sep 22)
-
-Record:
-- My Aug 15 feed post described the work in product terms I brought myself ("reframe hypothesis," "POC," "Discovery with potential users"). I didn't use Dorst's terms or "design thinking." [confirm]
-
-Note: this is a real question for me now, not a hypothetical.
-
-How I've described it (my words):
-- "Participated in a Civics & Elections volunteer pod with The Upskilling Labs, exploring public-interest AI applications enabled with vibe-coding and human-centered design processes."
-- "Currently a volunteer builder in The Upskilling Labs' Scaffolding pod (Build Cycle C04), helping productize the Labs' learning model: researching how much structure learners need and when, then prototyping changes on the Labs' open-source platform with GitHub, Vercel, and Claude Code."
-
-What the words show (listen-for from the guide):
-- I named "human-centered design" myself. None of the C04 repos use the term (#20). In C03, the closest thing I know of was the Design Thinking session on the Hackathon's Newcomer track, which I didn't attend.
-- None of Dorst's terms appear: no frame creation, archaeology, paradox or frames.
-- The rest is my own product vocabulary ("productize," "prototyping") and tool names (GitHub, Vercel, Claude Code).
-- The skill named is "vibe-coding," not "build for learning," even though that's what I said I came for (Q7).
-
-[fill in]
-- When did I write the C03 description: during the Cycle, or after C04 started? If after, the C04 translation work may have shaped it.
-- Has anyone asked about it in an interview? What did I say out loud, and what follow-up did I get?
-
-Close
-
-- Who else should I talk to? [fill in by role: whoever ran the GitHub workshops, to find out what they covered and who came; the people at the Summit #3 table (pod members and our Poderator), to confirm what was said; a HearBack teammate newer to tech; someone who was on the Hackathon's Newcomer track; someone who left the Cycle early]
-- Follow-up: not applicable (self-report).
-- Anything I didn't ask that I should have? [fill in]
+Who else to talk to (by role): the GitHub 2.0 instructor and the people who went, on what the handoff exercise covered. The people at the Summit 3 table. An organizer, on how pod repos and access were set up. A HearBack teammate who was newer to tech. Someone from the Hackathon's Newcomer track. Someone who left early.
 
 5. What it tells us (my read)
 
-[mine: write this after Q1 to Q8]
-
-Questions to answer in your read:
-- Which of these did I say in my own words before the claims existed, and which only after?
-- Where does my experience differ from #16's, and does that difference matter?
-- Does anything here cut against claim 1 or 2?
+[mine: write this once the open items are filled in]
 
 6. Is any of this hearsay?
 
-Firsthand, but self-reported by the person who wrote the claims being tested, so it can't confirm them independently. "Others said the same" (Nov 5 notes) is hearsay until those people are interviewed. Some of it was said in the Poderator's impromptu retrospective at the Summit #3 table (Oct 13), so the people there can confirm it. If anyone took notes or posted to Slack afterward, that would be a record. The record items marked [confirm] come from documents. My memory of the July version of the sensemaking tool could be checked by an organizer.
-
-
-7. Ideas parked for later (mine, not evidence; for frames after the paradox)
-
-- **A focused team-setup exercise.** When a pod turns into project teams, each team gets the project onto a shared team repository together, before building further. (Nov 9.) Where it comes from: Q3 and Q6, where the prototype stayed in one person's account and teammates lost building practice. Open questions: who runs it (Poderator, mentor, workshop lead)? When (the day teams form, or the week after)? Does it cover hosting and database access (Vercel, Neon, Supabase), or only the repo? One thing to compare: in C04, organizers set up a shared GitHub org with a repo for each pod at the start, and projects are meant to build on branches of the region's shared OLOS fork. So C04 builders shouldn't have to move a solo project to a team. My word on it (Nov 9): "this setup was already in place with The Upskilling Labs repositories. I only now have access to them. it does seem to be working well." Note the timing: "seems to be working" is an early read from inside C04, and it's one builder. Still ask other C04 builders. How C03 was meant to work (Nov 9): each team created its own team or org, then pushed to a C03 Upskilling Labs repository. "We needed to form our own team or org and then push to the C03 repository." What happened: we skipped the first step. We did push our assignments to the Upskilling Labs repo, but "this was done from an individual's account." So the work reached the C03 repo, but the team never had a shared repo of its own. C04 is set up differently: organizers create the pod repos up front and projects build on branches, so teams skip that step. That's the comparison for the exercise: teams setting it up themselves (C03) vs. starting in a repo the organizers made (C04).
-- **An overview of free-tier tools that let you add team members.** Raised at the Summit #3 retrospective (Oct 13). Vercel's free plan doesn't allow collaborators (Q3 record).
+Firsthand, but self-reported by the person who wrote the claims, so it can't confirm them on its own. The dated records (sessions, the pod repo, the organizers' emails and guides, Luma) carry more weight than my recollections. Where the two disagree, I've marked it [check]. Anything about what others said is hearsay until they're interviewed. The people at the Summit 3 table could confirm what was said there.

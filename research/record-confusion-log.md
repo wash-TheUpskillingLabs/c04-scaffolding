@@ -43,10 +43,12 @@ Hard to find
   "What to Expect: From Pod to Hackathon" ("An overview of the two week
   sprint from pod formation to the Hackathon on August 15th"). Logged out,
   the section is on the homepage, below the fold. Logged in, the homepage
-  is the dashboard; the Library is a tab next to Home, and there's a link
-  to it in the lower left of the page, also below the fold (viewed Nov 9).
-  A maintainer's read: easy to miss, which explains why a participant
-  missed them.
+  is the dashboard. Its Library tab, next to Home, opens on Luma workshop
+  events; the three self-learning guides are below the fold on that page.
+  There's also a link to the Library in the lower left of the dashboard,
+  below the fold (viewed Nov 9). Those three guides are the only
+  self-learning material there. A maintainer's read: easy to miss, which
+  explains why a participant missed them.
 - C04 deliverables (e.g., "What surprised us," due Nov 2) appear only in the
   pod README table. Not on the dashboard, no notification. The assignment
   itself is defined in one line: "The pod posts one issue titled 'What

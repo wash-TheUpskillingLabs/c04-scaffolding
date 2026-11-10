@@ -398,6 +398,9 @@ part"). I came for a specific skill; she came for direction and wanted to
 use the Cycle as a way back in. She learned useful skills, enough to start
 building her own educational software project, but hasn't yet found her
 way back to work ("I did not reach this aim").
+(Correction, Nov 10, 2026: finding work was part of my reason too. During
+the Cycle I knew I might need to look for new work, and I'm now looking.
+The difference is timing: it was her main aim going in. See #26.)
 
 What surprised me: The main issue wasn't that participants needed more
 or less structure overall. Structure only helps when its purpose, timing,

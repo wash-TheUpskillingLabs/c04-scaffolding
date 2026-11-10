@@ -41,10 +41,12 @@ Hard to find
   three guides: "Slack Basics," "What to Expect in a Build Cycle" ("A
   quick-start guide to joining the build cycle, including key dates") and
   "What to Expect: From Pod to Hackathon" ("An overview of the two week
-  sprint from pod formation to the Hackathon on August 15th"). The section
-  shows only when logged out, below the fold. Logged in, the homepage is
-  the dashboard, and the guides aren't there (homepage viewed Nov 9). A
-  maintainer's read: this explains why a participant missed them.
+  sprint from pod formation to the Hackathon on August 15th"). Logged out,
+  the section is on the homepage, below the fold. Logged in, the homepage
+  is the dashboard; the Library is a tab next to Home, and there's a link
+  to it in the lower left of the page, also below the fold (viewed Nov 9).
+  A maintainer's read: easy to miss, which explains why a participant
+  missed them.
 - C04 deliverables (e.g., "What surprised us," due Nov 2) appear only in the
   pod README table. Not on the dashboard, no notification. The assignment
   itself is defined in one line: "The pod posts one issue titled 'What

@@ -242,13 +242,13 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### "What to Expect" (guides)
 - **As written:** Two Google Docs: the week-by-week Cycle overview and the pod-to-hackathon guide.
-- **In practice:** Hard to find (logged-out homepage only): see #17. Copies in #24.
+- **In practice:** Hard to find (below the fold, logged in or out): see #17. Copies in #24.
 - **Plain language:** [open]
 - **Related practices:** [open]
 
 ### Learning Library
 - **As written:** "Learning Library · on-demand. Learn at your own pace," with three guides: "Slack Basics," "What to Expect in a Build Cycle" and "What to Expect: From Pod to Hackathon" (homepage, logged out). "You'll get the workshops, the Library, and a dashboard" (Build Cycles page).
-- **In practice:** Shows only when logged out: see #17.
+- **In practice:** Easy to miss, below the fold on the homepage and the dashboard: see #17.
 - **Plain language:** [open]
 - **Related practices:** [open]
 

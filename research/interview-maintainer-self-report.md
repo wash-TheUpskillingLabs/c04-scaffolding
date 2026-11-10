@@ -38,7 +38,7 @@ Quotes:
 
 Records (confirmed Nov 9):
 - The "What to Expect: From Pod to Hackathon" guide was emailed on Aug 5. It was also posted in the Learning Library linked from the homepage.
-- I worked mostly from the dashboard, signed in. I assumed a participant would see more there than on the public homepage. I don't remember seeing the guide on the dashboard.
+- I worked mostly from the dashboard, signed in. I assumed a participant would see more there than on the public homepage. I don't remember seeing the guide on the dashboard. I now see that there is a link in the lower left of the page, below the fold, to the Learning Library.
 - Dorst is mentioned once, in the Pod to Hackathon guide ([doc](https://docs.google.com/document/d/1pMlYL-VD3jjw_oiurrxtWu81ub-MLWGUa4gWdEp3uqg/edit?usp=sharing)): "For the curious: we're adapting Kees Dorst's Frame Innovation Process (link is now fixed). You don't have to be familiar with it, but if you want to go deep on it – we encourage it."
 - The Build Cycle overview guide, "What to Expect: The Build Cycle" ([doc](https://docs.google.com/document/d/1CfZn9DL5Qf2bUnVr9EALKjB72vyj5EKdPzrrICHUqiY/edit?usp=sharing)), doesn't mention Dorst or the method at all.
 - Update (Nov 9): the Library is on the dashboard too. It's a tab next to Home, and it's under Quick Links on the Home screen, below the fold. "I missed it." I'm seeing this today; I can't confirm the layout was the same in August, but the Aug 5 email's "under Learning → Library" suggests it was.

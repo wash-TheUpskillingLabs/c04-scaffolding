@@ -19,7 +19,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - Interview: past participant, Nov 7, 2026 (#16)
 - Interview: C03 and C04 participant, new to GitHub and AI, Nov 9, 2026 (#23)
 - Interview: steering committee member on modules, roles and support, Nov 5, 2026 (#25)
-- Interview: a maintainer's own experience as a past participant (#26)
+- Interview: past participant (self-report) on finding out what was due, the method's name, and going from a solo prototype to a team (#26)
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
 - Record: Paradox cards from C04 Sensemaking & Pod Formation, Oct 24 (#21)

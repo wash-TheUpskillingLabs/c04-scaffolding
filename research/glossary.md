@@ -90,7 +90,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **As written:** Sensemaking Sprint: "you'll collect observations, map stakeholders, surface patterns, and uncover the paradoxes" (Luma, Jul 25). C04: "On sensemaking day (Oct 24) we worked from intuition."
 - **In practice:** An event at the start of the Cycle where people work from hunches. Luma lists the Civics & Elections Sensemaking Sprint on Jul 25; it may have run about two weeks, covering weeks 1 and 2 (a maintainer's recollection, unconfirmed). In Civics & Elections, the Sensemaking Sprint included an initial round of voting in weeks 1 and 2. Luma said pods would form there, but they didn't: problem statement proposals were presented at Meet the Pods in mid-August, three pod proposals were voted on, and only one ("Effort vs Impact") got enough votes, so there was a single pod (a maintainer who took part). C04's Oct 24 event was titled "Sensemaking & Pod Formation" (#21). The broader concept: sensemaking is how people make meaning from an ambiguous situation, noticing cues, interpreting them and building a working story of what's going on so they can act (Karl Weick, *Sensemaking in Organizations*, 1995). In design research, it's the core of synthesis, where messy research becomes insight (Jon Kolko). It plays two roles here: a Labs event (Cadence / format) and a mode of thinking that runs through the front end of every process and returns whenever new evidence arrives.
 - **Plain language:** [open]
-- **Related practices:** A compressed first pass at Dorst's steps 1 to 5 (archaeology, paradox, context, field, themes); the Double Diamond's first diamond, Discover into Define; the d.school's Empathize into Define. Common methods: synthesis, affinity mapping, stakeholder mapping, pattern-finding. Guided by human-centered design: meaning built from real people's experience, not assumptions.
+- **Related practices:** A compressed first pass at Dorst's steps 1 to 5 (archaeology, paradox, context, field, themes); the Double Diamond's first diamond, Discover into Define; IDEO's Gather inspiration and Frame a question; the d.school's Empathize into Define. Common methods: synthesis, affinity mapping, stakeholder mapping, pattern-finding. Guided by human-centered design: meaning built from real people's experience, not assumptions.
 
 ### Hackathon
 - **As written:** "Idea to Prototype" (Luma, Aug 15), with a Newcomer track and a Pod Sprint track. Build Cycles page: "Month two: decide what to build at the Hackathon."
@@ -544,7 +544,7 @@ both are given. The
 Dorst step and related-practice columns (named as in the crosswalk, #20)
 are left `[open]` for the pod to fill in.
 
-| Month | Week | Dashboard label | Events in other sources | Dorst step | Double Diamond | d.school modes | Common methods and tools | Complementary practices |
+| Month | Week | Dashboard label | Events in other sources | Dorst step | Double Diamond | IDEO phases | Common methods and tools | Complementary practices |
 |---|---|---|---|---|---|---|---|---|
 | 1. Problem Discovery & Definition | 0 | Kickoff + Summit | The previous Cycle's summit kicks off the new Cycle, and the new Cycle's topic is announced (Luma) | [open] | [open] | [open] | [open] | [open] |
 | 1. Problem Discovery & Definition | 1 | Problem Proposals | In Civics & Elections, an initial round of voting in weeks 1 and 2 was part of the Sensemaking Sprint (a maintainer who took part) | [open] | [open] | [open] | [open] | [open] |
@@ -577,7 +577,7 @@ thing. Sorting them makes the relationships clearer.
 | Kind | What it is | Examples |
 |---|---|---|
 | **Principle** | An overarching way of working, with no steps of its own | Human-centered design |
-| **Process** | A sequence of stages for working through a problem | Design thinking (d.school modes: Empathize, Define, Ideate, Prototype, Test); the Double Diamond (Discover, Define, Develop, Deliver); Dorst's frame creation |
+| **Process** | A sequence of stages for working through a problem | Design thinking (IDEO's phases: Frame a question, Gather inspiration, Generate ideas, Make ideas tangible, Test to learn, Share the story; or the d.school modes: Empathize, Define, Ideate, Prototype, Test); the Double Diamond (Discover, Define, Develop, Deliver); Dorst's frame creation |
 | **Method / tool** | A technique used at a particular stage, shared across processes | Rapid prototyping, user research and interviews, stakeholder mapping, affinity mapping, "How might we" questions, user testing |
 | **Complementary practice** | A separate practice that builds on the processes above, mostly from prototyping onward | Lean startup (build-measure-learn, MVP), agile (sprints, releases, retrospectives), continuous product development |
 | **Cadence / format** | How the work is organized in time and in events, across any step | Sprints (including the Sensemaking Sprint), weekly releases, hackathons, group-day milestones, check-ins, retrospectives |
@@ -588,7 +588,7 @@ what time-boxes), and methods like rapid prototyping supply the techniques
 (how), all guided by the principle of human-centered design.
 
 ### Crosswalk
-How Dorst's steps relate to the Double Diamond, the d.school modes, common
+How Dorst's steps relate to the Double Diamond, IDEO's design thinking phases, common
 methods and complementary practices: see the Record "Connecting Dorst's
 frame creation to human-centered design and related practices" (#20). It moves here
 once a few more rows are confirmed.

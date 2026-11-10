@@ -86,7 +86,10 @@ Getting to Development" lists the Double Diamond and IDEO's design thinking
 resources as "Frameworks We Like" (#24). The IDEO column is a draft, mapped
 from IDEO U's six phases (frame a question, gather inspiration, generate
 ideas, make ideas tangible, test to learn, share the story), and still
-needs checking. The d.school's five modes moved to Complementary practices. The practices are related to Dorst's steps, not one-to-one
+needs checking. The d.school's five modes moved to Complementary practices.
+The Cycle 3 guide also has its own ten-step "Design Thinking Framework." Its
+source isn't stated, and it appears to be a blend of the frameworks it links
+to, so the crosswalk uses only named frameworks. The practices are related to Dorst's steps, not one-to-one
 equivalents; the "Fit" column shows how close each match is. "Common
 methods and tools" are techniques all of these approaches use at that
 step; "complementary practices" are separate practices (lean startup,

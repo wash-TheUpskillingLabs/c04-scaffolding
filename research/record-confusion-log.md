@@ -35,7 +35,7 @@ Contradictions between sources
 Hard to find
 - In Civics & Elections, the assignments and week-by-week schedule lived in
   two Google Docs linked from the public homepage, theupskillinglabs.org, not
-  on the dashboard. A participant who finished the Cycle never found them.
+  on the dashboard's main view. A participant who finished the Cycle never found them.
   Later phases were "Exact date TBD." Where they are: the homepage's
   "Learning Library · on-demand" section ("Learn at your own pace") lists
   three guides: "Slack Basics," "What to Expect in a Build Cycle" ("A

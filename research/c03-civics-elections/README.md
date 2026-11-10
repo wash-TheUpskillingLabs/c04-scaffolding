@@ -78,10 +78,13 @@ addresses and links to personal accounts removed.
 
 Attachments: guides
 - [What to Expect: The Build Cycle](guides/what-to-expect-the-build-cycle.md) (linked from the homepage)
-- [What to Expect: From Pod to Hackathon](guides/what-to-expect-from-pod-to-hackathon.md) (linked in emails 02 and 03)
+- [What to Expect: From Pod to Hackathon](guides/what-to-expect-from-pod-to-hackathon.md) (linked in emails 02 and 03; includes Assignments 1 and 2)
 - [Guidance for Project Forming](guides/guidance-for-project-forming.md) ("You've Joined a Project - Now what?")
-- [Meet the Projects deck, Energy & Climate (Cycle 2), June 2026](guides/meet-the-projects-deck-energy-climate.md): text only, team names removed. Possibly the deck email 12 points to for "a prior build cycle's examples." Its timeline slide shows a 13-week Build Cycle (week 6 "Experiments and Hackathon," mentor intensives in weeks 10 to 12).
-- Not yet attached: the Assignment 1 and 2 document and paradox "Formula" guide (email 04), the pitch Slide Deck Outline (emails 07 and 08), project-registration-guide.pdf (email 11), and "Guidance for Project Research, Design & getting to Development" (named at the end of the project-forming guide).
+- [Meet the Projects deck, Energy & Climate (Cycle 2), June 2026](guides/meet-the-projects-deck-energy-climate.md): text only, team member names removed. The Slide Deck Outline referenced in emails 07 and 08 (per the maintainer); email 12 also points to it for "a prior build cycle's examples." Its timeline slide shows a 13-week Build Cycle (week 6 "Experiments and Hackathon," mentor intensives in weeks 10 to 12).
+- [Project registration guide](guides/project-registration-guide.md) (attached to email 11)
+- [Guidance for Project Research, Design & Getting to Development](guides/guidance-for-project-research-design-and-development.md): follows the project-forming guide. Lays out a ten-step "Design Thinking Framework" and lists "Frameworks We Like": a Double Diamond article (UXPin) and IDEO's design thinking resources.
+- Assignments 1 and 2 (email 04) are in "What to Expect: From Pod to Hackathon" (per the maintainer).
+- Not yet attached: "Guidance for Development," named as the next document in the series at the end of the research-and-design guide.
 
 5. What it tells us (my read)
 Information about the cycle was split across the dashboard, Luma, Google

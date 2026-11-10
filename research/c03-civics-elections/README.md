@@ -1,5 +1,7 @@
 # Record: How Civics & Elections (Build Cycle 3) actually ran
 
+Filed as issue #24.
+
 1. What it is
 A participant's account of how Build Cycle 3 (Civics & Elections) ran from
 sensemaking to pods, set beside the Luma event pages and the dashboard's

@@ -21,6 +21,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
 - Record: Paradox cards from C04 Sensemaking & Pod Formation, Oct 24 (#21)
+- Record: How Civics & Elections (Build Cycle 3) actually ran, with the participant emails and guides (#24, `research/c03-civics-elections/`)
 - Kees Dorst, *Frame Innovation: Create New Thinking by Design* (MIT Press, 2015), chapters 3 and 4
 
 ---

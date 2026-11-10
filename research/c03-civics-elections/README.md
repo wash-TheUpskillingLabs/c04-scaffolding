@@ -80,6 +80,7 @@ Attachments: guides
 - [What to Expect: The Build Cycle](guides/what-to-expect-the-build-cycle.md) (linked from the homepage)
 - [What to Expect: From Pod to Hackathon](guides/what-to-expect-from-pod-to-hackathon.md) (linked in emails 02 and 03)
 - [Guidance for Project Forming](guides/guidance-for-project-forming.md) ("You've Joined a Project - Now what?")
+- [Meet the Projects deck, Energy & Climate (Cycle 2), June 2026](guides/meet-the-projects-deck-energy-climate.md): text only, team names removed. Possibly the deck email 12 points to for "a prior build cycle's examples." Its timeline slide shows a 13-week Build Cycle (week 6 "Experiments and Hackathon," mentor intensives in weeks 10 to 12).
 - Not yet attached: the Assignment 1 and 2 document and paradox "Formula" guide (email 04), the pitch Slide Deck Outline (emails 07 and 08), project-registration-guide.pdf (email 11), and "Guidance for Project Research, Design & getting to Development" (named at the end of the project-forming guide).
 
 5. What it tells us (my read)

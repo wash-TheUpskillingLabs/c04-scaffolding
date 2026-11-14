@@ -36,7 +36,7 @@ The Aug 4 email also pointed to the "What to Expect" guide, "under Learning → 
 
 Individual work (Aug 10–14): peers' slides as the template, GitHub as a hurdle
 
-For my Meet the Pods slide and my individual presentation, I used a classmate's work as the format example. Then I had to get it into the pod repo: "how do I add this to github at upskilling lab here?" I didn't have write access, so it went in as a fork and pull request (#5, Aug 11). It's still open. Four other early pull requests from pod members are still open too. On Aug 14 the organizers wrote: "We know some of you have had trouble adding files to GitHub due to permission issues. Please drop your files into this Google Folder."
+For my Meet the Pods slide and my individual presentation, I used a classmate's work as the format example. Then I had to get it into the pod repo: "how do I add this to github at upskilling lab here?" I didn't have write access, so it went in as a fork and pull request (pull request 5 in the C03 pod repo, Aug 11). It's still open. Four other early pull requests from pod members are still open too. On Aug 14 the organizers wrote: "We know some of you have had trouble adding files to GitHub due to permission issues. Please drop your files into this Google Folder."
 
 Assignment 2, the Frame Hypothesis, was due that Friday at midnight. The organizers called it optional for the Hackathon. My paradox was "input without answer": public comment exists to make local decisions legitimate, but with no visible reply it does the opposite. The pod repo merged it on Aug 15, the day after it was due.
 

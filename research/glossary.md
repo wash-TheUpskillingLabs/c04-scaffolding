@@ -20,10 +20,13 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - Interview: C03 and C04 participant, new to GitHub and AI, Nov 9, 2026 (#23)
 - Interview: steering committee member on modules, roles and support, Nov 5, 2026 (#25)
 - Interview: past participant (self-report) on finding out what was due, the method's name, and going from a solo prototype to a team (#26)
+- Interview: an organizer on structure, what Upskillers needed, and how Cycles 1 and 2 changed, Nov 9, 2026 (#28)
+- Interview: past participant (Cycle 1) and Cycle 2 Poderator on team roles, the Poderator role, workshops and merging code, Nov 13, 2026 (#29)
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
 - Record: Paradox cards from C04 Sensemaking & Pod Formation, Oct 24 (#21)
 - Record: How Civics & Elections (Build Cycle 3) actually ran, with the participant emails and guides (#24, `research/c03-civics-elections/`)
+- Record: C03 Slack posts, Aug 13 to Aug 30 (#30, `research/c03-civics-elections/slack-posts.md`)
 - Kees Dorst, *Frame Innovation: Create New Thinking by Design* (MIT Press, 2015), chapters 3 and 4
 - Stakeholder Profiles reading, C04 Sensemaking (the guide behind the profile form at dev.sensemaking.theupskillinglabs.org/reading; it calls itself "version one... It is not settled"; links checked October 2026; text pasted by a maintainer, Nov 10, 2026)
 
@@ -35,7 +38,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Where someone is
 - **As written:** Workshops are "meant to support where you are at in the cycle" ("What to Expect"). The pod's working scope (not Labs material): "matching structure to where someone is, across modules, workshops and the Cycle."
-- **In practice:** See #16 and #23. Three meanings so far: skill level, what someone came for, and stage of the Cycle.
+- **In practice:** See #16 and #23. Three meanings so far: skill level, what someone came for, and stage of the Cycle. #29 suggests a fourth: what someone wants to build (an app, a white paper, a podcast).
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -81,7 +84,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Sprint
 - **As written:** Used in event names ("Sensemaking Sprint," "Pod Sprint" track at the hackathon). Not defined in the C04 README.
-- **In practice:** See #26 and #23 (participants wanted sprint goals and deliverables) and #20.
+- **In practice:** See #23 (participants wanted sprint goals and deliverables) and #20. C03 messages say "Sprint 4: Week 5" without explaining it (#24, #30). An organizer: sprints "were supposed to be 2 weeks" (#28).
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -167,7 +170,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Poderator
 - **As written:** On the dashboard, the Learning Log goes to "your Poderator." Not defined in the READMEs.
-- **In practice:** See #25 and #16.
+- **In practice:** See #25 and #16. A Cycle 2 Poderator: unclear how much to suggest, with "so little" definition of the role (#29).
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -179,7 +182,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Mentor
 - **As written:** "learning AI by doing, supported by peers and mentors" ("What to Expect"). About page: "People who've done the work, around when you're stuck." Get Involved page: "Mentors help Upskillers go deep on a theme with subject-matter knowledge, and unblock them when they're stuck — from prompt engineering to deploying a first app." "Experienced practitioners who guide pods and participants through real problems — a single workshop or a whole build cycle, shaped by your availability."
-- **In practice:** See #16 and #23.
+- **In practice:** See #16 and #23. Unanswered requests for help: #29. A mentor recruiting and stewarding role exists; its holder proposes "SME on tap" and presenter/teacher as two roles (#29).
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -203,7 +206,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Volunteer teams
 - **As written:** "volunteers for the Labs itself help us build the engine that powers all of it." Teams listed under "Where you can plug in": Mentors; **Programs & Events** ("Organize the workshops, panels, and meetups where learning happens and connections are made"); **Communications** ("Branding, storytelling, and PR — the voice and visual identity of everything we do"); **Participant Success** ("Support Upskillers throughout their journey; keep pods engaged and moving"); **Research & Development** ("Build and maintain the tech that powers the Labs, from the website to community infrastructure"); **Governance** ("Provide strategic oversight so the Labs stays true to its mission and built to last"). "However you want to help — mentor, organizer, or builder — it starts with the same account, one door for everyone" (Get Involved page).
-- **In practice:** [open]. Open question: how does Participant Success relate to the Poderator role?
+- **In practice:** [open]. Open question: how does Participant Success relate to the Poderator role? Where the mentor recruiting and stewarding role sits is unconfirmed; a maintainer's read is Governance, specifically mentors (#29).
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -243,7 +246,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### "What to Expect" (guides)
 - **As written:** Two Google Docs: the week-by-week Cycle overview and the pod-to-hackathon guide.
-- **In practice:** Hard to find (below the fold, logged in or out): see #17. Copies in #24.
+- **In practice:** Hard to find (below the fold, logged in or out): see #17. Copies in #24. An organizer: "People didn't really read it. It was too much information" (#28).
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -255,13 +258,13 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Syllabus
 - **As written:** "People handed a syllabus never build the judgment the Cycle is for" (C04 invite copy). Pod's first framing: "Structure, framework and syllabus vs. free-form 'learn by doing.'"
-- **In practice:** Ambiguous: see #17 and #16.
+- **In practice:** Ambiguous: see #17 and #16. An organizer: "As much as we tried to develop a syllabus, we couldn't because things kept changing" (#28). "Folks that are concerned about the use of the word curriculum" (#29).
 - **Plain language:** [open]
 - **Related practices:** [open]
 
 ### Learning Log
 - **As written:** "A few lines on what you're figuring out — that's the check-in" (dashboard). Build Cycles page: "a five-minute check-in each week."
-- **In practice:** Many don't fill it out: see #26 and #23.
+- **In practice:** Many don't fill it out: see #26 and #23. An organizer on its purposes and "too many questions": #28.
 - **Plain language:** [open]
 - **Related practices:** [open]
 

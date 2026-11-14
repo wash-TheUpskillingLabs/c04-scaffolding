@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module catalog</title>
+<meta name="description" content="A Scaffolding prototype: a module catalog that grows bottom-up from logged situations. Made-up data only.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght,SHRP@300..800,0..100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="catalog.js"></script>
+</head>
+<body>
+<header class="cover">
+  <div class="wrap">
+    <p class="lockup"><a href="/">Scaffolding</a>, a prototype with made-up data</p>
+    <h1>Module catalog</h1>
+    <p class="q">Help given in one situation gets logged. Modules form around the situations that keep coming back. Every module is optional.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="views" role="tablist" aria-label="Views">
+    <button role="tab" data-view="catalog" aria-selected="true">Catalog</button>
+    <button role="tab" data-view="situations" aria-selected="false">Situations</button>
+    <button role="tab" data-view="log" aria-selected="false">Log a situation</button>
+  </nav>
+
+  <section id="view-catalog">
+    <div class="filters">
+      <div><label for="f-q">Search</label><input id="f-q" type="search" placeholder="GitHub, Claude, team..."></div>
+      <div><label for="f-kind">Kind</label><select id="f-kind"></select></div>
+      <div><label for="f-stage">Stage</label><select id="f-stage"></select></div>
+      <div><label for="f-scale">Scale</label><select id="f-scale"></select></div>
+      <div><label for="f-timing">Timing</label><select id="f-timing"></select></div>
+      <div><label for="f-tag">Tag</label><select id="f-tag"></select></div>
+    </div>
+    <p class="quiet" id="count"></p>
+    <ul class="cards" id="cards"></ul>
+  </section>
+
+  <section id="view-situations" hidden>
+    <h2>Recurring, with no module yet</h2>
+    <p class="quiet">Tags that two or more logged situations share, where none of those situations has a module. These are candidates. When repeated help becomes a module, and who decides, is still open.</p>
+    <div id="seeds"></div>
+    <h2>Tags in use</h2>
+    <p class="quiet">Tags grow from use. A tag not in the starting set is marked new.</p>
+    <ul class="plain" id="tags"></ul>
+    <h2>All situations</h2>
+    <ul class="situations" id="situations"></ul>
+  </section>
+
+  <section id="view-log" hidden>
+    <h2>Log a situation</h2>
+    <p>A few lines: what the problem was and what worked. Roles only, never names, because the repo is public. No recordings or transcripts.</p>
+    <form class="form-grid" id="log-form">
+      <div><label for="l-problem">The problem</label><textarea id="l-problem" required placeholder="What was someone stuck on?"></textarea></div>
+      <div><label for="l-worked">What worked</label><textarea id="l-worked" required placeholder="What got them unstuck? If nothing did, say so."></textarea></div>
+      <div><label for="l-role">You are</label><input id="l-role" list="roles" placeholder="a mentor"></div>
+      <datalist id="roles"><option value="a mentor"><option value="a Poderator"><option value="a participant"><option value="an organizer"><option value="a workshop leader"></datalist>
+      <div><label for="l-scale">Scale</label><select id="l-scale"><option>1:1</option><option>1:few</option><option>1:cohort/public</option></select></div>
+      <div><label for="l-tags">Tags, separated by commas</label><input id="l-tags" placeholder="github, team-setup"></div>
+      <div><label for="l-module">Module it fits, if any</label><select id="l-module"></select></div>
+      <div>
+        <button class="btn" type="submit">Make the log</button>
+      </div>
+    </form>
+    <div id="log-out" hidden>
+      <p>Open it as a GitHub issue, or save the text below as a file in <code>situations/</code> and run <code>node build.mjs</code>.</p>
+      <a class="btn" id="log-issue" target="_blank" rel="noopener">Open as a GitHub issue</a>
+      <button class="btn secondary" type="button" id="log-copy">Copy the text</button>
+      <p class="quiet" id="log-file"></p>
+      <pre id="log-md"></pre>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><p>A prototype of the Scaffolding pod, Build Cycle C04, The Upskilling Labs of Greater Washington. Made-up data only. Licensed CC BY 4.0.</p></div></footer>
+
+<script>
+const C = window.CATALOG;
+const REPO = "https://github.com/wash-TheUpskillingLabs/c04-scaffolding";
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const label = (f, v) => (C.labels[f] && C.labels[f][v]) || v;
+const list = (v) => (Array.isArray(v) ? v : v ? [v] : []);
+
+// Views
+document.querySelectorAll("nav.views button").forEach((b) => b.addEventListener("click", () => show(b.dataset.view)));
+function show(view) {
+  document.querySelectorAll("nav.views button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.view === view)));
+  for (const v of ["catalog", "situations", "log"]) $("view-" + v).hidden = v !== view;
+  try { history.replaceState(null, "", "#" + view); } catch {}
+}
+function fromHash() { const h = location.hash.slice(1); if (["catalog", "situations", "log"].includes(h)) show(h); }
+window.addEventListener("hashchange", fromHash);
+fromHash();
+
+// Filters
+function fill(id, field, values) {
+  $(id).innerHTML = `<option value="">Any</option>` + values.map((v) => `<option value="${esc(v)}">${esc(label(field, v))}</option>`).join("");
+}
+fill("f-kind", "kind", C.starting.kind);
+fill("f-stage", "stage", C.starting.stage);
+fill("f-scale", "scale", C.starting.scale);
+fill("f-timing", "timing", C.starting.timing);
+fill("f-tag", "tag", C.tags.filter((t) => t.modules > 0).map((t) => t.tag));
+["f-q", "f-kind", "f-stage", "f-scale", "f-timing", "f-tag"].forEach((id) => $(id).addEventListener("input", render));
+
+// The card shows a few of the module's metadata fields, the way an event card shows a date and place.
+function card(m) {
+  const reviewed = m.reviewed_by ? `Reviewed by ${esc(m.reviewed_by)}` : `<span class="flag">Not yet reviewed</span>`;
+  const formed = m.formed_from.length ? `Formed from ${m.formed_from.length} logged situation${m.formed_from.length > 1 ? "s" : ""}` : "Written from a past workshop";
+  return `<li><article class="card">
+    <a href="m/${m.slug}/" tabindex="-1" aria-hidden="true"><img src="thumbs/${m.slug}.svg" alt=""></a>
+    <div>
+      <h3><a href="m/${m.slug}/">${esc(m.title)}</a></h3>
+      <p>${esc(m.summary)}</p>
+      <dl>
+        <dt>Kind</dt><dd>${esc(label("kind", m.kind))}</dd>
+        <dt>Output</dt><dd>${esc(label("output_type", m.output_type))}</dd>
+        <dt>When</dt><dd>${esc(list(m.stage).map((v) => label("stage", v)).join(", "))}</dd>
+        <dt>Scale</dt><dd>${esc(list(m.scale).join(", "))}</dd>
+        <dt>Run by</dt><dd>${esc(m.delivered_by)}</dd>
+        <dt>Quality</dt><dd>${reviewed}. Status ${esc(m.status)}.</dd>
+      </dl>
+      <p class="meta">${formed}</p>
+    </div>
+  </article></li>`;
+}
+
+function render() {
+  const q = $("f-q").value.trim().toLowerCase();
+  const f = { kind: $("f-kind").value, stage: $("f-stage").value, scale: $("f-scale").value, timing: $("f-timing").value, tags: $("f-tag").value };
+  const shown = C.modules.filter((m) => {
+    for (const [k, v] of Object.entries(f)) if (v && !list(m[k]).includes(v)) return false;
+    if (q) {
+      const hay = [m.title, m.summary, m.overview, m.learning_outcome, m.delivered_by, ...list(m.tags), ...list(m.prerequisites)].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  $("count").textContent = `${shown.length} of ${C.modules.length} modules`;
+  $("cards").innerHTML = shown.map(card).join("") || `<li class="quiet">No module fits. That might be a situation worth logging.</li>`;
+}
+render();
+
+// Situations
+const bySlug = Object.fromEntries(C.modules.map((m) => [m.slug, m]));
+function situationItem(s) {
+  const mod = s.module && bySlug[s.module] ? `<a href="m/${s.module}/">${esc(bySlug[s.module].title)}</a>` : "No module yet";
+  return `<li><span class="meta">${esc(s.date)}, logged by ${esc(s.logged_by)}${s.scale ? `, ${esc(s.scale)}` : ""}. Tags: ${esc(s.tags.join(", "))}. Module: ${mod}</span>
+    <p><strong>The problem.</strong> ${esc(s.problem)}</p><p><strong>What worked.</strong> ${esc(s.worked)}</p></li>`;
+}
+$("situations").innerHTML = [...C.situations].sort((a, b) => b.date.localeCompare(a.date)).map(situationItem).join("");
+const seeds = C.tags.filter((t) => t.unmoduled >= 2);
+$("seeds").innerHTML = seeds.length
+  ? seeds.map((t) => {
+      const ss = C.situations.filter((s) => !s.module && s.tags.includes(t.tag));
+      return `<div class="seed"><strong>${esc(t.tag)}</strong>: ${ss.length} situations<ul class="situations">${ss.map(situationItem).join("")}</ul>
+        <a href="${REPO}/blob/main/prototypes/module-catalog/modules/_template.md">Start a module from the template</a></div>`;
+    }).join("")
+  : `<p class="quiet">Nothing recurring without a module right now.</p>`;
+$("tags").innerHTML = C.tags.map((t) => `<li>${esc(t.tag)}${t.known ? "" : " (new)"}<span class="meta">${t.modules} module${t.modules === 1 ? "" : "s"}, ${t.situations} situation${t.situations === 1 ? "" : "s"}</span></li>`).join("");
+
+// Log a situation
+$("l-module").innerHTML = `<option value="">None, or not sure</option>` + C.modules.map((m) => `<option value="${esc(m.slug)}">${esc(m.title)}</option>`).join("");
+$("log-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const today = new Date().toISOString().slice(0, 10);
+  const problem = $("l-problem").value.trim();
+  const worked = $("l-worked").value.trim();
+  const tags = $("l-tags").value.split(",").map((t) => t.trim().toLowerCase().replace(/\s+/g, "-")).filter(Boolean);
+  const md = `---
+date: ${today}
+logged_by: ${$("l-role").value.trim() || "a mentor"}
+scale: ${$("l-scale").value}
+tags: [${tags.join(", ")}]
+module: ${$("l-module").value}
+---
+
+## The problem
+
+${problem}
+
+## What worked
+
+${worked}
+`;
+  const slug = problem.toLowerCase().replace(/[^a-z0-9]+/g, "-").split("-").filter(Boolean).slice(0, 5).join("-") || "situation";
+  $("log-md").textContent = md;
+  $("log-file").textContent = `File name: situations/${today}-${slug}.md`;
+  const title = "Situation: " + problem.split(/[.!?\n]/)[0].slice(0, 70);
+  $("log-issue").href = `${REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(md)}`;
+  $("log-out").hidden = false;
+});
+$("log-copy").addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText($("log-md").textContent); $("log-copy").textContent = "Copied"; } catch { $("log-copy").textContent = "Select the text below to copy"; }
+});
+</script>
+</body>
+</html>

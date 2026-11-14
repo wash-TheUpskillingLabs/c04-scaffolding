@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub, from working alone to working as a team</title>
+<meta name="description" content="Move from your own copy of the code to a shared repo with branches, pull requests and a team rule for who merges.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GitHub, from working alone to working as a team">
+<meta property="og:description" content="Move from your own copy of the code to a shared repo with branches, pull requests and a team rule for who merges.">
+<meta property="og:image" content="/prototypes/module-catalog/thumbs/github-solo-to-team.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght,SHRP@300..800,0..100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="cover small">
+  <div class="wrap">
+    <p class="lockup"><a href="../../">Module catalog</a>, a Scaffolding prototype with made-up data</p>
+    <h1>GitHub, from working alone to working as a team</h1>
+    <p class="q">Move from your own copy of the code to a shared repo with branches, pull requests and a team rule for who merges.</p>
+  </div>
+</header>
+<main class="wrap module">
+  <img class="thumb-lg" src="../../thumbs/github-solo-to-team.svg" alt="">
+  <p class="review">Not yet reviewed. Nobody has checked this learning material yet, so treat it as a draft.</p>
+  <h2>About this module</h2>
+  <p class="quiet">The module's metadata, from the front matter of <code>modules/github-solo-to-team.md</code>.</p>
+  <dl class="fields">
+    <dt>Learning outcome</dt><dd>Open a branch, make a pull request, review a teammate's, and merge it, without help.</dd>
+    <dt>Kind</dt><dd>Upskilling module, for learners</dd>
+    <dt>Output</dt><dd>Workshop, has an output. Your team's repo with one merged pull request from each person and a written rule for who reviews and merges.</dd>
+    <dt>Stage</dt><dd>Prep before a Cycle, During a Cycle</dd>
+    <dt>Scale</dt><dd>1:few, 1:cohort/public</dd>
+    <dt>Delivered by</dt><dd>A mentor who uses GitHub at work</dd>
+    <dt>Maintained by</dt><dd>a C04 maintainer, a Poderator</dd>
+    <dt>Reviewed by</dt><dd>Not yet</dd>
+    <dt>Timing</dt><dd>Before an attempt, When stuck</dd>
+    <dt>Learner stage</dt><dd>dependent, interested</dd>
+    <dt>How support fades</dt><dd>The mentor drives the first pull request on screen, the team does the second with the mentor watching, and the third alone.</dd>
+    <dt>Maps to</dt><dd>Version control and code review (agile)</dd>
+    <dt>Time</dt><dd>60 minutes</dd>
+    <dt>Prerequisites</dt><dd>A GitHub account, Connected Claude to GitHub once</dd>
+    <dt>Scope</dt><dd>General</dd>
+    <dt>Tags</dt><dd>github, git, team-setup</dd>
+    <dt>Status</dt><dd>draft</dd>
+    <dt>Optional</dt><dd>Yes, like every module in the catalog. GitHub training is validated by the Labs as needed to join the ecosystem.</dd>
+    <dt>A private way in</dt><dd>Try the first pull request in a practice repo of your own before the session. Nobody sees it.</dd>
+    <dt>A way out</dt><dd>If you're stuck for more than fifteen minutes, post in your team channel or pair with the mentor. Being stuck here is normal.</dd>
+  </dl>
+  <div class="body">
+<p>Made-up example for the prototype, formed from made-up situation logs. Not reviewed.</p>
+<h3>Overview</h3>
+<p>Most people meet GitHub alone: one person, one copy, pushing straight to main. A team can't work that way, because two people changing the same file at once overwrite each other. A team works through <strong>branches</strong> (a separate line of changes), <strong>pull requests</strong> (asking the team to take your changes) and <strong>review</strong> (someone else reads them first).</p>
+<p>Three things trip people up most often:</p>
+<ul>
+<li>The GitHub app for Claude has to be installed on the team's organization, not only on your own account.</li>
+<li>Pushes to main can be blocked on purpose. That's the team protecting the shared copy, not something you broke.</li>
+<li>A pull request nobody merges is as stuck as no pull request. Teams need a rule for who merges.</li>
+</ul>
+<h3>Exercises</h3>
+<ol>
+<li>Alone: in a practice repo, make a branch, change one line of the README, open a pull request and merge it yourself.</li>
+<li>With others: each teammate opens a pull request to the team repo. Review someone else's, leave one comment, and merge it.</li>
+<li>With others: write your team's rule for who reviews and merges, and put it in the README.</li>
+</ol>
+<h3>For facilitators</h3>
+<p>Ask each person what they expect to happen before each step, then let them do it. Don't take the keyboard. When a push is rejected, ask what the message says before explaining it. Most of the session is waiting while people try, and that's the point.</p>
+<h3>Resources</h3>
+<ul>
+<li>GitHub's own guide to pull requests</li>
+<li>The team setup notes in your Cycle's dashboard</li>
+</ul>
+  </div>
+  <h2>Formed from</h2><p class="quiet">The situation logs this module grew from: what the problem was and what worked.</p><ul class="situations"><li><span class="meta">2026-11-02, logged by a mentor, 1:1</span><p><strong>The problem.</strong> A participant connected Claude to GitHub, but the team's repo didn't show up in the list. They'd been stuck for most of an evening.</p><p><strong>What worked.</strong> The repo belonged to the team's organization, and the GitHub app hadn't been installed there. We found the install page together and they did the rest.</p></li><li><span class="meta">2026-11-04, logged by a Poderator, 1:few</span><p><strong>The problem.</strong> Two teammates had been working alone in their own copies. When they tried to put their work together, pushes to main were rejected and they thought they'd broken something.</p><p><strong>What worked.</strong> Drawing the branch on a whiteboard, then each of them opening a pull request instead of pushing. I asked what they expected to happen before each step rather than doing it for them.</p></li><li><span class="meta">2026-11-06, logged by a participant, 1:few</span><p><strong>The problem.</strong> Our team had three open pull requests and nobody knew who was allowed to merge them, so nobody did.</p><p><strong>What worked.</strong> We agreed in the team channel that whoever didn't write it reviews and merges it. Took five minutes once someone asked.</p></li></ul>
+  <p class="quiet edit"><a href="https://github.com/wash-TheUpskillingLabs/c04-scaffolding/blob/main/prototypes/module-catalog/modules/github-solo-to-team.md">Edit this module on GitHub</a></p>
+</main>
+<footer><div class="wrap"><p>A prototype of the Scaffolding pod, Build Cycle C04, The Upskilling Labs of Greater Washington. Made-up data only. Licensed CC BY 4.0.</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Helping without taking over">
+  <rect width="1200" height="630" fill="#03232a"/>
+  <circle cx="1040" cy="160" r="110" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="2"/>
+  <circle cx="1040" cy="160" r="56" fill="none" stroke="rgba(255,255,255,.32)" stroke-width="2"/>
+  <circle cx="1040" cy="160" r="9" fill="#cfab67"/>
+  <text x="80" y="120" font-family="Geologica, system-ui, sans-serif" font-size="34" fill="rgba(255,255,255,.64)">Training module</text>
+  <text x="80" y="286" font-family="Geologica, system-ui, sans-serif" font-size="76" font-weight="640" fill="rgba(255,255,255,.95)">Helping without taking</text>
+  <text x="80" y="374" font-family="Geologica, system-ui, sans-serif" font-size="76" font-weight="640" fill="rgba(255,255,255,.95)">over</text>
+  <text x="80" y="560" font-family="Geologica, system-ui, sans-serif" font-size="30" fill="rgba(255,255,255,.64)">The Upskilling Labs module catalog</text>
+</svg>

@@ -171,10 +171,10 @@ const modules = readDir("modules").map((f) => {
 
   for (const k of MUST) {
     const v = m[k];
-    if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) errors.push(`${file}: "${k}" is a Must field and is empty`);
+    if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) errors.push(`${file}: "${k}" is a Must metadata field and is empty`);
   }
   if (m.maintained_by.length < 2) errors.push(`${file}: name at least two maintainers (by role), so one volunteer leaving doesn't orphan it`);
-  for (const k of FORBIDDEN) if (k in data) errors.push(`${file}: "${k}" isn't a module field. Modules are optional by default, and the catalog doesn't grade.`);
+  for (const k of FORBIDDEN) if (k in data) errors.push(`${file}: "${k}" isn't a metadata field. Modules are optional by default, and the catalog doesn't grade.`);
   for (const [k, allowed] of Object.entries(STARTING)) {
     for (const v of asList(m[k])) if (v && !allowed.includes(v)) warnings.push(`${file}: ${k} "${v}" is outside the starting values in taxonomy.md`);
   }
@@ -276,9 +276,6 @@ function modulePage(m) {
         .map((s) => `<li><span class="meta">${esc(s.date)}, logged by ${esc(s.logged_by)}${s.scale ? `, ${esc(s.scale)}` : ""}</span><p><strong>The problem.</strong> ${inline(s.problem.replace(/\n+/g, " "))}</p><p><strong>What worked.</strong> ${inline(s.worked.replace(/\n+/g, " "))}</p></li>`)
         .join("")}</ul>`
     : `<h2>Formed from</h2><p class="quiet">No logged situations yet. This module was written from a past workshop.</p>`;
-  const tryIt = m.private_way_in || m.way_out
-    ? `<h2>Trying it first</h2><dl class="fields">${row("A private way in", esc(m.private_way_in))}${row("A way out", esc(m.way_out))}</dl>`
-    : "";
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -307,8 +304,8 @@ function modulePage(m) {
 <main class="wrap module">
   <img class="thumb-lg" src="../../thumbs/${m.slug}.svg" alt="">
   ${reviewed}
-  <p class="status">Status: ${esc(m.status)}. Optional, like every module in the catalog.${m.validated ? ` ${esc(m.validated)}` : ""}</p>
   <h2>About this module</h2>
+  <p class="quiet">The module's metadata, from the front matter of <code>${esc(m.file)}</code>.</p>
   <dl class="fields">
     ${row("Learning outcome", esc(m.learning_outcome))}
     ${row("Kind", esc(label("kind", m.kind)))}
@@ -326,8 +323,11 @@ function modulePage(m) {
     ${row("Prerequisites", m.prerequisites.length ? m.prerequisites.map(prereqHtml).join(", ") : "None")}
     ${row("Scope", esc(label("scope", m.scope)))}
     ${row("Tags", esc(m.tags.join(", ")))}
+    ${row("Status", esc(m.status))}
+    ${row("Optional", "Yes, like every module in the catalog" + (m.validated ? `. ${esc(m.validated)}` : ""))}
+    ${row("A private way in", esc(m.private_way_in))}
+    ${row("A way out", esc(m.way_out))}
   </dl>
-  ${tryIt}
   <div class="body">
 ${markdown(m.body)}
   </div>

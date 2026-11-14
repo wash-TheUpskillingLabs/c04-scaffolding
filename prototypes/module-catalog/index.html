@@ -108,7 +108,7 @@ fill("f-timing", "timing", C.starting.timing);
 fill("f-tag", "tag", C.tags.filter((t) => t.modules > 0).map((t) => t.tag));
 ["f-q", "f-kind", "f-stage", "f-scale", "f-timing", "f-tag"].forEach((id) => $(id).addEventListener("input", render));
 
-// The card shows a few of the module's fields, the way an event card shows a date and place.
+// The card shows a few of the module's metadata fields, the way an event card shows a date and place.
 function card(m) {
   const reviewed = m.reviewed_by ? `Reviewed by ${esc(m.reviewed_by)}` : `<span class="flag">Not yet reviewed</span>`;
   const formed = m.formed_from.length ? `Formed from ${m.formed_from.length} logged situation${m.formed_from.length > 1 ? "s" : ""}` : "Written from a past workshop";

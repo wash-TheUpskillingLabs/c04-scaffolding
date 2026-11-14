@@ -29,11 +29,11 @@ Things the Labs validates as needed to join the ecosystem. A module can say it i
 - `facilitation`
 - `research`
 
-## Module fields with starting values
+## Metadata fields with starting values
 
 These are starting points, not a fixed list. `build.mjs` warns, but does not fail, when a value is outside them.
 
-| Field | Starting values |
+| Metadata field | Starting values |
 | --- | --- |
 | `kind` | `upskilling`, `training` |
 | `status` | `draft`, `stable` |

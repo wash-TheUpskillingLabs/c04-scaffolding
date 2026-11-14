@@ -17,9 +17,9 @@ Open it at `/prototypes/module-catalog/` on the pod site, or open `index.html` s
 | Piece | Where | What it is |
 | --- | --- | --- |
 | Situation log | `situations/<date>-<slug>.md` | What the problem was and what worked. Role, never a name. Template: `situations/_template.md`. The "Log a situation" view writes one for you and can open it as a GitHub issue. |
-| Module | `modules/<slug>.md` | The module: its fields in the front matter, then an overview (the general-knowledge entry), exercises, notes for facilitators and resources. `formed_from` lists the situations it grew from. Template: `modules/_template.md`. |
-| Card | The catalog list, and the OpenGraph image on each module page | A view of a module, the way an event has a card: title, summary, thumbnail and a few key fields. The card is how you find a module. It isn't part of how a module is built. |
-| Taxonomy | `taxonomy.md` | A small starting set of tags and field values. Any tag can be used. The build lists the new ones and counts them so they can grow from use. |
+| Module | `modules/<slug>.md` | The module: its metadata in the front matter (shown on its page under "About this module"), then an overview (the general-knowledge entry), exercises, notes for facilitators and resources. `formed_from` lists the situations it grew from. Template: `modules/_template.md`. |
+| Card | The catalog list, and the OpenGraph image on each module page | A view of a module, the way an event has a card: title, summary, thumbnail and a few metadata fields. The card is how you find a module. It isn't part of how a module is built. |
+| Taxonomy | `taxonomy.md` | A small starting set of tags and metadata values. Any tag can be used. The build lists the new ones and counts them so they can grow from use. |
 
 ## Build
 
@@ -33,9 +33,9 @@ It validates every module and situation, then writes `catalog.js`, a page for ea
 
 The build fails, and writes nothing, when a module:
 
-- leaves a Must field empty (kind, output, stage, scale, delivered by, maintained by, learning outcome, title, summary, status)
+- leaves a Must metadata field empty (kind, output, stage, scale, delivered by, maintained by, learning outcome, title, summary, status)
 - names fewer than two maintainers
-- uses a field that would make it required or graded (`required`, `mandatory`, `grade`, `score`, `credential`)
+- uses a metadata field that would make it required or graded (`required`, `mandatory`, `grade`, `score`, `credential`)
 - is marked `stable` with nobody in `reviewed_by`
 - sets up an attempt before the explanation (`timing: before-attempt`) without a `private_way_in` and a `way_out` (#5)
 - points `formed_from` at a situation that doesn't exist
@@ -44,7 +44,7 @@ Values outside the starting set are only warnings, because the taxonomy is meant
 
 ## Choices to check
 
-- **The card is a view, not part of a module.** The fields belong to the module. The card shows six of them (kind, output, stage, scale, who runs it, review status), plus the title, summary and thumbnail. Which six is a guess for testers to correct.
+- **The card is a view, not part of a module.** The metadata belongs to the module. The card shows six metadata fields (kind, output, stage, scale, who runs it, review status), plus the title, summary and thumbnail. Which six is a guess for testers to correct.
 - **"Recurring" means two or more situations sharing a tag with no module.** That is a display rule, not a decision. When repeated help becomes a module, and who decides, is still open.
 - **Situation logs as GitHub issues.** The log form opens a prefilled `Situation:` issue. Where logs really live is Front Door's lane.
 - **Thumbnails are SVG.** Most link previews need PNG or JPG for `og:image`, so a real release would render PNGs.

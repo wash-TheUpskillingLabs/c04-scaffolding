@@ -1,4 +1,5 @@
 ---
+# Metadata. Shown on the module page under "About this module"; the card shows a few of these.
 title: Short name a participant would recognize
 summary: One sentence. What this is and who it is for.
 kind: upskilling | training

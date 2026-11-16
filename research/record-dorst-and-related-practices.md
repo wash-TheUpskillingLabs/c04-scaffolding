@@ -138,6 +138,65 @@ the same work with evidence. In design research, sensemaking is the core of
 synthesis (Kolko 2010). The general idea, how people make meaning from an
 ambiguous situation, comes from Weick (1995).
 
+---
+How a Build Cycle lines up with the crosswalk: Cycle 3 (Civics & Elections)
+
+Added Nov 16, 2026. A draft for the pod to check. The Dorst, Double
+Diamond and IDEO columns are my read of what participants were asked to
+do, not something the Labs' materials state. This uses Cycle 3 because it
+ran the public format that the dashboard and guides describe. C04 is
+different: it's internal (the problem is The Labs itself), runs six weeks
+on its own milestones, and doesn't follow this timeline.
+
+The Cycle doesn't map onto the crosswalk the way the frameworks do. It's
+the rhythm: each stretch of the Cycle spends time on one or more of
+Dorst's steps. Weeks and dates are from "What to Expect: The Build Cycle"
+(13 weeks; the dashboard shows 12). What happened is from the Cycle 3
+emails and guides (#24, in research/c03-civics-elections/).
+
+| Week (Cycle 3 dates) | What happened (source) | Dorst steps | Double Diamond | IDEO phases (draft) |
+|---|---|---|---|---|
+| 0 (Jul 13 to 14) | Kickoff; topic announced | Before step 1 | | |
+| 1 (Jul 25) | Sensemaking Sprint: "collect observations, map stakeholders, surface patterns, and uncover the paradoxes" (Luma). Seven problem situations came out of it (email 01) | 1 to 5, a quick pass | Discover into Define | Gather inspiration |
+| 2 (Jul 26 to 27) | Problem voting. One pod formed, Effort vs Impact (email 01, #24) | Choosing the problem situation | Discover | Frame a question (partly) |
+| 3 to 4 (to Aug 10) | Assignment 1, Problem Frame: fieldwork, data, "previous attempts to solve," why "past attempts... failed" ("From Pod to Hackathon") | 1 Archaeology, 3 Context, 4 Field | Discover | Gather inspiration |
+| 4 (Aug 11) | Meet the Pods: lightning talks, then "cluster your individual research" into "design paradoxes" | 2 Paradox, 5 Themes (partly) | Discover to Define | Frame a question (partly) |
+| 4 (Aug 11 to 14) | Assignment 2, Frame Hypothesis: "Everyone assumes this is a problem about _____. What if it's actually a problem about _____?", a named stakeholder, a landing page headline | 6 Frames | Define | Frame a question |
+| 4 (Aug 15) | Hackathon: frames converged in the morning, then a "Portfolio of Probes" (landing pages, prototypes, surveys) (email 05) | 6 Frames into 7 Futures | Develop | Make ideas tangible |
+| 5 (Aug 17 to 24) | Field testing the probes, "How Might We," competitive analysis, a 3-minute pitch (email 07) | 7 Futures | Develop | Test to learn |
+| 6 to 7 (Aug 24 to Sep 1) | Pitches, voting, project registration, teams formed; then "user interviews" and "personas" (emails 09, 11) | End of 7; research starts again | Discover again | Gather inspiration again |
+| 8 (Sep 8) | Meet the Projects | 7 Futures | Develop | Make ideas tangible |
+| 9 to 11 (Sep 14 to Oct 4) | Build and iterate: PRD, use cases, an MVP prototype, testing with users, mentor office hours (project research guide, email 14) | 7 Futures, a little of 8 Transformation | Develop into Deliver | Make ideas tangible, Test to learn |
+| 12 (Oct 11 to 12) | Summit slides due, dry run (email 14) | 9 Integration (partly) | | Share the story |
+| 13 (Oct 13) | Summit showcase; participant survey Oct 17 (email 15) | 9 Integration (partly) | After Deliver | Share the story |
+
+Rhythm: the emails call these weeks sprints ("Sprint 4: Week 5") without
+explaining them. The hackathon and field testing are where lean startup
+fits in the complementary practices column.
+
+What it tells us (my read):
+- Cycle 3 followed Dorst closely up to the hackathon. Assignments 1 and 2
+  are steps 1, 2 and 6 almost word for word, and the guide says it is
+  "adapting Kees Dorst's Frame Innovation Process." All of it happened in
+  three weeks, Jul 25 to Aug 15.
+- After the hackathon, the vocabulary switched to design thinking: "How
+  Might We," personas, PRDs, the ten-step "Design Thinking Framework," the
+  Double Diamond and IDEO. Nothing said the language had changed.
+- Project teams started the research over. The project research guide
+  begins with audience research and pain points, which is Discover again.
+  So Cycle 3 ran two diamonds: a Dorst one for the pod's problem, then a
+  design thinking one for each project. That handoff is where this
+  crosswalk would help participants most.
+- Transformation and Integration were thin. Months 2 and 3 were mostly
+  prototyping, which is Futures in Dorst's terms. The summit showed what
+  teams learned. Nothing asked what people or organizations would have to
+  change to adopt the work, or what the wider network should take from it.
+
+Is any of it hearsay: the Sensemaking Sprint's content is from its Luma
+page, not from what happened that day. Whether the mentor intensives
+happened needs confirming with an organizer (#24). The step columns are my
+read and need checking by the pod.
+
 Sources: Dorst & Kokotovich (2015), IASDR paper on Frame Creation; Design
 Council, "Framework for Innovation" (Double Diamond); Stanford d.school,
 Design Thinking Bootleg; IDEO U, "Design Thinking Resources" (viewed Nov 9,

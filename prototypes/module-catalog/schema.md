@@ -317,6 +317,26 @@ A log stays a few lines. Only the problem and the outcome are required.
 
 **Still stuck is a signal.** When logs that share tags keep ending `still-stuck`, that's a module nobody has written yet. The catalog can count these next to the tags that recur without a module.
 
+**Scenario to test: a Help Log from a Learning Log entry.** This is an idea, not a decision. Ask participants before building it.
+
+1. A participant writes their weekly Learning Log. One entry says: "I spent two evenings stuck on the GitHub connector until a teammate showed me the app had to be installed on our organization."
+2. That's a problem and what worked, the same thing a Help Log records. Today it stays in the Learning Log, where only their Poderator reads it.
+3. Next to the entry is a choice: "This could help others." The participant ticks it.
+4. That makes a draft Help Log, with `source` set to `learning-log`. The participant trims it to a few lines, takes out names, and fills in the outcome. Their teammate, the one who helped, could be asked to add what worked from their side.
+5. From there it's an ordinary Help Log: its home is the participant's lab, it starts `private`, and the usual permissions decide who can widen it.
+
+The Learning Log entry itself doesn't change and stays private.
+
+Why ask participants first:
+- **Privacy.** A Learning Log is a personal reflection read by one person. Some people won't want any of it to leave that space, even by their own choice.
+- **Honesty.** If entries might become shared, people may write for an audience instead of for themselves.
+- **Pressure.** Their Poderator reads the Learning Log, so a "share this" choice could feel expected rather than optional.
+- **Point of view.** A Help Log is usually written by the person who helped. This one comes from the person who was helped, which is useful but different.
+
+What could make it worth it: it captures what helped someone without anyone writing anything new, and it reaches moments where no mentor was involved, such as peers helping each other.
+
+Questions to ask: Would you share a moment from your Learning Log this way? What would you want to check or change first? Would being asked every week feel like pressure?
+
 **Who can see and widen a help log.** Permissions follow the log's home:
 
 - A help log tied to a location (`home_scope` regional) falls under that region's permissions and national's. People with the right permission in that lab, or nationally, can see it and widen it to other regions or to national.
@@ -459,4 +479,4 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 - [ ] When national changes a module it took from a lab, is the lab told, and can it pull the changes into its original?
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
-- [ ] Should participants be able to turn a Learning Log entry into a help log? Ask them first.
+- [ ] Should participants be able to turn a Learning Log entry into a Help Log? See the scenario under `help_logs`. Ask them first.

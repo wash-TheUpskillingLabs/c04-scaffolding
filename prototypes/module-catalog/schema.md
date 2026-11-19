@@ -325,7 +325,7 @@ A log stays a few lines. Only the problem and the outcome are required.
 | `source` | text: `learning-session`, `cohort`, `event`, `escalation`, `front-door`, `learning-log` | `escalation`: a team escalated in OLOS and a mentor accepted. `learning-log`: shared from the Learning Log by answering "yes" to "Anything from this week that might be useful to others?" |
 | `learning_log_id` | integer → `learning_logs`, nullable | Set when it was shared from a Learning Log, as provenance. The entry itself isn't shared |
 | `cycle_id` | integer → `cycles`, nullable | |
-| `pod_id` | integer → `pods`, nullable | The pod it happened in, so that pod's Poderator can see it |
+| `pod_id` | integer → `pods`, nullable | The pod it happened in |
 | `module_id` | integer → `modules`, nullable | Set when a module forms from it or it fits one |
 | `home_scope`, `home_metro_id` | | Where it was captured |
 | `visibility` | text: `support`, `regional`, `national` | Permission-based; see below. Default `support` |
@@ -367,11 +367,11 @@ Questions to ask participants: Would you answer "yes" some weeks? What would mak
 
 | `visibility` | Who can see it |
 |---|---|
-| `support` (default) | The person who logged it; the Poderator of its pod; organizers of its home lab; regional admins of its home lab; national admins |
+| `support` (default) | The person who logged it; Poderators in its home lab; organizers of its home lab; regional admins of its home lab; national admins |
 | `regional` | All of the above, plus members of its home lab and of any labs in `listings` |
 | `national` | All of the above, plus members of every lab |
 
-"Organizers" means the lab's organizers (OLOS's `lab_leads`). Whether every Poderator in the lab should see `support` logs, or only the pod's own, is open.
+"Organizers" means the lab's organizers (OLOS's `lab_leads`). Every Poderator in the home lab can see `support` logs, not only the pod's own, so Poderators can learn from each other's pods (decided Nov 19).
 
 **Who can widen a help log.** Permissions follow the log's home:
 
@@ -516,4 +516,3 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
 - [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.
-- [ ] Should every Poderator in a lab see `support` help logs, or only the Poderator of the log's pod?

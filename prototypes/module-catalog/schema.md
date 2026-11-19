@@ -133,6 +133,8 @@ erDiagram
     modules ||--o{ module_prerequisites : "assumes"
     modules ||--o{ module_resources : "bundles"
     resources ||--o{ module_resources : ""
+    help_logs ||--o{ help_log_resources : "points to"
+    resources ||--o{ help_log_resources : ""
     modules |o--o{ help_logs : "formed from"
     tags ||--o{ taggings : ""
     participants ||--o{ participant_tags : ""
@@ -274,6 +276,18 @@ OLOS's Library table. A module is a bundle of content, so its slides, guides, po
 - **Tags** move from the jsonb `tags` column to `taggings`.
 - **Approval**, the same as modules.
 
+### `help_log_resources`
+
+Links shared in a Help Log, from the Learning Log or anywhere else. Each one is a row in `resources`, so useful links reach the knowledge base, and a resource can show the problems it helped with.
+
+| Column | Type | Notes |
+|---|---|---|
+| `help_log_id` | integer → `help_logs` | |
+| `resource_id` | integer → `resources` | A new draft resource, or an existing one with the same URL |
+| `created_at` | timestamptz | |
+
+A resource made this way starts as a `draft` with the sharer as its author, and is published only after approval.
+
 ### `module_resources`
 
 | Column | Type | Notes |
@@ -327,11 +341,14 @@ The weekly Learning Log ends with one yes/no question, separate from the private
 3. The Help Log fields appear, in plain words:
    - What were you stuck on? (`problem`)
    - What didn't work? (optional)
-   - What helped? A link or tip can go here. (`what_worked`)
+   - What helped? (`what_worked`)
+   - Any links that helped? (optional; each becomes a draft resource, below)
    - Did it get solved? (`outcome`: yes, partly, still stuck)
    - If not, what would help? (`help_needed`, and an option to ask for follow-up)
    - Who helped, by role? ("a teammate," "a mentor")
 4. They check it and take out names. Saving makes a Help Log with `source` set to `learning-log`, its home in their lab, starting `private`. The usual permissions and approval decide where it goes from there.
+
+Each link they add also goes to the knowledge base as a draft resource, linked back to the Help Log through `help_log_resources`. It goes through the usual approval before anyone else sees it. If the link is already in the knowledge base, the Help Log points to the existing resource instead of making a duplicate.
 
 The reflection itself is never shared. Answering "no" is normal, and isn't tracked or counted in log health.
 

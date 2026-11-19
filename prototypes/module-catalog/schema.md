@@ -374,7 +374,7 @@ Questions to ask participants: Would you answer "yes" some weeks? What would mak
 
 "Organizers" means the lab's organizers (OLOS's `lab_leads`). Every Poderator in the home lab can see `support` logs, not only the pod's own, so Poderators can learn from each other's pods (decided Nov 19).
 
-**A note on pods and teams.** At the Labs today, a pod is a group researching one problem area, and project teams form out of it later. In wider use, "pod" usually means a small cross-functional team that builds something together, which is closer to what the Labs calls a team. People at the Labs mix the two up already (organizer interview, #28). The pod lead's view (Nov 19) is that pod and team should be the same thing. If they merge, `pod_id` and `project_id` become one field, and the group that is a pod today needs another name. That's a change for OLOS and the Cycle, not only this schema, so it's listed as an open question.
+**A note on pods and teams.** At the Labs today, a pod is a group researching one problem area, and project teams form out of it later. In wider use, "pod" usually means a small cross-functional team that builds something together, which is closer to what the Labs calls a team. People at the Labs mix the two up already (organizer interview, #28). The pod lead proposes (Nov 19) calling today's pod a **Tribe** and today's project team a **Pod**, with **Track** or **Research Group** as other names for today's pod. If that's adopted, `project_id` becomes `pod_id` (the team), and today's `pod_id` becomes `tribe_id`. The proposal is also in the glossary. That's a change for OLOS and the Cycle, not only this schema, so it's listed as an open question.
 
 **Who can widen a help log.** Permissions follow the log's home:
 
@@ -519,4 +519,4 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
 - [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.
-- [ ] Should pod and team be the same thing, as in wider use? If so, what is today's pod called (for example a research group, track or problem area), and how do OLOS's `pods` and `projects` change?
+- [ ] Adopt the proposed names: Tribe for today's pod (or Track, or Research Group) and Pod for today's project team? Needs the other pods and organizers, and changes OLOS's `pods` and `projects`.

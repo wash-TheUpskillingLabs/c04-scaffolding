@@ -118,15 +118,17 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Pod (Research Pod)
 - **As written:** "small teams called 'pods' form around [problems]" ("What to Expect"). C04: "Each Research Pod has its own repo." About page: "A handful of people who dig into a problem together."
-- **In practice:** Contested (pod vs. team): see #17, #16 and #24.
+- **In practice:** Contested (pod vs. team): see #17, #16 and #24. An organizer said pod and project were confused (#28).
 - **Plain language:** [open]
 - **Related practices:** [open]
+- **Proposed rename (pod lead, Nov 19; not decided):** Call today's pod a **Tribe**, and call today's project team a **Pod**. In wider use, a pod is a small cross-functional team that builds something together, which is what the Labs calls a team. A tribe is a group of teams working in one area (the Spotify model's term). Alternative names for today's pod, in no order: **Track**, **Research Group**. Would change OLOS (`pods`, `projects`) and how the Cycle is described. See the module catalog schema draft (`prototypes/module-catalog/schema.md`).
 
 ### Team / project team
 - **As written:** "Form project teams" (week 7, "What to Expect"). C04: "Approved projects get a team."
 - **In practice:** See #16 and #17.
 - **Plain language:** [open]
 - **Related practices:** [open]
+- **Proposed rename (pod lead, Nov 19; not decided):** Call a project team a **Pod**, as in wider use. See Pod above.
 
 ### Project
 - **As written:** "A project is a change to how The Labs works that a real person uses, built on the region's OLOS and sent to the main project as a pull request" (Scaffolding README). Build Cycles page: "Everything a team builds here is an open-source community project. When the cycle's over, you're free to do whatever you want with it — and so is everyone else."

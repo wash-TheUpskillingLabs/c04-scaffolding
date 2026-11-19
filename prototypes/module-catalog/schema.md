@@ -14,6 +14,7 @@ Second pass, after the pod lead's decisions of Nov 19: federated data, regional 
 ## Decided (Nov 19)
 
 - **Both means federated.** A record lives in one place, national or a region, and can also appear in others as a listing.
+- **Content can live with one team only.** A team can keep a module, resource, session or Help Log to itself, and share it with its lab or national later, or never.
 - **National by default, with locations listed.** A regional lab can build its own module and propose it for the national catalog, so labs don't end up with many near duplicates.
 - **Draft, then approve, then publish.** Nothing is posted externally until someone approves it. The same rules apply to outside hosts.
 - **An admin turns an emerging tag into a term.** A new tag starts as "Other" with the person's own words.
@@ -30,7 +31,7 @@ Second pass, after the pod lead's decisions of Nov 19: federated data, regional 
 
 Every record that can be shared has a **home** and can have **listings**.
 
-- **Home** is where the record lives and who looks after it: national, or one region (an OLOS `metros` row, a local lab).
+- **Home** is where the record lives and who looks after it: national; one region (an OLOS `metros` row, a local lab); or one team within a region.
 - **Listings** are the other places it appears. Each listing is one region, or national.
 
 Example: a GitHub workshop module lives at national. A session of it is held in Washington, DC, so the session lives in DC and shows on the DC page. A session in Baltimore lives in Baltimore, and also shows on the DC page because it's within the DC page's distance.
@@ -40,12 +41,19 @@ Listings come two ways:
 - **By geography, for sessions.** A session shows on every lab page within that lab's listing distance. Nothing has to be added by hand. This needs a place for each session and a distance for each lab (see "Locations and distance").
 - **By hand, for everything else.** A lab can list a national resource on its page, and a help log's visibility can name more than one region. Those are rows in `listings`.
 
-The same two columns go on every shareable table:
+The same columns go on every shareable table:
 
 | Column | Type | Notes |
 |---|---|---|
-| `home_scope` | text: `national`, `regional` | |
-| `home_metro_id` | integer → `metros`, nullable | Set when `home_scope` is `regional` |
+| `home_scope` | text: `national`, `regional`, `team` | |
+| `home_metro_id` | integer → `metros`, nullable | Set when `home_scope` is `regional` or `team` (the team's lab) |
+| `home_team_id` | integer → `projects`, nullable | Set when `home_scope` is `team`. A team is OLOS's `projects` today; its name is an open question (see the note on pods and teams) |
+
+**Team home.** A record whose home is a team stays with that team:
+- **Who sees it:** members of the team, plus admins (regional and national), who can see everything so they can handle problems. Whether the team's Poderator sees it is open.
+- **No review needed** to share it within the team, because it isn't posted outside. Review starts when the team proposes it beyond the team.
+- **Never listed** elsewhere while its home is the team. To share it, the team proposes it to its lab (home becomes regional) or to national, through approval.
+- **When a team ends**, its records stay with the team's members, read-only, unless they were shared.
 
 Listings sit in one table for all record types:
 
@@ -61,10 +69,10 @@ A record always appears at its home, so its home needs no listing row.
 
 | Record | Usual home | Usually listed |
 |---|---|---|
-| Module | National. Regional if a lab built it and hasn't proposed it, or national hasn't accepted it yet | Nowhere else needed: a national module shows everywhere. A regional module shows in its own lab |
+| Module | National. Regional if a lab built it and hasn't proposed it, or national hasn't accepted it yet. Team if a team keeps it for itself | Nowhere else needed: a national module shows everywhere. A regional module shows in its own lab. A team module shows only to the team |
 | Session | The region where it's held. National if it's virtual | Every lab within its listing distance (Baltimore on the DC page), and national through its module. Virtual sessions show everywhere |
-| Resource | National | Labs that want it on their page |
-| Help log | The region where it was captured | Wherever its permissions allow (see `help_logs`) |
+| Resource | National. Team for a team's own working material | Labs that want it on their page. Team resources aren't listed |
+| Help log | The region where it was captured. Team if the team keeps it for itself | Wherever its permissions allow (see `help_logs`) |
 
 ### Locations and distance
 
@@ -178,7 +186,8 @@ Home: national by default (see "Home and listings").
 | `contributed_by_org` | text, nullable | | An anonymized label for an outside contributor |
 | `thumbnail_url` | text | Should | The card's Open Graph image |
 | `home_scope`, `home_metro_id` | | | See "Home and listings" |
-| `national_status` | text: `not-proposed`, `proposed`, `accepted`, `declined` | | For a regional module proposed to the national catalog |
+| `proposed_scope` | text: `regional`, `national`, nullable | | Where a team or regional module has been proposed: a team to its lab or to national, a lab to national |
+| `proposal_status` | text: `not-proposed`, `proposed`, `accepted`, `declined` | | Accepted by the lab moves a team module's home to the region. Accepted by national works as below |
 | `derived_from_module_id` | integer → `modules`, nullable | | When national accepts a regional module, it makes a national copy it can change, pointing back to the original |
 | `superseded_by_module_id` | integer → `modules`, nullable | | Set when a lab switches from its own module to the national version. Its original is retired and its page points to the national one |
 | `status`, `version`, `published_version` | | | See "Approval and publishing" |
@@ -236,7 +245,7 @@ A module held at a time and place. "Session" replaces the first draft's "offerin
 | `module_id` | integer → `modules` | |
 | `event_id` | integer → `events`, nullable | Date, venue and RSVPs come from the event once it's scheduled |
 | `delivery_mode` | text: `in-person`, `virtual`, `hybrid` | |
-| `home_scope`, `home_metro_id` | | The region where it's held. National if virtual |
+| `home_scope`, `home_metro_id`, `home_team_id` | | The region where it's held. National if virtual. Team for a session only for that team, such as a team's own working session |
 | `host_org` | text, nullable | An outside host |
 | `status` | text: `proposed`, `scheduled`, `held`, `cancelled` | Shown externally only after approval |
 | `proposed_start_at`, `proposed_end_at` | timestamptz, nullable | The dates a host proposes, before there's an event. Once `event_id` is set, the event's `start_at` and `end_at` are the real dates |
@@ -328,8 +337,8 @@ A log stays a few lines. Only the problem and the outcome are required.
 | `pod_id` | integer → `pods`, nullable | The pod it happened in |
 | `project_id` | integer → `projects`, nullable | The project team it happened in. OLOS calls teams projects (`projects`, `project_memberships`). Kept separate from `pod_id` while OLOS has both; see the note on pods and teams below |
 | `module_id` | integer → `modules`, nullable | Set when a module forms from it or it fits one |
-| `home_scope`, `home_metro_id` | | Where it was captured |
-| `visibility` | text: `support`, `regional`, `national` | Permission-based; see below. Default `support` |
+| `home_scope`, `home_metro_id`, `home_team_id` | | Where it was captured. Team if the team keeps it for itself |
+| `visibility` | text: `team`, `support`, `regional`, `national` | Permission-based; see below. Default `support` |
 | `visibility_changed_at`, `visibility_changed_by_participant_id` | | When it was last widened or narrowed, and by whom |
 | `created_at`, `updated_at` | timestamptz | When it was logged and last edited |
 
@@ -364,10 +373,11 @@ Why this shape:
 
 Questions to ask participants: Would you answer "yes" some weeks? What would make you answer "no"? Would you want to see where your share ended up?
 
-**Who can see a help log.** At every visibility, the person who logged it, the people who support them and admins can see it:
+**Who can see a help log.** At every visibility, the person who logged it and admins can see it. From `support` up, the people who support them can too:
 
 | `visibility` | Who can see it |
 |---|---|
+| `team` | The person who logged it; members of its team; admins. For a Help Log whose home is the team |
 | `support` (default) | The person who logged it; members of its pod and team (`pod_memberships`, `project_memberships`); Poderators in its home lab; organizers of its home lab; regional admins of its home lab; national admins |
 | `regional` | All of the above, plus members of its home lab and of any labs in `listings` |
 | `national` | All of the above, plus members of every lab |
@@ -426,7 +436,7 @@ Times are stored as `timestamptz`, in UTC. They're shown in the lab's time zone 
 
 ## Approval and publishing
 
-Every module, session and resource goes through the same states. Nothing is shown externally before approval.
+Every module, session and resource goes through the same states. Nothing is shown externally before approval. A record whose home is a team can be used within the team without review; it goes through review when the team proposes it beyond the team.
 
 | `status` | Who sees it |
 |---|---|
@@ -513,6 +523,9 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 
 - [ ] Must identifying details come out of a help log before it's seen beyond its home?
 - [ ] What does a review check, and how often is a module confirmed as current? Drafted above as a proposal.
+- [ ] Does a team's Poderator see the team's own records (home `team`), or only the team and admins?
+- [ ] When a team ends, do its unshared records stay read-only with its members, move to the lab, or get deleted after a time?
+- [ ] Should the larger group (today's pod) also be a home level, between team and region?
 - [ ] What's the default listing distance, and can each lab change its own?
 - [ ] Do notifications fit OLOS's existing follows, or need `location_follows`?
 - [ ] When national changes a module it took from a lab, is the lab told, and can it pull the changes into its original?

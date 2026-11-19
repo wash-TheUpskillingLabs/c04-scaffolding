@@ -21,6 +21,10 @@ Open it at `/prototypes/module-catalog/` on the pod site, or open `index.html` s
 | Card | The catalog list, and the OpenGraph image on each module page | A view of a module, the way an event has a card: title, summary, thumbnail and a few metadata fields. The card is how you find a module. It isn't part of how a module is built. |
 | Taxonomy | `taxonomy.md` | A small starting set of tags and metadata values. Any tag can be used. The build lists the new ones and counts them so they can grow from use. |
 
+## Schema draft
+
+[`schema.md`](schema.md) drafts how modules, offerings, resources, situation logs and tags could be stored in OLOS, using Front Door's National, Regional and Both scoping. It's for Scaffolding and Front Door to work through together.
+
 ## Build
 
 No dependencies. From this folder:

@@ -356,7 +356,7 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 
 ## Open questions
 
-- [ ] What should situation logs be called? (See the note in the PRD discussion.)
+- [ ] What should situation logs be called? Candidates: case (from Knowledge-Centered Service), after-action review, field note, help log.
 - [ ] Who can widen a log's visibility, and must identifying details come out first?
 - [ ] What does a review check, and how often is a module confirmed as current? Drafted above as a proposal.
 - [ ] Can someone approve their own module, or must the reviewer be someone else? Drafted: someone else.

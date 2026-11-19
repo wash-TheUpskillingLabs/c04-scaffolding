@@ -307,7 +307,7 @@ A log stays a few lines. Only the problem and the outcome are required.
 | `logged_by_participant_id` | integer → `participants` | Never shown outside the permissions below |
 | `logged_by_role` | text | What others see: "a mentor," "a Poderator" |
 | `scale` | text: `1:1`, `1:few`, `1:cohort/public` | |
-| `source` | text: `learning-session`, `cohort`, `event`, `escalation`, `front-door`, `learning-log` | `escalation`: a team escalated in OLOS and a mentor accepted. `learning-log`: a participant marked a Learning Log entry as something that could help others (an idea to test with participants) |
+| `source` | text: `learning-session`, `cohort`, `event`, `escalation`, `front-door`, `learning-log` | `escalation`: a team escalated in OLOS and a mentor accepted. `learning-log`: shared from the Learning Log's optional "useful to others" box (an idea to test with participants) |
 | `cycle_id` | integer → `cycles`, nullable | |
 | `module_id` | integer → `modules`, nullable | Set when a module forms from it or it fits one |
 | `home_scope`, `home_metro_id` | | Where it was captured |
@@ -317,25 +317,26 @@ A log stays a few lines. Only the problem and the outcome are required.
 
 **Still stuck is a signal.** When logs that share tags keep ending `still-stuck`, that's a module nobody has written yet. The catalog can count these next to the tags that recur without a module.
 
-**Scenario to test: a Help Log from a Learning Log entry.** This is an idea, not a decision. Ask participants before building it.
+**Scenario to test: sharing something useful from the Learning Log.** This is an idea, not a decision. Ask participants before building it.
 
-1. A participant writes their weekly Learning Log. One entry says: "I spent two evenings stuck on the GitHub connector until a teammate showed me the app had to be installed on our organization."
-2. That's a problem and what worked, the same thing a Help Log records. Today it stays in the Learning Log, where only their Poderator reads it.
-3. Next to the entry is a choice: "This could help others." The participant ticks it.
-4. That makes a draft Help Log, with `source` set to `learning-log`. The participant trims it to a few lines, takes out names, and fills in the outcome. Their teammate, the one who helped, could be asked to add what worked from their side.
-5. From there it's an ordinary Help Log: its home is the participant's lab, it starts `private`, and the usual permissions decide who can widen it.
+The weekly Learning Log gets one optional question, separate from the private reflection: "Anything from this week that might be useful to others?" Nothing in the reflection itself is shared. Only what someone chooses to write in this box is.
 
-The Learning Log entry itself doesn't change and stays private.
+1. A participant writes their Learning Log as usual. Their Poderator reads it, and only their Poderator.
+2. In the optional box they write: "The GitHub connector won't see a team repo until the app is installed on the organization. A teammate showed me."
+3. They pick what it is:
+   - **Something I got stuck on, and what helped.** It becomes a draft Help Log, with `source` set to `learning-log`. They fill in the outcome, and can name the role of who helped ("a teammate").
+   - **A link, guide or tip.** It becomes a draft resource suggestion for the knowledge base.
+4. They can check it and take out names before it's saved. It starts `private`, with its home in their lab, and the usual permissions and approval decide where it goes from there.
 
-Why ask participants first:
-- **Privacy.** A Learning Log is a personal reflection read by one person. Some people won't want any of it to leave that space, even by their own choice.
-- **Honesty.** If entries might become shared, people may write for an audience instead of for themselves.
-- **Pressure.** Their Poderator reads the Learning Log, so a "share this" choice could feel expected rather than optional.
-- **Point of view.** A Help Log is usually written by the person who helped. This one comes from the person who was helped, which is useful but different.
+Leaving the box empty is normal, and nobody is told when it's empty.
 
-What could make it worth it: it captures what helped someone without anyone writing anything new, and it reaches moments where no mentor was involved, such as peers helping each other.
+Why this shape:
+- **Privacy and honesty.** The reflection never leaves the Learning Log, so people can keep writing it for themselves.
+- **No pressure.** The box is optional every week, and an empty box isn't tracked or counted in log health.
+- **It reaches help nobody logged.** Peers help each other far more often than mentors log it.
+- **It isn't only for problems.** A useful link or tip has somewhere to go too.
 
-Questions to ask: Would you share a moment from your Learning Log this way? What would you want to check or change first? Would being asked every week feel like pressure?
+Questions to ask participants: Would you use a box like this? What would make you leave it empty? Would you want to see where your share ended up?
 
 **Who can see and widen a help log.** Permissions follow the log's home:
 
@@ -479,4 +480,4 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 - [ ] When national changes a module it took from a lab, is the lab told, and can it pull the changes into its original?
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
-- [ ] Should participants be able to turn a Learning Log entry into a Help Log? See the scenario under `help_logs`. Ask them first.
+- [ ] Would participants use an optional "useful to others" box in the Learning Log? See the scenario under `help_logs`. Ask them first.

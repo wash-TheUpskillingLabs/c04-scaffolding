@@ -23,7 +23,7 @@ Second pass, after the pod lead's decisions of Nov 19: federated data, regional 
 - **The capture of help given is called a Help Log.** It records what didn't work and whether the person is still stuck, as well as what worked.
 - **Participants can share to the Help Log from their Learning Log.** One yes/no question; the fields appear only on "yes," and the reflection stays private.
 - **Permissions follow a record's home.** A help log tied to a location falls under that region's permissions and national's. A help log about national content, or from a virtual session, falls under national's.
-- **No one approves their own work**, unless they're a super-admin or have been given that permission.
+- **No one approves their own work**, unless they're a super-admin (OLOS's `owner` role) or have been given that permission.
 - **Geography decides what shows on a lab's page.** Sessions in other regions show on a lab's page when they're within a set distance. Participants choose to be notified for a whole region, or only for one or more specific locations (Washington, DC, but not Baltimore, MD).
 - **When national accepts a regional module, national can take it and change it.** The lab can keep its original, or switch to the national version.
 
@@ -375,6 +375,8 @@ Questions to ask participants: Would you answer "yes" some weeks? What would mak
 | `regional` | All of the above, plus members of its home lab and of any labs in `listings` |
 | `national` | All of the above, plus members of every lab |
 
+**How these roles map to OLOS** (Front Door's notes on OLOS roles and its participant data PRD): national admins are OLOS's global `owner` and `admin` roles. In OLOS, `owner` means super-admin, not the owner of a record: only an owner can grant owner, and the owner console archives, resets and deletes. Organizers are the lab's leads (`lab_lead`, `co_lead`). OLOS has no regional admin role yet; this draft assumes one, which is for Front Door's roles work to settle.
+
 "Organizers" means the lab's organizers (OLOS's `lab_leads`). Every Poderator in the home lab can see `support` logs, not only the pod's own, so Poderators can learn from each other's pods (decided Nov 19).
 
 **A note on pods and teams.** At the Labs today, a pod is a group researching one problem area, and project teams form out of it later. In wider use, "pod" usually means a small cross-functional team that builds something together, which is closer to what the Labs calls a team. People at the Labs mix the two up already (organizer interview, #28). Whether to rename them is an open question (Nov 19). Two pairings have come up: **Pod** for the team with **Tribe** above it, or **Team** with **Track** or **Research Group** above it. Either way, the field for the team and the field for the larger group get those names (for example `pod_id` and `tribe_id`, or `team_id` and `track_id`). The proposal and where the terms come from are in the glossary. That's a change for OLOS and the Cycle, not only this schema, so it's listed as an open question.
@@ -454,7 +456,7 @@ Every module, session and resource goes through the same states. Nothing is show
 | `requested_at` | timestamptz | When it was sent for review |
 | `reviewed_at` | timestamptz | |
 
-**Who can approve.** Not the author or a maintainer of the record, unless they're a super-admin or have been given permission to approve their own work. That permission belongs in Front Door's roles and permissions work. National approves national records. A lab approves its own records, and national can too.
+**Who can approve.** Not the author or a maintainer of the record, unless they're a super-admin (OLOS's `owner` role) or have been given permission to approve their own work. That permission belongs in Front Door's roles and permissions work. National approves national records. A lab approves its own records, and national can too.
 
 **What a review checks (proposal).** From the PRD and the interviews:
 - The learning outcome is stated, and the activities lead to it.
@@ -523,3 +525,4 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
 - [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.
 - [ ] Which pairing: Pod with Tribe above it, or Team with Track or Research Group above it? Needs the other pods and organizers, and changes OLOS's `pods` and `projects`.
+- [ ] Is a regional admin a new OLOS role, or are a lab's leads (`lab_lead`, `co_lead`) its admins?

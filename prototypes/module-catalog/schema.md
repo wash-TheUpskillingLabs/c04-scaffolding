@@ -326,7 +326,7 @@ A log stays a few lines. Only the problem and the outcome are required.
 | `learning_log_id` | integer → `learning_logs`, nullable | Set when it was shared from a Learning Log, as provenance. The entry itself isn't shared |
 | `cycle_id` | integer → `cycles`, nullable | |
 | `pod_id` | integer → `pods`, nullable | The pod it happened in |
-| `project_id` | integer → `projects`, nullable | The project team it happened in. OLOS calls teams projects (`projects`, `project_memberships`). Pod and team are separate fields because people mix them up (organizer interview, #28), and help can happen in either |
+| `project_id` | integer → `projects`, nullable | The project team it happened in. OLOS calls teams projects (`projects`, `project_memberships`). Kept separate from `pod_id` while OLOS has both; see the note on pods and teams below |
 | `module_id` | integer → `modules`, nullable | Set when a module forms from it or it fits one |
 | `home_scope`, `home_metro_id` | | Where it was captured |
 | `visibility` | text: `support`, `regional`, `national` | Permission-based; see below. Default `support` |
@@ -368,11 +368,13 @@ Questions to ask participants: Would you answer "yes" some weeks? What would mak
 
 | `visibility` | Who can see it |
 |---|---|
-| `support` (default) | The person who logged it; Poderators in its home lab; organizers of its home lab; regional admins of its home lab; national admins |
+| `support` (default) | The person who logged it; members of its pod and team (`pod_memberships`, `project_memberships`); Poderators in its home lab; organizers of its home lab; regional admins of its home lab; national admins |
 | `regional` | All of the above, plus members of its home lab and of any labs in `listings` |
 | `national` | All of the above, plus members of every lab |
 
 "Organizers" means the lab's organizers (OLOS's `lab_leads`). Every Poderator in the home lab can see `support` logs, not only the pod's own, so Poderators can learn from each other's pods (decided Nov 19).
+
+**A note on pods and teams.** At the Labs today, a pod is a group researching one problem area, and project teams form out of it later. In wider use, "pod" usually means a small cross-functional team that builds something together, which is closer to what the Labs calls a team. People at the Labs mix the two up already (organizer interview, #28). The pod lead's view (Nov 19) is that pod and team should be the same thing. If they merge, `pod_id` and `project_id` become one field, and the group that is a pod today needs another name. That's a change for OLOS and the Cycle, not only this schema, so it's listed as an open question.
 
 **Who can widen a help log.** Permissions follow the log's home:
 
@@ -517,3 +519,4 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
 - [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.
+- [ ] Should pod and team be the same thing, as in wider use? If so, what is today's pod called (for example a research group, track or problem area), and how do OLOS's `pods` and `projects` change?

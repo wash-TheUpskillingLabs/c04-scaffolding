@@ -326,6 +326,7 @@ A log stays a few lines. Only the problem and the outcome are required.
 | `learning_log_id` | integer → `learning_logs`, nullable | Set when it was shared from a Learning Log, as provenance. The entry itself isn't shared |
 | `cycle_id` | integer → `cycles`, nullable | |
 | `pod_id` | integer → `pods`, nullable | The pod it happened in |
+| `project_id` | integer → `projects`, nullable | The project team it happened in. OLOS calls teams projects (`projects`, `project_memberships`). Pod and team are separate fields because people mix them up (organizer interview, #28), and help can happen in either |
 | `module_id` | integer → `modules`, nullable | Set when a module forms from it or it fits one |
 | `home_scope`, `home_metro_id` | | Where it was captured |
 | `visibility` | text: `support`, `regional`, `national` | Permission-based; see below. Default `support` |

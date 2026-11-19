@@ -19,6 +19,10 @@ Second pass, after the pod lead's decisions of Nov 19: federated data, regional 
 - **An admin turns an emerging tag into a term.** A new tag starts as "Other" with the person's own words.
 - **The database is the source of truth.** The role of the Markdown files is open (see the end).
 - **Participants' interests and expertise use the same `tags` table** as modules. Open to rethinking later.
+- **Permissions follow a record's home.** A log tied to a location falls under that region's permissions and national's. A log about national content, or from a virtual session, falls under national's.
+- **No one approves their own work**, unless they're a super-admin or have been given that permission.
+- **Geography decides what shows on a lab's page.** Sessions in other regions show on a lab's page when they're within a set distance. Participants choose to be notified for a whole region, or only for one or more specific locations (Washington, DC, but not Baltimore, MD).
+- **When national accepts a regional module, national can take it and change it.** The lab can keep its original, or switch to the national version.
 
 ## Home and listings: how federated data works
 
@@ -27,7 +31,12 @@ Every record that can be shared has a **home** and can have **listings**.
 - **Home** is where the record lives and who looks after it: national, or one region (an OLOS `metros` row, a local lab).
 - **Listings** are the other places it appears. Each listing is one region, or national.
 
-Example: a GitHub workshop module lives at national. A session of it is held in Washington, DC, so the session lives in DC and is listed on the DC page. A session in Baltimore lives in Baltimore, and can also be listed on the DC page, because it's close.
+Example: a GitHub workshop module lives at national. A session of it is held in Washington, DC, so the session lives in DC and shows on the DC page. A session in Baltimore lives in Baltimore, and also shows on the DC page because it's within the DC page's distance.
+
+Listings come two ways:
+
+- **By geography, for sessions.** A session shows on every lab page within that lab's listing distance. Nothing has to be added by hand. This needs a place for each session and a distance for each lab (see "Locations and distance").
+- **By hand, for everything else.** A lab can list a national resource on its page, and a log's visibility can name more than one region. Those are rows in `listings`.
 
 The same two columns go on every shareable table:
 
@@ -51,9 +60,33 @@ A record always appears at its home, so its home needs no listing row.
 | Record | Usual home | Usually listed |
 |---|---|---|
 | Module | National. Regional if a lab built it and hasn't proposed it, or national hasn't accepted it yet | Nowhere else needed: a national module shows everywhere. A regional module shows in its own lab |
-| Session | The region where it's held. National if it's virtual | Nearby labs (Baltimore on the DC page), and national through its module |
+| Session | The region where it's held. National if it's virtual | Every lab within its listing distance (Baltimore on the DC page), and national through its module. Virtual sessions show everywhere |
 | Resource | National | Labs that want it on their page |
 | Log | The region where it was captured | Wherever its permissions allow (see logs) |
+
+### Locations and distance
+
+A region (`metros`) is bigger than a place. Greater Washington includes Washington, DC, and nearby cities; a participant may want DC sessions but not Baltimore ones. So places get their own table.
+
+| `locations` column | Type | Notes |
+|---|---|---|
+| `id` | serial | |
+| `name` | text | "Washington, DC," "Baltimore, MD" |
+| `metro_id` | integer → `metros` | The region it belongs to |
+| `latitude`, `longitude` | numeric | For distance |
+
+`metros` gets `latitude`, `longitude` and `listing_radius_miles`: how far away a session can be and still show on that lab's page. `sessions` (or its event) gets a `location_id`.
+
+**Notifications.** A participant chooses what to hear about:
+
+| `location_follows` column | Type | Notes |
+|---|---|---|
+| `participant_id` | integer → `participants` | |
+| `metro_id` | integer → `metros`, nullable | A whole region: everything that shows on that lab's page |
+| `location_id` | integer → `locations`, nullable | One place only. One of the two is set |
+| `topics_only` | boolean | Only sessions matching their interest tags. Default false |
+
+OLOS already has follows for labs and pages (`auto_follows`, `page_follows_seeded` in Front Door's notes). This may fit there instead of a new table.
 
 ## Module types and what a module holds
 
@@ -140,7 +173,9 @@ Home: national by default (see "Home and listings").
 | `contributed_by_org` | text, nullable | | An anonymized label for an outside contributor |
 | `thumbnail_url` | text | Should | The card's Open Graph image |
 | `home_scope`, `home_metro_id` | | | See "Home and listings" |
-| `national_status` | text: `not-proposed`, `proposed`, `accepted`, `declined` | | For a regional module proposed to the national catalog. Accepted moves its home to national |
+| `national_status` | text: `not-proposed`, `proposed`, `accepted`, `declined` | | For a regional module proposed to the national catalog |
+| `derived_from_module_id` | integer → `modules`, nullable | | When national accepts a regional module, it makes a national copy it can change, pointing back to the original |
+| `superseded_by_module_id` | integer → `modules`, nullable | | Set when a lab switches from its own module to the national version. Its original is retired and its page points to the national one |
 | `status`, `version`, `published_version` | | | See "Approval and publishing" |
 | `created_by_participant_id` | integer → `participants` | | |
 | `created_at`, `updated_at`, `published_at` | timestamptz | | |
@@ -168,7 +203,9 @@ Nothing marks a module as required or graded. No completions, scores or credenti
 | `role` | text: `maintainer`, `author`, `contributor` | The mind map's participant roles |
 | `since`, `until` | timestamptz | |
 
-Rule: a published module needs at least two current maintainers. Public pages show roles, and names only where the person's profile allows it.
+Rule: a published module needs at least two current maintainers.
+
+When national accepts a regional module, the national copy gets national maintainers. The lab's maintainers stay on their original for as long as the lab keeps it. If the lab switches to the national version, its maintainers can be added as contributors there. Public pages show roles, and names only where the person's profile allows it.
 
 ### `module_prerequisites`
 
@@ -250,10 +287,15 @@ The light capture of help given in one situation: what the problem was and what 
 | `cycle_id` | integer → `cycles`, nullable | |
 | `module_id` | integer → `modules`, nullable | Set when a module forms from it or it fits one |
 | `home_scope`, `home_metro_id` | | Where it was captured |
-| `visibility` | text: `private`, `regional`, `national` | Permission-based. `regional` means the regions in `listings`, one or more. `national` means every lab |
+| `visibility` | text: `private`, `regional`, `national` | Permission-based. `regional` means its home region plus any in `listings`. `national` means every lab |
 | `created_at` | timestamptz | |
 
-Who can widen a log's visibility, and whether identifying details must be removed first, is open.
+**Who can see and widen a log.** Permissions follow the log's home:
+
+- A log tied to a location (`home_scope` regional) falls under that region's permissions and national's. People with the right permission in that lab, or nationally, can see it and widen it to other regions or to national.
+- A log about national content, or from a virtual session (`home_scope` national), falls under national's permissions only.
+
+Whether identifying details must come out before a log goes beyond its home is still open.
 
 ### `tags`, `taggings` and `participant_tags`
 
@@ -300,7 +342,10 @@ Every module, session and resource goes through the same states. Nothing is show
 | `outcome` | text: `approved`, `changes-requested`, `declined` | |
 | `checks` | jsonb | Which checks passed (below) |
 | `notes` | text | |
+| `self_approved` | boolean | True when the reviewer is also an author or maintainer. Only allowed with that permission |
 | `reviewed_at` | timestamptz | |
+
+**Who can approve.** Not the author or a maintainer of the record, unless they're a super-admin or have been given permission to approve their own work. That permission belongs in Front Door's roles and permissions work. National approves national records. A lab approves its own records, and national can too.
 
 **What a review checks (proposal).** From the PRD and the interviews:
 - The learning outcome is stated, and the activities lead to it.
@@ -340,14 +385,17 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 | saves a module or resource | the existing `saved_items` |
 | logs help they gave | `logs.logged_by_participant_id` |
 | gives feedback on a session | `session_feedback` |
-| sees local sessions | their `metro_id` (Front Door's dictionary: the authoritative local lab), plus listings |
+| sees local sessions | their `metro_id` (Front Door's dictionary: the authoritative local lab), plus sessions within that lab's listing distance |
+| gets notified about sessions | `location_follows`: a whole region, or specific places only |
 | is matched to modules | `participant_tags` against module tags, and their level against `modules.level` |
 
 `role_intents` (cycle, events, volunteer, mentor) could decide whether someone sees training modules by default.
 
 ## Changes this asks of OLOS
 
-- **`events` has no region.** It needs `home_metro_id` and listings, so a session's event shows in the right labs.
+- **`events` has no region or coordinates.** It needs `home_metro_id` and a `location_id`, so a session's event shows on every lab page within distance.
+- **`metros`** gets coordinates and a listing distance. A new `locations` table holds places within a region.
+- **Permissions** for approving your own work, and for seeing and widening logs, regionally and nationally.
 - **`resources`** gets file uploads, an audience, home and listings, approval, and tags out of jsonb.
 - **`participants.interest_areas` and `primary_expertise`** move to `participant_tags`.
 - **`ai_experience_level` is defined but never set.** Modules use it as their level. Matching people to modules needs sign-up to ask it.
@@ -357,9 +405,9 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 ## Open questions
 
 - [ ] What should situation logs be called? Candidates: case (from Knowledge-Centered Service), after-action review, field note, help log.
-- [ ] Who can widen a log's visibility, and must identifying details come out first?
+- [ ] Must identifying details come out of a log before it's seen beyond its home?
 - [ ] What does a review check, and how often is a module confirmed as current? Drafted above as a proposal.
-- [ ] Can someone approve their own module, or must the reviewer be someone else? Drafted: someone else.
-- [ ] Who decides that a session in one lab is listed on another lab's page: the host lab, the listing lab, or a "nearby" rule?
-- [ ] When national accepts a regional module, does the lab stay its maintainer?
+- [ ] What's the default listing distance, and can each lab change its own?
+- [ ] Do notifications fit OLOS's existing follows, or need `location_follows`?
+- [ ] When national changes a module it took from a lab, is the lab told, and can it pull the changes into its original?
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.

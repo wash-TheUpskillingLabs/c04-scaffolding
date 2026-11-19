@@ -302,7 +302,7 @@ A resource made this way starts as a `draft` with the sharer as its author, and 
 
 A Help Log is the light capture of help given in one situation: what the problem was, what was tried, and how it ended. Anyone who helped can write one: a mentor, a Poderator, a peer or an organizer. The mind map files this under "Knowledge capture & Reuse." The first draft called these situation logs.
 
-It's not the Learning Log. A Learning Log is a participant's weekly reflection on their own progress, read by their Poderator (`learning_logs` in OLOS). A Help Log is about one problem and the help given, and is shared so modules can form from problems that keep coming back.
+It's not the Learning Log. A Learning Log is a participant's weekly reflection on their own progress (`learning_logs` in OLOS). The participant, their Poderator and admins can see it. If the participant chooses `share_publicly`, OLOS copies only the reflection paragraph into `profile_updates`, which feeds the members-only updates feed (Front Door's notes on OLOS learning). A Help Log is about one problem and the help given, and is shared so modules can form from problems that keep coming back.
 
 A log stays a few lines. Only the problem and the outcome are required.
 
@@ -323,6 +323,7 @@ A log stays a few lines. Only the problem and the outcome are required.
 | `logged_by_role` | text | What others see: "a mentor," "a Poderator" |
 | `scale` | text: `1:1`, `1:few`, `1:cohort/public` | |
 | `source` | text: `learning-session`, `cohort`, `event`, `escalation`, `front-door`, `learning-log` | `escalation`: a team escalated in OLOS and a mentor accepted. `learning-log`: shared from the Learning Log by answering "yes" to "Anything from this week that might be useful to others?" |
+| `learning_log_id` | integer → `learning_logs`, nullable | Set when it was shared from a Learning Log, as provenance. The entry itself isn't shared |
 | `cycle_id` | integer → `cycles`, nullable | |
 | `module_id` | integer → `modules`, nullable | Set when a module forms from it or it fits one |
 | `home_scope`, `home_metro_id` | | Where it was captured |
@@ -336,7 +337,7 @@ A log stays a few lines. Only the problem and the outcome are required.
 
 The weekly Learning Log ends with one yes/no question, separate from the private reflection: "Anything from this week that might be useful to others?" The answer defaults to no. Only "yes" shows the fields below, so the Learning Log looks the same as now for anyone who doesn't want to share.
 
-1. A participant writes their Learning Log as usual. Their Poderator reads it, and only their Poderator.
+1. A participant writes their Learning Log as usual. They, their Poderator and admins can see it, and they can already share the reflection paragraph to the members-only updates feed.
 2. They answer "yes" to "Anything from this week that might be useful to others?"
 3. The Help Log fields appear, in plain words:
    - What were you stuck on? (`problem`)
@@ -346,17 +347,18 @@ The weekly Learning Log ends with one yes/no question, separate from the private
    - Did it get solved? (`outcome`: yes, partly, still stuck)
    - If not, what would help? (`help_needed`, and an option to ask for follow-up)
    - Who helped, by role? ("a teammate," "a mentor")
-4. They check it and take out names. Saving makes a Help Log with `source` set to `learning-log`, its home in their lab, starting `private`. The usual permissions and approval decide where it goes from there.
+4. They check it and take out names. Saving makes a Help Log with `source` set to `learning-log` and `learning_log_id` pointing back to the entry, its home in their lab, starting `private`. The usual permissions and approval decide where it goes from there.
 
 Each link they add also goes to the knowledge base as a draft resource, linked back to the Help Log through `help_log_resources`. It goes through the usual approval before anyone else sees it. If the link is already in the knowledge base, the Help Log points to the existing resource instead of making a duplicate.
 
 The reflection itself is never shared. Answering "no" is normal, and isn't tracked or counted in log health.
 
 Why this shape:
-- **Privacy and honesty.** The reflection stays with the Poderator, so people can keep writing it for themselves.
+- **Privacy and honesty.** The reflection stays where it is now, so people can keep writing it for themselves.
+- **It follows a pattern OLOS already has.** `share_publicly` copies part of a Learning Log into a separate table, with the entry's ID as provenance. This does the same, into `help_logs`.
 - **No pressure, no clutter.** One question, defaulting to no. The fields only appear on "yes."
 - **It reaches help nobody logged.** Peers help each other far more often than mentors log it.
-- **A still-stuck share is a request for help.** Asking for follow-up from here reaches someone who can act, not only the Poderator.
+- **A still-stuck share is a request for help.** Asking for follow-up from here reaches someone who can act, beyond the people who read the Learning Log.
 
 Questions to ask participants: Would you answer "yes" some weeks? What would make you answer "no"? Would you want to see where your share ended up?
 

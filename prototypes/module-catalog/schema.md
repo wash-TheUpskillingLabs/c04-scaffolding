@@ -15,6 +15,7 @@ Second pass, after the pod lead's decisions of Nov 19: federated data, regional 
 
 - **Both means federated.** A record lives in one place, national or a region, and can also appear in others as a listing.
 - **National by default, with locations listed.** A regional lab can build its own module and propose it for the national catalog, so labs don't end up with many near duplicates.
+- **Content can stay local.** A lab can keep a module, resource, session or Help Log in its own region only, for good. Proposing it to national is a choice, never automatic.
 - **Draft, then approve, then publish.** Nothing is posted externally until someone approves it. The same rules apply to outside hosts.
 - **An admin turns an emerging tag into a term.** A new tag starts as "Other" with the person's own words.
 - **The database is the source of truth.** The role of the Markdown files is open (see the end).
@@ -32,6 +33,8 @@ Every record that can be shared has a **home** and can have **listings**.
 
 - **Home** is where the record lives and who looks after it: national, or one region (an OLOS `metros` row, a local lab).
 - **Listings** are the other places it appears. Each listing is one region, or national.
+
+A record whose home is a region stays in that region. It appears anywhere else only if someone lists it there, or proposes it to national and national accepts. Publishing a regional record makes it public in that region only.
 
 Example: a GitHub workshop module lives at national. A session of it is held in Washington, DC, so the session lives in DC and shows on the DC page. A session in Baltimore lives in Baltimore, and also shows on the DC page because it's within the DC page's distance.
 
@@ -61,9 +64,9 @@ A record always appears at its home, so its home needs no listing row.
 
 | Record | Usual home | Usually listed |
 |---|---|---|
-| Module | National. Regional if a lab built it and hasn't proposed it, or national hasn't accepted it yet | Nowhere else needed: a national module shows everywhere. A regional module shows in its own lab |
+| Module | National, or regional when a lab built it. A lab can keep its module local for good, propose it to national, or wait | A national module shows everywhere. A regional module shows only in its own lab, unless listed elsewhere |
 | Session | The region where it's held. National if it's virtual | Every lab within its listing distance (Baltimore on the DC page), and national through its module. Virtual sessions show everywhere |
-| Resource | National | Labs that want it on their page |
+| Resource | National, or regional for a lab's own material (a venue guide, a local partner, slides from a local workshop) | A national resource can be listed on any lab's page. A regional resource shows only in its own lab, unless listed elsewhere |
 | Help log | The region where it was captured | Wherever its permissions allow (see `help_logs`) |
 
 ### Locations and distance
@@ -178,7 +181,7 @@ Home: national by default (see "Home and listings").
 | `contributed_by_org` | text, nullable | | An anonymized label for an outside contributor |
 | `thumbnail_url` | text | Should | The card's Open Graph image |
 | `home_scope`, `home_metro_id` | | | See "Home and listings" |
-| `national_status` | text: `not-proposed`, `proposed`, `accepted`, `declined` | | For a regional module proposed to the national catalog |
+| `national_status` | text: `not-proposed`, `proposed`, `accepted`, `declined` | | For a regional module proposed to the national catalog. `not-proposed` can be permanent: a module can stay local |
 | `derived_from_module_id` | integer → `modules`, nullable | | When national accepts a regional module, it makes a national copy it can change, pointing back to the original |
 | `superseded_by_module_id` | integer → `modules`, nullable | | Set when a lab switches from its own module to the national version. Its original is retired and its page points to the national one |
 | `status`, `version`, `published_version` | | | See "Approval and publishing" |

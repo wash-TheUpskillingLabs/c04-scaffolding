@@ -20,6 +20,7 @@ Second pass, after the pod lead's decisions of Nov 19: federated data, regional 
 - **The database is the source of truth.** The role of the Markdown files is open (see the end).
 - **Participants' interests and expertise use the same `tags` table** as modules. Open to rethinking later.
 - **The capture of help given is called a Help Log.** It records what didn't work and whether the person is still stuck, as well as what worked.
+- **Participants can share to the Help Log from their Learning Log.** One yes/no question; the fields appear only on "yes," and the reflection stays private.
 - **Permissions follow a record's home.** A help log tied to a location falls under that region's permissions and national's. A help log about national content, or from a virtual session, falls under national's.
 - **No one approves their own work**, unless they're a super-admin or have been given that permission.
 - **Geography decides what shows on a lab's page.** Sessions in other regions show on a lab's page when they're within a set distance. Participants choose to be notified for a whole region, or only for one or more specific locations (Washington, DC, but not Baltimore, MD).
@@ -307,7 +308,7 @@ A log stays a few lines. Only the problem and the outcome are required.
 | `logged_by_participant_id` | integer → `participants` | Never shown outside the permissions below |
 | `logged_by_role` | text | What others see: "a mentor," "a Poderator" |
 | `scale` | text: `1:1`, `1:few`, `1:cohort/public` | |
-| `source` | text: `learning-session`, `cohort`, `event`, `escalation`, `front-door`, `learning-log` | `escalation`: a team escalated in OLOS and a mentor accepted. `learning-log`: shared from the Learning Log's optional "useful to others" box (an idea to test with participants) |
+| `source` | text: `learning-session`, `cohort`, `event`, `escalation`, `front-door`, `learning-log` | `escalation`: a team escalated in OLOS and a mentor accepted. `learning-log`: shared from the Learning Log by answering "yes" to "Anything from this week that might be useful to others?" |
 | `cycle_id` | integer → `cycles`, nullable | |
 | `module_id` | integer → `modules`, nullable | Set when a module forms from it or it fits one |
 | `home_scope`, `home_metro_id` | | Where it was captured |
@@ -317,26 +318,30 @@ A log stays a few lines. Only the problem and the outcome are required.
 
 **Still stuck is a signal.** When logs that share tags keep ending `still-stuck`, that's a module nobody has written yet. The catalog can count these next to the tags that recur without a module.
 
-**Scenario to test: sharing something useful from the Learning Log.** This is an idea, not a decision. Ask participants before building it.
+**Sharing from the Learning Log.** Decided Nov 19: shares go into the Help Log. How participants react is still to test.
 
-The weekly Learning Log gets one optional question, separate from the private reflection: "Anything from this week that might be useful to others?" Nothing in the reflection itself is shared. Only what someone chooses to write in this box is.
+The weekly Learning Log ends with one yes/no question, separate from the private reflection: "Anything from this week that might be useful to others?" The answer defaults to no. Only "yes" shows the fields below, so the Learning Log looks the same as now for anyone who doesn't want to share.
 
 1. A participant writes their Learning Log as usual. Their Poderator reads it, and only their Poderator.
-2. In the optional box they write: "The GitHub connector won't see a team repo until the app is installed on the organization. A teammate showed me."
-3. They pick what it is:
-   - **Something I got stuck on, and what helped.** It becomes a draft Help Log, with `source` set to `learning-log`. They fill in the outcome, and can name the role of who helped ("a teammate").
-   - **A link, guide or tip.** It becomes a draft resource suggestion for the knowledge base.
-4. They can check it and take out names before it's saved. It starts `private`, with its home in their lab, and the usual permissions and approval decide where it goes from there.
+2. They answer "yes" to "Anything from this week that might be useful to others?"
+3. The Help Log fields appear, in plain words:
+   - What were you stuck on? (`problem`)
+   - What didn't work? (optional)
+   - What helped? A link or tip can go here. (`what_worked`)
+   - Did it get solved? (`outcome`: yes, partly, still stuck)
+   - If not, what would help? (`help_needed`, and an option to ask for follow-up)
+   - Who helped, by role? ("a teammate," "a mentor")
+4. They check it and take out names. Saving makes a Help Log with `source` set to `learning-log`, its home in their lab, starting `private`. The usual permissions and approval decide where it goes from there.
 
-Leaving the box empty is normal, and nobody is told when it's empty.
+The reflection itself is never shared. Answering "no" is normal, and isn't tracked or counted in log health.
 
 Why this shape:
-- **Privacy and honesty.** The reflection never leaves the Learning Log, so people can keep writing it for themselves.
-- **No pressure.** The box is optional every week, and an empty box isn't tracked or counted in log health.
+- **Privacy and honesty.** The reflection stays with the Poderator, so people can keep writing it for themselves.
+- **No pressure, no clutter.** One question, defaulting to no. The fields only appear on "yes."
 - **It reaches help nobody logged.** Peers help each other far more often than mentors log it.
-- **It isn't only for problems.** A useful link or tip has somewhere to go too.
+- **A still-stuck share is a request for help.** Asking for follow-up from here reaches someone who can act, not only the Poderator.
 
-Questions to ask participants: Would you use a box like this? What would make you leave it empty? Would you want to see where your share ended up?
+Questions to ask participants: Would you answer "yes" some weeks? What would make you answer "no"? Would you want to see where your share ended up?
 
 **Who can see and widen a help log.** Permissions follow the log's home:
 
@@ -480,4 +485,4 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 - [ ] When national changes a module it took from a lab, is the lab told, and can it pull the changes into its original?
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
-- [ ] Would participants use an optional "useful to others" box in the Learning Log? See the scenario under `help_logs`. Ask them first.
+- [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.

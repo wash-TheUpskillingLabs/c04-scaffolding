@@ -7,7 +7,7 @@ Second pass, after the pod lead's decisions of Nov 19: federated data, regional 
 ## What this draws on
 
 - The PRD "A Bottom-Up Module Catalog for The Upskilling Labs" (Nov 14) and the steering committee member's notes in it.
-- This prototype's module metadata (`modules/_template.md`) and situation logs (`situations/_template.md`).
+- This prototype's module metadata (`modules/_template.md`) and situation logs (`situations/_template.md`), now called help logs.
 - Front Door's scoping of who owns what, National, Regional or Both ([`participants-scoping.md`](https://github.com/wash-TheUpskillingLabs/c04-frontdoor/blob/main/research/participant-scope/participants-scoping.md)), its [`participants` data dictionary](https://github.com/wash-TheUpskillingLabs/c04-frontdoor/blob/main/research/participant-scope/participants-data-dictionary.md), and the OLOS schema diagrams in [`research/olos-schema/`](https://github.com/wash-TheUpskillingLabs/c04-frontdoor/tree/main/research/olos-schema) (OLOS at `ca543cc`).
 - Front Door's [dimensions mind map](https://github.com/wash-TheUpskillingLabs/c04-frontdoor/blob/main/research/Upskilling_Labs_dimensions_mindmap_rough-draft.pdf) (rough draft): its names for activities, participant roles, knowledge capture and location.
 
@@ -19,7 +19,8 @@ Second pass, after the pod lead's decisions of Nov 19: federated data, regional 
 - **An admin turns an emerging tag into a term.** A new tag starts as "Other" with the person's own words.
 - **The database is the source of truth.** The role of the Markdown files is open (see the end).
 - **Participants' interests and expertise use the same `tags` table** as modules. Open to rethinking later.
-- **Permissions follow a record's home.** A log tied to a location falls under that region's permissions and national's. A log about national content, or from a virtual session, falls under national's.
+- **The capture of help given is called a Help Log.** It records what didn't work and whether the person is still stuck, as well as what worked.
+- **Permissions follow a record's home.** A help log tied to a location falls under that region's permissions and national's. A help log about national content, or from a virtual session, falls under national's.
 - **No one approves their own work**, unless they're a super-admin or have been given that permission.
 - **Geography decides what shows on a lab's page.** Sessions in other regions show on a lab's page when they're within a set distance. Participants choose to be notified for a whole region, or only for one or more specific locations (Washington, DC, but not Baltimore, MD).
 - **When national accepts a regional module, national can take it and change it.** The lab can keep its original, or switch to the national version.
@@ -36,7 +37,7 @@ Example: a GitHub workshop module lives at national. A session of it is held in 
 Listings come two ways:
 
 - **By geography, for sessions.** A session shows on every lab page within that lab's listing distance. Nothing has to be added by hand. This needs a place for each session and a distance for each lab (see "Locations and distance").
-- **By hand, for everything else.** A lab can list a national resource on its page, and a log's visibility can name more than one region. Those are rows in `listings`.
+- **By hand, for everything else.** A lab can list a national resource on its page, and a help log's visibility can name more than one region. Those are rows in `listings`.
 
 The same two columns go on every shareable table:
 
@@ -49,7 +50,7 @@ Listings sit in one table for all record types:
 
 | `listings` column | Type | Notes |
 |---|---|---|
-| `record_type` | text: `module`, `session`, `resource`, `log` | |
+| `record_type` | text: `module`, `session`, `resource`, `help-log` | |
 | `record_id` | integer | |
 | `metro_id` | integer → `metros`, nullable | Empty means the national listing |
 | `listed_by_participant_id` | integer → `participants` | |
@@ -62,7 +63,7 @@ A record always appears at its home, so its home needs no listing row.
 | Module | National. Regional if a lab built it and hasn't proposed it, or national hasn't accepted it yet | Nowhere else needed: a national module shows everywhere. A regional module shows in its own lab |
 | Session | The region where it's held. National if it's virtual | Every lab within its listing distance (Baltimore on the DC page), and national through its module. Virtual sessions show everywhere |
 | Resource | National | Labs that want it on their page |
-| Log | The region where it was captured | Wherever its permissions allow (see logs) |
+| Help log | The region where it was captured | Wherever its permissions allow (see `help_logs`) |
 
 ### Locations and distance
 
@@ -130,7 +131,7 @@ erDiagram
     modules ||--o{ module_prerequisites : "assumes"
     modules ||--o{ module_resources : "bundles"
     resources ||--o{ module_resources : ""
-    modules |o--o{ logs : "formed from"
+    modules |o--o{ help_logs : "formed from"
     tags ||--o{ taggings : ""
     participants ||--o{ participant_tags : ""
     tags ||--o{ participant_tags : ""
@@ -271,35 +272,47 @@ OLOS's Library table. A module is a bundle of content, so its slides, guides, po
 | `purpose` | text: `learner`, `facilitator`, `preparation` | `preparation` is pre-reading |
 | `position` | smallint | |
 
-### `logs` (name to decide)
+### `help_logs`
 
-The light capture of help given in one situation: what the problem was and what worked. The mind map files this under "Knowledge capture & Reuse." The first draft called these situation logs; the name is still open.
+A Help Log is the light capture of help given in one situation: what the problem was, what was tried, and how it ended. Anyone who helped can write one: a mentor, a Poderator, a peer or an organizer. The mind map files this under "Knowledge capture & Reuse." The first draft called these situation logs.
+
+It's not the Learning Log. A Learning Log is a participant's weekly reflection on their own progress, read by their Poderator (`learning_logs` in OLOS). A Help Log is about one problem and the help given, and is shared so modules can form from problems that keep coming back.
+
+A log stays a few lines. Only the problem and the outcome are required.
 
 | Column | Type | Notes |
 |---|---|---|
 | `id` | serial | |
-| `problem` | text | A few lines |
-| `what_worked` | text | A few lines. "Nothing did" is allowed |
+| `problem` | text | Required. A few lines |
+| `what_didnt_work` | text, nullable | Optional. What was tried first that didn't help, so the next person can skip it |
+| `what_worked` | text, nullable | Blank if nothing did |
+| `outcome` | text: `resolved`, `partly-resolved`, `still-stuck` | Required |
+| `help_needed` | text, nullable | When not resolved: what's still needed |
+| `follow_up` | text: `none`, `requested`, `picked-up`, `done` | `requested` makes the log a request for help. It goes to whoever can act on the log's home (that region, or national), under the same permissions |
+| `follow_up_by_participant_id` | integer → `participants`, nullable | Who picked it up |
+| `follow_up_log_id` | integer → `help_logs`, nullable | The log written when the follow-up happened, so a problem's history reads in order |
 | `logged_by_participant_id` | integer → `participants` | Never shown outside the permissions below |
 | `logged_by_role` | text | What others see: "a mentor," "a Poderator" |
 | `scale` | text: `1:1`, `1:few`, `1:cohort/public` | |
-| `source` | text: `learning-session`, `cohort`, `event`, `escalation`, `front-door` | |
+| `source` | text: `learning-session`, `cohort`, `event`, `escalation`, `front-door`, `learning-log` | `escalation`: a team escalated in OLOS and a mentor accepted. `learning-log`: a participant marked a Learning Log entry as something that could help others (an idea to test with participants) |
 | `cycle_id` | integer → `cycles`, nullable | |
 | `module_id` | integer → `modules`, nullable | Set when a module forms from it or it fits one |
 | `home_scope`, `home_metro_id` | | Where it was captured |
 | `visibility` | text: `private`, `regional`, `national` | Permission-based. `regional` means its home region plus any in `listings`. `national` means every lab |
-| `created_at` | timestamptz | |
+| `created_at`, `updated_at` | timestamptz | |
 
-**Who can see and widen a log.** Permissions follow the log's home:
+**Still stuck is a signal.** When logs that share tags keep ending `still-stuck`, that's a module nobody has written yet. The catalog can count these next to the tags that recur without a module.
 
-- A log tied to a location (`home_scope` regional) falls under that region's permissions and national's. People with the right permission in that lab, or nationally, can see it and widen it to other regions or to national.
-- A log about national content, or from a virtual session (`home_scope` national), falls under national's permissions only.
+**Who can see and widen a help log.** Permissions follow the log's home:
 
-Whether identifying details must come out before a log goes beyond its home is still open.
+- A help log tied to a location (`home_scope` regional) falls under that region's permissions and national's. People with the right permission in that lab, or nationally, can see it and widen it to other regions or to national.
+- A help log about national content, or from a virtual session (`home_scope` national), falls under national's permissions only.
+
+Whether identifying details must come out before a help log goes beyond its home is still open.
 
 ### `tags`, `taggings` and `participant_tags`
 
-One taxonomy for modules, resources, logs and people.
+One taxonomy for modules, resources, help logs and people.
 
 | `tags` column | Type | Notes |
 |---|---|---|
@@ -315,7 +328,7 @@ One taxonomy for modules, resources, logs and people.
 
 **Emerging tags.** When someone picks "Other" and writes their own, it becomes an `emerging` tag. It can be used straight away on their own record, and other people can pick it. An admin approves it as a `term`, merges it into an existing term, or declines it.
 
-`taggings`: `tag_id`, `record_type` (`module`, `resource`, `log`, `session`), `record_id`.
+`taggings`: `tag_id`, `record_type` (`module`, `resource`, `help-log`, `session`), `record_id`.
 
 `participant_tags`: `participant_id`, `tag_id`, `relation` (`interest`, `expertise`). This replaces the free-text `interest_areas` and `primary_expertise` that Front Door marked "New table." With the same tags on people and modules, the catalog can suggest modules from someone's interests, and find people with the expertise to teach or review a module.
 
@@ -383,7 +396,8 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 | teaches or hosts a session | `session_people` |
 | attends a session | the existing `event_rsvps`, through `sessions.event_id` |
 | saves a module or resource | the existing `saved_items` |
-| logs help they gave | `logs.logged_by_participant_id` |
+| logs help they gave | `help_logs.logged_by_participant_id` |
+| asks for more help, or picks up a request | `help_logs.follow_up`, `follow_up_by_participant_id` |
 | gives feedback on a session | `session_feedback` |
 | sees local sessions | their `metro_id` (Front Door's dictionary: the authoritative local lab), plus sessions within that lab's listing distance |
 | gets notified about sessions | `location_follows`: a whole region, or specific places only |
@@ -395,7 +409,7 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 
 - **`events` has no region or coordinates.** It needs `home_metro_id` and a `location_id`, so a session's event shows on every lab page within distance.
 - **`metros`** gets coordinates and a listing distance. A new `locations` table holds places within a region.
-- **Permissions** for approving your own work, and for seeing and widening logs, regionally and nationally.
+- **Permissions** for approving your own work, and for seeing and widening help logs, and picking up follow-ups, regionally and nationally.
 - **`resources`** gets file uploads, an audience, home and listings, approval, and tags out of jsonb.
 - **`participants.interest_areas` and `primary_expertise`** move to `participant_tags`.
 - **`ai_experience_level` is defined but never set.** Modules use it as their level. Matching people to modules needs sign-up to ask it.
@@ -404,10 +418,11 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 
 ## Open questions
 
-- [ ] What should situation logs be called? Candidates: case (from Knowledge-Centered Service), after-action review, field note, help log.
-- [ ] Must identifying details come out of a log before it's seen beyond its home?
+- [ ] Must identifying details come out of a help log before it's seen beyond its home?
 - [ ] What does a review check, and how often is a module confirmed as current? Drafted above as a proposal.
 - [ ] What's the default listing distance, and can each lab change its own?
 - [ ] Do notifications fit OLOS's existing follows, or need `location_follows`?
 - [ ] When national changes a module it took from a lab, is the lab told, and can it pull the changes into its original?
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
+- [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
+- [ ] Should participants be able to turn a Learning Log entry into a help log? Ask them first.

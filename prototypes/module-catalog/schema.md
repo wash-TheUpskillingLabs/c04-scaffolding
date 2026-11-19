@@ -86,6 +86,7 @@ A region (`metros`) is bigger than a place. Greater Washington includes Washingt
 | `metro_id` | integer → `metros`, nullable | A whole region: everything that shows on that lab's page |
 | `location_id` | integer → `locations`, nullable | One place only. One of the two is set |
 | `topics_only` | boolean | Only sessions matching their interest tags. Default false |
+| `created_at` | timestamptz | |
 
 OLOS already has follows for labs and pages (`auto_follows`, `page_follows_seeded` in Front Door's notes). This may fit there instead of a new table.
 
@@ -179,6 +180,10 @@ Home: national by default (see "Home and listings").
 | `superseded_by_module_id` | integer → `modules`, nullable | | Set when a lab switches from its own module to the national version. Its original is retired and its page points to the national one |
 | `status`, `version`, `published_version` | | | See "Approval and publishing" |
 | `created_by_participant_id` | integer → `participants` | | |
+| `proposed_to_national_at`, `national_decided_at` | timestamptz, nullable | | When a regional module was proposed, and when national accepted or declined it |
+| `last_confirmed_at` | timestamptz, nullable | | When a maintainer last confirmed it's still current |
+| `next_check_due` | date, nullable | | When it should be confirmed again (a year after the last check, as proposed under "Approval and publishing") |
+| `retired_at` | timestamptz, nullable | | |
 | `created_at`, `updated_at`, `published_at` | timestamptz | | |
 
 Nothing marks a module as required or graded. No completions, scores or credentials (PRD non-goals).
@@ -194,6 +199,7 @@ Nothing marks a module as required or graded. No completions, scores or credenti
 | `instructions` | text | |
 | `grouping` | text: `alone`, `pairs`, `group` | At least one alone and one with others is a good default (from a Poderator interview, #29) |
 | `minutes` | smallint | |
+| `created_at`, `updated_at` | timestamptz | |
 
 ### `module_people`
 
@@ -215,6 +221,7 @@ When national accepts a regional module, the national copy gets national maintai
 | `module_id` | integer → `modules` | |
 | `requires_module_id` | integer → `modules`, nullable | |
 | `requires_tag_id` | integer → `tags`, nullable | A skill or tool with no module yet. One of the two is set |
+| `created_at` | timestamptz | |
 
 ### `sessions`
 
@@ -229,6 +236,8 @@ A module held at a time and place. "Session" replaces the first draft's "offerin
 | `home_scope`, `home_metro_id` | | The region where it's held. National if virtual |
 | `host_org` | text, nullable | An outside host |
 | `status` | text: `proposed`, `scheduled`, `held`, `cancelled` | Shown externally only after approval |
+| `proposed_start_at`, `proposed_end_at` | timestamptz, nullable | The dates a host proposes, before there's an event. Once `event_id` is set, the event's `start_at` and `end_at` are the real dates |
+| `cancelled_at` | timestamptz, nullable | |
 | `created_at`, `updated_at` | timestamptz | |
 
 ### `session_people`
@@ -238,6 +247,7 @@ A module held at a time and place. "Session" replaces the first draft's "offerin
 | `session_id` | integer → `sessions` | |
 | `participant_id` | integer → `participants` | |
 | `role` | text: `teacher`, `co-teacher`, `host`, `mentor` | |
+| `created_at` | timestamptz | |
 
 ### `session_feedback`
 
@@ -271,6 +281,7 @@ OLOS's Library table. A module is a bundle of content, so its slides, guides, po
 | `resource_id` | integer → `resources` | |
 | `purpose` | text: `learner`, `facilitator`, `preparation` | `preparation` is pre-reading |
 | `position` | smallint | |
+| `added_at` | timestamptz | |
 
 ### `help_logs`
 
@@ -283,6 +294,7 @@ A log stays a few lines. Only the problem and the outcome are required.
 | Column | Type | Notes |
 |---|---|---|
 | `id` | serial | |
+| `occurred_on` | date | Required. When the help happened, which can be days before it was logged |
 | `problem` | text | Required. A few lines |
 | `what_didnt_work` | text, nullable | Optional. What was tried first that didn't help, so the next person can skip it |
 | `what_worked` | text, nullable | Blank if nothing did |
@@ -290,6 +302,7 @@ A log stays a few lines. Only the problem and the outcome are required.
 | `help_needed` | text, nullable | When not resolved: what's still needed |
 | `follow_up` | text: `none`, `requested`, `picked-up`, `done` | `requested` makes the log a request for help. It goes to whoever can act on the log's home (that region, or national), under the same permissions |
 | `follow_up_by_participant_id` | integer → `participants`, nullable | Who picked it up |
+| `follow_up_requested_at`, `follow_up_picked_up_at`, `follow_up_done_at` | timestamptz, nullable | Shows how long a request waited, and how long it took to resolve |
 | `follow_up_log_id` | integer → `help_logs`, nullable | The log written when the follow-up happened, so a problem's history reads in order |
 | `logged_by_participant_id` | integer → `participants` | Never shown outside the permissions below |
 | `logged_by_role` | text | What others see: "a mentor," "a Poderator" |
@@ -299,7 +312,8 @@ A log stays a few lines. Only the problem and the outcome are required.
 | `module_id` | integer → `modules`, nullable | Set when a module forms from it or it fits one |
 | `home_scope`, `home_metro_id` | | Where it was captured |
 | `visibility` | text: `private`, `regional`, `national` | Permission-based. `regional` means its home region plus any in `listings`. `national` means every lab |
-| `created_at`, `updated_at` | timestamptz | |
+| `visibility_changed_at`, `visibility_changed_by_participant_id` | | When it was last widened or narrowed, and by whom |
+| `created_at`, `updated_at` | timestamptz | When it was logged and last edited |
 
 **Still stuck is a signal.** When logs that share tags keep ending `still-stuck`, that's a module nobody has written yet. The catalog can count these next to the tags that recur without a module.
 
@@ -328,9 +342,28 @@ One taxonomy for modules, resources, help logs and people.
 
 **Emerging tags.** When someone picks "Other" and writes their own, it becomes an `emerging` tag. It can be used straight away on their own record, and other people can pick it. An admin approves it as a `term`, merges it into an existing term, or declines it.
 
-`taggings`: `tag_id`, `record_type` (`module`, `resource`, `help-log`, `session`), `record_id`.
+`taggings`: `tag_id`, `record_type` (`module`, `resource`, `help-log`, `session`), `record_id`, `created_at`.
 
-`participant_tags`: `participant_id`, `tag_id`, `relation` (`interest`, `expertise`). This replaces the free-text `interest_areas` and `primary_expertise` that Front Door marked "New table." With the same tags on people and modules, the catalog can suggest modules from someone's interests, and find people with the expertise to teach or review a module.
+`participant_tags`: `participant_id`, `tag_id`, `relation` (`interest`, `expertise`), `added_at`, `removed_at`. Keeping `removed_at` instead of deleting the row shows how someone's interests and expertise change over time, the mind map's "longitudinal view." This replaces the free-text `interest_areas` and `primary_expertise` that Front Door marked "New table." With the same tags on people and modules, the catalog can suggest modules from someone's interests, and find people with the expertise to teach or review a module.
+
+## Dates
+
+Every table records when a row was created, and most record when it was last changed. These dates carry meaning of their own:
+
+| Date | Where | What it shows |
+|---|---|---|
+| When the help happened | `help_logs.occurred_on` | Can be days before it was logged (`created_at`) |
+| How long a request for help waited | `help_logs.follow_up_requested_at`, `follow_up_picked_up_at`, `follow_up_done_at` | Whether still-stuck people get help in time |
+| When a session happens | `events.start_at`, `end_at` once scheduled; `sessions.proposed_start_at` before then | |
+| When something was published, and which version | `modules.published_at`, `reviews.reviewed_at` and `version` | |
+| When a module was last confirmed as current | `modules.last_confirmed_at`, `next_check_due` | |
+| How long review takes | `reviews.requested_at` to `reviewed_at` | Whether approval is slowing contributors down |
+| When a regional module went national | `modules.proposed_to_national_at`, `national_decided_at` | |
+| When a tag became a term | `tags.created_at`, `approved_at` | |
+| How a person's interests and expertise change | `participant_tags.added_at`, `removed_at` | |
+| Who kept a module, and when | `module_people.since`, `until` | |
+
+Times are stored as `timestamptz`, in UTC. They're shown in the lab's time zone (`metros.timezone`). A date with no time, like `occurred_on`, is the lab's local date.
 
 ## Approval and publishing
 
@@ -356,6 +389,7 @@ Every module, session and resource goes through the same states. Nothing is show
 | `checks` | jsonb | Which checks passed (below) |
 | `notes` | text | |
 | `self_approved` | boolean | True when the reviewer is also an author or maintainer. Only allowed with that permission |
+| `requested_at` | timestamptz | When it was sent for review |
 | `reviewed_at` | timestamptz | |
 
 **Who can approve.** Not the author or a maintainer of the record, unless they're a super-admin or have been given permission to approve their own work. That permission belongs in Front Door's roles and permissions work. National approves national records. A lab approves its own records, and national can too.

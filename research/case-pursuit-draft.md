@@ -23,6 +23,7 @@ renamed Pursuit in 2018. (Dates differ slightly across sources.)
 | 2013 | Fellowship launched; training grew from 12 weeks to 12 months, then a four-year Fellowship (a year of training plus support) | [MIT Solve](https://solve.mit.edu/solutions/50080) |
 | 2018 | Renamed Pursuit | [Pursuit 2018 recap](https://pursuit.org/blog/pursuit-2018-growth) |
 | — | "Pursuit Bond": no upfront cost; Fellows pay a share of salary once in a high-paying job | [MIT Solve](https://solve.mit.edu/solutions/50080) |
+| Jan 15, 2025 | Organization-wide change begins: "We all build software" (staff) | [2025 Build Review](https://www.pursuit.org/blog/2025-builds) |
 | Mar 2025 | First AI-Native cohort; 7-month program replaces the year-long Pursuit Core fellowship | [AI-Native pilot launch](https://www.pursuit.org/blog/ai-native-pilot-launch), [directory](https://www.techinterview.org/bootcamp_directory/p/pursuit/) |
 | 2025 | 325+ Builders across three AI-Native cohorts; about 1,000 hours each building with AI; ten Builders placed in paid roles at NYC small businesses in a pilot backed by Amazon and Google | [2025 review](https://www.pursuit.org/blog/2025-builds), [SMB showcase](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
 | Jan 2027 | Winter 2027 cohort starts | [Pursuit](https://pursuit.org/fellowship) |
@@ -47,11 +48,23 @@ Sources:
 - [Why Pursuit runs mini-hackathons](https://www.pursuit.org/blog/why-pursuit-runs-mini-hackathons)
 - [AI-Native pilot launch](https://www.pursuit.org/blog/ai-native-pilot-launch)
 
-### Pursuit's own account: "2025 Build Review: Our AI Transformation"
+### Pursuit's own account: "Pursuit's AI Transformation: Products and Processes We Built in 2025" (Jan 26, 2026)
 
 [Source](https://www.pursuit.org/blog/2025-builds). Text pasted by the
 builder (the site is blocked in this session). Self-reported, no outcome
 data.
+
+**Why, in Pursuit's words**
+- "Pursuit entered 2025 with one guiding principle: evolve or die. We knew
+  that to continue to generate life-changing outcomes, we'd have to rebuild
+  from the ground up to be AI-Native... it meant transforming Pursuit
+  itself."
+- From Jan 15, 2025, expectations for staff: "We rethink priors. We all
+  build software. We move quickly and iterate."
+- Twelve months later, by Pursuit's account: "we've cut our SaaS spend in
+  half, built in-house workforce development software that evolves with
+  the job market, and collected data that helps us operate better and land
+  more jobs for the community we serve." (No figures given for jobs.)
 
 **The change**
 - "We scrapped our traditional software development curriculum and shifted

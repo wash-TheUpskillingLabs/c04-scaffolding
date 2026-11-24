@@ -25,6 +25,8 @@ flowchart TB
     BF["Brigade funders"]
     GOV["Local government partners (to confirm)"]
     WDC["Workforce development centers (to confirm)"]
+    GOVF["State and city government as AI training funders"]
+    AIF["AI companies as funders"]
     subgraph CONTEXT["Context (inner circle): The Labs"]
       direction TB
       UP["Upskillers (participants)"]
@@ -146,6 +148,38 @@ how they see the problem.
    (58:47).
 3. **Context or field:** Field.
 4. to 7. *Open.*
+
+### State and city government as funders of AI workforce training (institutions)
+
+1. **Player and type:** State and city government (institutions).
+2. **Who they are:** In New York, the state (including Empire State
+   Development), the Queens Borough President's Office and the City
+   Council put $10 million of public investment behind Pursuit's AI Jobs
+   Institute (announced Oct 22, 2026). The City Council also supported the
+   small business Demo Day ([Pursuit case draft](case-pursuit-draft.md)).
+3. **Context or field:** Field.
+4. **What they bring:** Financial and political capital.
+5. **What they want:** *Open.* One city council member: "AI should not be
+   another dividing line between the companies that can afford to innovate
+   and everyone else." Another called for funding beyond pilots and for
+   tracking whether the tools help businesses grow.
+6. **What they've tried:** Funding an AI training hub to serve up to
+   40,000 New Yorkers by 2032.
+7. **How they see the problem:** *Open.*
+
+### AI companies as funders (institutions)
+
+1. **Player and type:** AI and technology companies funding AI training
+   (institutions).
+2. **Who they are:** For Pursuit: Google.org, OpenAI and Anthropic among
+   the AI Jobs Institute's partners; Google and Amazon behind the small
+   business pilots. For Senior Planet (AARP): OpenAI as partner on an AI
+   skills workshop series ([case leads](case-leads.md)).
+3. **Context or field:** Field.
+4. **What they bring:** Financial capital; access to AI tools.
+5. **What they want:** *Open.*
+6. **What they've tried:** *Open.*
+7. **How they see the problem:** *Open.*
 
 ## Not yet on the map
 

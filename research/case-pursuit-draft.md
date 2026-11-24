@@ -29,6 +29,7 @@ renamed Pursuit in 2018. (Dates differ slightly across sources.)
 | Mar 2025 | First AI-Native cohort; 7-month program replaces the year-long Pursuit Core fellowship | [AI-Native pilot launch](https://www.pursuit.org/blog/ai-native-pilot-launch), [directory](https://www.techinterview.org/bootcamp_directory/p/pursuit/) |
 | 2025 | 325+ Builders across three AI-Native cohorts; about 1,000 hours each building with AI; ten Builders placed in paid roles at NYC small businesses in a pilot backed by Amazon and Google | [2025 review](https://www.pursuit.org/blog/2025-builds), [SMB showcase](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
 | Oct 1, 2025 | $250K small business AI pilot with Amazon and Google announced | [Press release](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
+| Jun 2026 | $2.5M, three-year Google.org grant for the AI Jobs Institute | [Press release](https://www.pursuit.org/blog/google-grant-2026) |
 | Oct 22, 2026 | AI Jobs Institute announced: $10M public investment, up to 40,000 New Yorkers by 2032 | [Governor](https://www.governor.ny.gov/news/governor-hochul-announces-launch-ai-jobs-institute-prepare-new-yorkers-jobs-future) |
 | Jan 2027 | Winter 2027 cohort starts | [Pursuit](https://pursuit.org/fellowship) |
 
@@ -211,10 +212,28 @@ member)
   - Pursuit's stated population "since 2012": "70% Black or Latine, 50%
     receiving public assistance, 60% without four-year degrees, and 40%
     immigrants." (Founding year given elsewhere as 2011 or 2013.)
-  - Related funding: a Google.org grant to Pursuit (Jun 2026 to May 2029)
-    with a "Community College Pathways" workstream starting at LaGuardia
-    ([Google grant post](https://www.pursuit.org/blog/google-grant-2026);
-    from search summaries).
+  - Related funding: the Google.org grant below.
+
+**Google.org grant** (Pursuit press release, Jun 23, 2026; text pasted by
+the builder; people by role; [link](https://www.pursuit.org/blog/google-grant-2026))
+- "$2.5 million, three-year grant," June 2026 to May 2029, to expand the AI
+  Jobs Institute, "supported by capital grants from New York City and
+  State."
+- The gap it names: "despite meaningful public investment in New York's AI
+  workforce infrastructure, philanthropic capital is needed to bridge the
+  gap between what public funding can reach and the full scope."
+- Four workstreams:
+  - **Small business AI programming:** "Pursuit-trained Builders from
+    low-income communities will work as paid AI consultants."
+  - **Educator training:** with the United Federation of Teachers, training
+    "NYC public school teachers as AI Ambassadors."
+  - **Community college pathways:** starting at LaGuardia, expanding across
+    CUNY.
+  - **Statewide expansion:** Pursuit is "New York State's officially
+    designated administrator for AI Prep for Jobs," leading a coalition
+    with Per Scholas in Buffalo and Le Moyne College in Syracuse.
+- "The Institute is already generating replication interest from cities
+  across the country." (No cities named.)
   - Leadership: the CEO quoted here is a different person from the CEO who
     signed the March 2025 launch email. The Oct 2025 small business pilot
     announcement (below) names the new CEO as CEO and the earlier signer as

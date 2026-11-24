@@ -475,6 +475,18 @@ starting with a scoped AI project before hiring.
   substantial partners" to put on a resume (Brigade 2.0 video, 56:37).
   Pursuit's 2026 Demo Day pairs Builders with small businesses for the same
   kind of proof.
+- **104 started, 34 graduated: off-ramps by design, plus some dropout**
+  (the builder's best guess). The launch email describes "modular
+  two-month off-ramps"; Pursuit has not published how many left, when, or
+  why. What would tell them apart: how many left at a two-month module
+  boundary versus mid-module, and whether those leaving at an off-ramp
+  counted as completing something.
+- **88% vs 92% three-year retention: possibly two different programs**
+  (the builder's read, e.g., AI Builders vs. the pre-apprenticeship).
+  Against this: three-year retention needs placements from 2023 or
+  earlier, before the AI-Native program began in March 2025, so both
+  figures likely describe earlier cohorts. Different periods or
+  definitions of the earlier fellowship are another possibility.
 
 ## To write (the builder's part)
 

@@ -90,6 +90,21 @@ data.
   MetLife): "Participants entered with minimal AI knowledge and left with
   real products they had built themselves." (No figures.)
 
+**The Admissions Portal: first staff-built product** (same page)
+- "When our admissions software came up for renewal, we made our first
+  org-wide bet: could we replace it with a 'vibe-coded' product built by
+  non-technical staff?" "We put together a team, defined requirements, and
+  got to building. Four weeks later, we shipped."
+- Features listed: an agent that "evaluates incoming applications and
+  recommends next steps"; automated applicant email; in-app onboarding.
+- "Were there bugs and glitches at launch? Absolutely." By Pursuit's
+  account: three SaaS licenses canceled, faster recruitment, "four cohorts
+  of high-potential learners in just ten months." (No figures for speed.)
+- Pursuit's lessons: "Merge conflicts teach collaboration faster than any
+  workshop." "Collaborative building taught us what alignment actually
+  means—not nodding at requirements, but genuinely understanding who needs
+  what and why."
+
 **The change**
 - "We scrapped our traditional software development curriculum and shifted
   to a new model focused on teaching our community how to build software

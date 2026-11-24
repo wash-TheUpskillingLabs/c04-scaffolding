@@ -152,11 +152,13 @@ for whom and by whom?"
    "an hour-and-a-half commute from each other in traffic" (49:24–50:12);
    BetaNYC dropped weekly hack nights because "people are spread out all
    over" (28:38). The pod's own interviews raise the same issue at The
-   Labs: a past participant rarely attended in person because of "about
-   two hours of travel round trip into DC"
-   ([#16](interview-past-participant-2026-11-07.md)), and two
-   interviewees live "about an hour away in traffic and couldn't attend
-   all workshops in person" ([#23](interview-c03-c04-participant-2026-11-09.md)).
+   Labs: a past participant rarely attended in person because of about
+   two hours of travel round trip into DC, so a session "needs to be
+   something really valuable"
+   ([#16](interview-past-participant-2026-11-07.md)); the interviewer's
+   notes on [#23](interview-c03-c04-participant-2026-11-09.md) say both
+   interviewees so far live about an hour away in traffic and couldn't
+   attend all workshops in person.
 2. **The national organization changed course.** Code for America's 2022
    framing puts the change in its own "values and role," not in the
    chapters' troubles.

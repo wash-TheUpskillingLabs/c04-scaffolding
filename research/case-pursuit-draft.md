@@ -505,6 +505,20 @@ starting with a scoped AI project before hiring.
   Jobs coalition; and a planned AI Registered Apprenticeship. On this
   read, "what Pursuit tried" is a set of formats with different amounts of
   structure for different people.
+- **The programs sorted by type** (the builder's sort):
+  - **Pursuit's own program:** the AI-Native cohort (7 months, in person),
+    still taking applications for January 2027.
+  - **Partnerships:** LaGuardia Community College (42-hour course on
+    campus); Per Scholas (Buffalo) and Le Moyne College (Syracuse) under New
+    York State's AI Prep for Jobs; small business work with Hispanic
+    Federation, chambers of commerce and others; teacher training with the
+    United Federation of Teachers.
+  - **Other:** free community AI literacy workshops with libraries, NYCHA
+    and community groups; Build Days for staff and, in pilots, partner
+    organizations.
+
+  In short: one core program, plus partners who carry pieces of it into
+  other settings.
 
 ## To write (the builder's part)
 

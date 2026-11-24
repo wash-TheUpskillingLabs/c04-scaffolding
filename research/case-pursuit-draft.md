@@ -29,6 +29,7 @@ renamed Pursuit in 2018. (Dates differ slightly across sources.)
 | Mar 2025 | First AI-Native cohort; 7-month program replaces the year-long Pursuit Core fellowship | [AI-Native pilot launch](https://www.pursuit.org/blog/ai-native-pilot-launch), [directory](https://www.techinterview.org/bootcamp_directory/p/pursuit/) |
 | 2025 | 325+ Builders across three AI-Native cohorts; about 1,000 hours each building with AI; ten Builders placed in paid roles at NYC small businesses in a pilot backed by Amazon and Google | [2025 review](https://www.pursuit.org/blog/2025-builds), [SMB showcase](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
 | Oct 1, 2025 | $250K small business AI pilot with Amazon and Google announced | [Press release](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
+| May 2026 | $4M, three-year Ascendium grant: 600+ in an AI-native pre-apprenticeship; an AI Registered Apprenticeship | Press release (Pursuit blog) |
 | Jun 2026 | $2.5M, three-year Google.org grant for the AI Jobs Institute | [Press release](https://www.pursuit.org/blog/google-grant-2026) |
 | Dec 2025 | First AI-Native cohort graduates: 34 Builders (104 started the pilot in Mar 2025) | [Graduation post](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
 | Oct 22, 2026 | AI Jobs Institute announced: $10M public investment, up to 40,000 New Yorkers by 2032 | [Governor](https://www.governor.ny.gov/news/governor-hochul-announces-launch-ai-jobs-institute-prepare-new-yorkers-jobs-future) |
@@ -214,6 +215,32 @@ member)
     receiving public assistance, 60% without four-year degrees, and 40%
     immigrants." (Founding year given elsewhere as 2011 or 2013.)
   - Related funding: the Google.org grant below.
+
+**Ascendium grant** (Pursuit press release, May 8, 2026, posted May 11;
+text pasted by the builder; people by role)
+- "$4 million, three-year grant," June 2026 to May 2029, for the AI Jobs
+  Institute.
+- Three areas:
+  - "600+ low-income New Yorkers will enroll in Pursuit's AI-native
+    **pre-apprenticeship** program — an in-person, multi-level
+    curriculum." (The AI-Native program is described here as a
+    pre-apprenticeship.)
+  - New entry points and career routes, "including Forward-Deployed
+    Engineer roles, where trainees work directly with small businesses and
+    nonprofits on real AI projects."
+  - A new "non-sectoral AI Registered Apprenticeship," building on Pursuit's
+    role as "the first NYSDOL-registered Group Sponsor for Software
+    Development apprenticeships."
+- Outcome claims (earlier programs): average salaries of "$94,000 after
+  placement — up from approximately $18,000," with **"an 88% three-year job
+  retention rate."** **Discrepancy:** the hire page says "92% are still
+  employed three years after placement." Not explained.
+- Cites PwC's 2025 Global AI Jobs Barometer: a "56% wage premium" for
+  workers with AI skills
+  ([PwC](https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html)).
+- The funder's stated interest: to "learn more about how Registered
+  Apprenticeships can evolve within the rapidly changing AI and technology
+  landscape."
 
 **Google.org grant** (Pursuit press release, Jun 23, 2026; text pasted by
 the builder; people by role; [link](https://www.pursuit.org/blog/google-grant-2026))

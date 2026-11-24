@@ -118,6 +118,8 @@ The same words are also tag kinds (below), so a module can be tagged with more t
 
 A module holds **activities**: the exercises people go through, worked back from the learning outcome. They're their own table so they can be listed, timed and reused.
 
+**Module or resource?** (a builder's proposal, Nov 24) The test is whether it has a **learning outcome and exercises.** If it does, it's a module. If it's reference material, such as a setup guide for individuals and teams, it's a resource, even when a module or a Cycle step points to it.
+
 ## The tables
 
 ```mermaid

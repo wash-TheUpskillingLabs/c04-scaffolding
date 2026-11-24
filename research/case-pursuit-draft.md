@@ -47,6 +47,46 @@ Sources:
 - [Why Pursuit runs mini-hackathons](https://www.pursuit.org/blog/why-pursuit-runs-mini-hackathons)
 - [AI-Native pilot launch](https://www.pursuit.org/blog/ai-native-pilot-launch)
 
+### Pursuit's own account: "2025 Build Review: Our AI Transformation"
+
+[Source](https://www.pursuit.org/blog/2025-builds). Text pasted by the
+builder (the site is blocked in this session). Self-reported, no outcome
+data.
+
+**The change**
+- "We scrapped our traditional software development curriculum and shifted
+  to a new model focused on teaching our community how to build software
+  with AI."
+- "To learn AI, you have to use AI. Our builders have each spent ~1,000
+  hours building with AI throughout the program—not learning about AI
+  through lectures, but developing the muscle memory and intuition that
+  comes from daily practice."
+
+**Who built the platform**
+- "Our team built the training platform themselves. The same people who'd
+  spent years in our classrooms—understanding exactly where learners get
+  stuck, what tone resonates, what sequencing works—could now encode those
+  decades of institutional knowledge directly into software."
+- The Builder platform: an **AI Coach** that "delivers content and
+  amplifies the in-person learning experience"; **curriculum generation**
+  to "stay flexible with the job market"; **feedback agents** that "track
+  progress... with personalized guidance."
+- Builders and staff use multiple AI models (via OpenRouter and Claude).
+- Pursuit uses AI to evaluate whether its AI Coach's responses are
+  "helpful, appropriately toned, and pedagogically sound."
+
+**Pursuit's stated lessons** (two lists on the page)
+- "When the people closest to the problem can build the solution,
+  iteration cycles collapse."
+- "1,000 hours of building with AI creates superusers."
+- "AI doesn't replace human instruction—it amplifies it by handling content
+  delivery so teachers focus on community building, teamwork, and the human
+  interventions that drive outcomes."
+- "Experimentation requires ruthlessly protected time - without it, daily
+  urgency always wins."
+- "When domain experts become builders, everything accelerates."
+- "The technology is easy, the transformation is hard."
+
 ## What happened (sources to read)
 
 - **Earlier model (Pursuit Core):** Pursuit reports Fellows' income rising

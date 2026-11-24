@@ -496,6 +496,15 @@ starting with a scoped AI project before hiring.
   Registered Apprenticeship, with "multiple entry points and career
   progression routes," which the 2025 pilot did not describe. Unresolved;
   a question for Pursuit.
+- **Pursuit is adding multiple programs, not only rebuilding one** (the
+  builder's read). The sources list, alongside the AI-Native cohorts: a
+  42-hour AI Fundamentals course at LaGuardia; Build Days pilots with
+  partner organizations; small business workshops and paid Builder
+  consultants; free community AI literacy workshops (about 2,000 people in
+  2025); training teachers as AI Ambassadors; New York State's AI Prep for
+  Jobs coalition; and a planned AI Registered Apprenticeship. On this
+  read, "what Pursuit tried" is a set of formats with different amounts of
+  structure for different people.
 
 ## To write (the builder's part)
 

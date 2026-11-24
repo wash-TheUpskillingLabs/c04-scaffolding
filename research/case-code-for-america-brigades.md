@@ -135,7 +135,9 @@ for whom and by whom?"
   the chapter's main impact as helping volunteers "get their first jobs in
   tech" (56:01–57:07). Limits: this is one chapter leader's description of
   "many software volunteers," it lists giving back and belonging alongside
-  skills, and the captions are unchecked against the audio.
+  skills, and the captions are unchecked against the audio. The builder's
+  read of those other two: giving back and belonging are further reasons
+  for joining, but they don't say what people wanted to learn.
 - "The demand for learning is there" also comes from the builder's own
   conversations with several people in DC who wanted to learn and then
   joined a Build Cycle. That is evidence about The Labs, not about the

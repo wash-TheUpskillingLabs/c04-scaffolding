@@ -430,6 +430,12 @@ starting with a scoped AI project before hiring.
   The market eased from Cycle 1 to Cycle 3, which fits the organizer's
   account of more steadily employed participants by Cycle 3. It does not by
   itself show whether The Labs also changed who it was for.
+- **The shift was intentional, per organizers** (the builder's report;
+  not yet in a logged interview). This backs the Poderator's account in
+  [#29](interview-past-participant-poderator-2026-11-13.md) of a decision
+  "not to focus so much on that target audience" (job seekers). Still
+  open: who decided, when, and why; and whether a record of the decision
+  exists.
 
 ## To write (the builder's part)
 

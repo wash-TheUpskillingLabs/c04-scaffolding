@@ -33,7 +33,7 @@ renamed Pursuit in 2018. (Dates differ slightly across sources.)
 | Jun 2026 | $2.5M, three-year Google.org grant for the AI Jobs Institute | [Press release](https://www.pursuit.org/blog/google-grant-2026) |
 | Dec 2025 | First AI-Native cohort graduates: 34 Builders (104 started the pilot in Mar 2025) | [Graduation post](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
 | Oct 22, 2026 | AI Jobs Institute announced: $10M public investment, up to 40,000 New Yorkers by 2032 | [Governor](https://www.governor.ny.gov/news/governor-hochul-announces-launch-ai-jobs-institute-prepare-new-yorkers-jobs-future) |
-| Jan 2027 | Winter 2027 cohort starts | [Pursuit](https://pursuit.org/fellowship) |
+| Jan 2027 | Winter 2027 AI-Native cohort starts; applications still open as of Nov 24, 2026, closing Dec 4 | [Pursuit](https://www.pursuit.org/ai-native-program) |
 
 ## What they tried (sources to read)
 

@@ -1,6 +1,6 @@
 # Record: C03 Slack posts, Aug 13 to Aug 30 (GitHub access, deadlines, voting)
 
-Filed as issue #30 (Nov 14, 2026). Related: the C03 emails and guides
+Filed as issue #30 (Nov 14, 2026; roles updated Nov 24). Related: the C03 emails and guides
 in this folder (#24) and the maintainer self-report (#26).
 
 1. What it is
@@ -18,19 +18,27 @@ attached. [check: attach the two deadline cards and the feedback form;
 the full dashboard screenshot needs names blurred first]
 
 Roles used:
-- **An organizer**: the person who posted the weekly recaps.
+- **A Success Team co-lead**: one of the two co-leads of the Upskiller
+  Success Team, which signed most C03 emails ("Co-Leads, Upskillers
+  Success Team," email 01) [check: names in email 01]. The two posted the
+  weekly recaps, deadlines, the pitch-folder link, "technical
+  difficulties," the "Join a project" posts and voting help. A
+  maintainer's account: they were in charge of communications to the
+  pods. A Cycle 3 Poderator calls them "our Poderator leads" (#39).
 - **The access organizer**: the organizer who said "we're putting more on
   GitHub" and asked for GitHub usernames.
-- **The support poster** [check: role]: posted the pitch-folder link,
-  "technical difficulties," the "Join a project" posts and voting help.
 - **The helper** [check: role]: tried to fix GitHub access and pinned the
   Google folder workaround; said they had no admin access.
 - **The follow-up poster** [check: role]: followed up on a participant's
   check-in call and posted the voting turnout.
 - **A volunteer developer**: one of "just a handful of volunteer
   developers" on OLOS; wrote the project registration guide.
-- **The Pod Squad**: three people named as the pod's support. [check: are
-  they Poderators?]
+- **The Pod Squad**: the organizers' name for the C03 pod support team.
+  Slack names three people; the Aug 17 recap and email 14 list five,
+  apparently those three plus the two Success Team co-leads. Email 14
+  calls all five "your Poderators" ("Pod Squad... Please lean on your
+  Poderators"). Whether the co-leads were also Poderators is open.
+  [check: confirm the five names in email 14]
 - Participants A to E; **the maintainer (then a participant)**.
 
 3. When
@@ -45,7 +53,7 @@ GitHub access, Aug 13–14 (#c03-effortvsimpact unless noted)
 | Aug 12 | Email 04 | Assignment 2 due "Friday at midnight through Github" |
 | Aug 13, 12:49 PM | Slack | Participant A: "I don't have permission to edit the repository directly, so GitHub is directing me to create a fork. When I try to fork the repository, GitHub gives me an error. What am I missing?" **Slack only** |
 | Aug 13, 3:04 PM | Slack | The helper: "i dont have admin access to the repository, so not able to give you the write permissions... I will ask someone else to do it." |
-| Aug 14, 10:22 AM | Slack | The support poster: "@here Is anyone else having trouble posting to Git?" **Slack only** |
+| Aug 14, 10:22 AM | Slack | A Success Team co-lead: "@here Is anyone else having trouble posting to Git?" **Slack only** |
 | Aug 14, 1:58 PM | Slack | Participant B: "I wasn't able to fork the repo. Kept getting an error message" |
 | Aug 14, ~4:05 PM | Slack, pinned | The helper: "I know folks are having trouble adding files to GitHub. Please feel free to drop your files into this shared Google folder" |
 | Aug 14, 4:32 PM | Slack | The access organizer: "we're putting more on GitHub & earlier in the cycle than we have before and we're working out the kinks in the setup!" **Slack only** |
@@ -55,7 +63,7 @@ GitHub access, Aug 13–14 (#c03-effortvsimpact unless noted)
 | Aug 15 | | Hackathon |
 
 Week 4 recap, Aug 17
-- 8:51 PM, #c03-effortvsimpact, an organizer: the same text as email 07
+- 8:51 PM, #c03-effortvsimpact, a Success Team co-lead: the same text as email 07
   (sent 8:36 PM). "Week 5" here is the week of Aug 17.
 
 A participant's check-in call, Aug 19 (#c03-effortvsimpact) **Slack only**
@@ -69,20 +77,20 @@ A participant's check-in call, Aug 19 (#c03-effortvsimpact) **Slack only**
   "There is synergy in your ideas."
 
 Pitch day, Aug 23–24 (#c03-effortvsimpact)
-- Aug 23, 12:24 PM, an organizer: the same key dates as email 08 (sent
+- Aug 23, 12:24 PM, a Success Team co-lead: the same key dates as email 08 (sent
   12:16 PM), including the form closing "AUG 24 at 4:00 PM EDT" and
   voting closing "midnight on Tuesday, August 26" (Aug 26 was a
   Wednesday).
-- [check: Aug 24?] 8:35 PM, the support poster: a link to the pitch-deck
+- [check: Aug 24?] 8:35 PM, a Success Team co-lead: a link to the pitch-deck
   folder (also in emails 08 and 09).
 - Aug 24, 8:37 PM, dashboard card (screenshot): "Submit your solution
   proposal. Open now — closes Aug 24, 9:00 PM ET · 23 minutes left."
-- Aug 24, 8:38 PM, the support poster: "If you have a pitch that was not
+- Aug 24, 8:38 PM, a Success Team co-lead: "If you have a pitch that was not
   submitted into OLOS please do so now. You have until 9pm." **Slack
   only** (the move from 4 PM to 9 PM)
 - Aug 24, 8:41 PM, the maintainer (then a participant): "For those not on
   the call, it's a link to a form on your dashboard."
-- Aug 24, 10:08 PM, an organizer: a recap close to email 09 (sent 9:36
+- Aug 24, 10:08 PM, a Success Team co-lead: a recap close to email 09 (sent 9:36
   PM), but with the team deadline written "AUG 31 @ 12:00 AM EDT
   (Midnight Monday)" where email 09 says "AUG 31 at 11:59 PM."
 
@@ -92,7 +100,7 @@ Voting, Aug 25 (#c03-effortvsimpact)
 - 11:31 AM, the follow-up poster: "Only 12ish hours left to vote on the 6
   fascinating projects submitted!... Only 4 ballots cast so far." **Slack
   only**
-- 11:44 AM, the support poster: "Having trouble voting? Here's some
+- 11:44 AM, a Success Team co-lead: "Having trouble voting? Here's some
   instructions," six steps to find the "Cast your solution ballot" box on
   the dashboard. **Slack only**
 - 6:14 PM, participant E: "I voted. Then when I logged in it was still
@@ -105,11 +113,11 @@ The registration problem, Aug 26 (#c03-effortvsimpact)
 | When | Where | What |
 |---|---|---|
 | 12:54 PM | Slack | Participant B: "Are we signing up for projects now? Mine is blank" **Slack only** |
-| 1:00 PM | Slack, @here | The support poster: "we are having some technical difficulties" |
+| 1:00 PM | Slack, @here | A Success Team co-lead: "we are having some technical difficulties" |
 | 1:30 PM | Email 10 | "a hiccough with the project formation process" |
 | 1:49 PM | Email reply | An organizer: not everyone could vote, "so we're thinking we'll lift the 5 votes rule" |
 | 2:17 PM | Slack | A volunteer developer: "We had an issue where the data wasn't properly carrying over from the backend to the frontend for the registration portal... You're among the first adopters of our platform, and your feedback... is super important! That is why we ask for so much." Points to "Get support/send feedback" at the bottom of every OLOS page. **Slack only** |
-| 4:03 PM | Slack | The support poster: thanks the developer and the access organizer "for fixing this"; "Because we were having a hard time getting the voting piece to work properly, we decided to go straight to Joining a Project!" |
+| 4:03 PM | Slack | A Success Team co-lead: thanks the developer and the access organizer "for fixing this"; "Because we were having a hard time getting the voting piece to work properly, we decided to go straight to Joining a Project!" |
 | 4:51 PM | Email 11 | The same text as the 4:03 PM post |
 
 Team selection deadline, every version

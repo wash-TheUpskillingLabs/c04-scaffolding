@@ -573,7 +573,10 @@ not a finding.*
 - **Why I think it went that way:** "evolve or die, and to cut costs."
   Supported by the launch email: "Faster, Cheaper, and (hopefully)
   Better," an expense budget 38% below plan, and a human-instructor ratio
-  moved from 1:18 to 1:100.
+  moved from 1:18 to 1:100. **A third reason: getting Builders good jobs.**
+  Under the Good Job Agreement, Builders repay Pursuit only once they hold
+  a high-paying job, so Pursuit's own income depends on placement ("If they
+  don't get high-paying jobs, they don't pay").
 - **Another explanation:** to teach AI by having people use it daily ("to
   learn AI, you have to use AI"), Pursuit's own stated reason. And for the
   104 to 34 drop: dropout, rather than off-ramps.

@@ -30,6 +30,7 @@ renamed Pursuit in 2018. (Dates differ slightly across sources.)
 | 2025 | 325+ Builders across three AI-Native cohorts; about 1,000 hours each building with AI; ten Builders placed in paid roles at NYC small businesses in a pilot backed by Amazon and Google | [2025 review](https://www.pursuit.org/blog/2025-builds), [SMB showcase](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
 | Oct 1, 2025 | $250K small business AI pilot with Amazon and Google announced | [Press release](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
 | Jun 2026 | $2.5M, three-year Google.org grant for the AI Jobs Institute | [Press release](https://www.pursuit.org/blog/google-grant-2026) |
+| Dec 2025 | First AI-Native cohort graduates: 34 Builders (104 started the pilot in Mar 2025) | [Graduation post](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
 | Oct 22, 2026 | AI Jobs Institute announced: $10M public investment, up to 40,000 New Yorkers by 2032 | [Governor](https://www.governor.ny.gov/news/governor-hochul-announces-launch-ai-jobs-institute-prepare-new-yorkers-jobs-future) |
 | Jan 2027 | Winter 2027 cohort starts | [Pursuit](https://pursuit.org/fellowship) |
 
@@ -254,9 +255,37 @@ text pasted by the builder; people by role)
   workers... we're proving that if done right, AI can create [jobs]."
 - The idea started, per a city council member, on "a brainstorming zoom
   call" between two council members.
-- "Pursuit will share pilot results and insights in early 2026." (Whether
-  it did: see the [SMB showcase post](https://www.pursuit.org/blog/smb-showcase-amazon-google),
-  not yet read. The Oct 2026 Demo Day is the second round.)
+- "Pursuit will share pilot results and insights in early 2026." The Dec
+  2025 graduation post (below) shows the projects; it gives no measured
+  results. The Oct 2026 Demo Day is the second round.
+
+**First AI-Native cohort graduates** (Pursuit post, Dec 18, 2025, "How an
+AI-Native Training Program Is Expanding Economic Opportunity for New Yorkers
+and Small Businesses"; text pasted by the builder; people by role;
+[link](https://www.pursuit.org/blog/smb-showcase-amazon-google))
+- "This December, Pursuit is celebrating the graduation of its first
+  AI-Native training cohort: 34 adult learners from low-income communities
+  who completed intensive training and were compensated as paid consultants
+  on real business projects."
+- **To check against the launch email:** the pilot launched in March 2025
+  with **104 Builders** (from 1,200+ applicants). If these are the same
+  cohort, 34 of 104 (about a third) graduated. The launch email described
+  "modular two-month off-ramps," so some exits may have been by design.
+  The post does not say how many started, how many left, or why.
+- 10 of the 34 were "embedded as paid AI consultants inside 10 New York
+  City small and medium-sized businesses" (the Oct 2025 pilot). Examples,
+  by type: an AI-assisted work-order drafting tool for a fabrication firm
+  (six weeks of work, "keeping managers fully in control through human
+  review and approval"); an RFP proposal tool for a minority-owned
+  government contractor; a visitor guide for a chamber of commerce's
+  tourism platform; a mail-tracking system for a mailing center serving
+  immigrant communities.
+- A Builder: "AI didn't replace experience. It captured it."
+- Pursuit's CEO: "We have proven that with the right training, support,
+  and real-world application, adults from any background can become AI
+  practitioners." **No job placement or wage figures for the 34.**
+- Partners named: the City Council, the Asian American Federation, the
+  Brooklyn and Queens chambers of commerce; funders Amazon and Google.org.
 
 **Small business AI Demo Day with Hispanic Federation** (Pursuit post,
 Oct 7, 2026, by a Pursuit general manager; text pasted by the builder;

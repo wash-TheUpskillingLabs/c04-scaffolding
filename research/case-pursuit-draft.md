@@ -372,88 +372,11 @@ starting with a scoped AI project before hiring.
   decision "not to focus so much on that target audience" (job seekers),
   which the interview notes flag as unsourced
   ([#29](interview-past-participant-poderator-2026-11-13.md)).
-- **The pilot, per the builder's conversations (hearsay):** an organizer,
-  and separately a Poderator, told the builder that the pilot **required an
-  application** (reason given: "to maximize commitment") and was **open to
-  unemployed people.** Not in the logged interview notes; no record seen
-  yet. Could be confirmed by an application form, pilot announcement or
-  email. The logged organizer interview describes the pilot as about 50
-  people meeting in person two hours a week, "which required being
-  available every week" ([#28](interview-organizer-2026-11-09.md)). The
-  builder confirms in-person time was required. The #28 notes ask whether
-  any record shows it was required rather than offered; none seen yet.
-- **Context, the builder's own, now sourced:** in 2025 many people in the
-  DC area lost jobs, mostly federal. The Washington metro area lost 103,900
-  jobs (-3.1%) from January 2025 to January 2026, the largest decline of
-  any metro area ([BLS, The Economics Daily](https://www.bls.gov/opub/ted/2026/washington-dc-metropolitan-area-lost-103900-jobs-from-january-2025-to-january-2026.htm)).
-  A Brookings analysis of BLS data found about 96% of the region's job
-  losses that year came from federal cuts
-  ([Washington Times, Mar 12, 2026](https://m.washingtontimes.com/news/2026/mar/12/brookings-96-dc-area-job-losses-last-year-federal-layoffs/)).
-  Caveat: not all were layoffs; many federal workers took buyouts or
-  deferred resignation, and how many left voluntarily is unclear
-  ([WJLA](https://wjla.com/news/local/dc-federal-workforce-virginia-maryland-government-jobs-employment-bureau-labor-statistics-trump-administration-layoffs-unemployment-economy-trump-musk-firings-living-trump-president-data-hiring-dmv)).
-  The builder reports that the pilot ran in 2025, during this period
-  (source to add: a pilot announcement, email or organizer), and that
-  Cycle 1 ran in 2026 Q1, Cycle 2 in 2026 Q2 and Cycle 3 in 2026 Q3. The
-  pod's records support the later dates: the C02 Meet the Projects deck
-  is dated Jun 9 and C03's emails run through August
-  ([self-report](interview-maintainer-self-report.md),
-  [C03 archive](c03-civics-elections/README.md)). So the BLS period (Jan
-  2025 to Jan 2026) covers the pilot and ends as Cycle 1 begins, which fits
-  the organizer's "Cycle one, a lot of people have been laid off."
-  The builder adds that in 2026 Q1 people were still looking for roles,
-  both among Cycle 1 participants (the organizer in
-  [#28](interview-organizer-2026-11-09.md) and the builder's own
-  conversations) and in the DC job market generally. The market data
-  supports it: unemployment in the Washington, DC-MD Metropolitan Division
-  was 5.6% in January 2026 and 5.7% in February 2026, up from 4.7% in
-  January 2025 (not seasonally adjusted;
-  [DC Department of Employment Services, Apr 29, 2026](https://does.dc.gov/release/washington-metro%E2%80%99s-unemployment-rate-57-percent)).
-  The region lost 62,100 federal jobs from January 2025 to January 2026,
-  its lowest federal workforce since 1990 (Metropolitan Washington Council
-  of Governments, via
-  [Patch](https://patch.com/virginia/mclean/dc-region-lost-62-100-federal-jobs-year-cog-report-finds)).
-- **The job market through 2026** (Washington, DC-MD Metropolitan
-  Division, not seasonally adjusted, DC Department of Employment Services):
-
-  | Month | Rate | Cycle | Source |
-  |---|---|---|---|
-  | Jan 2025 | 4.7% | Pilot year | [Apr 29, 2026 release](https://does.dc.gov/release/washington-metro%E2%80%99s-unemployment-rate-57-percent) |
-  | Jan 2026 | 5.6% | Cycle 1 | same |
-  | Feb 2026 | 5.7% | Cycle 1 | same |
-  | May 2026 | 5.1% | Cycle 2 | [June release](https://does.dc.gov/release/washington-metros-unemployment-rate-52-percent) |
-  | Jun 2026 | 5.2% | Cycle 2 | same |
-  | Jul 2026 | 5.2% | Cycle 3 | [August release](https://does.dc.gov/release/washington-metros-unemployment-rate-50-percent) |
-  | Aug 2026 | 5.0% | Cycle 3 | same |
-  | Sep 2026 | 4.5% | Cycle 3 | [September release](https://does.dc.gov/release/washington-metros-unemployment-rate-45-percent) |
-
-  The market eased from Cycle 1 to Cycle 3, which fits the organizer's
-  account of more steadily employed participants by Cycle 3. It does not by
-  itself show whether The Labs also changed who it was for.
-- **The shift was intentional, per organizers** (the builder's report;
-  not yet in a logged interview). This backs the Poderator's account in
-  [#29](interview-past-participant-poderator-2026-11-13.md) of a decision
-  "not to focus so much on that target audience" (job seekers). Per
-  organizers, as reported by the builder: the reason was **"to match the
-  needs of the population in DC"**; it was **decided between the pilot and
-  Cycle 1.** The builder is asking organizers whether it is written down.
-  Open questions: what "the needs of the population in DC" meant, and how
-  that fits with Cycle 1 still having "a lot of people [who] have been laid
-  off" ([#28](interview-organizer-2026-11-09.md)) at the peak of regional
-  unemployment (5.7%, Feb 2026).
-- **The format changed at the same time** (the builder's report): after
-  the pilot, required in-person attendance on Tuesdays ended. The pilot's
-  weekly two-hour in-person meeting was required
-  ([#28](interview-organizer-2026-11-09.md)). Still open: whether
-  organizers tied the format change to the shift in audience, or whether
-  that link is the builder's read; and the source (an organizer, or a
-  record).
-- **The organizers' stated reason for the shift** (as reported by the
-  builder): "the change in employment and needs expressed by [a] mix of
-  employed and unemployed." This explains "the needs of the population in
-  DC": participants were a mix of employed and unemployed people, with
-  different needs. Still open: whether organizers tied this to ending
-  required in-person Tuesdays, and whether a record exists.
+- **The Labs made a similar shift.** Between its 2025 pilot and Cycle 1,
+  The Labs changed who it was for (from people out of work to a broader DC
+  population) and dropped required in-person attendance. Full account,
+  sources and hearsay notes:
+  [Record #37](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/37).
 
 ## To write (the builder's part)
 

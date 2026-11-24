@@ -28,6 +28,7 @@ renamed Pursuit in 2018. (Dates differ slightly across sources.)
 | Mar 15, 2025 | AI-native pilot launches with 104 Builders (59 days after the challenge) | [Launch email](https://www.pursuit.org/blog/ai-native-pilot-launch) |
 | Mar 2025 | First AI-Native cohort; 7-month program replaces the year-long Pursuit Core fellowship | [AI-Native pilot launch](https://www.pursuit.org/blog/ai-native-pilot-launch), [directory](https://www.techinterview.org/bootcamp_directory/p/pursuit/) |
 | 2025 | 325+ Builders across three AI-Native cohorts; about 1,000 hours each building with AI; ten Builders placed in paid roles at NYC small businesses in a pilot backed by Amazon and Google | [2025 review](https://www.pursuit.org/blog/2025-builds), [SMB showcase](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
+| Oct 1, 2025 | $250K small business AI pilot with Amazon and Google announced | [Press release](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
 | Oct 22, 2026 | AI Jobs Institute announced: $10M public investment, up to 40,000 New Yorkers by 2032 | [Governor](https://www.governor.ny.gov/news/governor-hochul-announces-launch-ai-jobs-institute-prepare-new-yorkers-jobs-future) |
 | Jan 2027 | Winter 2027 cohort starts | [Pursuit](https://pursuit.org/fellowship) |
 
@@ -214,11 +215,29 @@ member)
     with a "Community College Pathways" workstream starting at LaGuardia
     ([Google grant post](https://www.pursuit.org/blog/google-grant-2026);
     from search summaries).
-  - To check: the CEO quoted here is a different person from the CEO who
-    signed the March 2025 launch email, which suggests a leadership change
-    between the two. Not confirmed.
+  - Leadership: the CEO quoted here is a different person from the CEO who
+    signed the March 2025 launch email. The Oct 2025 small business pilot
+    announcement (below) names the new CEO as CEO and the earlier signer as
+    Pursuit's founder, so the change came between March and October 2025.
+    When and why not yet found.
 - Oct 7, 2026: helping New York small businesses grow with AI and local
   talent (demo day with Hispanic Federation). [Link](https://www.pursuit.org/blog/smb-ai-demo-day-hispanic-federation) **Read; see below.**
+
+**The first small business pilot** (Pursuit press release, Oct 1, 2025;
+text pasted by the builder; people by role)
+- A $250,000 pilot with Amazon and Google. 20 small and medium-sized
+  businesses in Brooklyn and Queens each get an AI workshop; 10 are
+  matched with "a Forward Deployed AI Engineer trained through Pursuit's
+  AI-Native program" to "scope challenges, prototype solutions, and coach
+  staff."
+- Pursuit's CEO: "This is the first pilot of its kind, one that ties AI
+  adoption for businesses directly to employment opportunities for local
+  workers... we're proving that if done right, AI can create [jobs]."
+- The idea started, per a city council member, on "a brainstorming zoom
+  call" between two council members.
+- "Pursuit will share pilot results and insights in early 2026." (Whether
+  it did: see the [SMB showcase post](https://www.pursuit.org/blog/smb-showcase-amazon-google),
+  not yet read. The Oct 2026 Demo Day is the second round.)
 
 **Small business AI Demo Day with Hispanic Federation** (Pursuit post,
 Oct 7, 2026, by a Pursuit general manager; text pasted by the builder;

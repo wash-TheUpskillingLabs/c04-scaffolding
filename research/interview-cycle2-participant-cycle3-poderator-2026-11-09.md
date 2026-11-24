@@ -231,8 +231,10 @@ My read so far (Nov 24):
   he "never saw any of that stuff... Nobody told me where it was." That
   conflicts with #28, where an organizer said "Are you stuck... was
   supposed to be for the Poderators, so that the Poderators could know if
-  they needed to come in and get involved." Still open: whether OLOS gave
-  Poderators access that nobody explained, or gave none.
+  they needed to come in and get involved." Confirmed by an organizer or
+  developer [check: role and date]: Poderators had no access to the
+  Learning Log in OLOS. So the organizer's understanding in #28 didn't
+  match how OLOS was set up.
 - In Cycles 2 and 3, teams assumed the problem proposer would lead
   ("it's your problem... you can tell the story better than anybody").
   Nothing in the C02 or C03 records assigns it. (C04 assigns project leads,
@@ -272,8 +274,7 @@ saw and was told as a Cycle 3 Poderator. Marked in section 4:
 - Records he offered to send: his How Might We and his team's GitHub
   setup cheat sheet. [check: received?]
 - Who else to talk to (by role): the teammate who wrote the cheat sheet;
-  the mentor who ran GitHub 102; the Success Team co-leads, on whether
-  Poderators could see check-ins.
+  the mentor who ran GitHub 102.
 - He's open to being a sounding board as the research develops.
 - Who showed up that isn't in research/players.md yet: the problem
   proposer (the person whose problem statement or pitch becomes a

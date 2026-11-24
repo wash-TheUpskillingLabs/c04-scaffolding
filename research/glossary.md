@@ -271,7 +271,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Learning Log
 - **As written:** "A few lines on what you're figuring out — that's the check-in" (dashboard). Build Cycles page: "a five-minute check-in each week."
-- **In practice:** Many don't fill it out: see #26 and #23. An organizer on its purposes and "too many questions": #28. A Cycle 3 Poderator never saw the check-ins: "Nobody told me where it was" (#39). In Cycle 2 they were weekly check-in surveys tied to access (#39).
+- **In practice:** Many don't fill it out: see #26 and #23. An organizer on its purposes and "too many questions": #28. A Cycle 3 Poderator never saw the check-ins: "Nobody told me where it was." Poderators had no access to the Learning Log in OLOS, confirmed by an organizer or developer (#39), though an organizer understood it was "supposed to be for the Poderators" (#28). In Cycle 2 they were weekly check-in surveys tied to access (#39).
 - **Plain language:** [open]
 - **Related practices:** [open]
 

@@ -351,6 +351,8 @@ starting with a scoped AI project before hiring.
   [C03 archive](c03-civics-elections/README.md)). So the BLS period (Jan
   2025 to Jan 2026) covers the pilot and ends as Cycle 1 begins, which fits
   the organizer's "Cycle one, a lot of people have been laid off."
+  The builder adds that in 2026 Q1 people were still looking for roles
+  (source to add).
 
 ## To write (the builder's part)
 

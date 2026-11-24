@@ -123,6 +123,19 @@ data.
   changing how decisions get made—moving from intuition to evidence
   required deliberate practice."
 
+**Connecting Builders to jobs** (same page)
+- Tools: Pathfinder (Builders log projects and contacts aligned with
+  target roles), Lookbook (public directory of Builders' skills and
+  projects for hiring partners), Sputnik (staff CRM for employer outreach).
+- Pursuit's lessons: "The market is shifting too quickly to train for
+  specific roles—the best thing we can teach is how to 'learn to learn' and
+  adapt quickly." "Employers are still figuring out what they need from
+  AI-native talent."
+- **On outcomes, in Pursuit's own words:** "Our pilot cohort has just
+  entered the job search phase of our program. 2026 will tell us whether
+  our data compounds into genuine market intelligence or just stays noise."
+  (As of Jan 26, 2026.)
+
 **The change**
 - "We scrapped our traditional software development curriculum and shifted
   to a new model focused on teaching our community how to build software

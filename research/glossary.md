@@ -228,6 +228,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Module
 - **As written:** Not defined in the READMEs. A steering committee member: "modular content," "cards to play, but optional." Two kinds: upskilling modules (for learners) and training modules (for those who deliver them).
+- **Proposed (a builder, Nov 24, 2026):** A module has a **learning outcome and exercises**. Reference material without them, such as a setup guide, is a resource, not a module. A module can include resources. See the module catalog schema draft (`prototypes/module-catalog/schema.md`).
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Related practices:** [open]
@@ -253,6 +254,13 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 ### "What to Expect" (guides)
 - **As written:** Two Google Docs: the week-by-week Cycle overview and the pod-to-hackathon guide.
 - **In practice:** Hard to find (below the fold, logged in or out): see #17. Copies in #24. An organizer: "People didn't really read it. It was too much information" (#28).
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+### Resource / guide
+- **As written:** OLOS's `resources` table is the Library. The schema draft proposes content types including `guide`, `blog-post`, `facilitation`, `recording` and `slide-deck`. The Labs' site lists three guides in its Learning Library (see below).
+- **Proposed (a builder, Nov 24, 2026):** A guide is a resource: reference material with no learning outcome or exercises. It can stand alone, sit inside a module, or be pointed to from a step in a Cycle (for example, a setup guide for individuals and teams linked from the hackathon).
+- **In practice:** [open]
 - **Plain language:** [open]
 - **Related practices:** [open]
 

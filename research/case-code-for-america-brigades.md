@@ -229,5 +229,5 @@ still open.
 
 ## Leads for other cases
 
-Civic Hall (New York: training, cycles, hackathons), Recurse Center, Fab
-Academy, YouthBuild.
+See [case-leads.md](case-leads.md), which lists the candidate cases found
+during this research, each marked by kind, with starting sources.

@@ -533,6 +533,22 @@ starting with a scoped AI project before hiring.
     throughout."
   - The level boundaries fall at months 2 and 4, which may be where the
     launch email's "modular two-month off-ramps" sit. Not stated.
+- **Schedule, community, space and financing** (same page):
+  - Saturday–Sunday 10:00am–4:00pm and Monday–Wednesday 6:30pm–10:00pm:
+    22.5 hours a week (calculated). Over seven months (about 30 weeks)
+    that is roughly 675 hours, consistent with the "630+ hours" figure
+    (calculation, not Pursuit's).
+  - Evenings and weekends, so people can keep a daytime job while
+    enrolled.
+  - "350+ fellow Builders across cohorts and levels, learning together,
+    teaching each other"; staff; "volunteers and industry professionals";
+    alumni.
+  - "Fully in-person" at Pursuit HQ in Long Island City, with "24/7
+    access."
+  - Good Job Agreement terms: no upfront cost; "15% of gross annual
+    income" for a "36 months" term, within a "5 years max" covered period,
+    only above a "$85,000" salary threshold; payments pause if a Builder
+    loses their job. (At $94,000, 15% is about $14,100 a year; calculated.)
 - Note: applicants must commit to the full program, while the March 2025
   launch email described "modular two-month off-ramps." How the two fit is
   not explained.
@@ -669,11 +685,10 @@ not a finding.*
 - How many of the 104 left at an off-ramp versus dropped out, and why.
 - Whether the 88% and 92% three-year retention figures describe different
   programs, periods or definitions.
-- How the hours are counted. Pursuit's sources give "630+ hours" of
-  training, "~1,000 hours building with AI," and (in the sponsored
-  Chronicle series) "seven months of intensive AI training with 1,000 paid
-  hours on the job." These may be training hours vs. paid project hours;
-  not explained.
+- How the hours are counted. The published schedule (22.5 hours a week for
+  seven months) matches "630+ hours" of training. "~1,000 hours building
+  with AI" and "1,000 paid hours on the job" (sponsored Chronicle series)
+  are not explained; they may include paid project work beyond class time.
 - When and why Pursuit changed CEOs between March and October 2025.
 - How much of the structure is carried by the AI Coach versus staff,
   volunteers and peers, in practice.

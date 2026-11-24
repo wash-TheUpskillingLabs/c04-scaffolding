@@ -105,6 +105,24 @@ data.
   means—not nodding at requirements, but genuinely understanding who needs
   what and why."
 
+**The Data Layer** (same page)
+- "Our coaches have started to think like product managers... So they built
+  a data layer themselves."
+- AI Coach conversation history is captured to diagnose "the exact point of
+  confusion." A real-time dashboard shows staff "who needs help and who's
+  ready to help others—then act on it immediately." Aggregated
+  conversation data "dictates program evolution."
+- Figures on a graphic on the page (activity, not outcomes; period not
+  stated): 511K messages across 30K learning conversations (25M words);
+  9,600 Builder assignment submissions analyzed with feedback; 431 Builder
+  demo videos assessed by AI; 4,079 peer-to-peer feedback interactions
+  analyzed; "8x growth in task analysis capability over 6 months"; 398
+  curriculum changes "driven by data insights."
+- Pursuit's lessons: "The best learning data captures process, not just
+  outcomes." "The hardest part wasn't building the infrastructure, it was
+  changing how decisions get made—moving from intuition to evidence
+  required deliberate practice."
+
 **The change**
 - "We scrapped our traditional software development curriculum and shifted
   to a new model focused on teaching our community how to build software

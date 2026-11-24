@@ -284,8 +284,17 @@ Sources:
   email. The logged organizer interview describes the pilot as about 50
   people meeting in person two hours a week
   ([#28](interview-organizer-2026-11-09.md)).
-- **Context, the builder's own:** in 2025 many people in DC had been laid
-  off, including federal workers. Needs a source if used.
+- **Context, the builder's own, now sourced:** in 2025 many people in the
+  DC area lost jobs, mostly federal. The Washington metro area lost 103,900
+  jobs (-3.1%) from January 2025 to January 2026, the largest decline of
+  any metro area ([BLS, The Economics Daily](https://www.bls.gov/opub/ted/2026/washington-dc-metropolitan-area-lost-103900-jobs-from-january-2025-to-january-2026.htm)).
+  A Brookings analysis of BLS data found about 96% of the region's job
+  losses that year came from federal cuts
+  ([Washington Times, Mar 12, 2026](https://m.washingtontimes.com/news/2026/mar/12/brookings-96-dc-area-job-losses-last-year-federal-layoffs/)).
+  Caveat: not all were layoffs; many federal workers took buyouts or
+  deferred resignation, and how many left voluntarily is unclear
+  ([WJLA](https://wjla.com/news/local/dc-federal-workforce-virginia-maryland-government-jobs-employment-bureau-labor-statistics-trump-administration-layoffs-unemployment-economy-trump-musk-firings-living-trump-president-data-hiring-dmv)).
+  Still to check: whether the pilot ran during this period.
 
 ## To write (the builder's part)
 

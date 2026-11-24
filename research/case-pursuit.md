@@ -501,6 +501,17 @@ starting with a scoped AI project before hiring.
   English; eligible to work in the US; living in the NY metro area; "can
   commit to participating for the full duration of the program"; "open to
   experimentation and excited to create your own path."
+- **"Builder characteristics"**, quoted in full:
+  - "These are the qualities of individuals who will be successful in this
+    program: You are comfortable with ambiguity and uncertainty. You enjoy
+    teaching yourself — and helping others learn. You thrive in
+    collaborative environments and enjoy learning with peers. You're
+    naturally curious and ask questions. You are communicative and can talk
+    things through with others."
+  - "You may want to reconsider applying if: **You need a fixed, highly
+    structured curriculum. You prefer traditional, teacher-led
+    instruction.** You work best independently and tend to avoid
+    collaboration."
 - Note: applicants must commit to the full program, while the March 2025
   launch email described "modular two-month off-ramps." How the two fit is
   not explained.

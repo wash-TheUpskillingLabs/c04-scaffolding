@@ -27,7 +27,8 @@ flowchart TB
     WDC["Workforce development centers (to confirm)"]
     subgraph CONTEXT["Context (inner circle): The Labs"]
       direction TB
-      UP["Upskillers"]
+      UP["Upskillers (participants)"]
+      VOL["Volunteers"]
       MEN["Mentors"]
       WL["Workshop leaders"]
       FAC["Facilitators"]
@@ -44,7 +45,8 @@ the problem" are open until the pod fills them from its interviews.
 
 | Player and type | Who they are, where people meet them | What they've tried | Evidence so far |
 |---|---|---|---|
-| Upskillers (people) | Participants in a Build Cycle | *Open* | Interviews [#16](interview-past-participant-2026-11-07.md), [#23](interview-c03-c04-participant-2026-11-09.md), the [maintainer self-report](interview-maintainer-self-report.md) |
+| Upskillers (people) | Participants in a Build Cycle. Separate from volunteers at The Labs (per the builder) | *Open* | Interviews [#16](interview-past-participant-2026-11-07.md), [#23](interview-c03-c04-participant-2026-11-09.md), the [maintainer self-report](interview-maintainer-self-report.md) |
+| Volunteers (people) | Separate from participants at The Labs (per the builder). Which roles count as volunteers is *Open* | *Open* | *Open* |
 | Mentors (people) | *Open* | *Open* | *Open* |
 | Workshop leaders (people) | *Open* | *Open* | *Open* |
 | Facilitators (people) | Includes Poderators, per the interviews | *Open* | Interview [#29](interview-past-participant-poderator-2026-11-13.md) |
@@ -96,8 +98,8 @@ how they see the problem.
 ### Brigade volunteers (people)
 
 1. **Player and type:** Volunteers in Code for America Brigade chapters
-   (people). The builder listed "volunteers" and "participants"; at the
-   Brigades these appear to be the same people. *To confirm.*
+   (people). At the Brigades, volunteers and participants appear to be
+   the same people. At The Labs they are separate roles (per the builder).
 2. **Who they are:** At Hack for LA, ages 15 to 72; long-term volunteers
    were mostly retired software professionals (56:27; 1:00:43).
 3. **Context or field:** Field.

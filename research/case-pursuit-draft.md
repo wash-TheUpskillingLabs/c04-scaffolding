@@ -328,8 +328,10 @@ starting with a scoped AI project before hiring.
   unemployed people.** Not in the logged interview notes; no record seen
   yet. Could be confirmed by an application form, pilot announcement or
   email. The logged organizer interview describes the pilot as about 50
-  people meeting in person two hours a week
-  ([#28](interview-organizer-2026-11-09.md)).
+  people meeting in person two hours a week, "which required being
+  available every week" ([#28](interview-organizer-2026-11-09.md)). The
+  builder confirms in-person time was required. The #28 notes ask whether
+  any record shows it was required rather than offered; none seen yet.
 - **Context, the builder's own, now sourced:** in 2025 many people in the
   DC area lost jobs, mostly federal. The Washington metro area lost 103,900
   jobs (-3.1%) from January 2025 to January 2026, the largest decline of

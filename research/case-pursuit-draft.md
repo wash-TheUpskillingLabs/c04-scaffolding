@@ -136,6 +136,20 @@ data.
   our data compounds into genuine market intelligence or just stays noise."
   (As of Jan 26, 2026.)
 
+**Looking ahead** (same page, Jan 26, 2026; written by a Pursuit staff
+member)
+- "Last year proved we could transform how we operate. This year we're
+  focusing on jobs, and achieving product-market fit for our Builders."
+- "A lot is still uncertain."
+
+**Later Pursuit posts that may show what happened in 2026** (not yet read)
+- Jun 25, 2026: partnership with LaGuardia Community College to expand AI
+  education. [Link](https://www.pursuit.org/blog/pursuit-laguardia-partnership-ai-education-nyc)
+- Oct 7, 2026: helping New York small businesses grow with AI and local
+  talent (demo day with Hispanic Federation). [Link](https://www.pursuit.org/blog/smb-ai-demo-day-hispanic-federation)
+- Oct 22, 2026: "Why We're Building the AI Jobs Institute in Queens."
+  ([Blog index](https://www.pursuit.org/blog))
+
 **The change**
 - "We scrapped our traditional software development curriculum and shifted
   to a new model focused on teaching our community how to build software

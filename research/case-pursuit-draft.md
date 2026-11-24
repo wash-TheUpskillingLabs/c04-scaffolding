@@ -448,6 +448,12 @@ starting with a scoped AI project before hiring.
   organizers tied the format change to the shift in audience, or whether
   that link is the builder's read; and the source (an organizer, or a
   record).
+- **The organizers' stated reason for the shift** (as reported by the
+  builder): "the change in employment and needs expressed by [a] mix of
+  employed and unemployed." This explains "the needs of the population in
+  DC": participants were a mix of employed and unemployed people, with
+  different needs. Still open: whether organizers tied this to ending
+  required in-person Tuesdays, and whether a record exists.
 
 ## To write (the builder's part)
 

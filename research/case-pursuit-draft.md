@@ -441,6 +441,13 @@ starting with a scoped AI project before hiring.
   that fits with Cycle 1 still having "a lot of people [who] have been laid
   off" ([#28](interview-organizer-2026-11-09.md)) at the peak of regional
   unemployment (5.7%, Feb 2026).
+- **The format changed at the same time** (the builder's report): after
+  the pilot, required in-person attendance on Tuesdays ended. The pilot's
+  weekly two-hour in-person meeting was required
+  ([#28](interview-organizer-2026-11-09.md)). Still open: whether
+  organizers tied the format change to the shift in audience, or whether
+  that link is the builder's read; and the source (an organizer, or a
+  record).
 
 ## To write (the builder's part)
 

@@ -363,6 +363,23 @@ starting with a scoped AI project before hiring.
   its lowest federal workforce since 1990 (Metropolitan Washington Council
   of Governments, via
   [Patch](https://patch.com/virginia/mclean/dc-region-lost-62-100-federal-jobs-year-cog-report-finds)).
+- **The job market through 2026** (Washington, DC-MD Metropolitan
+  Division, not seasonally adjusted, DC Department of Employment Services):
+
+  | Month | Rate | Cycle | Source |
+  |---|---|---|---|
+  | Jan 2025 | 4.7% | Pilot year | [Apr 29, 2026 release](https://does.dc.gov/release/washington-metro%E2%80%99s-unemployment-rate-57-percent) |
+  | Jan 2026 | 5.6% | Cycle 1 | same |
+  | Feb 2026 | 5.7% | Cycle 1 | same |
+  | May 2026 | 5.1% | Cycle 2 | [June release](https://does.dc.gov/release/washington-metros-unemployment-rate-52-percent) |
+  | Jun 2026 | 5.2% | Cycle 2 | same |
+  | Jul 2026 | 5.2% | Cycle 3 | [August release](https://does.dc.gov/release/washington-metros-unemployment-rate-50-percent) |
+  | Aug 2026 | 5.0% | Cycle 3 | same |
+  | Sep 2026 | 4.5% | Cycle 3 | [September release](https://does.dc.gov/release/washington-metros-unemployment-rate-45-percent) |
+
+  The market eased from Cycle 1 to Cycle 3, which fits the organizer's
+  account of more steadily employed participants by Cycle 3. It does not by
+  itself show whether The Labs also changed who it was for.
 
 ## To write (the builder's part)
 

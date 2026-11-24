@@ -49,8 +49,8 @@ the problem" are open until the pod fills them from its interviews.
 |---|---|---|---|
 | Upskillers (people) | Participants in a Build Cycle. Separate from volunteers at The Labs (per the builder) | *Open* | Interviews [#16](interview-past-participant-2026-11-07.md), [#23](interview-c03-c04-participant-2026-11-09.md), the [maintainer self-report](interview-maintainer-self-report.md) |
 | Volunteers (people) | Separate from participants at The Labs (per the builder). Which roles count as volunteers is *Open* | *Open* | Interview [#29](interview-past-participant-poderator-2026-11-13.md) (a Cycle 2 Poderator); see "What volunteers want" below |
-| Mentors (people) | *Open* | *Open* | *Open* |
-| Workshop leaders (people) | *Open* | *Open* | *Open* |
+| Mentors (people) | Teach all the workshops, and do other things such as one-on-ones. They work at different scales: one-to-one, one-to-several, one-to-team, one-to-cohort (per the builder). Examples: GitHub 101 and 102 sessions, and a one-on-one that helped a teammate write his team's GitHub setup guide ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)) | *Open* | [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39) |
+| Workshop leaders (people) | Lead workshops. Mentors lead the workshops (per the builder); whether anyone else does is *Open* | *Open* | *Open* |
 | Facilitators (people) | Includes Poderators, per the interviews | *Open* | Interview [#29](interview-past-participant-poderator-2026-11-13.md) |
 | Organizers (people) | Run the Cycle; includes the steering committee | *Open* | Interviews [#25](interview-steering-committee-member-2026-11-05.md), [#28](interview-organizer-2026-11-09.md); Record #15 |
 | Maintainers of ongoing projects (people) | *Open* | *Open* | *Open* |

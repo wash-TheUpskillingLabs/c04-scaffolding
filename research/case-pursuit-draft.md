@@ -487,6 +487,15 @@ starting with a scoped AI project before hiring.
   earlier, before the AI-Native program began in March 2025, so both
   figures likely describe earlier cohorts. Different periods or
   definitions of the earlier fellowship are another possibility.
+- **The Ascendium "AI career pathways" may be a different program from the
+  AI-Native cohorts** (the builder's read). For it being the same program:
+  the release calls it "Pursuit's AI-native pre-apprenticeship program —
+  an in-person, multi-level curriculum," matching the AI-Native program's
+  "fully in person" format and "three progressive levels." For it being
+  different: it is framed as a pre-apprenticeship leading to a new AI
+  Registered Apprenticeship, with "multiple entry points and career
+  progression routes," which the 2025 pilot did not describe. Unresolved;
+  a question for Pursuit.
 
 ## To write (the builder's part)
 

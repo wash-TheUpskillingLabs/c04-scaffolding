@@ -276,6 +276,16 @@ Sources:
   decision "not to focus so much on that target audience" (job seekers),
   which the interview notes flag as unsourced
   ([#29](interview-past-participant-poderator-2026-11-13.md)).
+- **The pilot, per the builder's conversations (hearsay):** an organizer,
+  and separately a Poderator, told the builder that the pilot **required an
+  application** (reason given: "to maximize commitment") and was **open to
+  unemployed people.** Not in the logged interview notes; no record seen
+  yet. Could be confirmed by an application form, pilot announcement or
+  email. The logged organizer interview describes the pilot as about 50
+  people meeting in person two hours a week
+  ([#28](interview-organizer-2026-11-09.md)).
+- **Context, the builder's own:** in 2025 many people in DC had been laid
+  off, including federal workers. Needs a source if used.
 
 ## To write (the builder's part)
 

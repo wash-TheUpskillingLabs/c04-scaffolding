@@ -677,6 +677,21 @@ not a finding.*
   learn AI, you have to use AI"), Pursuit's own stated reason. And for the
   104 to 34 drop: dropout, rather than off-ramps.
 
+## Compared with The Labs
+
+Facts on The Labs come from
+[Record #37](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/37)
+(the builder's firsthand account of Cycle 4, and organizers' accounts). The
+comparison is the builder's; what it means is for the pod.
+
+| | Pursuit (AI-Native) | The Labs (Cycle 4) |
+|---|---|---|
+| Who | Income under $45,000; application; must commit to the full program; told to "reconsider applying" if they need "a fixed, highly structured curriculum" | Open to a broad mix of employed and unemployed people since Cycle 1 |
+| In person | 22.5 hours a week, fully in person, seven months | Evenings every other week, plus 2–3 Saturdays (required or optional: to confirm) |
+| Workshops | Classes and workshops built into each level | Complementary and optional |
+| Teams | Set by stage: solo, then pairs with a mentor, then teams with a client brief | Self-organized; meet virtually or in person |
+| Paid how | Builders repay 15% of income for 36 months once earning over $85,000 | To fill in |
+
 ## What we can't tell from outside
 
 - Whether AI-Native Builders learn more or get better jobs than the

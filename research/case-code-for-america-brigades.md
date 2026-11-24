@@ -177,6 +177,10 @@ for whom and by whom?"
 3. **The pandemic and the funding climate,** as reported in 2023. Against
    this: chapter leaders were already describing the sustainability
    problem in Feb–Mar 2020, before the pandemic's effects.
+   The builder adds: the pandemic forced chapters built on in-person hack
+   nights to go virtual, which may have further disrupted them. The
+   reported 2023 reasons include "pandemic-era difficulty convening
+   groups" ([StateScoop](https://statescoop.com/code-for-america-former-brigades-regroup/)).
 
 Which of these best fits, and what evidence would tell them apart, is
 still open.
@@ -186,8 +190,15 @@ still open.
 - **Whether this still applies.** The chapter accounts are from 2020,
   before AI tools became mainstream. The builder notes that AI has since
   become something people feel they must learn, and that people fear being
-  replaced or downsized because of it. The source for that is not yet
-  named in this file.
+  replaced or downsized because of it. Two surveys support both halves:
+  52% of US workers said they were worried about AI's future impact at
+  work (Pew, fielded Oct 2024,
+  [published Feb 25, 2025](https://www.pewresearch.org/social-trends/2025/02/25/u-s-workers-are-more-worried-than-hopeful-about-future-ai-use-in-the-workplace/));
+  66% of working adults said they were already comfortable using AI at
+  work (25%) or would welcome it with more training (41%) (Elon
+  University, fielded Aug 2026,
+  [release](https://elon.edu/u/news/2026/10/13/elon-survey-finds-americans-fear-ai-will-hollow-out-the-meaning-of-work)).
+  Further sources the builder collected are for a separate record or case.
 
 - **Why people came to the Brigades, beyond one chapter leader's view.**
   The only source on this is Hack for LA's captain (see "Why I think it

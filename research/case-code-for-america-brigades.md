@@ -166,9 +166,12 @@ still open.
   public statements.
 - **How 41:24 should be read.** Code for Miami said outsiders saw them as
   "a meetup or just a college CS group," and they treated that as a
-  problem. Two readings, undecided: (a) it is about credibility with
-  partners and funders, not learning; (b) being seen as a learning space
-  hurt the group's standing with partners.
+  problem. The builder reads this as a funding problem: in the source it
+  is the first of a list of lessons whose next items are funders confusing
+  them with Code for America and the lack of a business model
+  (41:24–42:36). Not read as evidence about learning. An alternative
+  reading, not adopted: being seen as a learning space hurt the group's
+  standing with partners.
 
 ## Sources not yet read
 

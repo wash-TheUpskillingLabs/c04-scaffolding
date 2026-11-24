@@ -478,6 +478,27 @@ starting with a scoped AI project before hiring.
   including Per Scholas in Buffalo and Le Moyne College in Syracuse (see
   Per Scholas in [case leads](case-leads.md)).
 
+## The AI-Native program page (text pasted by the builder, Nov 24, 2026)
+
+[Program page](https://www.pursuit.org/ai-native-program).
+
+- Winter 2027 cohort: launches Jan 9, 2027; applications close Dec 4,
+  2026; info sessions weekly from Oct 8 to Dec 1.
+- Goal: "to train AI-natives for future jobs... approaching problems using
+  AI first... It's not just about technical skills—it's a way of thinking
+  that sees AI as an integral part of work."
+- "You'll develop a portfolio of real AI products built for real
+  organizations."
+- Context Pursuit cites (secondhand; check at source): of every 100
+  workers worldwide, 59 will need training by 2030 and 48 will receive it
+  (World Economic Forum, *Future of Jobs Report 2025*); 15M+ US workers
+  without a four-year degree are in jobs highly exposed to AI (Brookings,
+  2026); entry-level postings falling in jobs highly exposed to AI
+  (Burning Glass Institute, 2025); a 55% increase in entry-level postings
+  mentioning AI skills (Partnership for New York City, 2026).
+- **Not on the page:** eligibility, how the off-ramps work, the weekly
+  schedule, or results for AI-Native Builders.
+
 ## How Pursuit is paid: the Good Job Agreement
 
 Pursuit post, Nov 6, 2026, "The Pursuit Good Job Agreement: The Promise We

@@ -341,7 +341,14 @@ starting with a scoped AI project before hiring.
   deferred resignation, and how many left voluntarily is unclear
   ([WJLA](https://wjla.com/news/local/dc-federal-workforce-virginia-maryland-government-jobs-employment-bureau-labor-statistics-trump-administration-layoffs-unemployment-economy-trump-musk-firings-living-trump-president-data-hiring-dmv)).
   The builder reports that the pilot ran in 2025, during this period
-  (source to add: a pilot announcement, email or organizer).
+  (source to add: a pilot announcement, email or organizer), and that
+  Cycle 1 ran in 2026 Q1, Cycle 2 in 2026 Q2 and Cycle 3 in 2026 Q3. The
+  pod's records support the later dates: the C02 Meet the Projects deck
+  is dated Jun 9 and C03's emails run through August
+  ([self-report](interview-maintainer-self-report.md),
+  [C03 archive](c03-civics-elections/README.md)). So the BLS period (Jan
+  2025 to Jan 2026) covers the pilot and ends as Cycle 1 begins, which fits
+  the organizer's "Cycle one, a lot of people have been laid off."
 
 ## To write (the builder's part)
 

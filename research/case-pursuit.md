@@ -500,6 +500,13 @@ Make to Every Builder" (text pasted by the builder; people by role).
 - "We have skin in the game... If they don't get high-paying jobs, they
   don't pay." "Our answer is to keep changing the training, never the
   promise."
+- One Fellow's story, told in the same post (by role): a 2018 Fellow who
+  had worked in food service and drove for a ride-share company while
+  learning to code, then became a software engineer at an investment firm,
+  made his final payment in 2025, seven years after starting. The earlier
+  fellowship's structure, as described: "every day there were coaches,
+  office hours, and check-ins to support him." One person's story chosen by
+  Pursuit; not evidence of what is typical.
 
 ## Builder's read so far
 

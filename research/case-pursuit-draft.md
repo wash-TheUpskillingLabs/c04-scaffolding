@@ -24,6 +24,8 @@ renamed Pursuit in 2018. (Dates differ slightly across sources.)
 | 2018 | Renamed Pursuit | [Pursuit 2018 recap](https://pursuit.org/blog/pursuit-2018-growth) |
 | — | "Pursuit Bond": no upfront cost; Fellows pay a share of salary once in a high-paying job | [MIT Solve](https://solve.mit.edu/solutions/50080) |
 | Jan 15, 2025 | Organization-wide change begins: "We all build software" (staff) | [2025 Build Review](https://www.pursuit.org/blog/2025-builds) |
+| Jan 16, 2025 | CEO challenges staff to launch an AI-native pilot | [Launch email](https://www.pursuit.org/blog/ai-native-pilot-launch) |
+| Mar 15, 2025 | AI-native pilot launches with 104 Builders (59 days after the challenge) | [Launch email](https://www.pursuit.org/blog/ai-native-pilot-launch) |
 | Mar 2025 | First AI-Native cohort; 7-month program replaces the year-long Pursuit Core fellowship | [AI-Native pilot launch](https://www.pursuit.org/blog/ai-native-pilot-launch), [directory](https://www.techinterview.org/bootcamp_directory/p/pursuit/) |
 | 2025 | 325+ Builders across three AI-Native cohorts; about 1,000 hours each building with AI; ten Builders placed in paid roles at NYC small businesses in a pilot backed by Amazon and Google | [2025 review](https://www.pursuit.org/blog/2025-builds), [SMB showcase](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
 | Oct 22, 2026 | AI Jobs Institute announced: $10M public investment, up to 40,000 New Yorkers by 2032 | [Governor](https://www.governor.ny.gov/news/governor-hochul-announces-launch-ai-jobs-institute-prepare-new-yorkers-jobs-future) |
@@ -48,6 +50,54 @@ Sources:
 - [One year of AI-Native](https://www.pursuit.org/blog/one-year-ai-native)
 - [Why Pursuit runs mini-hackathons](https://www.pursuit.org/blog/why-pursuit-runs-mini-hackathons)
 - [AI-Native pilot launch](https://www.pursuit.org/blog/ai-native-pilot-launch)
+
+### The launch email: "AI-native pilot launch—a new 0 to 1 moment for Pursuit" (posted Mar 25, 2025)
+
+[Source](https://www.pursuit.org/blog/ai-native-pilot-launch). An internal
+email from Pursuit's CEO to its boards and staff, Mar 18, 2025, later
+posted publicly. Text pasted by the builder. People by role.
+
+**Structure, before and after**
+- "Shifting our 'human-instructor'-to-participants ratio from 1:18 to
+  1:100. We are able to supplement 'human-instructor' with 'AI-instructor'
+  on the new Pursuit training platform."
+- "The pilot itself is streamlined to seven months, with modular two-month
+  off-ramps, significantly shorter than our traditional 12–18-month
+  programs."
+- "Builders are taught by human-instructors, AI-instructors (via LLM and
+  our platform), as well as by volunteers and their peers." A separate
+  platform captures feedback from volunteers.
+- "'Learn to learn' is the first milestone of the pilot."
+- An "initial two-month nights and weekend module." The CEO joined it,
+  aiming "to meet the pilot standard of 85% persistence/attendance."
+- Builders were required "to actively participate and engage on X as a
+  way of learning as well as potentially leapfrogging the traditional
+  hiring process."
+- "We've intentionally adopted the term 'Builders' instead of 'Fellows.'
+  Our Builders aren't just participants—they're actively shaping Pursuit's
+  future by testing new software... providing direct feedback."
+- Staff: from no org-wide software development (2024 and before), to
+  monthly build sessions (Jan–Feb 2025), to weekly, "at least 1 day a week
+  (20% of our time)."
+
+**Who came** (first cohort, as reported)
+- 104 Builders started Mar 15, 2025, from "over 1,200 interested
+  applicants."
+- "51% without college; 40% unemployed; 46% on gov't assistance and 9%
+  public housing residents; $15K average income."
+- Application cycle 2 weeks (was 6); recruitment cycle 6 weeks (was 16).
+
+**Why, in the CEO's words**
+- "Evolve or Die."
+- "Faster, Cheaper, and (hopefully) Better." "We've accomplished this while
+  reducing our overall expense budget by 38% compared to our December
+  Board-approved plan."
+- "Although it's early, we're hopeful that this will also have better
+  results." "We won't get everything right... that's why we are running
+  this pilot."
+- "There are real, significant challenges facing job training
+  organizations, the social sector, and Pursuit right now."
+- A New York Times reporter was embedded with the pilot.
 
 ### Pursuit's own account: "Pursuit's AI Transformation: Products and Processes We Built in 2025" (Jan 26, 2026)
 

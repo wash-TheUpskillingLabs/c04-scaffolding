@@ -496,8 +496,16 @@ starting with a scoped AI project before hiring.
   2026); entry-level postings falling in jobs highly exposed to AI
   (Burning Glass Institute, 2025); a 55% increase in entry-level postings
   mentioning AI skills (Partnership for New York City, 2026).
-- **Not on the page:** eligibility, how the off-ramps work, the weekly
-  schedule, or results for AI-Native Builders.
+- **Eligibility** (all must be true): annual income under $45,000
+  (excluding government benefits); 18 or older; able to write and speak
+  English; eligible to work in the US; living in the NY metro area; "can
+  commit to participating for the full duration of the program"; "open to
+  experimentation and excited to create your own path."
+- Note: applicants must commit to the full program, while the March 2025
+  launch email described "modular two-month off-ramps." How the two fit is
+  not explained.
+- **Not on the page:** how the off-ramps work now, the weekly schedule, or
+  results for AI-Native Builders.
 
 ## How Pursuit is paid: the Good Job Agreement
 

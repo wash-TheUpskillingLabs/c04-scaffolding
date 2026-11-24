@@ -351,8 +351,18 @@ starting with a scoped AI project before hiring.
   [C03 archive](c03-civics-elections/README.md)). So the BLS period (Jan
   2025 to Jan 2026) covers the pilot and ends as Cycle 1 begins, which fits
   the organizer's "Cycle one, a lot of people have been laid off."
-  The builder adds that in 2026 Q1 people were still looking for roles
-  (source to add).
+  The builder adds that in 2026 Q1 people were still looking for roles,
+  both among Cycle 1 participants (the organizer in
+  [#28](interview-organizer-2026-11-09.md) and the builder's own
+  conversations) and in the DC job market generally. The market data
+  supports it: unemployment in the Washington, DC-MD Metropolitan Division
+  was 5.6% in January 2026 and 5.7% in February 2026, up from 4.7% in
+  January 2025 (not seasonally adjusted;
+  [DC Department of Employment Services, Apr 29, 2026](https://does.dc.gov/release/washington-metro%E2%80%99s-unemployment-rate-57-percent)).
+  The region lost 62,100 federal jobs from January 2025 to January 2026,
+  its lowest federal workforce since 1990 (Metropolitan Washington Council
+  of Governments, via
+  [Patch](https://patch.com/virginia/mclean/dc-region-lost-62-100-federal-jobs-year-cog-report-finds)).
 
 ## To write (the builder's part)
 

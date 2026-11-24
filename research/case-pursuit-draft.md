@@ -360,23 +360,6 @@ starting with a scoped AI project before hiring.
   substantial partners" to put on a resume (Brigade 2.0 video, 56:37).
   Pursuit's 2026 Demo Day pairs Builders with small businesses for the same
   kind of proof.
-- **Interviewees said they wanted job skills.** Support in the pod's own
-  interviews: a past participant, "my main aim is to actually find a job"
-  ([#16](interview-past-participant-2026-11-07.md)); the maintainer
-  self-report (#26), job hunting as a motivating factor
-  ([file](interview-maintainer-self-report.md)).
-- **Evidence that complicates it** (to weigh): an organizer said "Cycle
-  one, a lot of people have been laid off. Cycle two, a little bit more
-  steady. Cycle 3... has had the most steadily employed people"
-  ([#28](interview-organizer-2026-11-09.md)). A past Poderator described a
-  decision "not to focus so much on that target audience" (job seekers),
-  which the interview notes flag as unsourced
-  ([#29](interview-past-participant-poderator-2026-11-13.md)).
-- **The Labs made a similar shift.** Between its 2025 pilot and Cycle 1,
-  The Labs changed who it was for (from people out of work to a broader DC
-  population) and dropped required in-person attendance. Full account,
-  sources and hearsay notes:
-  [Record #37](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/37).
 
 ## To write (the builder's part)
 

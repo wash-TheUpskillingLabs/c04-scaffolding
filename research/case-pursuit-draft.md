@@ -255,6 +255,52 @@ Sources:
 - [Bootcamp directory caveat](https://www.techinterview.org/bootcamp_directory/p/pursuit/)
 - [2025 review](https://www.pursuit.org/blog/2025-builds)
 
+## Pursuit's hiring and funder pages (text pasted by the builder, Nov 24, 2026)
+
+[Hire page](https://www.pursuit.org/hire), [funders page](https://www.pursuit.org/our-funders).
+Pursuit's own claims, written for employers and funders.
+
+**Program structure, as stated**
+- "Seven months. More than 630 hours. Fully in person." Builders "build AI
+  products for real organizations from the first weeks."
+- **Discrepancy to check:** this says 630+ hours; the January 2026 review
+  says Builders spend "~1,000 hours building with AI." Possibly program
+  hours vs. total hours including practice; not explained.
+- Employers "shape our curriculum, sponsor Builder projects, and work with
+  Builders through paid deployments and apprenticeships before hiring."
+- "We stay with Builders through their first years on the job, because
+  getting hired and staying hired are different challenges."
+
+**Outcome claims** (none says which program or years; most likely the
+earlier Pursuit Core fellowship, since AI-Native began in 2025)
+- "92% are still employed three years after placement, compared with a
+  64% industry benchmark, and 97% of eligible Builders have earned a
+  promotion." Benchmark source not given.
+- "Builders enter earning an average of $18,000 and start their careers at
+  more than $94,000." "Since 2013... an estimated $1 billion in lifetime
+  wage gains."
+- Citi: 37 Pursuit graduates hired after Citi removed a degree requirement
+  for a pathway into its Summer Analyst program. Union Square Ventures
+  portfolio: 13 engineers placed, rated 8.2/10 by managers, 100% retention.
+  Dates not given.
+- A startup CEO's testimonial about a Builder.
+
+**Three ways employers hire:** an open role (matched candidates, two to
+four weeks, no placement fees); co-designing a role around a problem; or
+starting with a scoped AI project before hiring.
+
+**Beyond the cohort**
+- Free AI literacy workshops in English and Spanish with NYCHA, the New
+  York and Queens public libraries and community groups: "about 2,000
+  people in 2025," "on track for more than 5,000 in 2026."
+- "AI Build Corps": Builders embedded in nonprofits and small businesses
+  as paid "forward deployed engineers."
+- New York's "first Registered Apprenticeship in Software Engineering";
+  named the State's partner for "AI Prep for Jobs."
+- Its curriculum now runs on its platform at other organizations,
+  including Per Scholas in Buffalo and Le Moyne College in Syracuse (see
+  Per Scholas in [case leads](case-leads.md)).
+
 ## Builder's read so far
 
 *The builder's interpretation, not a finding.*

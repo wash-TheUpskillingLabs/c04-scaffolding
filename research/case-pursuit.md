@@ -512,6 +512,27 @@ starting with a scoped AI project before hiring.
     structured curriculum. You prefer traditional, teacher-led
     instruction.** You work best independently and tend to avoid
     collaboration."
+- **"How the program works"** (same page):
+  - Principles, in Pursuit's words: "AI-powered individual learning... a
+    contrast to the existing instructor-led, one-size-fits-all training
+    model"; "You'll be encouraged to build your own curriculum and
+    strategies to map to your timeline and understanding"; "many to many
+    learning model powered by peer teaching" in a community of "over 100
+    other Builders"; connections to "professionals, volunteers, and
+    industry experts"; data-driven feedback.
+  - Three levels, "each one raising the complexity, autonomy, and
+    real-world stakes," each ending in a Demo Day:
+
+    | Level | Months | Who you work with | What you build |
+    |---|---|---|---|
+    | L1: AI Fundamentals | 1–2 | Solo, with AI tools and group learning; "hands-on classes and workshops" | Small AI projects; "a functional MVP" |
+    | L2: Industry Product | 3–4 | **Pairs**, with "a dedicated industry mentor" | Clone a real product and add a feature; full PRDs; industry capstone |
+    | L3: Job Ready | 5–7 | **Multi-person teams**, in two-week cycles | Work on an existing codebase from a simulated client brief; capstone for real company partners |
+
+  - Professional skills (narrative, LinkedIn, resume, interviews) "threaded
+    throughout."
+  - The level boundaries fall at months 2 and 4, which may be where the
+    launch email's "modular two-month off-ramps" sit. Not stated.
 - Note: applicants must commit to the full program, while the March 2025
   launch email described "modular two-month off-ramps." How the two fit is
   not explained.

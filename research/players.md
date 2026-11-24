@@ -156,7 +156,7 @@ how they see the problem.
    Development), the Queens Borough President's Office and the City
    Council put $10 million of public investment behind Pursuit's AI Jobs
    Institute (announced Oct 22, 2026). The City Council also supported the
-   small business Demo Day ([Pursuit case draft](case-pursuit-draft.md)).
+   small business Demo Day ([Pursuit case draft](case-pursuit.md)).
 3. **Context or field:** Field.
 4. **What they bring:** Financial and political capital.
 5. **What they want:** *Open.* One city council member: "AI should not be

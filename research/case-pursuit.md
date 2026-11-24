@@ -1,9 +1,9 @@
-# Case (draft): Pursuit, from coding fellowship to AI-Native cohorts
+# Case: Pursuit, from coding fellowship to AI-Native cohorts
 
-**Status: draft, chosen by the builder, not yet read.** Sources gathered
-Nov 24, 2026, from search summaries. Almost all are Pursuit's own pages;
-check every figure at the source. The builder's summary (what they tried,
-what happened, why) is still to come.
+**Status: written Nov 24, 2026.** The builder read Pursuit's own posts and
+releases (pasted in, since the site was blocked in this session) and wrote
+the summary below. Almost all sources are Pursuit's own; check figures at
+the source.
 
 Chosen because it is an adult program running build cohorts in the AI era,
 and it rebuilt its structure around AI in 2025. Its participants are called
@@ -520,11 +520,41 @@ starting with a scoped AI project before hiring.
   In short: one core program, plus partners who carry pieces of it into
   other settings.
 
-## To write (the builder's part)
+## The builder's summary
 
-- **What they tried:** how much structure, when, and from whom, before and
-  after the AI-Native change.
-- **What happened.**
-- **Why I think it went that way** (labeled as the builder's read).
-- **One other explanation.**
-- **What we can't tell from outside.**
+*The builder's words and reads, assembled Nov 24, 2026. Interpretation,
+not a finding.*
+
+- **What they tried:** multiple programs with different amounts of
+  structure for different people: one core program (the AI-Native cohort,
+  7 months in person, with an AI Coach, peer teaching and real projects for
+  real organizations), plus partners who carry pieces of it into other
+  settings.
+- **What happened:** 104 Builders started the pilot in March 2025 and 34
+  graduated in December 2025. The builder's best guess: off-ramps by
+  design, plus some dropout. No job or wage figures for AI-Native Builders
+  have been published; Pursuit's outcome claims describe its earlier
+  fellowship.
+- **Why I think it went that way:** "evolve or die, and to cut costs."
+  Supported by the launch email: "Faster, Cheaper, and (hopefully)
+  Better," an expense budget 38% below plan, and a human-instructor ratio
+  moved from 1:18 to 1:100.
+- **Another explanation:** to teach AI by having people use it daily ("to
+  learn AI, you have to use AI"), Pursuit's own stated reason. And for the
+  104 to 34 drop: dropout, rather than off-ramps.
+
+## What we can't tell from outside
+
+- Whether AI-Native Builders learn more or get better jobs than the
+  earlier fellowship's. No outcome figures yet; Pursuit itself said in
+  January 2026 that "2026 will tell us."
+- How many of the 104 left at an off-ramp versus dropped out, and why.
+- Whether the 88% and 92% three-year retention figures describe different
+  programs, periods or definitions.
+- How "~1,000 hours" and "630+ hours" are counted.
+- When and why Pursuit changed CEOs between March and October 2025.
+- How much of the structure is carried by the AI Coach versus staff,
+  volunteers and peers, in practice.
+- Almost all sources are Pursuit's own; the outside sources are the
+  Governor's announcement and two *Chronicle of Higher Education* pieces
+  (not yet read).

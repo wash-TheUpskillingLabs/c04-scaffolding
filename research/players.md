@@ -75,8 +75,9 @@ Possible reason, as he reports it: an organizer's position, "The more
 autonomy, the better. This should really be about discovery," which
 Poderators read as "less intervention was more."
 
-Source to add: the Cycle 3 team that was not making progress (#29 covers
-Cycle 2; the Poderator did not serve in Cycle 3).
+The Cycle 3 team that was not making progress: from another Poderator who
+served in Cycle 3 (per the builder; not yet a logged interview). #29 covers
+Cycle 2; that Poderator did not serve in Cycle 3.
 
 For each, the pod still needs the full seven answers from the README:
 player and type; who they are and where people meet them; context or field;

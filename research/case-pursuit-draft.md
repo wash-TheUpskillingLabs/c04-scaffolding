@@ -340,7 +340,8 @@ starting with a scoped AI project before hiring.
   Caveat: not all were layoffs; many federal workers took buyouts or
   deferred resignation, and how many left voluntarily is unclear
   ([WJLA](https://wjla.com/news/local/dc-federal-workforce-virginia-maryland-government-jobs-employment-bureau-labor-statistics-trump-administration-layoffs-unemployment-economy-trump-musk-firings-living-trump-president-data-hiring-dmv)).
-  Still to check: whether the pilot ran during this period.
+  The builder reports that the pilot ran in 2025, during this period
+  (source to add: a pilot announcement, email or organizer).
 
 ## To write (the builder's part)
 

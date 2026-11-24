@@ -690,7 +690,8 @@ comparison is the builder's; what it means is for the pod.
 | In person | 22.5 hours a week, fully in person, seven months | Evenings every other week, plus 2–3 Saturdays (required or optional: to confirm) |
 | Workshops | Classes and workshops built into each level | Complementary and optional |
 | Teams | Set by stage: solo, then pairs with a mentor, then teams with a client brief | Self-organized; meet virtually or in person |
-| Paid how | Builders repay 15% of income for 36 months once earning over $85,000 | To fill in |
+| Paid how | Grants and donations (philanthropy, companies, government) plus Builder repayment: 15% of income for 36 months once earning over $85,000 | Donations; no tuition from participants (per the builder) |
+| Who runs it | Paid staff, plus volunteers and industry professionals | All volunteers (per the builder) |
 
 ## What we can't tell from outside
 

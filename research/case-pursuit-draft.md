@@ -433,9 +433,14 @@ starting with a scoped AI project before hiring.
 - **The shift was intentional, per organizers** (the builder's report;
   not yet in a logged interview). This backs the Poderator's account in
   [#29](interview-past-participant-poderator-2026-11-13.md) of a decision
-  "not to focus so much on that target audience" (job seekers). Still
-  open: who decided, when, and why; and whether a record of the decision
-  exists.
+  "not to focus so much on that target audience" (job seekers). Per
+  organizers, as reported by the builder: the reason was **"to match the
+  needs of the population in DC"**; it was **decided between the pilot and
+  Cycle 1.** The builder is asking organizers whether it is written down.
+  Open questions: what "the needs of the population in DC" meant, and how
+  that fits with Cycle 1 still having "a lot of people [who] have been laid
+  off" ([#28](interview-organizer-2026-11-09.md)) at the peak of regional
+  unemployment (5.7%, Feb 2026).
 
 ## To write (the builder's part)
 

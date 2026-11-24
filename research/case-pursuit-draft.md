@@ -147,7 +147,38 @@ member)
 - Jun 25, 2026: partnership with LaGuardia Community College to expand AI
   education. [Link](https://www.pursuit.org/blog/pursuit-laguardia-partnership-ai-education-nyc)
 - Oct 7, 2026: helping New York small businesses grow with AI and local
-  talent (demo day with Hispanic Federation). [Link](https://www.pursuit.org/blog/smb-ai-demo-day-hispanic-federation)
+  talent (demo day with Hispanic Federation). [Link](https://www.pursuit.org/blog/smb-ai-demo-day-hispanic-federation) **Read; see below.**
+
+**Small business AI Demo Day with Hispanic Federation** (Pursuit post,
+Oct 7, 2026, by a Pursuit general manager; text pasted by the builder;
+people described by role)
+- Ten Builders were each paired with a small business identified through
+  Hispanic Federation, with support from Google, Amazon, Jobs for the
+  Future and the New York City Council. Demo Day: Sep 23, 2026. Builds
+  included a financial dashboard for a painting contractor, a dispatching
+  tool for a maintenance company, and bilingual intake and communication
+  tools.
+- How it was structured, in Pursuit's words: "Each pairing was chosen
+  intentionally, connecting the business's needs with the Builder's skills
+  and experience." "Over several weeks, Builders and owners spent time
+  together, visited workplaces, and learned from each other." "Across the
+  presentations, it was evident that understanding the business came
+  first."
+- Who the Builders were: people with backgrounds "in the trades,
+  education, healthcare, and the arts"; one had worked 15 years as a cable
+  technician. "Many of whom entered the program without previous
+  experience in technology."
+- Trust came through the community partner: an owner said an
+  introductory workshop with Hispanic Federation and direct conversations
+  with Pursuit "helped him trust the process."
+- Results reported: "working products and owners' early assessments"
+  (one owner: "nothing short of transformative"). A city council member
+  called for "support to track whether the tools help businesses grow
+  stronger over time." The post: "Continued support would allow partners to
+  measure sustained use, time saved, business growth, and career outcomes
+  for Builders." **No career outcome figures for Builders.**
+- Businesses may engage their Builders for further paid projects or hire
+  them.
 - Oct 22, 2026: "Why We're Building the AI Jobs Institute in Queens."
   ([Blog index](https://www.pursuit.org/blog)) **Read; see below.**
 

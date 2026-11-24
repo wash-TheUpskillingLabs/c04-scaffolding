@@ -66,6 +66,30 @@ data.
   the job market, and collected data that helps us operate better and land
   more jobs for the community we serve." (No figures given for jobs.)
 
+**Build Days: how staff learned** (same page)
+- "Once a week, staff from all departments would clear their calendars to
+  build with AI." Headline: "Carving out 20% of staff time to learn,
+  experiment, and Build."
+- "Reception was mixed—some worried it would derail urgent work. Others
+  doubted AI's value."
+- "What started with personal projects... eventually became structured and
+  strategic." Then, in order: early prototypes (a self check-in app for
+  Builder attendance, a volunteer management tool); "an intake process to
+  channel builds toward organizational priorities"; "We started building in
+  teams. We all learned what a good PRD looks like."
+- "We are dogfooding our own mission: teaching ourselves to build with AI
+  the same way we teach our Builders."
+- "By year's end, we'd effectively added 14 contributing engineers to our
+  team—not by hiring, but by upskilling the staff already here." "Now, 78%
+  of non-technical staff have contributed code to our production-level
+  apps." (Self-reported; how "contributed code" is counted is not given.)
+- Pursuit's lessons: "It has to be fun before it's productive." "Cultural
+  transformation is harder than skill development." "Experimentation dies
+  without protected time & permission to fail."
+- Pilots of Build Days with partner organizations (Neighborhood Trust,
+  MetLife): "Participants entered with minimal AI knowledge and left with
+  real products they had built themselves." (No figures.)
+
 **The change**
 - "We scrapped our traditional software development curriculum and shifted
   to a new model focused on teaching our community how to build software

@@ -48,12 +48,35 @@ the problem" are open until the pod fills them from its interviews.
 | Player and type | Who they are, where people meet them | What they've tried | Evidence so far |
 |---|---|---|---|
 | Upskillers (people) | Participants in a Build Cycle. Separate from volunteers at The Labs (per the builder) | *Open* | Interviews [#16](interview-past-participant-2026-11-07.md), [#23](interview-c03-c04-participant-2026-11-09.md), the [maintainer self-report](interview-maintainer-self-report.md) |
-| Volunteers (people) | Separate from participants at The Labs (per the builder). Which roles count as volunteers is *Open* | *Open* | *Open* |
+| Volunteers (people) | Separate from participants at The Labs (per the builder). Which roles count as volunteers is *Open* | *Open* | Interview [#29](interview-past-participant-poderator-2026-11-13.md) (a Cycle 2 Poderator); see "What volunteers want" below |
 | Mentors (people) | *Open* | *Open* | *Open* |
 | Workshop leaders (people) | *Open* | *Open* | *Open* |
 | Facilitators (people) | Includes Poderators, per the interviews | *Open* | Interview [#29](interview-past-participant-poderator-2026-11-13.md) |
 | Organizers (people) | Run the Cycle; includes the steering committee | *Open* | Interviews [#25](interview-steering-committee-member-2026-11-05.md), [#28](interview-organizer-2026-11-09.md); Record #15 |
 | Maintainers of ongoing projects (people) | *Open* | *Open* | *Open* |
+
+### What volunteers want (first answer)
+
+**The builder's read:** "Volunteers want a clear role definition and
+permission to intervene to help get teams unstuck in cases where the team
+is not making progress (as was the case with one team in Cycle 03)."
+
+Based on a Cycle 2 Poderator's account
+([#29](interview-past-participant-poderator-2026-11-13.md)):
+- "how much I'm, quote unquote, allowed? Encouraged? to... suggest?"
+- "very at sea around how much we should suggest, or had permission to
+  suggest"
+- "The definition around that role. There was so little of it."
+- Two other Poderators, secondhand: "a pretty significant gap in the
+  structure of the cycle and therefore... how they felt comfortable
+  intervening."
+
+Possible reason, as he reports it: an organizer's position, "The more
+autonomy, the better. This should really be about discovery," which
+Poderators read as "less intervention was more."
+
+Source to add: the Cycle 3 team that was not making progress (#29 covers
+Cycle 2; the Poderator did not serve in Cycle 3).
 
 For each, the pod still needs the full seven answers from the README:
 player and type; who they are and where people meet them; context or field;

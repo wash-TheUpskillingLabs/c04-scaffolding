@@ -34,9 +34,3 @@ marked otherwise; check them at the source.
 | **Mozilla Open Leaders** | Close to The Labs in design | Cohorts with 1:1 mentoring every two weeks; mentors were past participants; a later round trained graduates to run their own programs. No evaluation found. | [Mozilla](https://www.mozillafoundation.org/en/initiatives/mozilla-open-leaders/), [2016 pilot](https://github.com/zee-moz/mentorship-program) |
 | **Civic Hall** (New York) | Not yet assessed | Raised by the builder: training, cycles, hackathons. | *None yet* |
 | **Code for All** | Offshoot of the Brigade model | International network that grew from the Brigade model in 2013; first run by Code for America, later member-run. | [History](https://medium.com/code-for-all/how-this-thing-started-code-for-alls-journey-from-creation-to-future-visions-6d45fb8434), [about](https://codeforall.org/about-us) |
-
-## Related leads (not cases)
-
-- **World Bank work on AI and Kenya**, for [Record #36](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/36). Link not yet supplied.
-- **The Kenya AI field experiment** cited by Stanford SIEPR: [Otis et al., HBS Working Paper 24-042](https://www.hbs.edu/ris/download.aspx?name=24-042.pdf).
-- **Dorst & Cross (2001), "Creativity in the design process: co-evolution of problem–solution,"** *Design Studies* 22(5). [DOI](https://doi.org/10.1016/S0142-694X(01)00009-6), [open copy](https://oro.open.ac.uk/3278). For the pod's Dorst record ([#20](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/20)); why it matters is not yet written.

@@ -196,16 +196,27 @@ member)
 **Later Pursuit posts that may show what happened in 2026** (not yet read)
 - Jun 25, 2026: partnership with LaGuardia Community College to expand AI
   education. [Link](https://www.pursuit.org/blog/pursuit-laguardia-partnership-ai-education-nyc)
-  **From search summaries only (the page is blocked in this session):**
-  a free "AI Fundamentals" course delivered by Pursuit on the LaGuardia
-  campus from July 2026, open to all LaGuardia students, ending in a demo
-  day where participants present original projects to peers, staff and
-  local employers; the two plan to "explore deeper program integration."
-  It is part of a Google.org grant to Pursuit (Jun 2026 to May 2029) whose
-  workstreams include "Community College Pathways, beginning with
-  LaGuardia... and expanding across CUNY"
-  ([Google grant post](https://www.pursuit.org/blog/google-grant-2026)).
-  Course length, format and outcomes not found.
+  **Read; text pasted by the builder. People by role.**
+  - A free **42-hour "AI Fundamentals" course**, taught by Pursuit on
+    LaGuardia's campus from July 2026, open to all LaGuardia students, "no
+    prior technical background required." It covers "how AI works,
+    practical skills with AI tools, and hands-on experience building
+    AI-powered applications." "Responsible and ethical AI use is a
+    throughline." It ends with "a demo day where participants present
+    original projects to peers, LaGuardia staff, and local employers."
+  - Next steps: "evaluating a Workforce Pell-aligned AI training program
+    and co-curricular pathways leading to high-paying jobs for students."
+  - LaGuardia serves "more than 26,000 students a year."
+  - Pursuit's stated population "since 2012": "70% Black or Latine, 50%
+    receiving public assistance, 60% without four-year degrees, and 40%
+    immigrants." (Founding year given elsewhere as 2011 or 2013.)
+  - Related funding: a Google.org grant to Pursuit (Jun 2026 to May 2029)
+    with a "Community College Pathways" workstream starting at LaGuardia
+    ([Google grant post](https://www.pursuit.org/blog/google-grant-2026);
+    from search summaries).
+  - To check: the CEO quoted here is a different person from the CEO who
+    signed the March 2025 launch email, which suggests a leadership change
+    between the two. Not confirmed.
 - Oct 7, 2026: helping New York small businesses grow with AI and local
   talent (demo day with Hispanic Federation). [Link](https://www.pursuit.org/blog/smb-ai-demo-day-hispanic-federation) **Read; see below.**
 

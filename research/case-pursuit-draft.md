@@ -196,6 +196,16 @@ member)
 **Later Pursuit posts that may show what happened in 2026** (not yet read)
 - Jun 25, 2026: partnership with LaGuardia Community College to expand AI
   education. [Link](https://www.pursuit.org/blog/pursuit-laguardia-partnership-ai-education-nyc)
+  **From search summaries only (the page is blocked in this session):**
+  a free "AI Fundamentals" course delivered by Pursuit on the LaGuardia
+  campus from July 2026, open to all LaGuardia students, ending in a demo
+  day where participants present original projects to peers, staff and
+  local employers; the two plan to "explore deeper program integration."
+  It is part of a Google.org grant to Pursuit (Jun 2026 to May 2029) whose
+  workstreams include "Community College Pathways, beginning with
+  LaGuardia... and expanding across CUNY"
+  ([Google grant post](https://www.pursuit.org/blog/google-grant-2026)).
+  Course length, format and outcomes not found.
 - Oct 7, 2026: helping New York small businesses grow with AI and local
   talent (demo day with Hispanic Federation). [Link](https://www.pursuit.org/blog/smb-ai-demo-day-hispanic-federation) **Read; see below.**
 

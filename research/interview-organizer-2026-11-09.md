@@ -221,6 +221,12 @@ My read so far (Nov 10):
   done. How the group split the work may have been the group's own choice
   ("maybe... a group decision of our group"). So the structure was the
   in-person time, not the way the work was divided.
+- Follow-up (Nov 24): her understanding that "Are you stuck" was
+  "supposed to be for the Poderators" didn't match how OLOS was set up.
+  Poderators had no access to the Learning Log in OLOS, confirmed by an
+  organizer or developer [check: role and date], and a Cycle 3 Poderator
+  never saw it (#39). So the gap is a finding: the Learning Log's stated
+  purpose for Poderators wasn't built into OLOS.
 
 [mine: questions to answer]
 - What does her "don't change the cycle halfway through" mean for the

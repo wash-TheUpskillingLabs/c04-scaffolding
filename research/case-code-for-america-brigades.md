@@ -127,7 +127,16 @@ for whom and by whom?"
 - Moments that support this read: 22:53 (BetaNYC, sustained engagement),
   1:09:53 (Miami, give newcomers value fast), 7:56–18:29 and 16:40–18:15
   (KC, the need for a paid backbone).
-- "The demand for learning is there" comes from the builder's own
+- The builder reads Hack for LA at 55:14 as showing that people came to
+  get better and more employable. The captain said: "many software
+  volunteers are willing to trade their software development labor for
+  becoming better at their craft, becoming more employable, giving back to
+  the community, being part of the community" (55:14–55:29), and described
+  the chapter's main impact as helping volunteers "get their first jobs in
+  tech" (56:01–57:07). Limits: this is one chapter leader's description of
+  "many software volunteers," it lists giving back and belonging alongside
+  skills, and the captions are unchecked against the audio.
+- "The demand for learning is there" also comes from the builder's own
   conversations with several people in DC who wanted to learn and then
   joined a Build Cycle. That is evidence about The Labs, not about the
   Brigades, and those conversations are not yet logged as interviews.
@@ -152,11 +161,10 @@ still open.
 
 ## What we can't tell from outside
 
-- **Why people came to the Brigades.** The sources say why people stayed
-  or left, not why they first showed up. Hack for LA's section around
-  55:14 (volunteers trading labor for "becoming better at their craft,
-  becoming more employable") is the closest source and has not yet been
-  checked against the audio.
+- **Why people came to the Brigades, beyond one chapter leader's view.**
+  The only source on this is Hack for LA's captain (see "Why I think it
+  happened"). No volunteer speaks for themselves, and no other chapter
+  says why people joined.
 - **Whether people learned,** and how anyone would have known.
 - **What structure the national organization gave chapters,** beyond
   fiscal sponsorship and national events.

@@ -145,6 +145,18 @@ for whom and by whom?"
   [maintainer self-report](interview-maintainer-self-report.md), and
   [past participant and Poderator, #29](interview-past-participant-poderator-2026-11-13.md).
 
+- **Course or project (builder's read).** Of what Hack for LA lists at
+  56:37–57:07 (substantial projects with real partners, a resume line,
+  teamwork, Git flow), the builder's view: experience can come from a
+  project or a cohort, and a course or workshop gives the skills to start,
+  with the potential to get more involved through a project or Cycle.
+- **Learning to get work (builder's read).** The builder sees a pattern
+  across three sources: Hack for LA's first jobs in tech (56:01–57:07), a
+  past participant at The Labs who came after time out of work
+  ([#16](interview-past-participant-2026-11-07.md)), and job hunting in the
+  [maintainer self-report](interview-maintainer-self-report.md). Three
+  sources from two places; how widely it holds is untested.
+
 ## Other explanations
 
 1. **Place, not structure.** A format that needs people in one room every
@@ -170,6 +182,12 @@ Which of these best fits, and what evidence would tell them apart, is
 still open.
 
 ## What we can't tell from outside
+
+- **Whether this still applies.** The chapter accounts are from 2020,
+  before AI tools became mainstream. The builder notes that AI has since
+  become something people feel they must learn, and that people fear being
+  replaced or downsized because of it. The source for that is not yet
+  named in this file.
 
 - **Why people came to the Brigades, beyond one chapter leader's view.**
   The only source on this is Hack for LA's captain (see "Why I think it

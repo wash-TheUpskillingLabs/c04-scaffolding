@@ -415,8 +415,20 @@ builder; [Governor's announcement](https://www.governor.ny.gov/news/governor-hoc
   that homepage salary claims describe the older program.
 
 Sources:
-- [Chronicle of Higher Education, "Proof of work"](https://www.chronicle.com/featured/student-success/proof-of-work-pursuit)
-- [Chronicle, "Show, not tell"](https://www.chronicle.com/featured/student-success/show-not-tell)
+- [Chronicle, "Proof of Work"](https://www.chronicle.com/featured/student-success/proof-of-work-pursuit)
+  and [Chronicle, "Show, Not Tell"](https://www.chronicle.com/featured/student-success/show-not-tell):
+  **sponsored content, not independent journalism.** The page says it was
+  "Created by Chronicle Brand Studio, part of The Chronicle's Marketing and
+  Client Services. It is underwritten by Ascendium," Pursuit's $4 million
+  funder (Oct 23, 2026; text pasted by the builder). What it adds:
+  - "Pursuit... pairs seven months of intensive AI training with 1,000 paid
+    hours on the job, where students... build products for real clients.
+    The goal: a job paying at least $85,000 for every graduate."
+  - An example: a Builder's AI tool cut a Big Brothers Big Sisters
+    chapter's search for male mentors from "48 hours a month" to "under 10
+    minutes."
+  - A profile of a Builder who, "with support from instructors and fellow
+    AI-Native Builders," built an app for educators and a safety app.
 - [Bootcamp directory caveat](https://www.techinterview.org/bootcamp_directory/p/pursuit/)
 - [2025 review](https://www.pursuit.org/blog/2025-builds)
 
@@ -465,6 +477,29 @@ starting with a scoped AI project before hiring.
 - Its curriculum now runs on its platform at other organizations,
   including Per Scholas in Buffalo and Le Moyne College in Syracuse (see
   Per Scholas in [case leads](case-leads.md)).
+
+## How Pursuit is paid: the Good Job Agreement
+
+Pursuit post, Nov 6, 2026, "The Pursuit Good Job Agreement: The Promise We
+Make to Every Builder" (text pasted by the builder; people by role).
+
+- "Pursuit began with 21 Fellows, an all-volunteer staff, and a donated
+  classroom in Queens. Everything ran on philanthropy... it couldn't work
+  at scale."
+- From 2017, impact investors funded training, and Fellows repaid "only
+  after they were in high-paying jobs. If a Fellow didn't get a job, they
+  paid nothing." Named the Pursuit Bond by 2019; later payments were
+  progressive, with a lifetime cap, a time window, a hardship pause, no
+  interest and no credit check. "A meaningful share of Pursuit's operating
+  costs came from their success."
+- In 2025, with the AI-Native Program, "Fellows became Builders. And the
+  Pursuit Bond became the Good Job Agreement." A good job is "a role that
+  pays enough to move a household from paycheck-to-paycheck to real
+  stability." The sponsored Chronicle series gives the goal as "at least
+  $85,000 for every graduate."
+- "We have skin in the game... If they don't get high-paying jobs, they
+  don't pay." "Our answer is to keep changing the training, never the
+  promise."
 
 ## Builder's read so far
 
@@ -551,10 +586,15 @@ not a finding.*
 - How many of the 104 left at an off-ramp versus dropped out, and why.
 - Whether the 88% and 92% three-year retention figures describe different
   programs, periods or definitions.
-- How "~1,000 hours" and "630+ hours" are counted.
+- How the hours are counted. Pursuit's sources give "630+ hours" of
+  training, "~1,000 hours building with AI," and (in the sponsored
+  Chronicle series) "seven months of intensive AI training with 1,000 paid
+  hours on the job." These may be training hours vs. paid project hours;
+  not explained.
 - When and why Pursuit changed CEOs between March and October 2025.
 - How much of the structure is carried by the AI Coach versus staff,
   volunteers and peers, in practice.
-- Almost all sources are Pursuit's own; the outside sources are the
-  Governor's announcement and two *Chronicle of Higher Education* pieces
-  (not yet read).
+- Almost all sources are Pursuit's own. The *Chronicle of Higher
+  Education* series is sponsored content underwritten by Ascendium,
+  Pursuit's funder, so it is not independent. The one outside source is
+  the Governor's announcement of the AI Jobs Institute.

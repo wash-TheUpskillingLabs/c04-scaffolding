@@ -179,8 +179,8 @@ for whom and by whom?"
    problem in Feb–Mar 2020, before the pandemic's effects.
    The builder adds: the pandemic forced chapters built on in-person hack
    nights to go virtual, which may have further disrupted them. The
-   reported 2023 reasons include "pandemic-era difficulty convening
-   groups" ([StateScoop](https://statescoop.com/code-for-america-former-brigades-regroup/)).
+   reported 2023 reasons include pandemic-era difficulty convening
+   groups ([StateScoop](https://statescoop.com/code-for-america-former-brigades-regroup/)).
 
 Which of these best fits, and what evidence would tell them apart, is
 still open.

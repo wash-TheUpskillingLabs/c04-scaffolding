@@ -500,6 +500,18 @@ Make to Every Builder" (text pasted by the builder; people by role).
 - "We have skin in the game... If they don't get high-paying jobs, they
   don't pay." "Our answer is to keep changing the training, never the
   promise."
+- A diagram on the same page (screenshot shared by the builder) shows the
+  model as three loops:
+  - Impact investors give **funding** to Pursuit; Pursuit makes
+    **repayment** to impact investors.
+  - Pursuit gives the **AI-Native Program** to Builders; Builders make
+    **Good Job Agreement contributions** to Pursuit.
+  - Builders bring **AI-native talent** to employers; employers give
+    Builders **good jobs**.
+
+  Not shown in the diagram: the philanthropic and government funding in
+  Pursuit's other sources (Google.org, Ascendium, $10 million in public
+  investment for the AI Jobs Institute).
 - One Fellow's story, told in the same post (by role): a 2018 Fellow who
   had worked in food service and drove for a ride-share company while
   learning to code, then became a software engineer at an investment firm,

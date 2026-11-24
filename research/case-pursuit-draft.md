@@ -255,6 +255,28 @@ Sources:
 - [Bootcamp directory caveat](https://www.techinterview.org/bootcamp_directory/p/pursuit/)
 - [2025 review](https://www.pursuit.org/blog/2025-builds)
 
+## Builder's read so far
+
+*The builder's interpretation, not a finding.*
+
+- **A pattern: real projects with real partners, as proof for a job.**
+  Hack for LA in 2020 gave volunteers "substantial projects with
+  substantial partners" to put on a resume (Brigade 2.0 video, 56:37).
+  Pursuit's 2026 Demo Day pairs Builders with small businesses for the same
+  kind of proof.
+- **Interviewees said they wanted job skills.** Support in the pod's own
+  interviews: a past participant, "my main aim is to actually find a job"
+  ([#16](interview-past-participant-2026-11-07.md)); the maintainer
+  self-report (#26), job hunting as a motivating factor
+  ([file](interview-maintainer-self-report.md)).
+- **Evidence that complicates it** (to weigh): an organizer said "Cycle
+  one, a lot of people have been laid off. Cycle two, a little bit more
+  steady. Cycle 3... has had the most steadily employed people"
+  ([#28](interview-organizer-2026-11-09.md)). A past Poderator described a
+  decision "not to focus so much on that target audience" (job seekers),
+  which the interview notes flag as unsourced
+  ([#29](interview-past-participant-poderator-2026-11-13.md)).
+
 ## To write (the builder's part)
 
 - **What they tried:** how much structure, when, and from whom, before and

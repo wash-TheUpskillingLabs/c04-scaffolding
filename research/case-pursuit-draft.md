@@ -26,6 +26,7 @@ renamed Pursuit in 2018. (Dates differ slightly across sources.)
 | Jan 15, 2025 | Organization-wide change begins: "We all build software" (staff) | [2025 Build Review](https://www.pursuit.org/blog/2025-builds) |
 | Mar 2025 | First AI-Native cohort; 7-month program replaces the year-long Pursuit Core fellowship | [AI-Native pilot launch](https://www.pursuit.org/blog/ai-native-pilot-launch), [directory](https://www.techinterview.org/bootcamp_directory/p/pursuit/) |
 | 2025 | 325+ Builders across three AI-Native cohorts; about 1,000 hours each building with AI; ten Builders placed in paid roles at NYC small businesses in a pilot backed by Amazon and Google | [2025 review](https://www.pursuit.org/blog/2025-builds), [SMB showcase](https://www.pursuit.org/blog/smb-showcase-amazon-google) |
+| Oct 22, 2026 | AI Jobs Institute announced: $10M public investment, up to 40,000 New Yorkers by 2032 | [Governor](https://www.governor.ny.gov/news/governor-hochul-announces-launch-ai-jobs-institute-prepare-new-yorkers-jobs-future) |
 | Jan 2027 | Winter 2027 cohort starts | [Pursuit](https://pursuit.org/fellowship) |
 
 ## What they tried (sources to read)
@@ -148,7 +149,32 @@ member)
 - Oct 7, 2026: helping New York small businesses grow with AI and local
   talent (demo day with Hispanic Federation). [Link](https://www.pursuit.org/blog/smb-ai-demo-day-hispanic-federation)
 - Oct 22, 2026: "Why We're Building the AI Jobs Institute in Queens."
-  ([Blog index](https://www.pursuit.org/blog))
+  ([Blog index](https://www.pursuit.org/blog)) **Read; see below.**
+
+**The AI Jobs Institute** (Pursuit post, Oct 22, 2026; text pasted by the
+builder; [Governor's announcement](https://www.governor.ny.gov/news/governor-hochul-announces-launch-ai-jobs-institute-prepare-new-yorkers-jobs-future))
+- New York's Governor announced a training hub in Long Island City that
+  Pursuit will build and run as its new headquarters. Goal: "serve up to
+  40,000 New Yorkers by 2032." Construction starts winter 2026–27; move-in
+  expected mid-2027.
+- Funding: "$10 million of public investment," including $3.06 million
+  from Empire State Development, plus a coalition of philanthropic and
+  industry partners (among them Google.org, OpenAI, Anthropic, Wells Fargo,
+  MetLife Foundation, Ascendium, Siegel Family Endowment).
+- Four areas: workforce training, innovation pilots (including with small
+  businesses and nonprofits), policy and research, and convening
+  employers.
+- A National Advisory Council chaired by a former US Secretary of
+  Education, with leaders from foundations, AI companies, CUNY, workforce
+  nonprofits and state government.
+- Why, in Pursuit's words: "AI is creating new kinds of work faster than
+  our training systems were built to handle. Traditional programs can take
+  years to design and launch." The gap "hits hardest for the New Yorkers
+  with the least room for error: people without a degree or a network in
+  tech, who cannot afford to take a year off to retrain."
+- On results: "The model works, and it has produced some of the strongest
+  earnings gains in our field." This refers to Pursuit's decade of work;
+  **the post gives no outcome figures for the AI-Native cohorts.**
 
 **The change**
 - "We scrapped our traditional software development curriculum and shifted

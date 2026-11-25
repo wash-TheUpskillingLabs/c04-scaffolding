@@ -220,7 +220,7 @@ Nothing marks a module as required or graded. No completions, scores or credenti
 | `role` | text: `maintainer`, `author`, `contributor` | The mind map's participant roles |
 | `since`, `until` | timestamptz | |
 
-Rule: a published module needs at least two current maintainers.
+Rule: a published module needs at least two current maintainers. *Proposed to be replaced by an open upkeep queue (proposal 10, Nov 25): permission says who can keep content current, and the queue shows who is.*
 
 When national accepts a regional module, the national copy gets national maintainers. The lab's maintainers stay on their original for as long as the lab keeps it. If the lab switches to the national version, its maintainers can be added as contributors there. Public pages show roles, and names only where the person's profile allows it.
 
@@ -667,6 +667,37 @@ Feedback is about the material, never the learner. The later question goes only 
 - **Feedback points to missing links** (proposal 8). Often "too advanced" suggests a `background` link; often "too basic," a `go-deeper` link.
 - **`other-format`** is for people who'd rather read than watch, or the reverse, which she raised.
 
+### 10. An open queue instead of two named maintainers
+
+**What happened:** this draft requires two current maintainers before a module can be published, so one volunteer leaving doesn't orphan it. The number two is the pod's, not a source's (PRD, Parked ideas). Volunteers often commit hard for a few months and then step back (the Brigades case), and "maintainer" already means a GitHub role and a C04 pod role.
+
+**Proposal:** keep two things separate.
+- **Permission** says who *can* do upkeep: anyone with permission to edit content in the module's home (a lab, or national). Which roles have it is Front Door's roles and permissions work (Decided, Nov 25).
+- **The queue** shows who *is* doing it. Work that needs doing goes into an open queue. Anyone with permission picks an item up, and everyone can see what's open, what's picked up and by whom, and what's done.
+
+This replaces the two-maintainer rule. A module can be published with no named people. Its page credits its authors, and can show who's looking after it now, if anyone has said so. Nobody is required.
+
+| `upkeep_queue` column | Type | Label | Notes |
+|---|---|---|---|
+| `id` | serial | | |
+| `about_type`, `about_id` | text: `module`, `resource`; integer | "What" | |
+| `reason` | text: `yearly-check`, `feedback`, `proposed-change`, `broken-link` | "Why it's here" | `yearly-check` when `next_check_due` arrives. `feedback` after a run of "not helpful" or "too advanced" (proposal 8). `proposed-change` when someone suggests an edit |
+| `status` | text: `open`, `picked-up`, `done`, `put-back` | "Status" | Someone who can't finish puts it back, and it's open again |
+| `picked_up_by_participant_id` | integer → `participants`, nullable | "Picked up by" | Shown by name only where their profile allows; otherwise by role |
+| `opened_at`, `picked_up_at`, `done_at` | timestamptz | | Shows how long items wait, like help requests |
+| `home_scope`, `home_metro_id` | | | Whose queue it's in: a lab's or national's. National can pick up a lab's items, so a lab with nobody active doesn't strand its content |
+| `created_at`, `updated_at` | timestamptz | | |
+
+- **It follows a pattern the draft already has.** A help request moves from requested to picked up to done, with who and when (`help_logs.follow_up`). Upkeep works the same way.
+- **Visible to everyone** makes unclaimed work obvious, so it doesn't become everyone's job and no one's.
+- **A picked-up item that sits too long** goes back to open, or its holder gets a nudge. How long is open.
+- **It shows load.** The PRD asks for "some way to see when a few people carry most of the sessions." The queue shows who picks up most of the upkeep.
+- **It's a first task.** The PRD suggests keeping the catalog current as a first task for a new volunteer. Open items are easy to find.
+- **The orphan risk moves from the module to the role:** a lab where nobody holds the permission, or nobody checks the queue. Each home should have at least one person with the permission, and national is the backstop.
+- **Help requests could share this queue later**, with a `kind` field. They have different people with permission, so they stay separate for now.
+
+`module_people` stays for credit (`author`, `contributor`), and for anyone who chooses to say they're looking after a module now. The prototype's build no longer requires two maintainers (Nov 25).
+
 ### Not schema
 
 - **Formats and where content lives** (reading or watching, YouTube, not wanting another app or portal): how content shows up. Front Door and Wayfinding.
@@ -680,7 +711,8 @@ Feedback is about the material, never the learner. The later question goes only 
 - [ ] What's the default listing distance, and can each lab change its own?
 - [ ] Do notifications fit OLOS's existing follows, or need `location_follows`?
 - [ ] When national changes a module it took from a lab, is the lab told, and can it pull the changes into its original?
-- [ ] "Maintainer" is a GitHub role, and in C04 a pod role. Is it also a content role? This draft uses it for the person who keeps a module current (`module_people.role`, and the rule that a published module needs two). If it isn't a content role, that job needs another word.
+- [ ] "Maintainer" is a GitHub role, and in C04 a pod role. With the upkeep queue (proposal 10), content may not need the word: does a module show who's looking after it now at all, and if so, what is that called?
+- [ ] Upkeep queue (proposal 10): how long can an item stay picked up before it goes back to open? Should help requests share the queue later?
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
 - [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.

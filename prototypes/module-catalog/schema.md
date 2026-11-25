@@ -513,7 +513,7 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 
 ## Proposed from a C03 participant interview ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)), Nov 25
 
-Not decided. For the pod to work through with the updated PRD. A C03 problem proposer described what she needed and couldn't find; each gap below says what in this draft already covers it and what's missing. The largest change is the last one: one way to link content (modules and resources) to wherever it's used.
+Not decided. For the pod to work through with the updated PRD. A C03 problem proposer described what she needed and couldn't find; each gap below says what in this draft already covers it and what's missing. The largest change is one way to link content (modules and resources) to wherever it's used.
 
 ### 1. Being stuck should reach someone without an opt-in
 
@@ -603,6 +603,28 @@ The agenda then shows every session in a day with its topic, who it's for, and i
 
 Another example of the mix-up: she said "pods" for project teams. Added to the open question below. No schema change beyond what that question decides.
 
+### 8. "Was this helpful?" on anything someone uses
+
+**What happened:** she remembered specific sessions months later, and still applies one "to most of the things that I do." The PRD's problem statement is that participants have no good way to say what worked. Fit mattered as much as quality: #16 found sessions not matched to her, #23 found the timing off, and she wanted to know who each session is for.
+
+**What the draft does:** `session_feedback`, a 1-to-5 "useful" score and a comment, on sessions only. Someone who watches a recording later, or uses a guide, has nowhere to say it helped.
+
+**Proposal:** start with one question, "Was this helpful?", yes or no, with an optional comment. Put it on sessions, resources and modules, so it works for people who attend live and for people who catch up later. It replaces `session_feedback`.
+
+| `feedback` column | Type | Notes |
+|---|---|---|
+| `id` | serial | |
+| `record_type` | text: `session`, `resource`, `module` | |
+| `record_id` | integer | |
+| `helpful` | boolean | "Was this helpful?" |
+| `comment` | text, nullable | Optional: what helped, or what didn't |
+| `participant_id` | integer → `participants`, nullable | Empty for anonymous feedback |
+| `created_at` | timestamptz | |
+
+Feedback is on the material, never on the learner. Two more questions could come later, if the first one gets used:
+- **Fit:** "Was this the right level for you?" (too basic, about right, too advanced). Tests a module's `level` and a session's `audience_note`.
+- **Later use:** a few weeks on, "Have you used anything from this?" Her strongest signal came months afterward, which a same-day answer misses.
+
 ### Not schema
 
 - **Formats** (reading or watching, YouTube, "I do not like apps and portals"): where and how content shows up. Front Door and Wayfinding.
@@ -625,4 +647,5 @@ Another example of the mix-up: she said "pods" for project teams. Added to the o
 - [ ] Asking for help from the Learning Log: should "Would you like someone to reach out?" default to yes? Who receives the request: the Poderator, the lab's organizers, or both? (Proposal 1 above.)
 - [ ] One `content_links` table, or keep separate link tables with foreign keys? (Proposals 2 to 4, 6.)
 - [ ] Steps in a Cycle: one template reused by every Cycle, or steps set per Cycle?
+- [ ] "Was this helpful?" (proposal 8): who sees the answers? Presenters are volunteers, and public counts could put people off. With small groups, should comments come before counts? Add the fit and later-use questions, or wait until the first question is used?
 - [ ] Who can see Learning Logs? This draft says "the participant, their Poderator and admins can see it." A Cycle 3 Poderator "never saw any of that stuff... Nobody told me where it was," and Poderators had no access to the Learning Log in OLOS, confirmed by an organizer or developer ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39); see the glossary). An organizer said the "Are you stuck" question "was supposed to be for the Poderators" (#28). Which is current, and should Poderators see it? A C03 participant reported being stuck in it and no one reached out ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)); proposal 1 above depends on the answer.

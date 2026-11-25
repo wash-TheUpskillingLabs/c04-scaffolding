@@ -317,6 +317,16 @@ My read so far (Nov 25):
   the Cycle 2 hackathon, teammates were steered away from the mentor
   sessions: "I felt like I missed out." I was in the other room at our
   hackathon and missed the problem-solving workshop she still uses.
+- Where this is similar: she struggled around tools. Lovable, then
+  ChatGPT, then Claude, rebuilt each time, and GitHub ("oh my God, like,
+  what is that?") set up for her by a mentor. She asked for guidance on
+  "what tool set to use when and how." Compare #39 (a GitHub 101 that
+  left most "without it set up") and #29 (merging code across a team).
+- Where this is similar: she thought teams needed best practices and
+  expectations: some structure and commitment ("who's wearing what hat,
+  and you have to be accountable to help"). Compare #29: "is it okay for
+  somebody to be a leader?" and his idea of a guide to running a small
+  group.
 - What surprised me: she thought it was clear what was due when ("very
   straightforward. That was very structured"). In my C03 self-report
   (#26), what was due when came up at the Summit 3 retrospective. It's also the opposite #16 said to look for: "anyone

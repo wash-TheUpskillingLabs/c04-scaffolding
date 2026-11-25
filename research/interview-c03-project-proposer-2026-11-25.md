@@ -327,6 +327,29 @@ My read so far (Nov 25):
   and you have to be accountable to help"). Compare #29: "is it okay for
   somebody to be a leader?" and his idea of a guide to running a small
   group.
+- She had specific thoughts on what to include in a learning catalog.
+  Against the module catalog schema draft
+  (`prototypes/module-catalog/schema.md`):
+  - Who a session is for, and what you get out of it ("it may not be
+    relevant to what you're building"): `learning_outcome`, `level` and
+    `module_prerequisites` already cover this.
+  - Recordings of virtual sessions and workshops, so people who can't
+    attend live can watch later: `content_type` `recording`.
+  - Pre-recorded, step-by-step tool videos ("how to connect your things
+    to GitHub"), written guides and a "little handbook": resources
+    (`guide`, `recording`), not modules, under the module-or-resource
+    test.
+  - Something to read or watch before an event, and somewhere to find it
+    after.
+  - Examples of past work and of what a Cycle looks like ("a reference of
+    what you've already done. 'Cause I was looking for that"). Not in the
+    schema yet.
+  - Both reading and video ("Some people would like to read stuff, some
+    people like to have visual"), available any time ("3 o'clock in the
+    morning"), where people already look (the website, or YouTube). She
+    doesn't like "apps and portals."
+  - A shared "we were stuck here... and this is what worked": the Help
+    Log, including sharing from the Learning Log ("Yeah, definitely").
 - What surprised me: she thought it was clear what was due when ("very
   straightforward. That was very structured"). In my C03 self-report
   (#26), what was due when came up at the Summit 3 retrospective. It's also the opposite #16 said to look for: "anyone

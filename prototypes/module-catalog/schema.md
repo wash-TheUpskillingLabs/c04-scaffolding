@@ -609,21 +609,26 @@ Another example of the mix-up: she said "pods" for project teams. Added to the o
 
 **What the draft does:** `session_feedback`, a 1-to-5 "useful" score and a comment, on sessions only. Someone who watches a recording later, or uses a guide, has nowhere to say it helped.
 
-**Proposal:** start with one question, "Was this helpful?", yes or no, with an optional comment. Put it on sessions, resources and modules, so it works for people who attend live and for people who catch up later. It replaces `session_feedback`.
+**Proposal:** three short questions, each optional, on sessions, resources and modules, so they work for people who attend live and for people who catch up later. They replace `session_feedback`.
+1. **"Was this helpful?"** Yes or no, with an optional comment.
+2. **"Was this the right level for you?"** Too basic, about right, too advanced. Many complaints were about fit, not quality, so this tests whether a module's `level` and a session's `audience_note` are right.
+3. **A few weeks later: "Have you used anything from this?"** Yes or no, with an optional line on what. Her strongest signal came months afterward, which a same-day answer misses. This shows which sessions last.
 
 | `feedback` column | Type | Notes |
 |---|---|---|
 | `id` | serial | |
 | `record_type` | text: `session`, `resource`, `module` | |
 | `record_id` | integer | |
-| `helpful` | boolean | "Was this helpful?" |
-| `comment` | text, nullable | Optional: what helped, or what didn't |
+| `kind` | text: `same-day`, `follow-up` | The first answer, or the later check-in |
+| `helpful` | boolean, nullable | Same-day: "Was this helpful?" |
+| `level_fit` | text: `too-basic`, `about-right`, `too-advanced`, nullable | Same-day: "Was this the right level for you?" |
+| `used_it` | boolean, nullable | Follow-up: "Have you used anything from this?" |
+| `comment` | text, nullable | Optional: what helped, what didn't, or what they used |
+| `follow_up_of_id` | integer → `feedback`, nullable | Links a follow-up to the same person's first answer, when they gave one |
 | `participant_id` | integer → `participants`, nullable | Empty for anonymous feedback |
 | `created_at` | timestamptz | |
 
-Feedback is on the material, never on the learner. Two more questions could come later, if the first one gets used:
-- **Fit:** "Was this the right level for you?" (too basic, about right, too advanced). Tests a module's `level` and a session's `audience_note`.
-- **Later use:** a few weeks on, "Have you used anything from this?" Her strongest signal came months afterward, which a same-day answer misses.
+Feedback is on the material, never on the learner. A follow-up goes only to people who attended or opened the material, and only once.
 
 ### Not schema
 
@@ -647,5 +652,5 @@ Feedback is on the material, never on the learner. Two more questions could come
 - [ ] Asking for help from the Learning Log: should "Would you like someone to reach out?" default to yes? Who receives the request: the Poderator, the lab's organizers, or both? (Proposal 1 above.)
 - [ ] One `content_links` table, or keep separate link tables with foreign keys? (Proposals 2 to 4, 6.)
 - [ ] Steps in a Cycle: one template reused by every Cycle, or steps set per Cycle?
-- [ ] "Was this helpful?" (proposal 8): who sees the answers? Presenters are volunteers, and public counts could put people off. With small groups, should comments come before counts? Add the fit and later-use questions, or wait until the first question is used?
+- [ ] "Was this helpful?" (proposal 8): who sees the answers? Presenters are volunteers, and public counts could put people off. With small groups, should comments come before counts? How many weeks before the follow-up, and through what (email, Slack, the dashboard)?
 - [ ] Who can see Learning Logs? This draft says "the participant, their Poderator and admins can see it." A Cycle 3 Poderator "never saw any of that stuff... Nobody told me where it was," and Poderators had no access to the Learning Log in OLOS, confirmed by an organizer or developer ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39); see the glossary). An organizer said the "Are you stuck" question "was supposed to be for the Poderators" (#28). Which is current, and should Poderators see it? A C03 participant reported being stuck in it and no one reached out ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)); proposal 1 above depends on the answer.

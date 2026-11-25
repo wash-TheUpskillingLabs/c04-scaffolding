@@ -311,6 +311,12 @@ My read so far (Nov 25):
   were saying we didn't have enough structure"), and she was new to these
   tools ("GitHub was, oh my God, like, what is that?"). Compare #29's
   "unstructured mess," and #23, also new to GitHub and AI.
+- Where this is similar: she echoed thoughts about the workshops at the
+  hackathon. Splitting people into two rooms meant some missed sessions
+  everyone needed ("I think that was probably not helpful"). In #39, at
+  the Cycle 2 hackathon, teammates were steered away from the mentor
+  sessions: "I felt like I missed out." I was in the other room at our
+  hackathon and missed the problem-solving workshop she still uses.
 - What surprised me: she thought it was clear what was due when ("very
   straightforward. That was very structured"). In my C03 self-report
   (#26), what was due when came up at the Summit 3 retrospective. It's also the opposite #16 said to look for: "anyone

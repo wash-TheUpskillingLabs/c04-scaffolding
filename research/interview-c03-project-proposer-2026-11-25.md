@@ -509,6 +509,9 @@ Log. Marked in section 4:
 - She offered to review the interviewer's proposed Cycle structure, and to
   connect them with the STEM high school.
 - "I would love to stay connected with you all."
+- Her confusions are logged in the confusion log (#17): the Learning Log
+  status, who reads it, what a Cycle and the hackathon look like, where to
+  go after a session, Luma, pods, support by design, and tool discounts.
 - Who else to talk to (by role): her teammates (on the pod, the tool
   argument and why they held back); her Poderator (on picking roles); the
   mentor who set up GitHub for her; the presenter of the problem-solving

@@ -460,6 +460,12 @@ My read so far (Nov 25):
   was help when she was stuck: she said so in the Learning Log, and no one
   reached out.
 
+Ideas parked for later (mine, not evidence)
+- A second hackathon once project teams are formed, so mentors are in the
+  room while teams set up and start building together. (Nov 25.) Compare
+  her idea of forming groups before the hackathon, and her team's meeting
+  with a mentor to get GitHub running as a team.
+
 Links to earlier evidence, to check (not conclusions):
 - Problem proposers: #39 said teams assumed the proposer would lead
   ("it's your problem... you can tell the story better than anybody").

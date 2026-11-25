@@ -303,7 +303,10 @@ Workshops
 - "I learned quite a bit of things here from a lot of the presentations...
   They were very thought-provoking, and they gave you clear... structure and
   steps to kind of apply these things."
-- Asked if she knew design thinking or problem framing before: "No."
+- Design thinking and problem framing were new to her. Asked whether she
+  had known them before, she said no; she learned them from the
+  presentations: "I learned quite a bit of things here from a lot of the
+  presentations."
 - A workshop on data: "we got to understand the mechanics behind some of
   the data and why it's invasive and it's too much."
 - She named four presenters, including the problem-solving workshop and
@@ -459,6 +462,44 @@ My read so far (Nov 25):
 - So for her, the schedule and the check-ins worked. What she didn't get
   was help when she was stuck: she said so in the Learning Log, and no one
   reached out.
+
+Value, learning, and where learning fell short (a first pass from section 4)
+- Value she got: a live site she built and launched for her own problem,
+  that she might not have built otherwise ("without it, I don't even know
+  if I would have built it"; "the conditions were just really right").
+  She's still building it, talking with officials, and still comes to
+  workshops to network. And pride: "I was so very proud of myself."
+- What she learned:
+  - Using AI tools with critical thinking, by working out her problem
+    first, so the tool gives "the thing that I need" (her answer to a
+    hiring manager).
+  - Tools and terms new to her: Lovable, ChatGPT, Claude, GitHub, VS Code.
+    She launched the site herself, with screenshots and help from AI.
+  - Design thinking and problem framing, which she hadn't known before,
+    from the workshops. The problem-solving workshop at the hackathon
+    stuck: she still applies it "to most of the things that I do."
+  - From trial and error: backing up her work. "Through all that trial and
+    error, it taught me something."
+  - From teammates: "different people with different skill sets...
+    actually helps."
+- Where learning could have been more effective:
+  - Nothing to go back to after a session: "once you go to the hackathon,
+    that's your only time interfacing with that." No recordings of virtual
+    sessions.
+  - The split hackathon rooms: some people missed content everyone needed.
+  - Tools: no guidance on "what tool set to use when and how," so she
+    rebuilt the site several times.
+  - GitHub: a mentor set it up for her ("just do it for me"), so at first
+    she didn't learn it herself, and had to bring the team back to him.
+  - Support: stuck for about a week; she reported it in the Learning Log
+    and no one reached out.
+  - Learning styles: "Some people would like to read stuff, some people
+    like to have visual," and first-timers need a layout of how it's
+    "supposed to flow."
+  - Her frame carried her, and might not carry others: "someone else going
+    through this with not my frame looking at it may have not been so
+    happy." "If this hadn't been that important to me, I probably would
+    have needed more structure."
 
 Ideas parked for later (mine, not evidence)
 - A second hackathon once project teams are formed, so mentors are in the

@@ -630,6 +630,36 @@ Another example of the mix-up: she said "pods" for project teams. Added to the o
 
 Feedback is on the material, never on the learner. A follow-up goes only to people who attended or opened the material, and only once.
 
+### 9. Related content, and which way it goes
+
+**What happened:** after a session she didn't know where to go next: "if I want to know more, where do I go?" Others asked the same from both ends. #16 wanted workshops "in levels, step by step," what you're "expected to know already... here's where you can get this information," and more advanced workshops after the basics ("go a little bit further, here are some... extra workshops"). #23 imagined someone who "saw this workshop, it seemed interesting, what else can I get involved in?"
+
+**What the draft does:** `module_prerequisites` says what a module assumes ("you need this first"). Shared tags show what's on the same topic, but not whether it's easier, harder or the same level in another form.
+
+**Proposal:** links between pieces of content that say the direction. A module or resource can point to another with one of these relations:
+
+| `relation` | Reads on the page as | Example |
+|---|---|---|
+| `background` | "New to this? Start here" | Intro to Claude in context, before Rapid prototyping |
+| `next` | "Ready for more? Go further" | GitHub, from working alone to working as a team, after GitHub setup |
+| `alongside` | "Related, same level" | Team ground rules, alongside GitHub as a team |
+| `other-format` | "The same thing, to read or watch" | A recording of a workshop, and its written guide |
+
+| `content_relations` column | Type | Notes |
+|---|---|---|
+| `id` | serial | |
+| `from_type`, `from_id` | text: `module`, `resource`; integer | |
+| `to_type`, `to_id` | text: `module`, `resource`; integer | |
+| `relation` | text: `background`, `next`, `alongside`, `other-format` | `background` and `next` are each other's reverse, so one row serves both pages |
+| `note` | text, nullable | One line on why ("if you've never used a terminal") |
+| `added_by_participant_id` | integer → `participants` | |
+| `created_at` | timestamptz | |
+
+- **Background isn't a prerequisite.** `module_prerequisites` stays for "you need this first." `background` is softer: "if this is new to you." Whether to fold prerequisites in as a fifth relation is open.
+- **The level fields help but don't replace this.** Two modules on the same tag with levels `new` and `builder` suggest a direction, and the catalog can propose links from that. A person confirms them, since level alone doesn't say whether one actually leads to the other.
+- **Feedback can tune it** (proposal 8): a session often rated "too advanced" should have a `background` link; one often rated "too basic" should have a `next` link.
+- **`other-format`** answers "Some people would like to read stuff, some people like to have visual" ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)).
+
 ### Not schema
 
 - **Formats** (reading or watching, YouTube, "I do not like apps and portals"): where and how content shows up. Front Door and Wayfinding.
@@ -652,5 +682,6 @@ Feedback is on the material, never on the learner. A follow-up goes only to peop
 - [ ] Asking for help from the Learning Log: should "Would you like someone to reach out?" default to yes? Who receives the request: the Poderator, the lab's organizers, or both? (Proposal 1 above.)
 - [ ] One `content_links` table, or keep separate link tables with foreign keys? (Proposals 2 to 4, 6.)
 - [ ] Steps in a Cycle: one template reused by every Cycle, or steps set per Cycle?
+- [ ] Related content (proposal 9): fold `module_prerequisites` into `content_relations` as a fifth relation, or keep it separate? Who adds relations: maintainers only, or anyone, with review?
 - [ ] "Was this helpful?" (proposal 8): who sees the answers? Presenters are volunteers, and public counts could put people off. With small groups, should comments come before counts? How many weeks before the follow-up, and through what (email, Slack, the dashboard)?
 - [ ] Who can see Learning Logs? This draft says "the participant, their Poderator and admins can see it." A Cycle 3 Poderator "never saw any of that stuff... Nobody told me where it was," and Poderators had no access to the Learning Log in OLOS, confirmed by an organizer or developer ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39); see the glossary). An organizer said the "Are you stuck" question "was supposed to be for the Poderators" (#28). Which is current, and should Poderators see it? A C03 participant reported being stuck in it and no one reached out ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)); proposal 1 above depends on the answer.

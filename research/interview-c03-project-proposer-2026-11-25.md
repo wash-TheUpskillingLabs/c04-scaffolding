@@ -212,9 +212,11 @@ Roles and follow-through
   accountable to help, so people aren't feeling like they're carrying
   everything." And a way out: "if this is not for you, you can just say you
   don't want to be in the group."
-- The interviewer summed it up as "ground rules about what you're
-  committing to... and maybe some best practices as to how successful
-  teams might operate." She agreed: "Yes, yes, yes."
+- The interviewer then offered "ground rules about what you're committing
+  to when you say you're joining this group and maybe some best practices
+  as to how successful teams might operate." She answered: "Yes. Yes,
+  yes." The interviewer added, "You don't have to operate exactly that
+  way, maybe." She: "Yes. Yeah." ("Guidelines" was her own word, earlier.)
 - The missing piece, in her words: "a template or a tool to say, you need
   to be doing this at this time, or at this time, if you're still stuck
   with this, you need to go back to this." She tried applying the
@@ -391,7 +393,8 @@ Interviewer's suggestions (kept separate)
   career back in the day").
 - Suggested: recording virtual sessions; outcomes and "who it's for" on
   each session; a shared "stuck, got help, this worked" note; ground rules
-  and best practices for teams; a path before and after a Cycle.
+  and best practices for teams that they "don't have to operate exactly"
+  by (she agreed: "Yes. Yes, yes"); a path before and after a Cycle.
 - On their own project, HearBack: plans to list it as a WordPress
   community plugin. She has shared HearBack with two ANCs for feedback.
   The ANCs are specific to HearBack, not evidence about this problem.
@@ -523,8 +526,11 @@ Self-managed teams and structure (a first pass from section 4)
   - Support that comes to the team: someone reading the Learning Log who
     would "reach out to me and my team members individually and maybe got
     us together."
-  - Asked about ground rules and best practices that teams don't have to
-    follow exactly: "Yes, yes, yes."
+  - Her own word was "guidelines." When the interviewer offered ground
+    rules and best practices for how successful teams operate, she
+    answered "Yes. Yes, yes," and agreed again ("Yes. Yeah") when the
+    interviewer added that teams wouldn't have to operate exactly that
+    way.
 - What made it work for her may not work for others: "If this hadn't been
   that important to me, I probably would have needed more structure."
   "Someone else going through this with not my frame looking at it may

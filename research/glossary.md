@@ -22,6 +22,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - Interview: past participant (self-report) on finding out what was due, the method's name, and going from a solo prototype to a team (#26)
 - Interview: an organizer on structure, what Upskillers needed, and how Cycles 1 and 2 changed, Nov 9, 2026 (#28)
 - Interview: past participant (Cycle 1) and Cycle 2 Poderator on team roles, the Poderator role, workshops and merging code, Nov 13, 2026 (#29)
+- Interview: Cycle 2 participant and Cycle 3 Poderator on pod-to-team changes, getting set up on GitHub, and when a Poderator should step in, Nov 9, 2026 (#39)
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
 - Record: Paradox cards from C04 Sensemaking & Pod Formation, Oct 24 (#21)
@@ -176,7 +177,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Poderator
 - **As written:** On the dashboard, the Learning Log goes to "your Poderator." Not defined in the READMEs.
-- **In practice:** See #25 and #16. A Cycle 2 Poderator: unclear how much to suggest, with "so little" definition of the role (#29).
+- **In practice:** See #25 and #16. A Cycle 2 Poderator: unclear how much to suggest, with "so little" definition of the role (#29). A Cycle 3 Poderator: "discouraged" from stepping in, and never saw the check-ins (#39). In C03 the support team was called the "Pod Squad," and email 14 calls all five members "your Poderators," including the two Upskiller Success Team co-leads (#24, #30).
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -194,7 +195,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Subject-matter expert (SME)
 - **As written:** [open]
-- **In practice:** See #25 and #16. How an SME differs from a mentor isn't written down.
+- **In practice:** See #25 and #16. How an SME differs from a mentor isn't written down. Per a builder (Nov 25, 2026): SMEs lead workshops; mentors also lead workshops, and do more, such as one-on-ones, at scales from 1:1 to 1:cohort. #29 described mentors as two kinds: an "SME on tap" and a presenter or teacher.
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -212,7 +213,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Volunteer teams
 - **As written:** "volunteers for the Labs itself help us build the engine that powers all of it." Teams listed under "Where you can plug in": Mentors; **Programs & Events** ("Organize the workshops, panels, and meetups where learning happens and connections are made"); **Communications** ("Branding, storytelling, and PR — the voice and visual identity of everything we do"); **Participant Success** ("Support Upskillers throughout their journey; keep pods engaged and moving"); **Research & Development** ("Build and maintain the tech that powers the Labs, from the website to community infrastructure"); **Governance** ("Provide strategic oversight so the Labs stays true to its mission and built to last"). "However you want to help — mentor, organizer, or builder — it starts with the same account, one door for everyone" (Get Involved page).
-- **In practice:** [open]. Open question: how does Participant Success relate to the Poderator role? Where the mentor recruiting and stewarding role sits is unconfirmed; a maintainer's read is Governance, specifically mentors (#29).
+- **In practice:** [open]. Open question: how does Participant Success relate to the Poderator role? C03 emails were signed by the "Upskiller Success Team" and its "Co-Leads" (email 01), and once by the "Participant Success Team" (email 15); the co-leads were part of the "Pod Squad" with the Poderators (#24, #30, #39). Where the mentor recruiting and stewarding role sits is unconfirmed; a maintainer's read is Governance, specifically mentors (#29).
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -222,12 +223,19 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Plain language:** [open]
 - **Related practices:** [open]
 
+### Problem proposer
+- **As written:** Not named in Labs materials. The records say "submit the problem statement" (Cycle 2, #39), "pitched a project" and "solution proposal" (C03, #30), and "Proposal:" issues (C04, Scaffolding README). "Problem proposer" is the pod's working term.
+- **In practice:** In Cycles 2 and 3, teams treated the proposer as the default leader; nothing in the C02 or C03 records assigns it. See #29, #39 and #26. In the internal Cycle (C04), builders in residence each "lead one project," so it isn't comparable.
+- **Plain language:** [open]
+- **Related practices:** [open]
+
 ---
 
 ## Learning content
 
 ### Module
 - **As written:** Not defined in the READMEs. A steering committee member: "modular content," "cards to play, but optional." Two kinds: upskilling modules (for learners) and training modules (for those who deliver them).
+- **Proposed (a builder, Nov 24, 2026):** A module has a **learning outcome and exercises**. Reference material without them, such as a setup guide, is a resource, not a module. A module can include resources. See the module catalog schema draft (`prototypes/module-catalog/schema.md`).
 - **In practice:** [open]
 - **Plain language:** [open]
 - **Related practices:** [open]
@@ -256,6 +264,13 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Plain language:** [open]
 - **Related practices:** [open]
 
+### Resource / guide
+- **As written:** OLOS's `resources` table is the Library. The schema draft proposes content types including `guide`, `blog-post`, `facilitation`, `recording` and `slide-deck`. The Labs' site lists three guides in its Learning Library (see below).
+- **Proposed (a builder, Nov 24, 2026):** A guide is a resource: reference material with no learning outcome or exercises. It can stand alone, sit inside a module, or be pointed to from a step in a Cycle (for example, a setup guide for individuals and teams linked from the hackathon).
+- **In practice:** [open]
+- **Plain language:** [open]
+- **Related practices:** [open]
+
 ### Learning Library
 - **As written:** "Learning Library · on-demand. Learn at your own pace," with three guides: "Slack Basics," "What to Expect in a Build Cycle" and "What to Expect: From Pod to Hackathon" (homepage, logged out). "You'll get the workshops, the Library, and a dashboard" (Build Cycles page).
 - **In practice:** Easy to miss: the three guides sit below the fold on the homepage and in the dashboard's Library tab, which opens on workshop events: see #17.
@@ -270,7 +285,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Learning Log
 - **As written:** "A few lines on what you're figuring out — that's the check-in" (dashboard). Build Cycles page: "a five-minute check-in each week."
-- **In practice:** Many don't fill it out: see #26 and #23. An organizer on its purposes and "too many questions": #28.
+- **In practice:** Many don't fill it out: see #26 and #23. An organizer on its purposes and "too many questions": #28. A Cycle 3 Poderator never saw the check-ins: "Nobody told me where it was." Poderators had no access to the Learning Log in OLOS, confirmed by an organizer or developer (#39), though an organizer understood it was "supposed to be for the Poderators" (#28). In Cycle 2 they were weekly check-in surveys tied to access (#39).
 - **Plain language:** [open]
 - **Related practices:** [open]
 

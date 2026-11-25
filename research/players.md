@@ -34,6 +34,8 @@ flowchart TB
       MEN["Mentors"]
       WL["Workshop leaders"]
       FAC["Facilitators"]
+      PP["Problem proposers"]
+      UST["Upskiller Success Team co-leads"]
       ORG["Organizers"]
       MAIN["Maintainers of ongoing projects"]
     end
@@ -48,12 +50,52 @@ the problem" are open until the pod fills them from its interviews.
 | Player and type | Who they are, where people meet them | What they've tried | Evidence so far |
 |---|---|---|---|
 | Upskillers (people) | Participants in a Build Cycle. Separate from volunteers at The Labs (per the builder) | *Open* | Interviews [#16](interview-past-participant-2026-11-07.md), [#23](interview-c03-c04-participant-2026-11-09.md), the [maintainer self-report](interview-maintainer-self-report.md) |
-| Volunteers (people) | Separate from participants at The Labs (per the builder). Which roles count as volunteers is *Open* | *Open* | *Open* |
-| Mentors (people) | *Open* | *Open* | *Open* |
-| Workshop leaders (people) | *Open* | *Open* | *Open* |
-| Facilitators (people) | Includes Poderators, per the interviews | *Open* | Interview [#29](interview-past-participant-poderator-2026-11-13.md) |
+| Volunteers (people) | Separate from participants at The Labs (per the builder). Which roles count as volunteers is *Open* | *Open* | Interview [#29](interview-past-participant-poderator-2026-11-13.md) (a Cycle 2 Poderator); see "What volunteers want" below |
+| Mentors (people) | Teach workshops (as do SMEs), and do other things such as one-on-ones. They work at all three of the schema's scales (per the builder): 1:1, 1:few (several people, or a project team), and 1:cohort/public. Examples: GitHub 101 and 102 sessions, and a one-on-one that helped a teammate write his team's GitHub setup guide ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)) | *Open* | [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39) |
+| Workshop leaders (people) | Lead workshops. Workshops are led by mentors or subject-matter experts (SMEs) (per the builder). How an SME differs from a mentor isn't written down (glossary) | *Open* | *Open* |
+| Facilitators (people) | Includes Poderators, per the interviews | *Open* | Interviews [#29](interview-past-participant-poderator-2026-11-13.md), [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39) |
+| Problem proposers (people) | Participants whose problem statement or pitch becomes a project. In Cycles 2 and 3, teams assumed the proposer would lead ("it's your problem... you can tell the story better than anybody"); nothing in the C02 or C03 records assigns it ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)) | *Open* | [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39) |
+| Upskiller Success Team co-leads (people) | Lead the Poderators ("our Poderator leads"). In Cycle 3, communication was "noticeably better" than in Cycle 2 ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)) | *Open* | [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39) |
 | Organizers (people) | Run the Cycle; includes the steering committee | *Open* | Interviews [#25](interview-steering-committee-member-2026-11-05.md), [#28](interview-organizer-2026-11-09.md); Record #15 |
 | Maintainers of ongoing projects (people) | *Open* | *Open* | *Open* |
+
+### What volunteers want (first answer)
+
+**The builder's read:** "Volunteers want a clear role definition and
+permission to intervene to help get teams unstuck in cases where the team
+is not making progress (as was the case with one team in Cycle 03)."
+
+Based on a Cycle 2 Poderator's account
+([#29](interview-past-participant-poderator-2026-11-13.md)):
+- "how much I'm, quote unquote, allowed? Encouraged? to... suggest?"
+- "very at sea around how much we should suggest, or had permission to
+  suggest"
+- "The definition around that role. There was so little of it."
+- Two other Poderators, secondhand: "a pretty significant gap in the
+  structure of the cycle and therefore... how they felt comfortable
+  intervening."
+
+Possible reason, as he reports it: an organizer's position, "The more
+autonomy, the better. This should really be about discovery," which
+Poderators read as "less intervention was more."
+
+The Cycle 3 team that was not making progress, firsthand from a Cycle 3
+Poderator ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)):
+- "I tried to help them multiple times, and I tried to insert myself... I
+  was kind of told not really... the folks in the project need to take that
+  assistance, or elect to get it." "I was discouraged... by the Upskilling
+  Labs."
+- "At what point, if the pod is really struggling, do you... say, okay, I'm
+  gonna set up a meeting... here's the next steps? That's what I thought I
+  could do. But I was discouraged to do that."
+- "I could see all the channels... You could tell which ones were better
+  organized... and were doing fine without any intervention."
+- "Knowing when to put more of a hand on the rudder."
+
+He was in the same Cycle 2 pod as one of the Poderators #29 described
+secondhand, so #39 confirms firsthand that at least one other Poderator
+"got the same direction." The builder's read now rests on two Poderators
+from two Cycles (#29, Cycle 2; #39, Cycle 3).
 
 For each, the pod still needs the full seven answers from the README:
 player and type; who they are and where people meet them; context or field;

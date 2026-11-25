@@ -170,7 +170,9 @@ for whom and by whom?"
    ([#16](interview-past-participant-2026-11-07.md)); the interviewer's
    notes on [#23](interview-c03-c04-participant-2026-11-09.md) say both
    interviewees so far live about an hour away in traffic and couldn't
-   attend all workshops in person.
+   attend all workshops in person. A Cycle 2 participant said intro
+   sessions on Capitol Hill ran "in the middle of the day... I just took 2
+   or 3 hours out of my day to get here" ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)).
 2. **The national organization changed course.** Code for America's 2022
    framing puts the change in its own "values and role," not in the
    chapters' troubles.
@@ -229,5 +231,5 @@ still open.
 
 ## Leads for other cases
 
-Civic Hall (New York: training, cycles, hackathons), Recurse Center, Fab
-Academy, YouthBuild.
+See [case-leads.md](case-leads.md), which lists the candidate cases found
+during this research, each marked by kind, with starting sources.

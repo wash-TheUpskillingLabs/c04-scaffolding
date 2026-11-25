@@ -415,8 +415,20 @@ builder; [Governor's announcement](https://www.governor.ny.gov/news/governor-hoc
   that homepage salary claims describe the older program.
 
 Sources:
-- [Chronicle of Higher Education, "Proof of work"](https://www.chronicle.com/featured/student-success/proof-of-work-pursuit)
-- [Chronicle, "Show, not tell"](https://www.chronicle.com/featured/student-success/show-not-tell)
+- [Chronicle, "Proof of Work"](https://www.chronicle.com/featured/student-success/proof-of-work-pursuit)
+  and [Chronicle, "Show, Not Tell"](https://www.chronicle.com/featured/student-success/show-not-tell):
+  **sponsored content, not independent journalism.** The page says it was
+  "Created by Chronicle Brand Studio, part of The Chronicle's Marketing and
+  Client Services. It is underwritten by Ascendium," Pursuit's $4 million
+  funder (Oct 23, 2026; text pasted by the builder). What it adds:
+  - "Pursuit... pairs seven months of intensive AI training with 1,000 paid
+    hours on the job, where students... build products for real clients.
+    The goal: a job paying at least $85,000 for every graduate."
+  - An example: a Builder's AI tool cut a Big Brothers Big Sisters
+    chapter's search for male mentors from "48 hours a month" to "under 10
+    minutes."
+  - A profile of a Builder who, "with support from instructors and fellow
+    AI-Native Builders," built an app for educators and a safety app.
 - [Bootcamp directory caveat](https://www.techinterview.org/bootcamp_directory/p/pursuit/)
 - [2025 review](https://www.pursuit.org/blog/2025-builds)
 
@@ -465,6 +477,125 @@ starting with a scoped AI project before hiring.
 - Its curriculum now runs on its platform at other organizations,
   including Per Scholas in Buffalo and Le Moyne College in Syracuse (see
   Per Scholas in [case leads](case-leads.md)).
+
+## The AI-Native program page (text pasted by the builder, Nov 24, 2026)
+
+[Program page](https://www.pursuit.org/ai-native-program).
+
+- Winter 2027 cohort: launches Jan 9, 2027; applications close Dec 4,
+  2026; info sessions weekly from Oct 8 to Dec 1.
+- Goal: "to train AI-natives for future jobs... approaching problems using
+  AI first... It's not just about technical skills—it's a way of thinking
+  that sees AI as an integral part of work."
+- "You'll develop a portfolio of real AI products built for real
+  organizations."
+- Context Pursuit cites (secondhand; check at source): of every 100
+  workers worldwide, 59 will need training by 2030 and 48 will receive it
+  (World Economic Forum, *Future of Jobs Report 2025*); 15M+ US workers
+  without a four-year degree are in jobs highly exposed to AI (Brookings,
+  2026); entry-level postings falling in jobs highly exposed to AI
+  (Burning Glass Institute, 2025); a 55% increase in entry-level postings
+  mentioning AI skills (Partnership for New York City, 2026).
+- **Eligibility** (all must be true): annual income under $45,000
+  (excluding government benefits); 18 or older; able to write and speak
+  English; eligible to work in the US; living in the NY metro area; "can
+  commit to participating for the full duration of the program"; "open to
+  experimentation and excited to create your own path."
+- **"Builder characteristics"**, quoted in full:
+  - "These are the qualities of individuals who will be successful in this
+    program: You are comfortable with ambiguity and uncertainty. You enjoy
+    teaching yourself — and helping others learn. You thrive in
+    collaborative environments and enjoy learning with peers. You're
+    naturally curious and ask questions. You are communicative and can talk
+    things through with others."
+  - "You may want to reconsider applying if: **You need a fixed, highly
+    structured curriculum. You prefer traditional, teacher-led
+    instruction.** You work best independently and tend to avoid
+    collaboration."
+- **"How the program works"** (same page):
+  - Principles, in Pursuit's words: "AI-powered individual learning... a
+    contrast to the existing instructor-led, one-size-fits-all training
+    model"; "You'll be encouraged to build your own curriculum and
+    strategies to map to your timeline and understanding"; "many to many
+    learning model powered by peer teaching" in a community of "over 100
+    other Builders"; connections to "professionals, volunteers, and
+    industry experts"; data-driven feedback.
+  - Three levels, "each one raising the complexity, autonomy, and
+    real-world stakes," each ending in a Demo Day:
+
+    | Level | Months | Who you work with | What you build |
+    |---|---|---|---|
+    | L1: AI Fundamentals | 1–2 | Solo, with AI tools and group learning; "hands-on classes and workshops" | Small AI projects; "a functional MVP" |
+    | L2: Industry Product | 3–4 | **Pairs**, with "a dedicated industry mentor" | Clone a real product and add a feature; full PRDs; industry capstone |
+    | L3: Job Ready | 5–7 | **Multi-person teams**, in two-week cycles | Work on an existing codebase from a simulated client brief; capstone for real company partners |
+
+  - Professional skills (narrative, LinkedIn, resume, interviews) "threaded
+    throughout."
+  - The level boundaries fall at months 2 and 4, which may be where the
+    launch email's "modular two-month off-ramps" sit. Not stated.
+- **Schedule, community, space and financing** (same page):
+  - Saturday–Sunday 10:00am–4:00pm and Monday–Wednesday 6:30pm–10:00pm:
+    22.5 hours a week (calculated). Over seven months (about 30 weeks)
+    that is roughly 675 hours, consistent with the "630+ hours" figure
+    (calculation, not Pursuit's).
+  - Evenings and weekends, so people can keep a daytime job while
+    enrolled.
+  - "350+ fellow Builders across cohorts and levels, learning together,
+    teaching each other"; staff; "volunteers and industry professionals";
+    alumni.
+  - "Fully in-person" at Pursuit HQ in Long Island City, with "24/7
+    access."
+  - Good Job Agreement terms: no upfront cost; "15% of gross annual
+    income" for a "36 months" term, within a "5 years max" covered period,
+    only above a "$85,000" salary threshold; payments pause if a Builder
+    loses their job. (At $94,000, 15% is about $14,100 a year; calculated.)
+- Note: applicants must commit to the full program, while the March 2025
+  launch email described "modular two-month off-ramps." How the two fit is
+  not explained.
+- **Not on the page:** how the off-ramps work now, the weekly schedule, or
+  results for AI-Native Builders.
+
+## How Pursuit is paid: the Good Job Agreement
+
+Pursuit post, Nov 6, 2026, "The Pursuit Good Job Agreement: The Promise We
+Make to Every Builder" (text pasted by the builder; people by role).
+
+- "Pursuit began with 21 Fellows, an all-volunteer staff, and a donated
+  classroom in Queens. Everything ran on philanthropy... it couldn't work
+  at scale."
+- From 2017, impact investors funded training, and Fellows repaid "only
+  after they were in high-paying jobs. If a Fellow didn't get a job, they
+  paid nothing." Named the Pursuit Bond by 2019; later payments were
+  progressive, with a lifetime cap, a time window, a hardship pause, no
+  interest and no credit check. "A meaningful share of Pursuit's operating
+  costs came from their success."
+- In 2025, with the AI-Native Program, "Fellows became Builders. And the
+  Pursuit Bond became the Good Job Agreement." A good job is "a role that
+  pays enough to move a household from paycheck-to-paycheck to real
+  stability." The sponsored Chronicle series gives the goal as "at least
+  $85,000 for every graduate."
+- "We have skin in the game... If they don't get high-paying jobs, they
+  don't pay." "Our answer is to keep changing the training, never the
+  promise."
+- A diagram on the same page (screenshot shared by the builder) shows the
+  model as three loops:
+  - Impact investors give **funding** to Pursuit; Pursuit makes
+    **repayment** to impact investors.
+  - Pursuit gives the **AI-Native Program** to Builders; Builders make
+    **Good Job Agreement contributions** to Pursuit.
+  - Builders bring **AI-native talent** to employers; employers give
+    Builders **good jobs**.
+
+  Not shown in the diagram: the philanthropic and government funding in
+  Pursuit's other sources (Google.org, Ascendium, $10 million in public
+  investment for the AI Jobs Institute).
+- One Fellow's story, told in the same post (by role): a 2018 Fellow who
+  had worked in food service and drove for a ride-share company while
+  learning to code, then became a software engineer at an investment firm,
+  made his final payment in 2025, seven years after starting. The earlier
+  fellowship's structure, as described: "every day there were coaches,
+  office hours, and check-ins to support him." One person's story chosen by
+  Pursuit; not evidence of what is typical.
 
 ## Builder's read so far
 
@@ -538,10 +669,29 @@ not a finding.*
 - **Why I think it went that way:** "evolve or die, and to cut costs."
   Supported by the launch email: "Faster, Cheaper, and (hopefully)
   Better," an expense budget 38% below plan, and a human-instructor ratio
-  moved from 1:18 to 1:100.
+  moved from 1:18 to 1:100. **A third reason: getting Builders good jobs.**
+  Under the Good Job Agreement, Builders repay Pursuit only once they hold
+  a high-paying job, so Pursuit's own income depends on placement ("If they
+  don't get high-paying jobs, they don't pay").
 - **Another explanation:** to teach AI by having people use it daily ("to
   learn AI, you have to use AI"), Pursuit's own stated reason. And for the
   104 to 34 drop: dropout, rather than off-ramps.
+
+## Compared with The Labs
+
+Facts on The Labs come from
+[Record #37](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/37)
+(the builder's firsthand account of Cycle 4, and organizers' accounts). The
+comparison is the builder's; what it means is for the pod.
+
+| | Pursuit (AI-Native) | The Labs (Cycle 4) |
+|---|---|---|
+| Who | Income under $45,000; application; must commit to the full program; told to "reconsider applying" if they need "a fixed, highly structured curriculum" | Open to a broad mix of employed and unemployed people since Cycle 1 |
+| In person | 22.5 hours a week, fully in person, seven months | Evenings every other week, plus 2–3 Saturdays: part of the Build Cycle and expected; participants may occasionally miss sessions (per the builder) |
+| Workshops | Classes and workshops built into each level | Complementary and optional |
+| Teams | Set by stage: solo, then pairs with a mentor, then teams with a client brief | Formed by organizers from the pod (in Cycle 2, teams of 5 per problem statement, "placed randomly"), then self-organized; meet virtually or in person ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)) |
+| Paid how | Grants and donations (philanthropy, companies, government) plus Builder repayment: 15% of income for 36 months once earning over $85,000 | Donations; no tuition from participants (per the builder) |
+| Who runs it | Paid staff, plus volunteers and industry professionals | All volunteers (per the builder) |
 
 ## What we can't tell from outside
 
@@ -551,10 +701,14 @@ not a finding.*
 - How many of the 104 left at an off-ramp versus dropped out, and why.
 - Whether the 88% and 92% three-year retention figures describe different
   programs, periods or definitions.
-- How "~1,000 hours" and "630+ hours" are counted.
+- How the hours are counted. The published schedule (22.5 hours a week for
+  seven months) matches "630+ hours" of training. "~1,000 hours building
+  with AI" and "1,000 paid hours on the job" (sponsored Chronicle series)
+  are not explained; they may include paid project work beyond class time.
 - When and why Pursuit changed CEOs between March and October 2025.
 - How much of the structure is carried by the AI Coach versus staff,
   volunteers and peers, in practice.
-- Almost all sources are Pursuit's own; the outside sources are the
-  Governor's announcement and two *Chronicle of Higher Education* pieces
-  (not yet read).
+- Almost all sources are Pursuit's own. The *Chronicle of Higher
+  Education* series is sponsored content underwritten by Ascendium,
+  Pursuit's funder, so it is not independent. The one outside source is
+  the Governor's announcement of the AI Jobs Institute.

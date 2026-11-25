@@ -680,7 +680,7 @@ Feedback is about the material, never the learner. The later question goes only 
 - [ ] What's the default listing distance, and can each lab change its own?
 - [ ] Do notifications fit OLOS's existing follows, or need `location_follows`?
 - [ ] When national changes a module it took from a lab, is the lab told, and can it pull the changes into its original?
-- [ ] `module_people.role` `maintainer` means the person who keeps a module current, not a GitHub maintainer, but it reads like one. Rename it (for example `keeper` or `steward`), or define it on the page?
+- [ ] "Maintainer" is a GitHub role, and in C04 a pod role. Is it also a content role? This draft uses it for the person who keeps a module current (`module_people.role`, and the rule that a published module needs two). If it isn't a content role, that job needs another word.
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
 - [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.

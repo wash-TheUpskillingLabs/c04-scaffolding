@@ -26,6 +26,11 @@ Second pass, after the pod lead's decisions of Nov 19: federated data, regional 
 - **Geography decides what shows on a lab's page.** Sessions in other regions show on a lab's page when they're within a set distance. Participants choose to be notified for a whole region, or only for one or more specific locations (Washington, DC, but not Baltimore, MD).
 - **When national accepts a regional module, national can take it and change it.** The lab can keep its original, or switch to the national version.
 
+## Decided (Nov 25)
+
+- **Access to content isn't tied to GitHub.** Being a GitHub maintainer, or having a GitHub account at all, is never what lets someone add, edit, link or approve content. Permissions come from OLOS roles (Front Door's roles and permissions work), and people work through the app. The Markdown files in this prototype are not the gate (see the open question on their role). Why: a non-technical volunteer has to be able to keep the catalog (PRD), and GitHub was the barrier for a C03 participant ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)).
+- **Anyone with permission can add links** between content (proposal 9).
+
 ## Home and listings: how federated data works
 
 Every record that can be shared has a **home** and can have **listings**.
@@ -675,6 +680,7 @@ Feedback is about the material, never the learner. The later question goes only 
 - [ ] What's the default listing distance, and can each lab change its own?
 - [ ] Do notifications fit OLOS's existing follows, or need `location_follows`?
 - [ ] When national changes a module it took from a lab, is the lab told, and can it pull the changes into its original?
+- [ ] `module_people.role` `maintainer` means the person who keeps a module current, not a GitHub maintainer, but it reads like one. Rename it (for example `keeper` or `steward`), or define it on the page?
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
 - [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.

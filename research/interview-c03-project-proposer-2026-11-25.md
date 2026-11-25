@@ -53,6 +53,10 @@ What she built, and where it is now
 - The site is live. "My ultimate goal is not to just have a website that
   people can go to and learn a little bit and find things easier, but I'm
   trying to actually solve a problem." It's "at an infant stage now."
+- What it's for: "To give people education on things that they don't
+  know, and... they may not know why they need to know."
+- To learn more, "I kind of started going to civic tech, so I can
+  understand more of the data that should be collected."
 - How close the Cycle got her: "very close, because... without it, I
   don't even know if I would have built it."
 - Since then: talking with council members, housing officials and her
@@ -62,12 +66,25 @@ What she built, and where it is now
   using AI tools, but not just using the tools, with also learning how to
   work out my problem. So that when I'm using the tool, it is actually
   giving me the thing that I need."
+  "Because I'm learning that people take these courses all the time, but
+  what did you do with it? Like, how did you build it, and how did it help
+  with the thing?"
 - Launch: "even to just launching the website by myself, I did that by
   myself... I just asked Claude and ChatGPT to help me. I had to take a lot
   of screenshots of stuff and get things explained to me and I got it
   done."
+- New terms along the way: "they were talking about VS. I was like, what
+  is VS? ... I learned quite a bit of stuff. VS Code, all of these
+  technical things... I was so very proud of myself."
+- Sharing it: "the perfectionist in me wants to be like, okay, it still
+  needs work, and I didn't even really want to give it to a lot of people,
+  but that is the point."
 
 "The chaos makes for the magic"
+- How she'd describe the program: "amazing... an open learning source,
+  and I'm very grateful for it, because... I don't know if I would have
+  built it had I not... been having that problem at that time... the
+  conditions were just really right."
 - "I was kind of told once I got in the group that... it was kind of made
   to have you in a real world scenario to... figure out how to fix these
   problems with a group with not... maybe not much support." (Who told her
@@ -81,12 +98,23 @@ What she built, and where it is now
   roundtable online. "I was trying to wrap my head [around], well, what am
   I going to be doing? ... I'm looking at the flyers, I'm reading the
   stuff... what does that look like?"
+- "For people who are coming that their learning style may be different,
+  it may be a little bit helpful [to have] more... written material, maybe
+  videos to guide people along so they can... know what the process is
+  going to look like."
 
 What was clear
 - The weekly schedule: "very straightforward. That was very structured."
   "There was a template that you all gave, and we had to follow that
   recipe to get to the next steps... That's how I ended up getting to
   where I got."
+- Asked whether she knew what was coming and what was due: "Yeah... that
+  was very straightforward... Maybe it was just easy because I was using
+  AI tools to help me do it." Assignments were in a Google Doc, and her
+  team found and understood them.
+- On whether others would find it as clear: "for me, because I'm the type
+  of person that I'm gonna investigate something, I'm gonna find it, I'm
+  gonna figure it out. Now, somebody else... I don't know."
 - Tools: Slack, OLOS and Luma were explained at the start, though "I don't
   think everyone probably knew to [go on] Luma."
 - But "maybe some of the support around it just needs a little bit
@@ -96,9 +124,17 @@ The hackathon, then the pod
 - At the hackathon a mentor introduced her to Lovable and she built a
   first site, then "completely just took all the information I was
   collecting and put it into the website."
+- "Up until the point where I did the hackathon and I got my group, I
+  became really stuck. And I didn't think I was gonna be stuck with a
+  group."
 - "I didn't know what to expect at the hackathon... I just know that it
   was all day." She'd want each presenter's topic up front, "because it
   may not be relevant to what you're building."
+- After a session, there's nowhere to go back to: "once you go to the
+  hackathon, that's your only time interfacing with that, and then after
+  that, you have to figure out where to go to learn about this, because if
+  you don't know what [Lovable] is, and I just told you about it... I just
+  got it, then now what?"
 - On pods: "I knew that we were going to have [pods]... But I didn't know
   what that was gonna look like... I had already built my website, and
   some other people had already had projects... Maybe the pod should be
@@ -124,10 +160,25 @@ Getting stuck in the pod
   time, or they may have been mad because their thing didn't get picked."
   And: "you guys had built your thing too, and now you are not doing your
   thing, you're doing my thing."
+- One teammate "when we kind of first got together... [was] really
+  confused of what was going on. So it took some talking to."
+- "I'm reaching out to team members or people for support that kind of
+  know and don't know, and I'm still having to figure out on my own how to
+  figure this out."
+- Asking her Poderator when stuck: "whenever I reached out to her, she did
+  help us facilitate things," but "the thing that I was stuck about, I feel
+  like there wasn't support around it."
+- On herself: "I did reach out to other people... maybe I could have been
+  a little bit more [vocal]."
 - How she got unstuck: "walking away from it for about 4 days. I didn't
   do anything. And then we had a meeting with the group... that Sunday,"
   and a teammate "really kind of helped me... breathe a little bit life
   back into it."
+- Afterwards, she wanted fresh eyes from teammates: "you need to step
+  away from it so you can kind of see it with fresh eyes. So I was wanting
+  some of them to do that for me in certain places, and it wasn't really
+  happening... I know you're good at this, and I need this from you, but if
+  you're not looking at it, then how can I get it from you?"
 - "Even some of the people in the group were just saying they needed more
   structure." "All of us were saying we didn't have enough structure."
 - "If this hadn't been that important to me, I probably would have needed
@@ -143,6 +194,10 @@ Roles and follow-through
   doing it..."
 - What helped: teammates suggested recording meetings "so that we can go
   back and reference things."
+- After a member left: "I'd say we pivoted pretty well, because people
+  were helpful with introducing things to use." "Having different people
+  with different skill sets... actually helps. I don't want to say that it
+  didn't help."
 - What she'd want: "stronger guidelines about when you do form a group,
   people have to make sure who's wearing what hat, and you have to be
   accountable to help, so people aren't feeling like they're carrying
@@ -165,6 +220,10 @@ Choosing tools: Lovable, ChatGPT, Claude
   on. Her understanding: The Labs doesn't get educational discounts the way
   schools do, so discounts come through mentors. (Hearsay; see section 6.)
 - After she rebuilt in Claude, teammates said they liked Lovable.
+- In Lovable, teammates "can comment and they can change it and they can
+  make branches. Some of them were in Upskilling Labs before me, and I'm
+  like, how do you not know this? But, like I said, everybody does what
+  they want on their own thing."
 - She sees Lovable as having helped: "I think Lovable helped Claude kind
   of make it a thing for me, because before, Claude was not coming up with
   that type of thing." The site is still in Claude.
@@ -185,6 +244,10 @@ GitHub, alone and as a team
   couple of times, just to have different ones, so that they can make
   branches of their own... because I was trying to figure out how to get
   them more engaged."
+  Some teammates "didn't understand... exactly... the concept, or why, what
+  was the civic part of it." "Once I got... to be able to meet everybody's
+  needs and their learning style, I was able to get a little bit more
+  feedback."
 - Technical, or team dynamics? "Both."
 - "It taught me how important saving and backing up all of this stuff
   really is, because... I just kept changing the thing and forgotten to
@@ -203,10 +266,19 @@ What would have helped
   reference of what you've already done. 'Cause I was looking for that."
 - "If I want to work on something at 3 o'clock in the morning, and I don't
   want to be hitting up people on Slack? Is there somewhere I can go?"
+- A layout of the process: "Even if you don't want people to copy people's
+  stuff, maybe just a better layout of... hey, it's supposed to flow like
+  this, if you get stuck, it's better to do this, utilize this, because...
+  if it's your first time ever doing this, you kind of just don't really
+  know what you're doing."
+- For newcomers: "every time you're doing these things at the library,
+  new people are coming... if I want to know more, where do I go?"
 - Recordings of virtual sessions: "can the virtual videos be accessed
   later?" Where she'd look: "YouTube... I do not like apps and portals,
   but I do understand why they're..." Perhaps "a video log" on the website
   or a YouTube channel.
+- Why recordings matter: "I went to a couple, and people ask certain
+  questions in there that I'm like, oh, wow, I didn't think about that."
 - Before or after an event: "Yes, definitely... it would be good if before
   there's some type of information available and then probably after as
   well."
@@ -221,6 +293,10 @@ Workshops
 - "I learned quite a bit of things here from a lot of the presentations...
   They were very thought-provoking, and they gave you clear... structure and
   steps to kind of apply these things."
+- Design thinking and problem framing were new to her: "No, I learned
+  quite a bit of things here from a lot of the presentations."
+- A workshop on data: "we got to understand the mechanics behind some of
+  the data and why it's invasive and it's too much."
 - She named four presenters, including the problem-solving workshop and
   the storytelling session, and the mentor who helped with GitHub ("you
   can't have this GitHub thing without that").
@@ -237,6 +313,9 @@ The Learning Log
   added. The interviewer called it a likely bug.
 - Did she report being stuck? "I did, I did, I did, yes." Did anyone reach
   out? "I don't think so. No."
+- Why it matters to newcomers: "this is my first time, I've never been a
+  government worker. I've not been in this type of setting, so I'm not
+  really sure what to do."
 - "If someone is reading the logs... for them to reach out and say, hey,
   where are you feeling stuck? What do you need? Maybe someone could have
   reached out to me and my team members individually and maybe got us
@@ -262,6 +341,11 @@ Young people and schools
 - She asked whether The Labs can't work with teenagers because of age
   limits, from something an organizer said. The interviewer didn't know.
   (Hearsay; see section 6.)
+- Why: before joining, she asked a recent graduate of a STEM school to
+  take an AI class with her; they declined, "I want to learn how to read
+  code at school," and later "had no clue what I was talking about." "If
+  you don't know this basic stuff, and you're in a STEM school, I would
+  like to know what are you actually learning."
 - A DC STEM public high school (named in the interview): "there could be
   a better way to connect teenagers, especially ones about to graduate,
   with tech and AI in a different way." "I would love to facilitate that."
@@ -424,6 +508,7 @@ Log. Marked in section 4:
 7. Close and follow-up
 - She offered to review the interviewer's proposed Cycle structure, and to
   connect them with the STEM high school.
+- "I would love to stay connected with you all."
 - Who else to talk to (by role): her teammates (on the pod, the tool
   argument and why they held back); her Poderator (on picking roles); the
   mentor who set up GitHub for her; the presenter of the problem-solving

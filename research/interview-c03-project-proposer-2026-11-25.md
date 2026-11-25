@@ -306,6 +306,23 @@ Interviewer's suggestions (kept separate)
 
 [mine: come back and finish this section]
 
+My read so far (Nov 25):
+- Where this is similar: her whole team needed more structure ("All of us
+  were saying we didn't have enough structure"), and she was new to these
+  tools ("GitHub was, oh my God, like, what is that?"). Compare #29's
+  "unstructured mess," and #23, also new to GitHub and AI.
+- What surprised me: she thought it was clear what was due when ("very
+  straightforward. That was very structured"). That cuts against my own
+  C03 experience, where what was due when came up at the Summit 3
+  retrospective (#26). It's also the opposite #16 said to look for: "anyone
+  who found the Cycle clear enough."
+- What surprised me: she filled out her Learning Log each week, and
+  even redid entries when the dashboard said she hadn't. In #23 and #26,
+  and at the Oct 3 retreat, many hadn't kept it up.
+- So for her, the schedule and the check-ins worked. What she didn't get
+  was help when she was stuck: she said so in the Learning Log, and no one
+  reached out.
+
 Links to earlier evidence, to check (not conclusions):
 - Problem proposers: #39 said teams assumed the proposer would lead
   ("it's your problem... you can tell the story better than anybody").

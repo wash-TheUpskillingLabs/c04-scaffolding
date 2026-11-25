@@ -513,158 +513,160 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 
 ## Proposed from a C03 participant interview ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)), Nov 25
 
-Not decided. For the pod to work through with the updated PRD. A C03 problem proposer described what she needed and couldn't find; each gap below says what in this draft already covers it and what's missing. The largest change is one way to link content (modules and resources) to wherever it's used.
+Not decided. For the pod to work through with the updated PRD. A C03 problem proposer described what she needed and couldn't find. Each proposal says what happened, what this draft already does, and what would change. The largest change is one way to say where content is used (proposals 2 to 4 and 6).
 
-### 1. Being stuck should reach someone without an opt-in
+**On names.** New names avoid two words this draft already uses: `resources.content_type` is a format (guide, recording), and `modules.level` is experience (new to shipper). Column names are snake_case and values kebab-case, as elsewhere in this draft. The labels are what people would see.
 
-**What happened:** she said she was stuck in her Learning Log ("I did, I did, I did") and no one reached out. She wanted someone to "reach out to me and my team members individually and maybe got us together."
+### 1. Asking for help from the Learning Log
 
-**What the draft does:** a Learning Log becomes a request for help only if the participant answers yes to "Anything from this week that might be useful to others?" and then asks for follow-up. That question is about offering. She was asking.
+**What happened:** she wrote in her Learning Log that she was stuck, more than once, and no one followed up. She wanted someone to reach out to her and her team and help them get back on track.
 
-**Proposal:** treat asking and offering as two questions.
-- **Asking.** When the Learning Log's "Are you stuck?" answer (#28) is yes, ask one more question: "Would you like someone to reach out?" That makes a Help Log with `source` `learning-log`, `outcome` `still-stuck` and `follow_up` `requested`, with `pod_id` and `project_id` set, so the request reaches the person *and* their team. Only what they choose to write goes in `problem`; the reflection stays private. Whether "reach out" defaults to yes is open.
-- **Offering.** Unchanged: "useful to others?", default no.
-- **Who receives it.** Depends on who can see Learning Logs (open question below). Today Poderators can't ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)). If a request goes to nobody, the proposal fails the same way she did.
-- **New column:** `help_logs.request_scope`: `person` or `team`, so a Poderator knows whether to meet one person or the team.
+**What the draft does:** a Learning Log turns into a request for help only if the participant says yes to "Anything from this week that might be useful to others?" and then asks for follow-up. That question is for offering help. She was asking for it.
 
-### 2 to 4, 6. One way to link content to where it's used
+**Proposal:** ask and offer become two separate questions.
+- **Ask.** When the answer to "Are you stuck?" (#28) is yes, one more question: "Would you like someone to reach out?" A yes creates a Help Log with `source` `learning-log`, `outcome` `still-stuck` and `follow_up` `requested`, with the pod and team set. Only what they choose to write goes in `problem`; the reflection stays private. Whether this defaults to yes is open.
+- **Offer.** Unchanged: "Anything from this week that might be useful to others?", default no.
+- **Who receives it** depends on who can see Learning Logs (open question below). Today Poderators can't ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)). A request that reaches nobody fails the way hers did.
 
-**What happened:** she wanted recordings of particular sessions ("can the virtual videos be accessed later?"), something to go back to afterward ("I just got it, then now what?"), something before ("before there's some type of information available and then probably after as well"), and examples of past work ("a reference of what you've already done. 'Cause I was looking for that"). #29 found past decks useful the same way. And the builder's Cycle question (open questions) asks for links from a step in a Cycle to modules and resources.
+| New `help_logs` column | Type | Label | Notes |
+|---|---|---|---|
+| `reach_out_to` | text: `person`, `team` | "Who should someone reach out to?" | Just me, or my team too. Tells a Poderator whether to meet one person or the team |
 
-**What the draft does:** three separate link tables, each for one pair: `module_resources` (module to resource, purposes `learner`, `facilitator`, `preparation`), `help_log_resources` (help log to resource), `module_prerequisites` (module to module or tag), plus `modules.cycle_id` (one module to one Cycle). Nothing links a resource to a session, nothing covers "after," and nothing links to a step in a Cycle.
+### 2 to 4, 6. Where content is used
 
-**Proposal:** one `content_links` table. **Content** is a module or a resource. **Context** is where it's used. A link says why it's there and how strongly it's recommended. It follows the pattern this draft already uses for `listings`, `taggings` and `reviews` (`record_type`, `record_id`).
+**What happened:** she wanted the recording of a session she couldn't attend, something to go back to after a session, something to read before one, and examples of past work to see what she'd be doing. A Cycle 1 participant (#29) found past decks useful the same way. And a builder asked for steps in a Cycle, like the hackathon, to point to modules and guides (open questions).
 
-| `content_links` column | Type | Notes |
-|---|---|---|
-| `id` | serial | |
-| `content_type` | text: `module`, `resource` | |
-| `content_id` | integer | |
-| `context_type` | text: `module`, `session`, `event`, `cycle_step`, `help_log`, `project` | |
-| `context_id` | integer | |
-| `purpose` | text: `before`, `during`, `after`, `recording`, `example`, `facilitator`, `reference` | `before` replaces `preparation`. `after` is the follow-up she asked for. `recording` is of that session. `example` is past work |
-| `level` | text: `required`, `recommended`, `optional` | Default `optional`. `required` only from a `cycle_step`, so the module itself stays neutral (PRD non-goals) |
-| `position` | smallint | Order within a context |
-| `note` | text, nullable | One line: why it's here ("watch this if you missed the hackathon session") |
-| `added_by_participant_id` | integer → `participants` | |
-| `created_at` | timestamptz | |
+**What the draft does:** separate link tables, one per pair: `module_resources` (purposes `learner`, `facilitator`, `preparation`), `help_log_resources`, and `modules.cycle_id` (one module, one Cycle). Nothing links material to a single session, nothing says "after," and nothing points to a step in a Cycle.
 
-What it replaces and what it adds:
+**Proposal:** one `content_uses` table. Each row says *this item* (a module or resource) *is used here* (a module, session, event, Cycle step, Help Log or project), *when* (before, during, after), *for whom*, and *how strongly it's expected*. It follows the pattern this draft already uses for `listings`, `taggings` and `reviews`.
 
-| Today | With `content_links` |
+| `content_uses` column | Type | Label | Notes |
+|---|---|---|---|
+| `id` | serial | | |
+| `item_type`, `item_id` | text: `module`, `resource`; integer | "What" | The module or resource |
+| `used_in_type`, `used_in_id` | text: `module`, `session`, `event`, `cycle-step`, `help-log`, `project`; integer | "Where it's used" | |
+| `timing` | text: `before`, `during`, `after`, `anytime` | "When to use it" | `before` replaces `preparation`. `after` is the follow-up she asked for |
+| `for_role` | text: `learner`, `facilitator` | "For" | Default `learner` |
+| `expectation` | text: `required`, `recommended`, `optional` | "Required, recommended or optional" | Default `optional`. `required` only from a Cycle step, so a module itself stays optional (PRD non-goals) |
+| `position` | smallint | | Order on the page |
+| `note` | text, nullable | "Why it's here" | One line: "Watch this if you missed the hackathon session" |
+| `added_by_participant_id` | integer → `participants` | | |
+| `created_at` | timestamptz | | |
+
+What kind of thing an item is stays on the resource: `resources.content_type` gains `example` (past decks, past projects), next to `recording` and `guide`.
+
+What it replaces and adds:
+
+| Today | With `content_uses` |
 |---|---|
-| `module_resources` (purpose `learner`, `facilitator`, `preparation`) | context `module`, purpose `during`, `facilitator`, `before` |
-| `help_log_resources` | context `help_log`, purpose `reference` |
-| `modules.cycle_id` | context `cycle_step`, for any number of steps and Cycles |
-| (nothing) | context `session`, purpose `recording` or `after`: slides and the recording from one session |
-| (nothing) | context `cycle_step`, purpose `example`: past decks and past projects for that step |
-| (nothing) | context `cycle_step`, level `recommended`: the hackathon recommends GitHub setup; the step into project teams recommends team ground rules |
-| (nothing) | context `project`: what a team was pointed to, so a Poderator can see it |
+| `module_resources` | used in a `module`, timing `before` or `during`, for a `learner` or `facilitator` |
+| `help_log_resources` | used in a `help-log`, timing `anytime` |
+| `modules.cycle_id` | used in any number of `cycle-step`s, in any Cycle |
+| (nothing) | used in a `session`, timing `after`: that session's recording and slides |
+| (nothing) | used in a `cycle-step`: examples of past work for that step |
+| (nothing) | used in a `cycle-step`, `recommended`: the hackathon recommends GitHub setup; the step into project teams recommends team ground rules |
+| (nothing) | used in a `project`: what a team was pointed to, so a Poderator can see it |
 
-`module_prerequisites` stays separate: "assumes you know" isn't the same as "use this here."
+Prerequisites aren't a use; they move to `related_content` (proposal 9).
 
-Trade-off: like `taggings`, a polymorphic link can't use a foreign key, so the app checks that the content and context exist. The gain is one place to ask "what goes with this?" from any side: a session's page lists its recording and follow-up, a resource's page lists every session, step and module that uses it, and the catalog can count resources that nothing links to.
+Trade-off: like `taggings`, the link can't use a foreign key, so the app checks that both ends exist. The gain is one place to ask "what goes with this?" from either side. A session's page lists its recording and follow-up; a resource's page lists every session, step and module that uses it; the catalog can find resources nothing uses.
 
-**`resources.content_type`** gains `example`. **A resource made from a session** (a recording, its slides) gets a `content_links` row with context `session`, so it's findable from the session and from the module the session belongs to.
+**Steps in a Cycle**, so `content_uses` has something to point to:
 
-**Steps in a Cycle.** `content_links` needs something to point at:
+| `cycle_steps` column | Type | Label | Notes |
+|---|---|---|---|
+| `id` | serial | | |
+| `cycle_id` | integer → `cycles` | | |
+| `position` | smallint | | |
+| `name` | text | "Step" | "Pod formation," "Hackathon," "Project teams form," "Meet the Projects" |
+| `stage` | text: `prep`, `during`, `after` | | Same values as `modules.stages` |
+| `event_id` | integer → `events`, nullable | | When the step is an event |
+| `starts_on`, `ends_on` | date, nullable | | |
+| `what_to_expect` | text | "What to expect" | She didn't know what to expect at the hackathon, or what project teams would look like |
 
-| `cycle_steps` column | Type | Notes |
-|---|---|---|
-| `id` | serial | |
-| `cycle_id` | integer → `cycles` | |
-| `position` | smallint | |
-| `name` | text | "Pod formation," "Hackathon," "Project teams form," "Meet the Projects" |
-| `stage` | text: `prep`, `during`, `after` | Same values as `modules.stages` |
-| `event_id` | integer → `events`, nullable | When the step is an event |
-| `starts_on`, `ends_on` | date, nullable | |
-| `description` | text | What happens, and what to expect: she "didn't know what to expect at the hackathon" |
+This is also where the participant guide's steps and Wayfinding's stops could meet. One set of steps reused by every Cycle, or steps set per Cycle, is open.
 
-This is also where the participant guide's steps and Wayfinding's stops could meet. A step template (the same steps every Cycle) versus per-Cycle steps is open.
+### 5. A day with several sessions
 
-### 5. A hackathon is one event with several sessions
+**What happened:** C03's hackathon split people into two rooms, by whether they'd come the Saturday before. She was in the room with three presenters, including the problem-solving workshop she still uses; the interviewer was in the other room and missed it. She wanted each presenter's topic listed ahead of time, so people could choose what fits what they're building.
 
-**What happened:** C03's hackathon split people into two rooms, by whether they'd come the Saturday before. She was in the room with three presenters; the interviewer was in the other. She'd want each presenter's topic up front, "because it may not be relevant to what you're building."
+**What the draft does:** one event, one session.
 
-**What the draft does:** `events |o--o| sessions`, one event per session.
+**Proposal:** one event can have many sessions (`sessions.event_id` already allows it; the diagram changes to one-to-many). New `sessions` columns:
 
-**Proposal:** one event has many sessions (`sessions.event_id` already allows it; the diagram and notes change to one-to-many). Add to `sessions`:
+| Column | Type | Label | Notes |
+|---|---|---|---|
+| `track` | text, nullable | "Room or track" | "Room A," "Newcomer track" |
+| `starts_at`, `ends_at` | timestamptz, nullable | "Time" | Within the event |
+| `who_its_for` | text, nullable | "Who it's for" | One line. The module's learning outcome and level say what it teaches; this says who should come today |
+| `placement_rule` | text, nullable | "How people are placed in this room" | When people are sent to a room rather than choosing ("if you weren't here last Saturday"). Writing it down makes a split visible, so it can be questioned |
 
-| Column | Type | Notes |
-|---|---|---|
-| `track` | text, nullable | "Room A," "Newcomer track" |
-| `starts_at`, `ends_at` | timestamptz, nullable | Within the event |
-| `audience_note` | text, nullable | Who this session is for, in a line. The module's `learning_outcome` and `level` say what it teaches; this says who should come today |
-| `assignment_rule` | text, nullable | When people are sent to a track rather than choosing ("if you weren't here last Saturday"). Writing it down makes a split visible and open to question |
-
-The agenda then shows every session in a day with its topic, who it's for, and its recording afterward through `content_links`. A second hackathon once teams form (the interviewer's idea, parked) would be one more `cycle_step` with its own event.
+The day's agenda then lists every session with its topic and who it's for, and afterward, its recording. A second hackathon once teams form (the interviewer's idea, parked) would be one more Cycle step with its own event.
 
 ### 7. Pod and team
 
-Another example of the mix-up: she said "pods" for project teams. Added to the open question below. No schema change beyond what that question decides.
+She said "pods" when she meant project teams, another example of the mix-up. Added to the open question below; no change beyond what that decides.
 
-### 8. "Was this helpful?" on anything someone uses
+### 8. Feedback: helpful, right level, used it later
 
-**What happened:** she remembered specific sessions months later, and still applies one "to most of the things that I do." The PRD's problem statement is that participants have no good way to say what worked. Fit mattered as much as quality: #16 found sessions not matched to her, #23 found the timing off, and she wanted to know who each session is for.
+**What happened:** months later, she still remembered specific sessions, and still applies one to most of what she does. The PRD's problem statement is that participants have no good way to say what worked. Fit mattered as much as quality: one participant found sessions not matched to her level (#16), another found the timing off (#23), and she wanted to know who each session was for.
 
-**What the draft does:** `session_feedback`, a 1-to-5 "useful" score and a comment, on sessions only. Someone who watches a recording later, or uses a guide, has nowhere to say it helped.
+**What the draft does:** `session_feedback`, a 1-to-5 usefulness score and a comment, on sessions only. Someone who watches a recording or uses a guide later has nowhere to say it helped.
 
-**Proposal:** three short questions, each optional, on sessions, resources and modules, so they work for people who attend live and for people who catch up later. They replace `session_feedback`.
-1. **"Was this helpful?"** Yes or no, with an optional comment.
-2. **"Was this the right level for you?"** Too basic, about right, too advanced. Many complaints were about fit, not quality, so this tests whether a module's `level` and a session's `audience_note` are right.
-3. **A few weeks later: "Have you used anything from this?"** Yes or no, with an optional line on what. Her strongest signal came months afterward, which a same-day answer misses. This shows which sessions last.
+**Proposal:** three short questions, each optional, on sessions, resources and modules. They replace `session_feedback`.
 
-| `feedback` column | Type | Notes |
-|---|---|---|
-| `id` | serial | |
-| `record_type` | text: `session`, `resource`, `module` | |
-| `record_id` | integer | |
-| `kind` | text: `same-day`, `follow-up` | The first answer, or the later check-in |
-| `helpful` | boolean, nullable | Same-day: "Was this helpful?" |
-| `level_fit` | text: `too-basic`, `about-right`, `too-advanced`, nullable | Same-day: "Was this the right level for you?" |
-| `used_it` | boolean, nullable | Follow-up: "Have you used anything from this?" |
-| `comment` | text, nullable | Optional: what helped, what didn't, or what they used |
-| `follow_up_of_id` | integer → `feedback`, nullable | Links a follow-up to the same person's first answer, when they gave one |
-| `participant_id` | integer → `participants`, nullable | Empty for anonymous feedback |
-| `created_at` | timestamptz | |
+| `feedback` column | Type | Label | Notes |
+|---|---|---|---|
+| `id` | serial | | |
+| `about_type`, `about_id` | text: `session`, `resource`, `module`; integer | | What the feedback is about |
+| `when_asked` | text: `right-after`, `weeks-later` | | |
+| `helpful` | boolean, nullable | "Was this helpful?" | Asked right after |
+| `right_level` | text: `too-basic`, `about-right`, `too-advanced`, nullable | "Was this the right level for you?" | Asked right after. Tests the module's level and the session's "who it's for" |
+| `used_since` | boolean, nullable | "Have you used anything from this?" | Asked a few weeks later. Shows what lasts, which an answer on the day misses |
+| `comment` | text, nullable | "Anything to add?" | What helped, what didn't, or what they used |
+| `earlier_answer_id` | integer → `feedback`, nullable | | Links a later answer to the same person's first one, if they gave one |
+| `participant_id` | integer → `participants`, nullable | | Empty for anonymous feedback |
+| `created_at` | timestamptz | | |
 
-Feedback is on the material, never on the learner. A follow-up goes only to people who attended or opened the material, and only once.
+Feedback is about the material, never the learner. The later question goes only to people who attended or opened the material, and only once.
 
 ### 9. Related content, and which way it goes
 
-**What happened:** after a session she didn't know where to go next: "if I want to know more, where do I go?" Others asked the same from both ends. #16 wanted workshops "in levels, step by step," what you're "expected to know already... here's where you can get this information," and more advanced workshops after the basics ("go a little bit further, here are some... extra workshops"). #23 imagined someone who "saw this workshop, it seemed interesting, what else can I get involved in?"
+**What happened:** after a session she didn't know where to go to learn more. Others asked from both ends: one participant wanted learning in levels, with a pointer to what you're expected to know first, and more advanced workshops after the basics (#16); another pictured a newcomer who liked one workshop and wanted to know what else there was (#23).
 
-**What the draft does:** `module_prerequisites` says what a module assumes ("you need this first"). Shared tags show what's on the same topic, but not whether it's easier, harder or the same level in another form.
+**What the draft does:** `module_prerequisites` says what a module needs first. Shared tags show what's on the same topic, but not whether it's easier, harder or the same thing in another form.
 
-**Proposal:** links between pieces of content that say the direction. A module or resource can point to another with one of these relations:
+**Proposal:** links between modules and resources that say the direction.
 
-| `relation` | Reads on the page as | Example |
+| `relation` | Label on the page | Example |
 |---|---|---|
+| `prerequisite` | "You'll need this first" | GitHub setup, before GitHub as a team |
 | `background` | "New to this? Start here" | Intro to Claude in context, before Rapid prototyping |
-| `next` | "Ready for more? Go further" | GitHub, from working alone to working as a team, after GitHub setup |
-| `alongside` | "Related, same level" | Team ground rules, alongside GitHub as a team |
-| `other-format` | "The same thing, to read or watch" | A recording of a workshop, and its written guide |
+| `go-deeper` | "Ready for more? Go further" | GitHub as a team, after GitHub setup |
+| `related` | "Related, same level" | Team ground rules, next to GitHub as a team |
+| `other-format` | "Same thing, another way" | A workshop's recording and its written guide |
 
-| `content_relations` column | Type | Notes |
+| `related_content` column | Type | Notes |
 |---|---|---|
 | `id` | serial | |
 | `from_type`, `from_id` | text: `module`, `resource`; integer | |
-| `to_type`, `to_id` | text: `module`, `resource`; integer | |
-| `relation` | text: `background`, `next`, `alongside`, `other-format` | `background` and `next` are each other's reverse, so one row serves both pages |
-| `note` | text, nullable | One line on why ("if you've never used a terminal") |
+| `to_type`, `to_id` | text: `module`, `resource`, `tag`; integer | `tag` only for `prerequisite`: a skill or tool with no module yet |
+| `relation` | text: `prerequisite`, `background`, `go-deeper`, `related`, `other-format` | `background` and `go-deeper` are each other's reverse, so one row shows on both pages. A prerequisite shows on the later item as "You'll need this first" and on the earlier one as "Leads to" |
+| `note` | text, nullable | One line on why: "if you've never used a terminal" |
 | `added_by_participant_id` | integer → `participants` | |
 | `created_at` | timestamptz | |
 
-- **Background isn't a prerequisite.** `module_prerequisites` stays for "you need this first." `background` is softer: "if this is new to you." Whether to fold prerequisites in as a fifth relation is open.
-- **The level fields help but don't replace this.** Two modules on the same tag with levels `new` and `builder` suggest a direction, and the catalog can propose links from that. A person confirms them, since level alone doesn't say whether one actually leads to the other.
-- **Feedback can tune it** (proposal 8): a session often rated "too advanced" should have a `background` link; one often rated "too basic" should have a `next` link.
-- **`other-format`** answers "Some people would like to read stuff, some people like to have visual" ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)).
+- **Prerequisites move into this table (recommended, Nov 25).** A prerequisite is the same kind of link, only stronger: "you'll need this first," where background says "if this is new to you." One table lets a page show both together. It replaces `module_prerequisites`; its `requires_tag_id` becomes a link to a `tag`.
+- **Who can add links (decided, Nov 25):** anyone with permission to. Which roles have it belongs in Front Door's roles and permissions work, like approving your own work.
+- **Levels can suggest links; a person confirms them.** Two modules on the same tag at levels `new` and `builder` hint at a direction, but level alone doesn't show one leads to the other.
+- **Feedback points to missing links** (proposal 8). Often "too advanced" suggests a `background` link; often "too basic," a `go-deeper` link.
+- **`other-format`** is for people who'd rather read than watch, or the reverse, which she raised.
 
 ### Not schema
 
-- **Formats** (reading or watching, YouTube, "I do not like apps and portals"): where and how content shows up. Front Door and Wayfinding.
-- **Learning Log bugs** (entries erase if you leave; a week shown as overdue when it wasn't): OLOS's Learning Log form, not this schema. In the confusion log ([#17](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/17)).
-- **Team ground rules and best practices**, and **which tool to use when**: content (`lab-practice` and `tool` modules or resources), linked to the step into project teams through `content_links`.
+- **Formats and where content lives** (reading or watching, YouTube, not wanting another app or portal): how content shows up. Front Door and Wayfinding.
+- **Learning Log bugs** (entries erase if you leave; a week shown as overdue when it wasn't): OLOS's Learning Log form. In the confusion log ([#17](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/17)).
+- **Team ground rules and best practices**, and **which tool to use when**: content (`lab-practice` and `tool` modules or resources), used in the step into project teams through `content_uses`.
 
 ## Open questions
 
@@ -677,11 +679,11 @@ Feedback is on the material, never on the learner. A follow-up goes only to peop
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
 - [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.
 - [ ] Which pairing: Pod with Tribe above it, or Team with Track or Research Group above it? Needs the other pods and organizers, and changes OLOS's `pods` and `projects`. Another example of the mix-up: a C03 participant said "pods" for project teams ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)).
-- [ ] Should Cycles map to modules? A builder suggests some modules or exercises could be required, or at least recommended, as part of a Cycle, while others stand alone as complementary workshops. Today `modules.cycle_id` ties one module to one Cycle, and prerequisites link modules to each other, but a module like GitHub basics would serve many Cycles. The builder's example: the hackathon could recommend completing the GitHub modules and point participants to a setup guide for individuals and teams. So the link may need to attach to a step or event within a Cycle (such as the hackathon), not only the Cycle as a whole, and to point to resources (guides) as well as modules. Open: a link from a Cycle, or a step or event in it, to modules and resources, with a level (required, recommended), the module itself staying neutral. Background: a Cycle already requires turning in a project, and the pilot required weekly in-person time ([Record #37](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/37)). Evidence from a Cycle 2 participant ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)): "Here's some prerequisites... things that you should become familiar with, or already... have going, before you go to some of these sessions"; his team got set up on GitHub because a teammate wrote "a step-by-step document on how to set up a project in GitHub and connect it into Claude Code." A C03 participant ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)) supports linking from a step rather than the whole Cycle: a mentor set up GitHub for her, then for her team, and she wanted examples of past work and what to expect at each step. See `content_links` and `cycle_steps`, proposed above.
+- [ ] Should Cycles map to modules? A builder suggests some modules or exercises could be required, or at least recommended, as part of a Cycle, while others stand alone as complementary workshops. Today `modules.cycle_id` ties one module to one Cycle, and prerequisites link modules to each other, but a module like GitHub basics would serve many Cycles. The builder's example: the hackathon could recommend completing the GitHub modules and point participants to a setup guide for individuals and teams. So the link may need to attach to a step or event within a Cycle (such as the hackathon), not only the Cycle as a whole, and to point to resources (guides) as well as modules. Open: a link from a Cycle, or a step or event in it, to modules and resources, with a level (required, recommended), the module itself staying neutral. Background: a Cycle already requires turning in a project, and the pilot required weekly in-person time ([Record #37](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/37)). Evidence from a Cycle 2 participant ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)): "Here's some prerequisites... things that you should become familiar with, or already... have going, before you go to some of these sessions"; his team got set up on GitHub because a teammate wrote "a step-by-step document on how to set up a project in GitHub and connect it into Claude Code." A C03 participant ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)) supports linking from a step rather than the whole Cycle: a mentor set up GitHub for her, then for her team, and she wanted examples of past work and what to expect at each step. See `content_uses` and `cycle_steps`, proposed above.
 - [ ] What do people call all of this learning content together: modules plus resources such as guides? The Labs' site uses "Learning Library" ("Learning Library · on-demand. Learn at your own pace," with three guides; see the glossary). This draft uses "knowledge base." OLOS calls the `resources` table the Library. Participants see the name, so one term would help.
 - [ ] Asking for help from the Learning Log: should "Would you like someone to reach out?" default to yes? Who receives the request: the Poderator, the lab's organizers, or both? (Proposal 1 above.)
-- [ ] One `content_links` table, or keep separate link tables with foreign keys? (Proposals 2 to 4, 6.)
+- [ ] One `content_uses` table, or keep separate link tables with foreign keys? (Proposals 2 to 4, 6.)
 - [ ] Steps in a Cycle: one template reused by every Cycle, or steps set per Cycle?
-- [ ] Related content (proposal 9): fold `module_prerequisites` into `content_relations` as a fifth relation, or keep it separate? Who adds relations: maintainers only, or anyone, with review?
+- [ ] Related content (proposal 9): the recommendation is to move `module_prerequisites` into `related_content` as a `prerequisite` relation. Confirm. (Who can add links is decided: anyone with permission to.)
 - [ ] "Was this helpful?" (proposal 8): who sees the answers? Presenters are volunteers, and public counts could put people off. With small groups, should comments come before counts? How many weeks before the follow-up, and through what (email, Slack, the dashboard)?
 - [ ] Who can see Learning Logs? This draft says "the participant, their Poderator and admins can see it." A Cycle 3 Poderator "never saw any of that stuff... Nobody told me where it was," and Poderators had no access to the Learning Log in OLOS, confirmed by an organizer or developer ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39); see the glossary). An organizer said the "Are you stuck" question "was supposed to be for the Poderators" (#28). Which is current, and should Poderators see it? A C03 participant reported being stuck in it and no one reached out ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)); proposal 1 above depends on the answer.

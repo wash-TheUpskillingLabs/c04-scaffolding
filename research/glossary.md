@@ -194,7 +194,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Subject-matter expert (SME)
 - **As written:** [open]
-- **In practice:** See #25 and #16. How an SME differs from a mentor isn't written down.
+- **In practice:** See #25 and #16. How an SME differs from a mentor isn't written down. Per a builder (Nov 25, 2026): SMEs lead workshops; mentors also lead workshops, and do more, such as one-on-ones, at scales from 1:1 to 1:cohort. #29 described mentors as two kinds: an "SME on tap" and a presenter or teacher.
 - **Plain language:** [open]
 - **Related practices:** [open]
 

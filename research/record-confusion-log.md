@@ -136,7 +136,8 @@ Undefined terms
   proposer (#42): "I was kind of told once I got in the group that... it
   was kind of made to have you in a real world scenario to... figure out
   how to fix these problems with a group with not... maybe not much
-  support." Who told her isn't named. Asking her Poderator when stuck,
+  support." She didn't say who told her; from context, the interviewer
+  reads it as an organizer or a Poderator. Asking her Poderator when stuck,
   "the thing that I was stuck about, I feel like there wasn't support
   around it." What turned out to be true: not yet known; compare the
   Poderators' direction to hold back (#29, #39).

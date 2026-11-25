@@ -86,8 +86,8 @@ What she built, and where it is now
   conditions were just really right."
 - "I was kind of told once I got in the group that... it was kind of made
   to have you in a real world scenario to... figure out how to fix these
-  problems with a group with not... maybe not much support." (Who told her
-  is not said; see section 6.)
+  problems with a group with not... maybe not much support." (She didn't say who told her. From context, the interviewer reads it
+  as an organizer or a Poderator. See section 6.)
 - "That's kind of how I've been navigating my whole life, in a way, but
   I don't really like that."
 - "But I do understand how those conditions, like the chaos, makes for the
@@ -536,8 +536,8 @@ Links to earlier evidence, to check (not conclusions):
   as scaffolding.
 
 [mine: questions to answer]
-- "The chaos makes for the magic": she heard the design as "not much
-  support" on purpose. Who told her? Is that the stated design?
+- "The chaos makes for the magic": she heard the design as "not much support" on purpose, likely
+  from an organizer or a Poderator. Is that the stated design?
 - Freedom helped her (her own schedule) and hurt her (teammates not
   available). Is that the paradox in one person?
 - The schedule and template were clear; support when stuck was not. Is
@@ -551,7 +551,9 @@ Links to earlier evidence, to check (not conclusions):
 Firsthand for her own team, the hackathon, the workshops and the Learning
 Log. Marked in section 4:
 - "I was kind of told once I got in the group that... [it was designed
-  with] maybe not much support": who said it isn't named.
+  with] maybe not much support": she didn't say who. From context, the
+  interviewer reads it as an organizer or a Poderator. Either could
+  confirm.
 - Why teammates held back ("mad because their thing didn't get picked")
   is her guess.
 - Educational discounts for Lovable, and that credits came through

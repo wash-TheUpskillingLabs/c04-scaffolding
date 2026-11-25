@@ -293,8 +293,7 @@ Workshops
 - "I learned quite a bit of things here from a lot of the presentations...
   They were very thought-provoking, and they gave you clear... structure and
   steps to kind of apply these things."
-- Design thinking and problem framing were new to her: "No, I learned
-  quite a bit of things here from a lot of the presentations."
+- Asked if she knew design thinking or problem framing before: "No."
 - A workshop on data: "we got to understand the mechanics behind some of
   the data and why it's invasive and it's too much."
 - She named four presenters, including the problem-solving workshop and

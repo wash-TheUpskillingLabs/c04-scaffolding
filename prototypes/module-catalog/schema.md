@@ -511,6 +511,104 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 - **`saved_items` is keyed by slug.** Modules and resources need slugs that don't collide, or `saved_items` needs a type column.
 - **Admin screens** for approving records and tags.
 
+## Proposed from a C03 participant interview ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)), Nov 25
+
+Not decided. For the pod to work through with the updated PRD. A C03 problem proposer described what she needed and couldn't find; each gap below says what in this draft already covers it and what's missing. The largest change is the last one: one way to link content (modules and resources) to wherever it's used.
+
+### 1. Being stuck should reach someone without an opt-in
+
+**What happened:** she said she was stuck in her Learning Log ("I did, I did, I did") and no one reached out. She wanted someone to "reach out to me and my team members individually and maybe got us together."
+
+**What the draft does:** a Learning Log becomes a request for help only if the participant answers yes to "Anything from this week that might be useful to others?" and then asks for follow-up. That question is about offering. She was asking.
+
+**Proposal:** treat asking and offering as two questions.
+- **Asking.** When the Learning Log's "Are you stuck?" answer (#28) is yes, ask one more question: "Would you like someone to reach out?" That makes a Help Log with `source` `learning-log`, `outcome` `still-stuck` and `follow_up` `requested`, with `pod_id` and `project_id` set, so the request reaches the person *and* their team. Only what they choose to write goes in `problem`; the reflection stays private. Whether "reach out" defaults to yes is open.
+- **Offering.** Unchanged: "useful to others?", default no.
+- **Who receives it.** Depends on who can see Learning Logs (open question below). Today Poderators can't ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)). If a request goes to nobody, the proposal fails the same way she did.
+- **New column:** `help_logs.request_scope`: `person` or `team`, so a Poderator knows whether to meet one person or the team.
+
+### 2 to 4, 6. One way to link content to where it's used
+
+**What happened:** she wanted recordings of particular sessions ("can the virtual videos be accessed later?"), something to go back to afterward ("I just got it, then now what?"), something before ("before there's some type of information available and then probably after as well"), and examples of past work ("a reference of what you've already done. 'Cause I was looking for that"). #29 found past decks useful the same way. And the builder's Cycle question (open questions) asks for links from a step in a Cycle to modules and resources.
+
+**What the draft does:** three separate link tables, each for one pair: `module_resources` (module to resource, purposes `learner`, `facilitator`, `preparation`), `help_log_resources` (help log to resource), `module_prerequisites` (module to module or tag), plus `modules.cycle_id` (one module to one Cycle). Nothing links a resource to a session, nothing covers "after," and nothing links to a step in a Cycle.
+
+**Proposal:** one `content_links` table. **Content** is a module or a resource. **Context** is where it's used. A link says why it's there and how strongly it's recommended. It follows the pattern this draft already uses for `listings`, `taggings` and `reviews` (`record_type`, `record_id`).
+
+| `content_links` column | Type | Notes |
+|---|---|---|
+| `id` | serial | |
+| `content_type` | text: `module`, `resource` | |
+| `content_id` | integer | |
+| `context_type` | text: `module`, `session`, `event`, `cycle_step`, `help_log`, `project` | |
+| `context_id` | integer | |
+| `purpose` | text: `before`, `during`, `after`, `recording`, `example`, `facilitator`, `reference` | `before` replaces `preparation`. `after` is the follow-up she asked for. `recording` is of that session. `example` is past work |
+| `level` | text: `required`, `recommended`, `optional` | Default `optional`. `required` only from a `cycle_step`, so the module itself stays neutral (PRD non-goals) |
+| `position` | smallint | Order within a context |
+| `note` | text, nullable | One line: why it's here ("watch this if you missed the hackathon session") |
+| `added_by_participant_id` | integer → `participants` | |
+| `created_at` | timestamptz | |
+
+What it replaces and what it adds:
+
+| Today | With `content_links` |
+|---|---|
+| `module_resources` (purpose `learner`, `facilitator`, `preparation`) | context `module`, purpose `during`, `facilitator`, `before` |
+| `help_log_resources` | context `help_log`, purpose `reference` |
+| `modules.cycle_id` | context `cycle_step`, for any number of steps and Cycles |
+| (nothing) | context `session`, purpose `recording` or `after`: slides and the recording from one session |
+| (nothing) | context `cycle_step`, purpose `example`: past decks and past projects for that step |
+| (nothing) | context `cycle_step`, level `recommended`: the hackathon recommends GitHub setup; the step into project teams recommends team ground rules |
+| (nothing) | context `project`: what a team was pointed to, so a Poderator can see it |
+
+`module_prerequisites` stays separate: "assumes you know" isn't the same as "use this here."
+
+Trade-off: like `taggings`, a polymorphic link can't use a foreign key, so the app checks that the content and context exist. The gain is one place to ask "what goes with this?" from any side: a session's page lists its recording and follow-up, a resource's page lists every session, step and module that uses it, and the catalog can count resources that nothing links to.
+
+**`resources.content_type`** gains `example`. **A resource made from a session** (a recording, its slides) gets a `content_links` row with context `session`, so it's findable from the session and from the module the session belongs to.
+
+**Steps in a Cycle.** `content_links` needs something to point at:
+
+| `cycle_steps` column | Type | Notes |
+|---|---|---|
+| `id` | serial | |
+| `cycle_id` | integer → `cycles` | |
+| `position` | smallint | |
+| `name` | text | "Pod formation," "Hackathon," "Project teams form," "Meet the Projects" |
+| `stage` | text: `prep`, `during`, `after` | Same values as `modules.stages` |
+| `event_id` | integer → `events`, nullable | When the step is an event |
+| `starts_on`, `ends_on` | date, nullable | |
+| `description` | text | What happens, and what to expect: she "didn't know what to expect at the hackathon" |
+
+This is also where the participant guide's steps and Wayfinding's stops could meet. A step template (the same steps every Cycle) versus per-Cycle steps is open.
+
+### 5. A hackathon is one event with several sessions
+
+**What happened:** C03's hackathon split people into two rooms, by whether they'd come the Saturday before. She was in the room with three presenters; the interviewer was in the other. She'd want each presenter's topic up front, "because it may not be relevant to what you're building."
+
+**What the draft does:** `events |o--o| sessions`, one event per session.
+
+**Proposal:** one event has many sessions (`sessions.event_id` already allows it; the diagram and notes change to one-to-many). Add to `sessions`:
+
+| Column | Type | Notes |
+|---|---|---|
+| `track` | text, nullable | "Room A," "Newcomer track" |
+| `starts_at`, `ends_at` | timestamptz, nullable | Within the event |
+| `audience_note` | text, nullable | Who this session is for, in a line. The module's `learning_outcome` and `level` say what it teaches; this says who should come today |
+| `assignment_rule` | text, nullable | When people are sent to a track rather than choosing ("if you weren't here last Saturday"). Writing it down makes a split visible and open to question |
+
+The agenda then shows every session in a day with its topic, who it's for, and its recording afterward through `content_links`. A second hackathon once teams form (the interviewer's idea, parked) would be one more `cycle_step` with its own event.
+
+### 7. Pod and team
+
+Another example of the mix-up: she said "pods" for project teams. Added to the open question below. No schema change beyond what that question decides.
+
+### Not schema
+
+- **Formats** (reading or watching, YouTube, "I do not like apps and portals"): where and how content shows up. Front Door and Wayfinding.
+- **Learning Log bugs** (entries erase if you leave; a week shown as overdue when it wasn't): OLOS's Learning Log form, not this schema. In the confusion log ([#17](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/17)).
+- **Team ground rules and best practices**, and **which tool to use when**: content (`lab-practice` and `tool` modules or resources), linked to the step into project teams through `content_links`.
+
 ## Open questions
 
 - [ ] Must identifying details come out of a help log before it's seen beyond its home?
@@ -521,7 +619,10 @@ An outside host can upload their slides and fill in the metadata in one form. Th
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
 - [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.
-- [ ] Which pairing: Pod with Tribe above it, or Team with Track or Research Group above it? Needs the other pods and organizers, and changes OLOS's `pods` and `projects`.
-- [ ] Should Cycles map to modules? A builder suggests some modules or exercises could be required, or at least recommended, as part of a Cycle, while others stand alone as complementary workshops. Today `modules.cycle_id` ties one module to one Cycle, and prerequisites link modules to each other, but a module like GitHub basics would serve many Cycles. The builder's example: the hackathon could recommend completing the GitHub modules and point participants to a setup guide for individuals and teams. So the link may need to attach to a step or event within a Cycle (such as the hackathon), not only the Cycle as a whole, and to point to resources (guides) as well as modules. Open: a link from a Cycle, or a step or event in it, to modules and resources, with a level (required, recommended), the module itself staying neutral. Background: a Cycle already requires turning in a project, and the pilot required weekly in-person time ([Record #37](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/37)). Evidence from a Cycle 2 participant ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)): "Here's some prerequisites... things that you should become familiar with, or already... have going, before you go to some of these sessions"; his team got set up on GitHub because a teammate wrote "a step-by-step document on how to set up a project in GitHub and connect it into Claude Code."
+- [ ] Which pairing: Pod with Tribe above it, or Team with Track or Research Group above it? Needs the other pods and organizers, and changes OLOS's `pods` and `projects`. Another example of the mix-up: a C03 participant said "pods" for project teams ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)).
+- [ ] Should Cycles map to modules? A builder suggests some modules or exercises could be required, or at least recommended, as part of a Cycle, while others stand alone as complementary workshops. Today `modules.cycle_id` ties one module to one Cycle, and prerequisites link modules to each other, but a module like GitHub basics would serve many Cycles. The builder's example: the hackathon could recommend completing the GitHub modules and point participants to a setup guide for individuals and teams. So the link may need to attach to a step or event within a Cycle (such as the hackathon), not only the Cycle as a whole, and to point to resources (guides) as well as modules. Open: a link from a Cycle, or a step or event in it, to modules and resources, with a level (required, recommended), the module itself staying neutral. Background: a Cycle already requires turning in a project, and the pilot required weekly in-person time ([Record #37](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/37)). Evidence from a Cycle 2 participant ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)): "Here's some prerequisites... things that you should become familiar with, or already... have going, before you go to some of these sessions"; his team got set up on GitHub because a teammate wrote "a step-by-step document on how to set up a project in GitHub and connect it into Claude Code." A C03 participant ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)) supports linking from a step rather than the whole Cycle: a mentor set up GitHub for her, then for her team, and she wanted examples of past work and what to expect at each step. See `content_links` and `cycle_steps`, proposed above.
 - [ ] What do people call all of this learning content together: modules plus resources such as guides? The Labs' site uses "Learning Library" ("Learning Library · on-demand. Learn at your own pace," with three guides; see the glossary). This draft uses "knowledge base." OLOS calls the `resources` table the Library. Participants see the name, so one term would help.
-- [ ] Who can see Learning Logs? This draft says "the participant, their Poderator and admins can see it." A Cycle 3 Poderator "never saw any of that stuff... Nobody told me where it was," and Poderators had no access to the Learning Log in OLOS, confirmed by an organizer or developer ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39); see the glossary). An organizer said the "Are you stuck" question "was supposed to be for the Poderators" (#28). Which is current, and should Poderators see it?
+- [ ] Asking for help from the Learning Log: should "Would you like someone to reach out?" default to yes? Who receives the request: the Poderator, the lab's organizers, or both? (Proposal 1 above.)
+- [ ] One `content_links` table, or keep separate link tables with foreign keys? (Proposals 2 to 4, 6.)
+- [ ] Steps in a Cycle: one template reused by every Cycle, or steps set per Cycle?
+- [ ] Who can see Learning Logs? This draft says "the participant, their Poderator and admins can see it." A Cycle 3 Poderator "never saw any of that stuff... Nobody told me where it was," and Poderators had no access to the Learning Log in OLOS, confirmed by an organizer or developer ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39); see the glossary). An organizer said the "Are you stuck" question "was supposed to be for the Poderators" (#28). Which is current, and should Poderators see it? A C03 participant reported being stuck in it and no one reached out ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)); proposal 1 above depends on the answer.

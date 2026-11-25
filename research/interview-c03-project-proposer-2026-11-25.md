@@ -310,9 +310,11 @@ Workshops
   presentations."
 - A workshop on data: "we got to understand the mechanics behind some of
   the data and why it's invasive and it's too much."
-- She named four presenters, including the problem-solving workshop and
-  the storytelling session, and the mentor who helped with GitHub ("you
-  can't have this GitHub thing without that").
+- She named four presenters, including the problem-solving workshop, the
+  storytelling session ("Especially [the presenter], with the
+  storytelling"; the interviewer: "That was a good session") and the
+  mentor who helped with GitHub ("you can't have this GitHub thing without
+  that").
 - The problem-solving workshop at the hackathon: "I apply that to most of
   the things that I do." Still, now. (Title not remembered: "The pain or
   something like that.")
@@ -479,8 +481,7 @@ Value, learning, and where learning fell short (a first pass from section 4)
     She launched the site herself, with screenshots and help from AI.
   - Design thinking and problem framing, which she hadn't known before,
     from the workshops. The problem-solving workshop at the hackathon
-    stuck: she still applies it "to most of the things that I do."
-  - From trial and error: backing up her work. "Through all that trial and
+    \1    She singled out the storytelling session too.\n  - From trial and error: backing up her work. "Through all that trial and
     error, it taught me something."
   - From teammates: "different people with different skill sets...
     actually helps."
@@ -491,8 +492,31 @@ Value, learning, and where learning fell short (a first pass from section 4)
   - The split hackathon rooms: some people missed content everyone needed.
   - Tools: no guidance on "what tool set to use when and how," so she
     rebuilt the site several times.
-  - GitHub: a mentor set it up for her ("just do it for me"), so at first
-    she didn't learn it herself, and had to bring the team back to him.
+  - GitHub, alone and then as a team:
+    - It was new and felt like "another language": "GitHub was, oh my God,
+      like, what is that?"
+    - Before the hackathon, a mentor set it up for her in person: "I kind
+      of just had [him] just do it for me in person, because I didn't
+      know what I was doing." She learned that he was good at explaining
+      it, not how to do it herself.
+    - When the team formed, she found out "you have to save this stuff on
+      GitHub," and that she couldn't rely on him: "you can't keep getting
+      [him] to do that, you don't have [him]." The team met with him, and
+      she went back more than once ("I was a little bit repetitive").
+    - The team never worked in one shared place. She was the only builder
+      ("thank God... that would have been a complete nightmare"), rebuilt
+      the site more than once so teammates could have "branches of their
+      own," and some teammates sent comments as PDFs.
+    - She learned backups the hard way: "I just kept changing the thing
+      and forgotten to back it up. And I had to go back."
+    - "When you say learning on the fly and learning as you go, I was...
+      frustrated, but... this is actually teaching you something... but
+      some people don't see that type of value." She learned, but by
+      trial and error, because "I did not have that initial teaching of
+      this stuff."
+    - What she'd want: pre-recorded videos that "genuinely shows people how
+      to connect your things to GitHub... I don't have to be in the Zoom
+      with you," and "a template of basic one-on-one, how to use GitHub."
   - Support: stuck for about a week; she reported it in the Learning Log
     and no one reached out.
   - Learning styles: "Some people would like to read stuff, some people
@@ -566,8 +590,7 @@ Links to earlier evidence, to check (not conclusions):
   and a member leaving broke it.
 - Workshops: specific sessions were valued in #39 ("the vast majority...
   were excellent") and #29 (a branding workshop "was good"), while #16 and
-  #23 found timing or level didn't fit. She goes further: she still
-  applies the problem-solving workshop "to most of the things that I do."
+  #23 found timing or level didn't fit. She goes further: \1 She also singled out the storytelling session, a topic #23 attended too.
 - Missed workshops: the maintainer's self-report notes missing core
   workshops because of timing. Here the cause is the hackathon's split
   rooms. Same outcome, different cause.

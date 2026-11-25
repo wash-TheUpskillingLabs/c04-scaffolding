@@ -481,7 +481,9 @@ Value, learning, and where learning fell short (a first pass from section 4)
     She launched the site herself, with screenshots and help from AI.
   - Design thinking and problem framing, which she hadn't known before,
     from the workshops. The problem-solving workshop at the hackathon
-    \1    She singled out the storytelling session too.\n  - From trial and error: backing up her work. "Through all that trial and
+    stuck: she still applies it "to most of the things that I do." She
+    singled out the storytelling session too.
+  - From trial and error: backing up her work. "Through all that trial and
     error, it taught me something."
   - From teammates: "different people with different skill sets...
     actually helps."
@@ -503,7 +505,7 @@ Value, learning, and where learning fell short (a first pass from section 4)
       GitHub," and that she couldn't rely on him: "you can't keep getting
       [him] to do that, you don't have [him]." The team met with him, and
       she went back more than once ("I was a little bit repetitive").
-    - The team never worked in one shared place. She was the only builder
+    - Only she worked in the code. She was the main builder
       ("thank God... that would have been a complete nightmare"), rebuilt
       the site more than once so teammates could have "branches of their
       own," and some teammates sent comments as PDFs.
@@ -590,7 +592,9 @@ Links to earlier evidence, to check (not conclusions):
   and a member leaving broke it.
 - Workshops: specific sessions were valued in #39 ("the vast majority...
   were excellent") and #29 (a branding workshop "was good"), while #16 and
-  #23 found timing or level didn't fit. She goes further: \1 She also singled out the storytelling session, a topic #23 attended too.
+  #23 found timing or level didn't fit. She goes further: she still
+  applies the problem-solving workshop "to most of the things that I do."
+  She also singled out the storytelling session, a topic #23 attended too.
 - Missed workshops: the maintainer's self-report notes missing core
   workshops because of timing. Here the cause is the hackathon's split
   rooms. Same outcome, different cause.

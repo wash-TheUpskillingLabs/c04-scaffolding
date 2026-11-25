@@ -161,19 +161,19 @@ A label that doesn't match practice
   aback." And: "you would be like working with some people and then you
   realize, oh, but I might not end up on the same project with... the
   group."
-  A third example: a C03 participant and problem proposer (#42), who found
-  the schedule itself clear, used "pod" for the project team. "Then we got
-  to vote on [pods]. I knew that we were going
+  A C03 participant and problem proposer (#42), who found the schedule
+  itself clear: "then we got to vote on [pods]. I knew that we were going
   to have [pods]... But I didn't know what that was gonna look like, and I
   just think it could have been a little bit more structure for when we
   got in the pods." She had already built her site at the hackathon, and
   others had their own projects: "Maybe the pod should be before the hackathon, so that the
-  groups could be formed... I'm not sure how that was intended." In C03 the
-  pod formed before the hackathon (pods needed 12 people by Aug 3; #26);
-  what came after was pitches, a vote and project teams of 3 to 5. So what
-  she didn't know to expect was the vote and the project teams, and what
-  she suggests, a group before the hackathon, is what the pod already
-  was. (The transcript has "PAWS"; written here as "pods.")
+  groups could be formed... I'm not sure how that was intended." C03 had
+  two votes: one on pods (problem situations, before the hackathon; pods
+  needed 12 people by Aug 3) and one on project teams (after the pitches)
+  (#26). She places the vote and "the pod" after the hackathon, which
+  points to the project-team vote, a possible third example of the
+  confusion. [check: which vote she meant] (The transcript has "PAWS";
+  written here as "pods.")
   Coming together as a team was confusing too. She had already built
   something; teammates had built their own things at the hackathon, and
   now they were doing hers. One teammate "when we kind of first got

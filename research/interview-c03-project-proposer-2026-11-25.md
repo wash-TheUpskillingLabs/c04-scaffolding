@@ -142,11 +142,12 @@ The hackathon, then the pod
   example, I had already built my website, and some other people had
   already had projects... Maybe the pod should be before the hackathon,
   so that the groups could be formed." (Her idea.) The transcript has
-  "PAWS," written here as "pods." In C03 the pod formed before the
-  hackathon; what came after was pitches, a vote and project teams of 3
-  to 5 (#26). So she is most likely describing the vote and the project
-  teams, which fits the pod vs. project team confusion (#16, #26; see the
-  confusion log, #17).
+  "PAWS," written here as "pods." C03 had two votes: one on pods
+  (problem situations, before the hackathon) and one on project teams
+  (after the pitches) (#26). She places the vote and "the pod" after the
+  hackathon, which points to the project-team vote. [check: which vote she
+  meant] If so, it fits the pod vs. project team confusion (#16, #26; see
+  the confusion log, #17).
 
 The hackathon's two rooms
 - The hackathon split people by whether they'd come the Saturday before.
@@ -359,8 +360,8 @@ Young people and schools
   Possibly with "educational certificate money."
 
 Ideas parked for later (hers, not evidence; for frames after the paradox)
-- Form teams before the hackathon (she said "pods"; in C03 the pod already
-  came before it, so she likely means project teams).
+- Form groups before the hackathon (she said "pods"; she may mean project
+  teams [check]).
 - One room at the hackathon for content everyone needs; say what each
   presenter will cover.
 - Ground rules, roles and commitments for pods, and a graceful way to
@@ -445,8 +446,9 @@ My read so far (Nov 25):
     Log, including sharing from the Learning Log ("Yeah, definitely").
 - What surprised me: she thought it was clear what was due when, and
   where we were in the process ("very straightforward. That was very
-  structured"). But voting and forming project teams (she called them
-  pods), she didn't know what it looked like, and she needed more
+  structured"). But voting on pods, and what that would look like, she
+  didn't know (from where she places it, probably the vote on project
+  teams [check]), and she needed more
   structure there: "it could have been a little bit more structure for
   when we got in the pods." In my C03 self-report
   (#26), what was due when came up at the Summit 3 retrospective. It's also the opposite #16 said to look for: "anyone

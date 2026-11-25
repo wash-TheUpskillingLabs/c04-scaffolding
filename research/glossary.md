@@ -23,6 +23,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - Interview: an organizer on structure, what Upskillers needed, and how Cycles 1 and 2 changed, Nov 9, 2026 (#28)
 - Interview: past participant (Cycle 1) and Cycle 2 Poderator on team roles, the Poderator role, workshops and merging code, Nov 13, 2026 (#29)
 - Interview: Cycle 2 participant and Cycle 3 Poderator on pod-to-team changes, getting set up on GitHub, and when a Poderator should step in, Nov 9, 2026 (#39)
+- Interview: C03 participant and project proposer on getting stuck in a pod, tool choices, the hackathon rooms, the Learning Log and life after a Cycle, Nov 25, 2026 (#42)
 - Record: Things that confused a maintainer in C04 (#17)
 - Record: Connecting Dorst's frame creation to human-centered design and related practices (#20)
 - Record: Paradox cards from C04 Sensemaking & Pod Formation, Oct 24 (#21)
@@ -97,7 +98,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Hackathon
 - **As written:** "Idea to Prototype" (Luma, Aug 15), with a Newcomer track and a Pod Sprint track. Build Cycles page: "Month two: decide what to build at the Hackathon."
-- **In practice:** See #24 and #17.
+- **In practice:** See #24, #17 and #42.
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -119,7 +120,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Pod (Research Pod)
 - **As written:** "small teams called 'pods' form around [problems]" ("What to Expect"). C04: "Each Research Pod has its own repo." About page: "A handful of people who dig into a problem together."
-- **In practice:** Contested (pod vs. team): see #17, #16 and #24. An organizer said pod and project were confused (#28).
+- **In practice:** Contested (pod vs. team): see #17, #16, #24 and #42. An organizer said pod and project were confused (#28).
 - **Plain language:** [open]
 - **Related practices:** [open]
 - **Note, open question (Nov 19):** Should the names change to match wider use? Two pairings have come up, for today's project team and the larger group above it:
@@ -130,7 +131,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Team / project team
 - **As written:** "Form project teams" (week 7, "What to Expect"). C04: "Approved projects get a team."
-- **In practice:** See #16 and #17.
+- **In practice:** See #16, #17 and #42.
 - **Plain language:** [open]
 - **Related practices:** [open]
 - **Note, open question (Nov 19):** Whether a team should be called a **Pod** (with Tribe above it), or stay a **Team** (with Track or Research Group above it). See Pod above.
@@ -225,7 +226,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Problem proposer
 - **As written:** Not named in Labs materials. The records say "submit the problem statement" (Cycle 2, #39), "pitched a project" and "solution proposal" (C03, #30), and "Proposal:" issues (C04, Scaffolding README). "Problem proposer" is the pod's working term.
-- **In practice:** In Cycles 2 and 3, teams treated the proposer as the default leader; nothing in the C02 or C03 records assigns it. See #29, #39 and #26. In the internal Cycle (C04), builders in residence each "lead one project," so it isn't comparable.
+- **In practice:** In Cycles 2 and 3, teams treated the proposer as the default leader; nothing in the C02 or C03 records assigns it. See #29, #39, #26 and #42. In the internal Cycle (C04), builders in residence each "lead one project," so it isn't comparable.
 - **Plain language:** [open]
 - **Related practices:** [open]
 
@@ -285,7 +286,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Learning Log
 - **As written:** "A few lines on what you're figuring out — that's the check-in" (dashboard). Build Cycles page: "a five-minute check-in each week."
-- **In practice:** Many don't fill it out: see #26 and #23. An organizer on its purposes and "too many questions": #28. A Cycle 3 Poderator never saw the check-ins: "Nobody told me where it was." Poderators had no access to the Learning Log in OLOS, confirmed by an organizer or developer (#39), though an organizer understood it was "supposed to be for the Poderators" (#28). In Cycle 2 they were weekly check-in surveys tied to access (#39).
+- **In practice:** Many don't fill it out: see #26 and #23. An organizer on its purposes and "too many questions": #28. A Cycle 3 Poderator never saw the check-ins: "Nobody told me where it was." Poderators had no access to the Learning Log in OLOS, confirmed by an organizer or developer (#39), though an organizer understood it was "supposed to be for the Poderators" (#28). In Cycle 2 they were weekly check-in surveys tied to access (#39). See also #42.
 - **Plain language:** [open]
 - **Related practices:** [open]
 

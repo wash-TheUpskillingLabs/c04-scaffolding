@@ -564,9 +564,10 @@ Links to earlier evidence, to check (not conclusions):
 - Roles: #29 asked whether "somebody [is allowed] to be a leader." Here
   the Poderator had them pick roles and it worked at first; follow-through
   and a member leaving broke it.
-- Workshops: #29 found presenters strong on expertise, weaker on teaching.
-  She found them clear and still uses one. Different workshops, Cycles or
-  needs?
+- Workshops: specific sessions were valued in #39 ("the vast majority...
+  were excellent") and #29 (a branding workshop "was good"), while #16 and
+  #23 found timing or level didn't fit. She goes further: she still
+  applies the problem-solving workshop "to most of the things that I do."
 - Missed workshops: the maintainer's self-report notes missing core
   workshops because of timing. Here the cause is the hackathon's split
   rooms. Same outcome, different cause.
@@ -613,6 +614,9 @@ Log. Marked in section 4:
 - She offered to review the interviewer's proposed Cycle structure, and to
   connect them with the STEM high school.
 - "I would love to stay connected with you all."
+- Two Help Log examples are drawn from this interview, in
+  `prototypes/module-catalog/situations/`: stuck for a week after the
+  team formed, and a mentor setting up GitHub for her, then for the team.
 - Her confusions are logged in the confusion log (#17): the Learning Log
   status, who reads it, what a Cycle and the hackathon look like, where to
   go after a session, Luma, pods, support by design, and tool discounts.

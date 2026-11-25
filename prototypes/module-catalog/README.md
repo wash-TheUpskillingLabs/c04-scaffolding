@@ -2,7 +2,7 @@
 
 A rough probe of the PRD "[A Bottom-Up Module Catalog for The Upskilling Labs](PRD.md)" (draft of Nov 14, 2026). Help given in one situation gets logged in a few lines. Modules form around the situations that keep coming back. Each module is one Markdown file with a standard structure, named maintainers and a review of the learning material. The catalog lists each module as a card.
 
-**Made-up data only.** Every module and situation log here is invented for the prototype, and none has been reviewed. They're shaped like the situations in the PRD (the GitHub connector, "ask the AI," a mentor solving it for someone), not taken from real ones.
+**Mostly made-up data.** Every module and most situation logs here are invented for the prototype, and none has been reviewed. They're shaped like the situations in the PRD (the GitHub connector, "ask the AI," a mentor solving it for someone). Two situation logs (Nov 25) are drawn from a real interview ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)), told by the participant, with names taken out; each says so.
 
 Open it at `/prototypes/module-catalog/` on the pod site, or open `index.html` straight from disk.
 

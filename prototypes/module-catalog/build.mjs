@@ -296,7 +296,7 @@ function modulePage(m) {
 <body>
 <header class="cover small">
   <div class="wrap">
-    <p class="lockup"><a href="../../">Module catalog</a>, a Scaffolding prototype with made-up data</p>
+    <p class="lockup"><a href="../../">Module catalog</a>, a Scaffolding prototype with mostly made-up data</p>
     <h1>${esc(m.title)}</h1>
     <p class="q">${esc(m.summary)}</p>
   </div>
@@ -334,7 +334,7 @@ ${markdown(m.body)}
   ${situationsHtml}
   <p class="quiet edit"><a href="${REPO}/blob/main/prototypes/module-catalog/${m.file}">Edit this module on GitHub</a></p>
 </main>
-<footer><div class="wrap"><p>A prototype of the Scaffolding pod, Build Cycle C04, The Upskilling Labs of Greater Washington. Made-up data only. Licensed CC BY 4.0.</p></div></footer>
+<footer><div class="wrap"><p>A prototype of the Scaffolding pod, Build Cycle C04, The Upskilling Labs of Greater Washington. Mostly made-up data. Licensed CC BY 4.0.</p></div></footer>
 </body>
 </html>
 `;

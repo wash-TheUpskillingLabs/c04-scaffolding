@@ -27,6 +27,9 @@ flowchart TB
     WDC["Workforce development centers (to confirm)"]
     GOVF["State and city government as AI training funders"]
     AIF["AI companies as funders"]
+    LIB["Public libraries (to confirm)"]
+    HS["STEM high schools (to confirm)"]
+    INV["Investors and funders for alumni projects (to confirm)"]
     subgraph CONTEXT["Context (inner circle): The Labs"]
       direction TB
       UP["Upskillers (participants)"]
@@ -38,6 +41,7 @@ flowchart TB
       UST["Upskiller Success Team co-leads"]
       ORG["Organizers"]
       MAIN["Maintainers of ongoing projects"]
+      ALUM["Alumni who keep building (to confirm)"]
     end
   end
 ```
@@ -49,15 +53,16 @@ the problem" are open until the pod fills them from its interviews.
 
 | Player and type | Who they are, where people meet them | What they've tried | Evidence so far |
 |---|---|---|---|
-| Upskillers (people) | Participants in a Build Cycle. Separate from volunteers at The Labs (per the builder) | *Open* | Interviews [#16](interview-past-participant-2026-11-07.md), [#23](interview-c03-c04-participant-2026-11-09.md), the [maintainer self-report](interview-maintainer-self-report.md) |
+| Upskillers (people) | Participants in a Build Cycle. Separate from volunteers at The Labs (per the builder) | *Open* | Interviews [#16](interview-past-participant-2026-11-07.md), [#23](interview-c03-c04-participant-2026-11-09.md), the [maintainer self-report](interview-maintainer-self-report.md), [#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42) |
 | Volunteers (people) | Separate from participants at The Labs (per the builder). Which roles count as volunteers is *Open* | *Open* | Interview [#29](interview-past-participant-poderator-2026-11-13.md) (a Cycle 2 Poderator); see "What volunteers want" below |
-| Mentors (people) | Teach workshops (as do SMEs), and do other things such as one-on-ones. They work at all three of the schema's scales (per the builder): 1:1, 1:few (several people, or a project team), and 1:cohort/public. Examples: GitHub 101 and 102 sessions, and a one-on-one that helped a teammate write his team's GitHub setup guide ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)) | *Open* | [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39) |
+| Mentors (people) | Teach workshops (as do SMEs), and do other things such as one-on-ones. They work at all three of the schema's scales (per the builder): 1:1, 1:few (several people, or a project team), and 1:cohort/public. Examples: GitHub 101 and 102 sessions, and a one-on-one that helped a teammate write his team's GitHub setup guide ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)). In C03, a mentor set up GitHub for a participant in person, then met with her team to get it running as a team; another mentor passed on Lovable credits he got at a workshop ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)) | *Open* | [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39), [#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42) |
 | Workshop leaders (people) | Lead workshops. Workshops are led by mentors or subject-matter experts (SMEs) (per the builder). How an SME differs from a mentor isn't written down (glossary) | *Open* | *Open* |
-| Facilitators (people) | Includes Poderators, per the interviews | *Open* | Interviews [#29](interview-past-participant-poderator-2026-11-13.md), [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39) |
-| Problem proposers (people) | Participants whose problem statement or pitch becomes a project. In Cycles 2 and 3, teams assumed the proposer would lead ("it's your problem... you can tell the story better than anybody"); nothing in the C02 or C03 records assigns it ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)) | *Open* | [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39) |
+| Facilitators (people) | Includes Poderators, per the interviews | A C03 Poderator had her team pick people "in charge of certain things"; it worked at first, then a member left ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)) | Interviews [#29](interview-past-participant-poderator-2026-11-13.md), [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39), [#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42) |
+| Problem proposers (people) | Participants whose problem statement or pitch becomes a project. In Cycles 2 and 3, teams assumed the proposer would lead ("it's your problem... you can tell the story better than anybody"); nothing in the C02 or C03 records assigns it ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)). A C03 proposer, firsthand: she had built her site at the hackathon and became her team's main builder, "wearing many hats that I didn't really want to wear"; teammates had built their own things, "and now you are not doing your thing, you're doing my thing" ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)). The maintainer was also a C03 proposer (#26) | A C03 proposer rebuilt her site in several tools and made copies so teammates could branch and comment ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)) | [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39), [#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42), the [maintainer self-report](interview-maintainer-self-report.md) |
 | Upskiller Success Team co-leads (people) | Lead the Poderators ("our Poderator leads"). In Cycle 3, communication was "noticeably better" than in Cycle 2 ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)) | *Open* | [#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39) |
 | Organizers (people) | Run the Cycle; includes the steering committee | *Open* | Interviews [#25](interview-steering-committee-member-2026-11-05.md), [#28](interview-organizer-2026-11-09.md); Record #15 |
 | Maintainers of ongoing projects (people) | *Open* | *Open* | *Open* |
+| Alumni who keep building (people) (to confirm) | Past participants who keep developing their project after a Cycle and still come to workshops. A C03 proposer launched her site and wants help to "launch... look for investors... scale it," and with user research ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)). Whether they overlap with "Maintainers of ongoing projects" is *Open* | Finding resources on their own; coming to workshops to network ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)) | [#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42) |
 
 ### What volunteers want (first answer)
 
@@ -223,6 +228,41 @@ how they see the problem.
 6. **What they've tried:** *Open.*
 7. **How they see the problem:** *Open.*
 
+### Public libraries (institutions) (to confirm)
+
+1. **Player and type:** Public library branches (institutions).
+2. **Who they are:** Where some people first meet The Labs. A C03
+   participant was introduced at a library event: "I was at the library,
+   and we were having an event there" ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)). Some workshops run in person
+   at a library, which is hard to reach at 4:30 for people who work ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42),
+   the interviewer). The README's field examples include libraries.
+3. **Context or field:** Field.
+4. to 7. *Open.*
+
+### STEM high schools and their students (institutions) (to confirm)
+
+1. **Player and type:** DC public STEM high schools (institutions) and
+   their students (people).
+2. **Who they are:** A C03 participant proposed a partnership with one
+   school, to connect "teenagers, especially ones about to graduate, with
+   tech and AI," possibly with "educational certificate money," and offered
+   to make the introduction ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)). She'd heard The Labs may not be able to
+   work with teenagers because of age limits (hearsay; an organizer could
+   confirm).
+3. **Context or field:** Field.
+4. **What they bring:** *Open.* Possibly access to education funding, per
+   her suggestion.
+5. to 7. *Open.*
+
+### Investors and funders for alumni projects (to confirm)
+
+1. **Player and type:** Investors and funders who could back projects
+   built in a Cycle (institutions and people).
+2. **Who they are:** Named only as a need: a C03 alumna asked for guidance
+   on "how to look for investors" ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)).
+3. **Context or field:** Field.
+4. to 7. *Open.*
+
 ## Not yet on the map
 
 - **Employers and HR leaders**, and **workers worried about AI**, from
@@ -230,3 +270,9 @@ how they see the problem.
   The pod hasn't decided whether they belong.
 - Players from other leads: YouthBuild, Recurse Center, Fab Academy, Civic
   Hall.
+- **Advisory Neighborhood Commissions (ANCs)** came up in #42, but as
+  reviewers of the interviewer's own C03 project, HearBack, not as players
+  in this problem. Not added.
+- **AI tool vendors' education discounts and credits** (#42): a mentor
+  passed on Lovable credits, and The Labs may not qualify for school
+  discounts (hearsay). Could fold into "AI companies as funders."

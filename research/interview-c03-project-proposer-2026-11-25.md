@@ -141,7 +141,12 @@ The hackathon, then the pod
   little bit more structure for when we got in the pods, because, for
   example, I had already built my website, and some other people had
   already had projects... Maybe the pod should be before the hackathon,
-  so that the groups could be formed." (Her idea.)
+  so that the groups could be formed." (Her idea.) The transcript has
+  "PAWS," written here as "pods." In C03 the pod formed before the
+  hackathon; what came after was pitches, a vote and project teams of 3
+  to 5 (#26). So she is most likely describing the vote and the project
+  teams, which fits the pod vs. project team confusion (#16, #26; see the
+  confusion log, #17).
 
 The hackathon's two rooms
 - The hackathon split people by whether they'd come the Saturday before.
@@ -354,7 +359,8 @@ Young people and schools
   Possibly with "educational certificate money."
 
 Ideas parked for later (hers, not evidence; for frames after the paradox)
-- Form pods before the hackathon.
+- Form teams before the hackathon (she said "pods"; in C03 the pod already
+  came before it, so she likely means project teams).
 - One room at the hackathon for content everyone needs; say what each
   presenter will cover.
 - Ground rules, roles and commitments for pods, and a graceful way to
@@ -382,9 +388,9 @@ Interviewer's suggestions (kept separate)
 - Suggested: recording virtual sessions; outcomes and "who it's for" on
   each session; a shared "stuck, got help, this worked" note; ground rules
   and best practices for teams; a path before and after a Cycle.
-- On their own project: plans to list it as a WordPress community plugin.
-  She has shared it with two ANCs for feedback (an aside, not evidence
-  about this problem).
+- On their own project, HearBack: plans to list it as a WordPress
+  community plugin. She has shared HearBack with two ANCs for feedback.
+  The ANCs are specific to HearBack, not evidence about this problem.
 - Will share their proposed Cycle structure with her for feedback, after
   folding this interview in.
 
@@ -439,10 +445,10 @@ My read so far (Nov 25):
     Log, including sharing from the Learning Log ("Yeah, definitely").
 - What surprised me: she thought it was clear what was due when, and
   where we were in the process ("very straightforward. That was very
-  structured"). But voting on pods, and what pods would be, she didn't
-  know what it looked like, and she needed more structure there: "it
-  could have been a little bit more structure for when we got in the
-  pods." In my C03 self-report
+  structured"). But voting and forming project teams (she called them
+  pods), she didn't know what it looked like, and she needed more
+  structure there: "it could have been a little bit more structure for
+  when we got in the pods." In my C03 self-report
   (#26), what was due when came up at the Summit 3 retrospective. It's also the opposite #16 said to look for: "anyone
   who found the Cycle clear enough."
 - What surprised me: she filled out her Learning Log each week, and
@@ -529,6 +535,7 @@ Log. Marked in section 4:
   or recording of the problem-solving workshop; the recorded Upskilling
   Labs roundtable she found online.
 - [mine: who showed up in this that isn't in research/players.md yet?
-  Possible: alumni who keep building after a Cycle; ANCs and council
-  offices as early users (field); STEM high schools (field); investors for
-  alumni projects (field).]
+  Added to players.md, marked "to confirm": alumni who keep building
+  (context); public libraries, STEM high schools, and investors and
+  funders for alumni projects (field). ANCs were left off: they came up
+  only as reviewers of HearBack.]

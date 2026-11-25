@@ -312,9 +312,8 @@ My read so far (Nov 25):
   tools ("GitHub was, oh my God, like, what is that?"). Compare #29's
   "unstructured mess," and #23, also new to GitHub and AI.
 - What surprised me: she thought it was clear what was due when ("very
-  straightforward. That was very structured"). That cuts against my own
-  C03 experience, where what was due when came up at the Summit 3
-  retrospective (#26). It's also the opposite #16 said to look for: "anyone
+  straightforward. That was very structured"). In my C03 self-report
+  (#26), what was due when came up at the Summit 3 retrospective. It's also the opposite #16 said to look for: "anyone
   who found the Cycle clear enough."
 - What surprised me: she filled out her Learning Log each week, and
   even redid entries when the dashboard said she hadn't. In #23 and #26,

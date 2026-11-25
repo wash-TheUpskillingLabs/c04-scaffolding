@@ -16,9 +16,8 @@ site helps DC residents find housing resources. She launched it herself
 and is still building it.
 
 How she relates to earlier interviews: she was in the same Cycle as the
-maintainer (#26, #30) and the interviewer, and at the same hackathon. Her
-Poderator was a C03 Poderator, like the interviewee in #39 [check: not
-the same person]. Like the maintainer in C03 (#26) and the interviewee in #39
+maintainer (#26, #30) and the interviewer, and at the same hackathon. Her Poderator was a different C03 Poderator from the
+interviewee in #39. Like the maintainer in C03 (#26) and the interviewee in #39
 (Cycle 2), she was a problem proposer. She came
 in through a library event, not a job search, and was her team's main
 builder.

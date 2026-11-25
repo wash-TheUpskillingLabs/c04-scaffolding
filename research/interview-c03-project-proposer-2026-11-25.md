@@ -500,6 +500,40 @@ Value, learning, and where learning fell short (a first pass from section 4)
     happy." "If this hadn't been that important to me, I probably would
     have needed more structure."
 
+Self-managed teams and structure (a first pass from section 4)
+- She wants both: freedom in how and when people take part, and structure
+  for what team members commit to and what to do when stuck. She never
+  asks for less freedom.
+- She values the freedom: "I like how free it is... you're able to
+  participate when you can... I love that because I have my own life
+  too." And the learning in it: "the chaos makes for the magic," and
+  "through all that trial and error, it taught me something."
+- But the self-managed team didn't hold together on its own: teammates'
+  "availability to what I was doing... wasn't really there," she was
+  stuck for about a week, and "all of us were saying we didn't have
+  enough structure." "Sometimes people do need to be told that you have
+  to do something. So maybe in the group... it could be more structure."
+- Where she'd put the structure:
+  - Commitment and roles: "who's wearing what hat, and you have to be
+    accountable to help," and a way to opt out ("if this is not for you,
+    you can just say you don't want to be in the group").
+  - A guide, not a script: "Even if you don't want people to copy people's
+    stuff, maybe just a better layout of... hey, it's supposed to flow like
+    this, if you get stuck, it's better to do this."
+  - Support that comes to the team: someone reading the Learning Log who
+    would "reach out to me and my team members individually and maybe got
+    us together."
+  - Asked about ground rules and best practices that teams don't have to
+    follow exactly: "Yes, yes, yes."
+- What made it work for her may not work for others: "If this hadn't been
+  that important to me, I probably would have needed more structure."
+  "Someone else going through this with not my frame looking at it may
+  have not been so happy."
+- Compare #39 ("it works well, when you have self-motivating teams... But
+  for those who need a little bit more guidance, I think the labs should
+  probably step in") and #16 (structure about what and when, freedom in
+  how).
+
 Ideas parked for later (mine, not evidence)
 - A second hackathon once project teams are formed, so mentors are in the
   room while teams set up and start building together. (Nov 25.) Compare

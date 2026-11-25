@@ -145,9 +145,10 @@ The hackathon, then the pod
   "PAWS," written here as "pods." C03 had two votes: one on pods
   (problem situations, before the hackathon) and one on project teams
   (after the pitches) (#26). She places the vote and "the pod" after the
-  hackathon, which points to the project-team vote. [check: which vote she
-  meant] If so, it fits the pod vs. project team confusion (#16, #26; see
-  the confusion log, #17).
+  hackathon, which points to the project-team vote. The interviewer
+  confirms she said "pods" and, from context, most likely meant project
+  teams. That fits the pod vs. project team confusion (#16, #26; see the
+  confusion log, #17).
 
 The hackathon's two rooms
 - The hackathon split people by whether they'd come the Saturday before.
@@ -360,8 +361,8 @@ Young people and schools
   Possibly with "educational certificate money."
 
 Ideas parked for later (hers, not evidence; for frames after the paradox)
-- Form groups before the hackathon (she said "pods"; she may mean project
-  teams [check]).
+- Form groups before the hackathon (she said "pods"; from context, project
+  teams).
 - One room at the hackathon for content everyone needs; say what each
   presenter will cover.
 - Ground rules, roles and commitments for pods, and a graceful way to
@@ -446,9 +447,8 @@ My read so far (Nov 25):
     Log, including sharing from the Learning Log ("Yeah, definitely").
 - What surprised me: she thought it was clear what was due when, and
   where we were in the process ("very straightforward. That was very
-  structured"). But voting on pods, and what that would look like, she
-  didn't know (from where she places it, probably the vote on project
-  teams [check]), and she needed more
+  structured"). But voting on what she called pods (from context,
+  project teams), and what that would look like, she didn't know, and she needed more
   structure there: "it could have been a little bit more structure for
   when we got in the pods." In my C03 self-report
   (#26), what was due when came up at the Summit 3 retrospective. It's also the opposite #16 said to look for: "anyone

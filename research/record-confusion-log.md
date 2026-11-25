@@ -171,9 +171,10 @@ A label that doesn't match practice
   two votes: one on pods (problem situations, before the hackathon; pods
   needed 12 people by Aug 3) and one on project teams (after the pitches)
   (#26). She places the vote and "the pod" after the hackathon, which
-  points to the project-team vote, a possible third example of the
-  confusion. [check: which vote she meant] (The transcript has "PAWS";
-  written here as "pods.")
+  points to the project-team vote. The interviewer confirms she said
+  "pods" and, from context, most likely meant project teams: a third
+  example of the confusion. (The transcript has "PAWS"; written here as
+  "pods.")
   Coming together as a team was confusing too. She had already built
   something; teammates had built their own things at the hackathon, and
   now they were doing hers. One teammate "when we kind of first got

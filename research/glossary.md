@@ -180,6 +180,18 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 - **Plain language:** [open]
 - **Related practices:** [open]
 
+### Problem proposer
+- **As written:** [open]
+- **In practice:** The participant whose problem statement or pitch becomes a project. In Cycles 2 and 3, teams assumed the proposer would lead ("it's your problem... you can tell the story better than anybody"); nothing in the C02 or C03 records assigns it ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)).
+- **Plain language:** [open]
+- **Related practices:** [open]
+
+### Upskiller Success Team
+- **As written:** [open]
+- **In practice:** Its two co-leads lead the Poderators; a Cycle 3 Poderator called them "our Poderator leads" and said Cycle 3's communication was "noticeably better" than Cycle 2's ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)).
+- **Plain language:** [open]
+- **Related practices:** [open]
+
 ### Facilitator
 - **As written:** Listed among those involved (Scaffolding README). Described by a steering committee member as "a higher-tier role."
 - **In practice:** [open]
@@ -278,7 +290,7 @@ This is research, not a decision. It describes the vocabulary as it is today so 
 
 ### Learning Log
 - **As written:** "A few lines on what you're figuring out — that's the check-in" (dashboard). Build Cycles page: "a five-minute check-in each week."
-- **In practice:** Many don't fill it out: see #26 and #23. An organizer on its purposes and "too many questions": #28.
+- **In practice:** Many don't fill it out: see #26 and #23. An organizer on its purposes and "too many questions": #28. In Cycle 2 the check-ins were weekly surveys ("how are you doing this week? What do you need help with?"); a participant thought missing one cost access to something, but wasn't sure. As a Cycle 3 Poderator, he "never saw any of that stuff... Nobody told me where it was" ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)).
 - **Plain language:** [open]
 - **Related practices:** [open]
 

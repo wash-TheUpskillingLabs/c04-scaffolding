@@ -689,7 +689,7 @@ comparison is the builder's; what it means is for the pod.
 | Who | Income under $45,000; application; must commit to the full program; told to "reconsider applying" if they need "a fixed, highly structured curriculum" | Open to a broad mix of employed and unemployed people since Cycle 1 |
 | In person | 22.5 hours a week, fully in person, seven months | Evenings every other week, plus 2–3 Saturdays: part of the Build Cycle and expected; participants may occasionally miss sessions (per the builder) |
 | Workshops | Classes and workshops built into each level | Complementary and optional |
-| Teams | Set by stage: solo, then pairs with a mentor, then teams with a client brief | Self-organized; meet virtually or in person |
+| Teams | Set by stage: solo, then pairs with a mentor, then teams with a client brief | Formed by organizers from the pod (in Cycle 2, teams of 5 per problem statement, "placed randomly"), then self-organized; meet virtually or in person ([#39](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/39)) |
 | Paid how | Grants and donations (philanthropy, companies, government) plus Builder repayment: 15% of income for 36 months once earning over $85,000 | Donations; no tuition from participants (per the builder) |
 | Who runs it | Paid staff, plus volunteers and industry professionals | All volunteers (per the builder) |
 

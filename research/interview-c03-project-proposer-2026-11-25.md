@@ -135,10 +135,13 @@ The hackathon, then the pod
   that, you have to figure out where to go to learn about this, because if
   you don't know what [Lovable] is, and I just told you about it... I just
   got it, then now what?"
-- On pods: "I knew that we were going to have [pods]... But I didn't know
-  what that was gonna look like... I had already built my website, and
-  some other people had already had projects... Maybe the pod should be
-  before the hackathon, so that the groups could be formed." (Her idea.)
+- Voting and pods: "then we got to vote on [pods]. I knew that we were
+  going to have [pods], because that was said before. But I didn't know
+  what that was gonna look like, and I just think it could have been a
+  little bit more structure for when we got in the pods, because, for
+  example, I had already built my website, and some other people had
+  already had projects... Maybe the pod should be before the hackathon,
+  so that the groups could be formed." (Her idea.)
 
 The hackathon's two rooms
 - The hackathon split people by whether they'd come the Saturday before.
@@ -434,8 +437,12 @@ My read so far (Nov 25):
     doesn't like "apps and portals."
   - A shared "we were stuck here... and this is what worked": the Help
     Log, including sharing from the Learning Log ("Yeah, definitely").
-- What surprised me: she thought it was clear what was due when ("very
-  straightforward. That was very structured"). In my C03 self-report
+- What surprised me: she thought it was clear what was due when, and
+  where we were in the process ("very straightforward. That was very
+  structured"). But voting on pods, and what pods would be, she didn't
+  know what it looked like, and she needed more structure there: "it
+  could have been a little bit more structure for when we got in the
+  pods." In my C03 self-report
   (#26), what was due when came up at the Summit 3 retrospective. It's also the opposite #16 said to look for: "anyone
   who found the Cycle clear enough."
 - What surprised me: she filled out her Learning Log each week, and

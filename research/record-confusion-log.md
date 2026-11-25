@@ -161,10 +161,12 @@ A label that doesn't match practice
   aback." And: "you would be like working with some people and then you
   realize, oh, but I might not end up on the same project with... the
   group."
-  A C03 participant and problem proposer (#42): "I knew that we were going
-  to have [pods]... But I didn't know what that was gonna look like." She
-  had already built her site at the hackathon, and others had their own
-  projects: "Maybe the pod should be before the hackathon, so that the
+  A C03 participant and problem proposer (#42), who found the schedule
+  itself clear: "then we got to vote on [pods]. I knew that we were going
+  to have [pods]... But I didn't know what that was gonna look like, and I
+  just think it could have been a little bit more structure for when we
+  got in the pods." She had already built her site at the hackathon, and
+  others had their own projects: "Maybe the pod should be before the hackathon, so that the
   groups could be formed... I'm not sure how that was intended."
 
 5. What it tells us (my read)

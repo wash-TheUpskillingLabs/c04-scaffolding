@@ -168,6 +168,13 @@ A label that doesn't match practice
   got in the pods." She had already built her site at the hackathon, and
   others had their own projects: "Maybe the pod should be before the hackathon, so that the
   groups could be formed... I'm not sure how that was intended."
+  Coming together as a team was confusing too. She had already built
+  something; teammates had built their own things at the hackathon, and
+  now they were doing hers. One teammate "when we kind of first got
+  together... [was] really confused of what was going on. So it took some
+  talking to... you guys had built your thing too, and now you are not
+  doing your thing, you're doing my thing, and you have to get
+  acclimated." (Why teammates felt that way is her read.)
 
 5. What it tells us (my read)
 [mine]

@@ -1,6 +1,6 @@
 # Interview: C03 participant and project proposer on getting stuck in a pod, tool choices, the hackathon rooms, the Learning Log and life after a Cycle
 
-Filed as issue #[check] (Nov 25, 2026).
+Filed as issue #42 (Nov 25, 2026).
 
 1. What it is
 A conversation about her Cycle from the proposer's side: why she came, the
@@ -18,8 +18,8 @@ and is still building it.
 How she relates to earlier interviews: she was in the same Cycle as the
 maintainer (#26, #30) and the interviewer, and at the same hackathon. Her
 Poderator was a C03 Poderator, like the interviewee in #39 [check: not
-the same person]. She is the first problem proposer interviewed from the
-proposer's side; #39 described proposers from a teammate's view. She came
+the same person]. Like the maintainer in C03 (#26) and the interviewee in #39
+(Cycle 2), she was a problem proposer. She came
 in through a library event, not a job search, and was her team's main
 builder.
 
@@ -325,7 +325,7 @@ My read so far (Nov 25):
 Links to earlier evidence, to check (not conclusions):
 - Problem proposers: #39 said teams assumed the proposer would lead
   ("it's your problem... you can tell the story better than anybody").
-  Here the proposer did lead, and built, and carried "many hats that I
+  The maintainer was also a C03 proposer (#26). Here the proposer did lead, and built, and carried "many hats that I
   didn't really want to wear." She guessed some teammates were "mad
   because their thing didn't get picked."
 - Learning Log: an organizer understood it was "supposed to be for the

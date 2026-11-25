@@ -28,7 +28,7 @@ const STARTING = {
   scope: ["general", "cohort-specific"],
 };
 const LIST_FIELDS = ["stage", "scale", "maintained_by", "timing", "learner_stage", "prerequisites", "tags", "formed_from"];
-const MUST = ["title", "summary", "kind", "status", "output_type", "output", "stage", "scale", "delivered_by", "maintained_by", "learning_outcome"];
+const MUST = ["title", "summary", "kind", "status", "output_type", "output", "stage", "scale", "delivered_by", "learning_outcome"];
 const FORBIDDEN = ["required", "mandatory", "grade", "score", "credential"];
 
 const errors = [];
@@ -173,7 +173,6 @@ const modules = readDir("modules").map((f) => {
     const v = m[k];
     if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) errors.push(`${file}: "${k}" is a Must metadata field and is empty`);
   }
-  if (m.maintained_by.length < 2) errors.push(`${file}: name at least two maintainers (by role), so one volunteer leaving doesn't orphan it`);
   for (const k of FORBIDDEN) if (k in data) errors.push(`${file}: "${k}" isn't a metadata field. Modules are optional by default, and the catalog doesn't grade.`);
   for (const [k, allowed] of Object.entries(STARTING)) {
     for (const v of asList(m[k])) if (v && !allowed.includes(v)) warnings.push(`${file}: ${k} "${v}" is outside the starting values in taxonomy.md`);
@@ -296,7 +295,7 @@ function modulePage(m) {
 <body>
 <header class="cover small">
   <div class="wrap">
-    <p class="lockup"><a href="../../">Module catalog</a>, a Scaffolding prototype with made-up data</p>
+    <p class="lockup"><a href="../../">Module catalog</a>, a Scaffolding prototype with mostly made-up data</p>
     <h1>${esc(m.title)}</h1>
     <p class="q">${esc(m.summary)}</p>
   </div>
@@ -313,7 +312,7 @@ function modulePage(m) {
     ${row("Stage", esc(labels("stage", m.stage)))}
     ${row("Scale", esc(m.scale.join(", ")))}
     ${row("Delivered by", esc(m.delivered_by))}
-    ${row("Maintained by", esc(m.maintained_by.join(", ")))}
+    ${row("Looking after it now", esc(m.maintained_by.join(", ")))}
     ${row("Reviewed by", m.reviewed_by ? esc(m.reviewed_by + (m.reviewed_on ? `, ${m.reviewed_on}` : "")) : "Not yet")}
     ${row("Timing", esc(labels("timing", m.timing)))}
     ${row("Learner stage", esc(m.learner_stage.join(", ")))}
@@ -334,7 +333,7 @@ ${markdown(m.body)}
   ${situationsHtml}
   <p class="quiet edit"><a href="${REPO}/blob/main/prototypes/module-catalog/${m.file}">Edit this module on GitHub</a></p>
 </main>
-<footer><div class="wrap"><p>A prototype of the Scaffolding pod, Build Cycle C04, The Upskilling Labs of Greater Washington. Made-up data only. Licensed CC BY 4.0.</p></div></footer>
+<footer><div class="wrap"><p>A prototype of the Scaffolding pod, Build Cycle C04, The Upskilling Labs of Greater Washington. Mostly made-up data. Licensed CC BY 4.0.</p></div></footer>
 </body>
 </html>
 `;

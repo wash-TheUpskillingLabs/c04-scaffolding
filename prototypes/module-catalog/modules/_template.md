@@ -9,7 +9,7 @@ output: What people leave with. For a workshop, the thing they made.
 stage: [during]
 scale: [1:few]
 delivered_by: The role that runs it, never a name
-maintained_by: [a role, another role]
+maintained_by: [optional: who is looking after it now, by role]
 reviewed_by:
 reviewed_on:
 learning_outcome: What the learner can do afterward. Write this first and work backward to the exercises.

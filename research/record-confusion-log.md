@@ -31,6 +31,20 @@ Contradictions between sources
   running an internal Build Cycle"; the C04 README says Oct 24 to Dec 8.
   What turned out to be true: the README starts after pod formation; the
   homepage dates cover the whole Cycle (a maintainer). Neither says so.
+- The Learning Log said she hadn't filled it out when she had. A C03
+  participant and problem proposer (#42): "I was still getting things that
+  said I hadn't filled out my learning log when I did," so she filled it
+  out again and found "2 dates on there" for the same week. "It might have
+  been me." Entries also erase if you leave before saving: "you have to
+  save it all at one time." What turned out to be true: not yet known; a
+  likely bug [check: whoever maintains the form in OLOS].
+- Who reads the Learning Log. On the dashboard, it goes to "your
+  Poderator" (see the glossary). An organizer understood it was "supposed
+  to be for the Poderators" (#28). A Cycle 3 Poderator never saw it, and
+  Poderators had no access in OLOS (#39). A C03 participant and problem
+  proposer (#42) reported being stuck in it ("I did, I did, I did") and
+  no one reached out. What turned out to be true: Poderators couldn't see
+  it (#39). Who, if anyone, did read it is still open.
 
 Hard to find
 - In Civics & Elections, the assignments and week-by-week schedule lived in
@@ -58,6 +72,22 @@ Hard to find
   use it; a maintainer's guess). A maintainer's view: for an internal Cycle
   this is fine and carries little weight. For an external Cycle, the same
   split would be far more confusing.
+- What a Cycle looks like, before you join. A C03 participant and
+  problem proposer (#42) came in through a library event and searched
+  online for what The Labs was, finding a recorded roundtable: "I'm
+  looking at the flyers, I'm reading the stuff... what does that look
+  like?" She wanted examples of past work and of what a cohort does: "a
+  reference of what you've already done. 'Cause I was looking for that."
+- What the hackathon would be. The same participant (#42): "I didn't know
+  what to expect at the hackathon... I just know that it was all day."
+  Each presenter's topic wasn't given up front, so she couldn't tell what
+  was relevant to what she was building.
+- Where to go after a session. The same participant (#42): "once you go
+  to the hackathon, that's your only time interfacing with that, and then
+  after that, you have to figure out where to go to learn about this." And
+  for anyone new: "if I want to know more, where do I go?"
+- Luma. The same participant (#42) was told about Slack, OLOS and Luma at
+  the start, but "I don't think everyone probably knew to [go on] Luma."
 
 Undefined terms
 - The role of design thinking at The Labs. At the Aug 15 hackathon, design
@@ -68,6 +98,11 @@ Undefined terms
   prototypes while the workshops ran. Open question: what role does design
   thinking play at The Labs? Is it treated as an overarching principle,
   like human-centered design?
+  From the workshop room: a C03 participant and problem proposer (#42) was
+  in the room with the workshops, including a problem-solving workshop she
+  still applies "to most of the things that I do." The maintainer was on
+  the build track and missed it. Her view: "If we're doing this all as a
+  whole collective, we need to all be able to experience those."
 - The Build Cycle is built on Dorst's frame creation and works in sprints,
   but participants weren't always told the method's name (it was linked
   "for the curious"). Its terms (archaeology, paradox, context, field,
@@ -97,6 +132,20 @@ Undefined terms
   3. One item in a list. "The scaffolding, terminology, and support feel
      misaligned" treated it as separate from support, even though in sense
      1 support is scaffolding. So the list counted the same thing twice.
+- How much support there is, by design. A C03 participant and problem
+  proposer (#42): "I was kind of told once I got in the group that... it
+  was kind of made to have you in a real world scenario to... figure out
+  how to fix these problems with a group with not... maybe not much
+  support." She didn't say who told her; from context, the interviewer
+  reads it as an organizer or a Poderator. Asking her Poderator when stuck,
+  "the thing that I was stuck about, I feel like there wasn't support
+  around it." What turned out to be true: not yet known; compare the
+  Poderators' direction to hold back (#29, #39).
+- Tool discounts. The same participant (#42) understood, from a mentor,
+  that The Labs doesn't get educational discounts the way schools do, so
+  Lovable credits came through mentors. She also asked whether The Labs
+  can't work with teenagers because of age limits, from something an
+  organizer said. The interviewer didn't know. [check: an organizer]
 
 A label that doesn't match practice
 - "Group days," as listed in the README ("when the whole Cycle meets"),
@@ -113,6 +162,27 @@ A label that doesn't match practice
   aback." And: "you would be like working with some people and then you
   realize, oh, but I might not end up on the same project with... the
   group."
+  A C03 participant and problem proposer (#42), who found the schedule
+  itself clear: "then we got to vote on [pods]. I knew that we were going
+  to have [pods]... But I didn't know what that was gonna look like, and I
+  just think it could have been a little bit more structure for when we
+  got in the pods." She had already built her site at the hackathon, and
+  others had their own projects: "Maybe the pod should be before the hackathon, so that the
+  groups could be formed... I'm not sure how that was intended." C03 had
+  two votes: one on pods (problem situations, before the hackathon; pods
+  needed 12 people by Aug 3) and one on project teams (after the pitches)
+  (#26). She places the vote and "the pod" after the hackathon, which
+  points to the project-team vote. The interviewer confirms she said
+  "pods" and, from context, most likely meant project teams: a third
+  example of the confusion. (The transcript has "PAWS"; written here as
+  "pods.")
+  Coming together as a team was confusing too. She had already built
+  something; teammates had built their own things at the hackathon, and
+  now they were doing hers. One teammate "when we kind of first got
+  together... [was] really confused of what was going on. So it took some
+  talking to... you guys had built your thing too, and now you are not
+  doing your thing, you're doing my thing, and you have to get
+  acclimated." (Why teammates felt that way is her read.)
 
 5. What it tells us (my read)
 [mine]
@@ -123,4 +193,6 @@ Whether C04 was ever meant to run on the dashboard, and whether dashboard
 sign-up was abandoned, are a maintainer's observations; an organizer could
 confirm.
 The pod-vs-team entry is partly the maintainer's own experience and partly
-from one interview. The rest comes from documents and screenshots.
+from one interview. The entries from #42 are firsthand for her own
+experience; who told her about "not much support," educational discounts
+and age limits is secondhand, and an organizer could confirm. The rest comes from documents and screenshots.

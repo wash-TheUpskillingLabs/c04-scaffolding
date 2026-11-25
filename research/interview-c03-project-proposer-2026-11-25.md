@@ -465,7 +465,8 @@ Links to earlier evidence, to check (not conclusions):
 - GitHub as a team: #29 (Cycle 1) and #26 (C03) hit the merging gap. Here
   it was avoided, not solved: one main builder, rebuilt copies for
   branches, PDFs for comments. A third data point for "GitHub solo to
-  team," and a mentor doing the setup for her.
+  team." A mentor first set GitHub up for her alone; then the team met
+  with the same mentor to get GitHub up and running as a team.
 - Roles: #29 asked whether "somebody [is allowed] to be a leader." Here
   the Poderator had them pick roles and it worked at first; follow-through
   and a member leaving broke it.

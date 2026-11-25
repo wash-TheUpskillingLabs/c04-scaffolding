@@ -713,6 +713,7 @@ This replaces the two-maintainer rule. A module can be published with no named p
 - [ ] When national changes a module it took from a lab, is the lab told, and can it pull the changes into its original?
 - [ ] "Maintainer" is a GitHub role, and in C04 a pod role. With the upkeep queue (proposal 10), content may not need the word: does a module show who's looking after it now at all, and if so, what is that called?
 - [ ] Upkeep queue (proposal 10): how long can an item stay picked up before it goes back to open? Should help requests share the queue later?
+- [ ] A content system (Nov 25): a builder can spin up one such as Sanity, which the pod lead says is free for volunteer-led organizations and works with Claude Code and GitHub. It would let volunteers edit without GitHub. How would it relate to OLOS, which this draft treats as the source of truth: is the content system the source for module and resource text, with OLOS holding sessions, people and permissions, or does it sync into OLOS? Front Door's lane.
 - [ ] What role do the Markdown files play now that the database is the source of truth? Options: drop them; keep them as seed data for OLOS; or export published modules to Markdown so they can be shared and sent upstream to OLOS as open source.
 - [ ] Who gets notified when a help log asks for follow-up, and how fast should someone pick it up?
 - [ ] How do participants react to the Learning Log's "useful to others" question? See "Sharing from the Learning Log" under `help_logs`.

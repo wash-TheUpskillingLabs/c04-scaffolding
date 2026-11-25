@@ -412,7 +412,8 @@ My read so far (Nov 25):
   group.
 - She had specific thoughts on what to include in a learning catalog.
   Against the module catalog schema draft
-  (`prototypes/module-catalog/schema.md`):
+  (`prototypes/module-catalog/schema.md`), a first pass that will be
+  revised based on what we learn and the updated PRD:
   - Who a session is for, and what you get out of it ("it may not be
     relevant to what you're building"): `learning_outcome`, `level` and
     `module_prerequisites` already cover this.

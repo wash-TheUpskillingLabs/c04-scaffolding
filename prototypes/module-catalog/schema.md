@@ -28,7 +28,7 @@ Second pass, after the pod lead's decisions of Nov 19: federated data, regional 
 
 ## Decided (Nov 25)
 
-- **Access to content isn't tied to GitHub.** Being a GitHub maintainer, or having a GitHub account at all, is never what lets someone add, edit, link or approve content. Permissions come from OLOS roles (Front Door's roles and permissions work), and people work through the app. The Markdown files in this prototype are not the gate (see the open question on their role). Why: a non-technical volunteer has to be able to keep the catalog (PRD), and GitHub was the barrier for a C03 participant ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)).
+- **Access to content isn't tied to GitHub.** Being a GitHub maintainer, or having a GitHub account at all, is never what lets someone add, edit, link or approve content. Permissions come from OLOS roles (Front Door's roles and permissions work), and people work through the app. Roles that should be able to have content permissions include content authors and builders in residence, as well as module maintainers, organizers and others the pod names. The Markdown files in this prototype are not the gate (see the open question on their role). Why: a non-technical volunteer has to be able to keep the catalog (PRD), and GitHub was the barrier for a C03 participant ([#42](https://github.com/wash-TheUpskillingLabs/c04-scaffolding/issues/42)).
 - **Anyone with permission can add links** between content (proposal 9).
 
 ## Home and listings: how federated data works

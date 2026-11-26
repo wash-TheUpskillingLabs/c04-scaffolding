@@ -4,12 +4,12 @@
 from search summaries. Check every figure at the source. The builder's
 summary (what they tried, what happened, why) is still to come.
 
-Why this case: The Carpentries is run largely by volunteers. It trains
-volunteer instructors to teach short, hands-on workshops, and keeps its
-lessons as shared modules on GitHub. That is close to The Labs' mentors
-and the module catalog prototype. The open question it may help with is
-the one #29 and #39 raise for The Labs: how a volunteer-run program
-defines, trains and supports its volunteers.
+Why this case (the builder's reasons): to see how a volunteer-run program
+trains and supports its volunteers, since The Carpentries trains volunteer
+instructors; and because it keeps its lessons as shared modules on GitHub,
+which is close to The Labs' mentors and the module catalog prototype. It
+may help with the question #29 and #39 raise for The Labs: how a
+volunteer-run program defines, trains and supports its volunteers.
 
 ## Who they are
 

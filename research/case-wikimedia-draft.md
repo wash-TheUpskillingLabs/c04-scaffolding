@@ -12,11 +12,10 @@ Also for **volunteer mentors for newcomers** (angle 2), close to The Labs'
 mentors and Poderators.
 
 Set aside: angle 1, quality-control rules and newcomers staying. The
-builder's reasons: semi-automated revert tools likely had a lot to do with
-it; The Labs works at far smaller scale, with no encyclopedia's
-reputational risk ("we're not an encyclopedia"); and the same years saw
-the rise of Facebook and YouTube competing for newcomers' time. Summary
-and sources are in [case-leads.md](case-leads.md).
+builder's reasons: tools, scale and reputational risk matter less here,
+given that "we're not an encyclopedia"; and Facebook and YouTube competed
+for newcomers' time in the same years. Summary and sources are in
+[case-leads.md](case-leads.md).
 
 ## Who they are
 

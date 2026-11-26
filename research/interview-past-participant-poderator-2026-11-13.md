@@ -175,8 +175,18 @@ The word "curriculum"
   building on what you've learned before."
 
 At the close
-- He has raised these ideas with several people and hasn't seen much
-  enthusiasm; he doesn't know why.
+- His ideas for more structure (below) haven't gotten traction. Responding
+  to the interviewer's summary of themes, he said: "I'm really hopeful
+  that this lands. I have had this conversation with several people. And
+  I have not felt much enthusiasm... I don't know what the resistance is."
+- The ideas he described: grouping people by what they want to build,
+  with a recommended set of deliverables; three tiers of structure
+  (decided for the team, optional to reach for, and the team's own); a
+  short governance guide for small teams; a clearer Poderator role; and a
+  designed learning path, whatever it's called. He named one he had
+  discussed with an organizer: "an idea I talked to [an organizer] about
+  is... group people by similar interests around what they wanted to
+  build." Which of the others he raised, and with whom, he didn't say.
 
 Ideas parked for later (his, not evidence; for frames after the paradox)
 - Three tiers. Some things "we'll decide for you" (for example, small group

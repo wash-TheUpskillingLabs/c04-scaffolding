@@ -4,12 +4,23 @@
 from search summaries. Check every figure at the source. The builder's
 summary (what they tried, what happened, why) is still to come.
 
-Why this case (the builder's reasons): to see how a volunteer-run program
-trains and supports its volunteers, since The Carpentries trains volunteer
-instructors; and because it keeps its lessons as shared modules on GitHub,
-which is close to The Labs' mentors and the module catalog prototype. It
-may help with the question #29 and #39 raise for The Labs: how a
-volunteer-run program defines, trains and supports its volunteers.
+Why this case (the builder's reasons): its parallels with The Labs'
+mentors and the module catalog we're building. It shows how a
+volunteer-run program trains and supports its volunteers, since The
+Carpentries trains volunteer instructors, and it keeps its lessons as
+shared modules on GitHub. It may help with the question #29 and #39 raise
+for The Labs: how a volunteer-run program defines, trains and supports its
+volunteers.
+
+- **Kind:** close to The Labs in design; run by volunteers; long-running.
+- **Why look:** short, hands-on coding and data workshops taught by trained
+  volunteer instructors. The lessons are maintained openly on GitHub by a
+  community.
+- **Evidence:** a long-term learner survey every six months since 2017. The
+  2017 analysis found "increased confidence and self-efficacy." A 2020
+  analysis found 66% of respondents had started using a programming
+  language or the command line after a workshop. The data is public.
+  (From search summaries; check at the source.)
 
 ## Who they are
 
